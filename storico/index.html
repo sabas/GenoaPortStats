@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="../script/normalize.css" type="text/css"/>
+<link href="../script/nvd3/src/nv.d3.css" rel="stylesheet" type="text/css"/>
+
+<title>Genoa Port Statistics - 2003-2012</title>
+
+<style>
+*{font-family:Helvetica;color:black;padding:3px;}
+h1,h3,a{color:#5b8fc9;}
+
+text {
+  font: 12px sans-serif;
+}
+
+#chart1 svg,
+#chart2 svg,
+#chart3 svg {
+display: block;
+  height: 500px;
+  min-width: 100px;
+  min-height: 100px;
+  width:700px;
+}
+</style>
+</head>
+
+<body>
+<h1>Traffico portuale 2003-2012</h1>
+<p><a href="TrafficoPortoStorico2003-2012.ods">Spreadsheet ODS</a></p>
+  <div id="chart1">
+    <svg></svg>
+  </div>
+    <div id="chart2">
+    <svg></svg>
+  </div>
+    <div id="chart3">
+    <svg></svg>
+  </div>
+
+<script src="../script/nvd3/lib/d3.v3.min.js"></script>
+<script src="../script/nvd3/nv.d3.min.js"></script>
+<script src="../script/nvd3/src/tooltip.js"></script>
+<script src="../script/nvd3/src/utils.js"></script>
+<script src="../script/nvd3/src/models/legend.js"></script>
+<script src="../script/nvd3/src/models/axis.js"></script>
+<script src="../script/nvd3/src/models/multiBarChart.js"></script>
+<script>
+var chart;
+d3.json('arrivi.json', function(data) {
+	
+	nv.addGraph(function() {
+	  chart = nv.models.multiBarChart()
+	                      .x(function(d) { return d[0] })
+                    .y(function(d) { return d[1] })
+                    .clipEdge(true);
+		chart.margin({left: 100}) 
+
+	  chart.xAxis
+			.axisLabel('Anno')
+		  .tickFormat(d3.format('d'));
+
+	  chart.yAxis
+		  .axisLabel('Navi')
+		  .tickFormat(d3.format('d'));
+	
+		chart.forceY([5000, 10000]);
+
+	  d3.select('#chart1 svg')
+		  .datum(data)
+		.transition().duration(500)
+		  .call(chart);
+
+	  nv.utils.windowResize(chart.update);
+
+	  return chart;
+	});
+});
+
+d3.json('passeggeri.json', function(data) {
+	
+	nv.addGraph(function() {
+	  chart = nv.models.multiBarChart()
+	                      .x(function(d) { return d[0] })
+                    .y(function(d) { return d[1] })
+                    .clipEdge(true);
+		chart.margin({left: 100}) 
+
+	  chart.xAxis
+			.axisLabel('Anno')
+		  .tickFormat(d3.format('d'));
+
+	  chart.yAxis
+		  .axisLabel('Passeggeri')
+		  .tickFormat(d3.format('d'));
+
+	  d3.select('#chart2 svg')
+		  .datum(data)
+		.transition().duration(500)
+		  .call(chart);
+
+	  nv.utils.windowResize(chart.update);
+
+	  return chart;
+	});
+});
+
+d3.json('tonstraffic.json', function(data) {
+	
+	nv.addGraph(function() {
+	  chart = nv.models.stackedAreaChart()
+                    .x(function(d) { return d[0] })
+                    .y(function(d) { return d[1] })
+                    .clipEdge(true);
+
+		chart.margin({left: 100}) 
+
+	  chart.xAxis
+			.axisLabel('Anno')
+		  .tickFormat(d3.format('d'));
+
+	  chart.yAxis
+		  .axisLabel('Tonnellate')
+		  .tickFormat(d3.format('d'));
+
+	  d3.select('#chart3 svg')
+		  .datum(data)
+		.transition().duration(500)
+		  .call(chart);
+
+	  nv.utils.windowResize(chart.update);
+
+	  return chart;
+	});
+});
+</script>
+</body>

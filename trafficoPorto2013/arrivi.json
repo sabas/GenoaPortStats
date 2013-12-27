@@ -1,0 +1,12 @@
+[
+    {
+      "values": [["Gennaio",424],["Febbraio",406],["Marzo",497],["Aprile",500],["Maggio",512],["Giugno",542],["Luglio",637],["Agosto",625],["Settembre",532],["Ottobre",522],["Novembre",426]],
+      "key": "Arrivi",
+      "color": "#ff7f0e"
+    },
+    {
+      "values": [["Gennaio",404],["Febbraio",493],["Marzo",500],["Aprile",512],["Maggio",542],["Giugno",637],["Luglio",625],["Agosto",532],["Settembre",522],["Ottobre",522],["Novembre",426]],
+      "key": "Partenze",
+      "color": "#2ca02c"
+    }
+]

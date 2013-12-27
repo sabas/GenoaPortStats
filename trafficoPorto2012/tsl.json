@@ -1,0 +1,12 @@
+[
+    {
+      "values": [["Gennaio",14267440],["Febbraio",13162533],["Marzo",14621430],["Aprile",16425600],["Maggio",16528308],["Giugno",17882962],["Luglio",19038655],["Agosto",19357122],["Settembre",17403722],["Ottobre",16223550],["Novembre",15113845],["Dicembre",14098558]],
+      "key": "Arrivi",
+      "color": "#ff7f0e"
+    },
+    {
+      "values": [["Gennaio",13986112],["Febbraio",13318972],["Marzo",14604769],["Aprile",15875391],["Maggio",17064248],["Giugno",18126546],["Luglio",19007369],["Agosto",19280800],["Settembre",17262387],["Ottobre",16183932],["Novembre",14707110],["Dicembre",14078390]],
+      "key": "Partenze",
+      "color": "#2ca02c"
+    }
+]

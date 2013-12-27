@@ -1,0 +1,38 @@
+[ 
+    { 
+      "key" : "Merce containerizzata" , 
+      "values" : [["Gennaio",1563254],["Febbraio",1553100],["Marzo",1650627],["Aprile",1744846],["Maggio",1665031],["Giugno",1653491],["Luglio",1810430],["Agosto",1414102],["Settembre",1561023],["Ottobre",1681771],["Novembre",1477262]]
+	},
+    { 
+      "key" : "Merce convenzionale" , 
+      "values" : [["Gennaio",586003],["Febbraio",602916],["Marzo",688888],["Aprile",635592],["Maggio",731203],["Giugno",723703],["Luglio",808024],["Agosto",678395],["Settembre",761910],["Ottobre",732540],["Novembre",695782]]
+	},
+    {
+      "key" : "Rinfuse solide" , 
+      "values" : [["Gennaio",42343],["Febbraio",48022],["Marzo",92233],["Aprile",97248],["Maggio",52962],["Giugno",56223],["Luglio",16481],["Agosto",104087],["Settembre",79013],["Ottobre",131709],["Novembre",28431]]
+	},
+    { 
+      "key" : "Oli minerali" , 
+      "values" : [["Gennaio",1319217],["Febbraio",1330340],["Marzo",1554176],["Aprile",1306864],["Maggio",1237524],["Giugno",1066695],["Luglio",1483397],["Agosto",1511299],["Settembre",990185],["Ottobre",1507727],["Novembre",1331682]]
+	},
+    { 
+      "key" : "Oli vegetali e vino" , 
+      "values" : [["Gennaio",19914],["Febbraio",20501],["Marzo",17219],["Aprile",28968],["Maggio",19114],["Giugno",5910],["Luglio",39311],["Agosto",17537],["Settembre",31411],["Ottobre",39758],["Novembre",29233]]
+	},	
+    { 
+      "key" : "Prodotti chimici" , 
+      "values" : [["Gennaio",47140],["Febbraio",33336],["Marzo",50301],["Aprile",33668],["Maggio",42917],["Giugno",50641],["Luglio",29410],["Agosto",47687],["Settembre",42339],["Ottobre",39298],["Novembre",46253]]
+	},
+	{ 
+      "key" : "Rinfuse solide (industriale)" , 
+      "values" : [["Gennaio",5150],["Febbraio",0],["Marzo",15530],["Aprile",0],["Maggio",7630],["Giugno",5100],["Luglio",15800],["Agosto",13300],["Settembre",7905],["Ottobre",7900],["Novembre",7600]]
+	},
+	{
+      "key" : "Traffico siderurgico (industriale)" , 
+      "values" : [["Gennaio",277033],["Febbraio",165439],["Marzo",262333],["Aprile",281806],["Maggio",265962],["Giugno",263606],["Luglio",369422],["Agosto",176539],["Settembre",180047],["Ottobre",344246],["Novembre",248713]]
+	},
+    { 
+      "key" : "Bunkers e provviste" , 
+      "values" : [["Gennaio",79655],["Febbraio",76016],["Marzo",85207],["Aprile",86165],["Maggio",99269],["Giugno",85956],["Luglio",99156],["Agosto",89326],["Settembre",85445],["Ottobre",80929],["Novembre",70528]]
+	}
+]
