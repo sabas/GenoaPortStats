@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Genoa Port Statistics - 2012 Loading Traffic</title>
+<meta charset="utf8"/>
+<link rel="stylesheet" href="../script/normalize.css" type="text/css"/>
+<link rel="stylesheet" href="../script/leaflet.css" type="text/css"/>
+<script type="text/javascript" src="../script/leaflet.js"></script>
+<script type="text/javascript" src="../script/map.js"></script>
+<script type="text/javascript" src="../script/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../script/heatcanvas.js"></script>
+<script type="text/javascript" src="../script/heatcanvas-leaflet.js"></script>
+
+<style type="text/css">
+*{font-family:Helvetica;color:black;}
+h1,h3,a{color:#5b8fc9;}
+h1,h3,p{padding:3px;}
+
+html,body{height:100%}
+  #mapapp{
+	 height:100%; 
+	 }
+  #map {
+  width:80%;
+  min-height:500px;
+  height:100%;
+  float:right;
+  }
+  #panel{
+   width:15%;
+   float:left;
+   padding:5px;
+  }
+
+.i{font-style:italic;}
+.b{font-weight:bold;}
+input{width:30px;}
+br{clear:both;}
+</style>
+
+<script type="text/javascript">
+function loadLayer(file)
+{
+	var myLayer;
+    $.ajax({
+    async: false,
+    url: file,
+    dataType:"json",
+    success: function(json) {
+        myLayer=json;
+        }
+	});
+	return myLayer;
+}
+function loadHeat(option){
+   if (heatmap.data.length>0) heatmap.clear();
+    map.removeLayer(heatmap);
+    map.removeLayer(markerLayers);
+
+    var dataMax=100/Math.max.apply(Math,dataMap.map(function(o){return o[option];}));
+
+    for(var k=0;k<dataMap.length;k++){
+        var toHun=dataMax*dataMap[k][option];
+        heatmap.pushData(dataMap[k]['lat'],dataMap[k]['lon'],toHun);
+        var marker = new L.Marker(new L.LatLng(dataMap[k]['lat'],dataMap[k]['lon']));
+        marker.bindPopup(dataMap[k][option]);
+        markerLayers.addLayer(marker);
+    }
+    map.addLayer(heatmap);
+    map.addLayer(markerLayers);
+}
+</script>
+</head>
+<body>
+<div id="mapapp">
+<div id="panel">
+<h1>Loading traffic 2012</h1>
+<p><a href="portstat.ods">Spreadsheet ODS</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
+<p class="i">Al momento georeferenziata solo l'Africa.</p>
+<p>Click sulla voce per visualizzare la heatmap.</p>
+<input type="radio" name="layerGroup" value="Containers full 20'" onclick="loadHeat(this.value)">Containers full 20'<br>
+<input type="radio" name="layerGroup" value="Containers full 40'" onclick="loadHeat(this.value)">Containers full 40'<br>
+<input type="radio" name="layerGroup" value="TEUS" onclick="loadHeat(this.value)" >TEUS<br>
+<input type="radio" name="layerGroup" value="Containers empty 20'" onclick="loadHeat(this.value)">Containers empty 20'<br>
+<input type="radio" name="layerGroup" value="Containers empty 40'" onclick="loadHeat(this.value)">Containers empty 40'<br>
+<input type="radio" name="layerGroup" value="Containerised Cargo" onclick="loadHeat(this.value)">Containerised Cargo<br>
+<input type="radio" name="layerGroup" value="Conventional Cargo" onclick="loadHeat(this.value)">Conventional Cargo<br>
+<input type="radio" name="layerGroup" value="Liquid Bulk" onclick="loadHeat(this.value)">Liquid Bulk<br>
+<input type="radio" name="layerGroup" value="Solid Bulk" onclick="loadHeat(this.value)">Solid Bulk<br>
+</div>
+<div id='map'></div>
+</div>
+<script type="text/javascript">
+var map = initmap(0,0,2, { });
+var dataMap=loadLayer("points.json");
+putMarker(map,null,44.4492,8.8807,"Genova");
+
+var markerLayers = new L.LayerGroup();
+var heatmap = new L.TileLayer.HeatCanvas({},{'step':1, 'degree':HeatCanvas.LINEAR, 'opacity':0.4});
+
+L.control.layers({"heatmap":heatmap}, {"markers": markerLayers}).addTo(map);
+</script>
+</body>
+</html>
