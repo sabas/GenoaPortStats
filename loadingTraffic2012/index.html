@@ -80,7 +80,7 @@ function loadHeat(option){
 <p>Click sulla voce per visualizzare la heatmap.</p>
 <input type="radio" name="layerGroup" value="Containers full 20'" onclick="loadHeat(this.value)">Containers full 20'<br>
 <input type="radio" name="layerGroup" value="Containers full 40'" onclick="loadHeat(this.value)">Containers full 40'<br>
-<input type="radio" name="layerGroup" value="TEUS" onclick="loadHeat(this.value)" >TEUS<br>
+<input type="radio" name="layerGroup" value="TEUS" onclick="loadHeat(this.value)" checked>TEUS<br>
 <input type="radio" name="layerGroup" value="Containers empty 20'" onclick="loadHeat(this.value)">Containers empty 20'<br>
 <input type="radio" name="layerGroup" value="Containers empty 40'" onclick="loadHeat(this.value)">Containers empty 40'<br>
 <input type="radio" name="layerGroup" value="Containerised Cargo" onclick="loadHeat(this.value)">Containerised Cargo<br>
@@ -99,6 +99,8 @@ var markerLayers = new L.LayerGroup();
 var heatmap = new L.TileLayer.HeatCanvas({},{'step':1, 'degree':HeatCanvas.LINEAR, 'opacity':0.4});
 
 L.control.layers({"heatmap":heatmap}, {"markers": markerLayers}).addTo(map);
+
+loadHeat('TEUS'); //default
 </script>
 </body>
 </html>
