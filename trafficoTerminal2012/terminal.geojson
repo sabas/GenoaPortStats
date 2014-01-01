@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal SECH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.913559913635254,
+          44.40435407378617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal San Giorgio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.886287212371826,
+          44.40688343273009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal Messina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.878648281097412,
+          44.40784915911196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal Rebora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.897767066955566,
+          44.403802199118886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal Forest"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.889741897583008,
+          44.40426209503652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal Frutta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.890557289123535,
+          44.40558810802471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sampierdarena Olii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.891458511352539,
+          44.40709803997063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Genoa Metal Terminal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.894044160842896,
+          44.40427742483816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Terminal Rinfuse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.90190839767456,
+          44.40203923127498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "VTE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.784942626953125,
+          44.42072398731546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Enel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.90617847442627,
+          44.40343427978167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Stazioni Marittime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.915104866027832,
+          44.41189583912465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ILVA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.865494728088379,
+          44.40696007826353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Porto Petroli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.830947875976562,
+          44.423513159819215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SAAR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.917379379272461,
+          44.40220786527961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "ENI/Petrolig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.91613483428955,
+          44.39911105424549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Getoil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.907347917556763,
+          44.40431574932474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silomar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.89918327331543,
+          44.405933019771894
+        ]
+      }
+    }
+  ]
+}

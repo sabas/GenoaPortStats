@@ -61,6 +61,7 @@ function loadHeat(option){
 
     for(var k=0;k<dataMap.length;k++){
         var toHun=dataMax*dataMap[k][option];
+        
         heatmap.pushData(dataMap[k]['lat'],dataMap[k]['lon'],toHun);
         var marker = new L.Marker(new L.LatLng(dataMap[k]['lat'],dataMap[k]['lon']));
         marker.bindPopup(dataMap[k][option]);
