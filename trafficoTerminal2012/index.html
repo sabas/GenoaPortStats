@@ -43,7 +43,6 @@ html,body{height:100%}
 	<script type="text/javascript" src="../script/jsts/jsts.js"></script>
     <link rel="stylesheet" href="../script/dvf.css" type="text/css"/>
 <script type="text/javascript" src="../script/leaflet-dvf.min.js"></script>
-<script type="text/javascript" src="../script/leaflet-dvf.markers.min.js"></script>
 
 </head>
 <body>
@@ -94,13 +93,13 @@ map.addLayer(tile);
     codeField: 'id',
     locationLookup: terminal,
     locationTextField: 'id',
-    includeBoundary: false,
+    includeBoundary: true,
     chartOptions: styleFunction.getStyles(),
     layerOptions: {
       fillOpacity: 0.7,
       opacity: 1,
       weight: 1,
-      width: 6
+      width: 5
     },
     tooltipOptions: {
       iconSize: new L.Point(100, 65),
