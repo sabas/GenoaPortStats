@@ -38,6 +38,8 @@ html,body{height:100%}
     .i{font-style:italic;}
     .b{font-weight:bold;}
     input{width:100%;}
+
+td{padding:0 5px;}
 </style>
 
 <script type="text/javascript" src="../script/jquery.sparkline.min.js"></script>
@@ -75,6 +77,16 @@ map.setView(new L.LatLng(44.4159,8.8456),13);
 map.addLayer(tile);
 
 
+function avg(arr){
+ var sum = 0;
+for(var i = 0; i < arr.length; i++){
+    sum += parseInt(arr[i]);
+}
+
+var avg = sum/arr.length;
+return avg.toFixed(2);
+}
+
 L.geoJson(term, {
 		onEachFeature: function onEachFeature(feature, layer) {
 		if (feature.properties && feature.properties.id) {
@@ -87,7 +99,7 @@ L.geoJson(term, {
 		{
 		 if (query[i] instanceof Array) continue;
 		 
-		 content+='<tr><td>'+query[i]['Merce']+' ('+query[i]['Unit']+')</td><td><span class="inlinesparkline">'+query[i]['data'].join(',')+'</span></td></tr>';
+		 content+='<tr><td>'+query[i]['Merce']+' ('+query[i]['Unit']+')</td><td><span class="inlinesparkline">'+query[i]['data'].join(',')+'</span></td><td>Media: '+avg(query[i]['data'])+'</td></tr>';
 		}
 		content+='</table></div>';
 			layer.bindPopup(content);

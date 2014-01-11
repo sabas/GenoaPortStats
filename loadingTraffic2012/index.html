@@ -67,16 +67,19 @@ function loadHeat(option){
 
     var dataMax=100/Math.max.apply(Math,dataMap.map(function(o){return o[option];}));
 
+        //console.log(option+""+dataMax);
     for(var k=0;k<dataMap.length;k++){
         var toHun=dataMax*dataMap[k][option];
-        
+        console.log(dataMap[k]["Ports"]+""+dataMap[k][option]);
         heatmap.pushData(dataMap[k]['lat'],dataMap[k]['lon'],toHun);
+        
         var marker = new L.Marker(new L.LatLng(dataMap[k]['lat'],dataMap[k]['lon']));
         marker.bindPopup(dataMap[k][option]);
         markerLayers.addLayer(marker);
+    
     }
     map.addLayer(heatmap);
-    map.addLayer(markerLayers);
+    //map.addLayer(markerLayers);
 }
 </script>
 </head>
