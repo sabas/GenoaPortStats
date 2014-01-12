@@ -86,20 +86,21 @@ return avg.toFixed(2);
 }
 
 L.geoJson(term, {
+        style:{'weight':2},
 		onEachFeature: function onEachFeature(feature, layer) {
-		if (feature.properties && feature.properties.id) {
-		var content='<div style="line-height:30px;">';
-		
-		var query=JSONSelect.match(':has(.id:val("'+feature.properties.id+'"))',data);
-		content+='<h1>'+query[0]['Nome']+'</h1><div class="datagrid"><table>';
-		content+='<thead><tr><th>Merce</th><th>Unità</th><th></th><th>Media</th></tr></thead><tbody>';
-		for(var i in query)
-		{
-		 if (query[i] instanceof Array) continue;
-		 
-		 content+='<tr'+(i%2==1?' class="alt"':'')+'><td>'+query[i]['Merce']+'</td><td>'+query[i]['Unit']+'</td><td><span class="inlinesparkline">'+query[i]['data'].join(',')+'</span></td><td>'+avg(query[i]['data'])+'</td></tr>';
-		}
-		content+='</tbody></table></div></div>';
+            if (feature.properties && feature.properties.id) {
+            var content='<div style="line-height:30px;">';
+            
+            var query=JSONSelect.match(':has(.id:val("'+feature.properties.id+'"))',data);
+            content+='<h1>'+query[0]['Nome']+'</h1><div class="datagrid"><table>';
+            content+='<thead><tr><th>Merce</th><th>Unità</th><th></th><th>Media</th></tr></thead><tbody>';
+            for(var i in query)
+            {
+             if (query[i] instanceof Array) continue;
+             
+             content+='<tr'+(i%2==1?' class="alt"':'')+'><td>'+query[i]['Merce']+'</td><td>'+query[i]['Unit']+'</td><td><span class="inlinesparkline">'+query[i]['data'].join(',')+'</span></td><td>'+avg(query[i]['data'])+'</td></tr>';
+            }
+            content+='</tbody></table></div></div>';
 			layer.bindPopup(content,{'maxWidth':350});
 		}
 	}
