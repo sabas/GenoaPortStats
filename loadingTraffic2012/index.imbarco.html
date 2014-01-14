@@ -87,9 +87,9 @@ function loadHeat(option){
 <div id="mapapp">
 <div id="panel">
 <a href="../index.html" class="entry">Indice</a>
-<h1>Loading traffic 2012</h1>
-<p><a href="portstat.ods">Spreadsheet ODS</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
-<p class="i">I dati rappresentati non includono traffico di cui non viene indicata provenienza precisa da: Italia (461.07), Turchia (1067.65 tons) ed altri stati (90380.39 tons)</p>
+<h1>Loading traffic 2012 (per imbarco)</h1>
+<p><a href="loadingTraffic2012_imbarco.ods">Spreadsheet ODS</a>, georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
+<p class="i">I dati rappresentati non includono traffico di cui non viene indicata provenienza precisa da: Italia (461.07 tons), Turchia (1067.65 tons) ed altri stati (90380.39 tons)</p>
 <p>Click sulla voce per visualizzare la heatmap.</p>
 <input type="radio" name="layerGroup" value="Containers full 20'" onclick="loadHeat(this.value)">Containers full 20'<br>
 <input type="radio" name="layerGroup" value="Containers full 40'" onclick="loadHeat(this.value)">Containers full 40'<br>
@@ -105,7 +105,7 @@ function loadHeat(option){
 </div>
 <script type="text/javascript">
 var map = initmap(0,0,2, { });
-var dataMap=loadLayer("points.json");
+var dataMap=loadLayer("points.imb.json");
 putMarker(map,null,44.4492,8.8807,"Genova");
 
 var markerLayers = new L.LayerGroup();
