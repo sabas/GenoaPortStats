@@ -7,7 +7,10 @@
 <link rel="stylesheet" href="../script/leaflet.css" type="text/css"/>
 <script type="text/javascript" src="../script/leaflet.js"></script>
 <script type="text/javascript" src="../script/map.js"></script>
-<script type="text/javascript" src="../script/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.js"></script>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" type="text/css"/>
+<script type="text/javascript" src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 <style type="text/css">
 *{font-family:Helvetica;color:black;}
@@ -38,27 +41,46 @@ html,body{height:100%}
   }
 .i{font-style:italic;}
 .b{font-weight:bold;}
-input{width:100%;}
+input{margin-right:10px;}
 </style>
 
 <script type="text/javascript">
-function toggleLayer(l)
+var currentLayer='';
+
+function toggleLayer(y,w)
 {
-if (map.hasLayer(l)) map.removeLayer(l);
-else map.addLayer(l);
+if(currentLayer!=''&&map.hasLayer(currentLayer)) map.removeLayer(currentLayer);
+map.addLayer(layers[y][w]);
+currentLayer=layers[y][w];
+$("#amount" ).html( '<p>Stai visualizzando il traffico per '+w+' del '+y+'</p>' );
 }
 
-function getLayer(file, maxvalue, color)
+function getLayer(file, color)
 {
 	var maxsize=100;
-	var coeff=maxsize/maxvalue;
+
+	var myJson;
 	var myLayer;
-$.ajax({
-    async: false,
-    url: file,
-    dataType:"json",
-    success: function(json) {
-		myLayer = L.geoJson(json,{
+	$.ajax({
+		async: false,
+		url: file,
+		dataType:"json",
+		success: function(json) {
+		myJson=json;
+		}
+		});
+		
+		
+	var max=0;
+
+		$.each(myJson['features'],function(i,j)
+		{
+			if(j['properties']['quantity']>max) max=j['properties']['quantity'];
+		});
+
+	var coeff=maxsize/max;
+		
+		myLayer = L.geoJson(myJson,{
 			onEachFeature:function onEachFeature(feature, layer) {
 				if (feature.properties && feature.properties.name) {
 					layer.bindPopup("<span class='b'>Port:</span> "+feature.properties.name+"<br/><span class='b'>Quantity:</span> "+feature.properties.quantity);
@@ -69,8 +91,6 @@ $.ajax({
 				return L.circleMarker(latlng, { radius:qt, fillOpacity: 0.5, color: color });
 				}
 		});
-	}
-	});
 	return myLayer;
 }
 </script>
@@ -79,20 +99,42 @@ $.ajax({
 <div id="mapapp">
 <div id="panel">
 <a href="../index.html" class="entry">Indice</a>
-<h1>Top 61 porti collegati 2012</h1>
-<p><a href="portstat.ods">Spreadsheet ODS</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
-<input type="button" onclick="toggleLayer(layer1)" value="Toggle TEUs"/>
+<h1>Top 61 porti collegati</h1>
+<p>Spreadsheet ODS (<a href="portstat2011.ods">2011</a>,<a href="portstat2012.ods">2012</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
+<p>Seleziona se visualizzare il traffico per TEUs o per TONs</p>
+<input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'teu')" checked="checked" value="teu"/>TEUs
 <br/>
-<input type="button" onclick="toggleLayer(layer2)" value="Toggle TONs"/>
+<input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'ton')" value="ton"/>TONs
+<br/>
+<p>Scroll per vedere anni diversi:</p>
+<div id="slider"></div>
+<div id="amount"></div>
 </div>
 <div id='map'></div>
 </div>
 <script type="text/javascript">
 var map = initmap(0,0,2, { });
 putMarker(map,null,44.4492,8.8807,"Genova");
-var layer1=getLayer("./teus.geojson",120320, 'blue').addTo(map);
-var layer2=getLayer("./tons.geojson",3067001, 'red').addTo(map);
 
+var layers={'2011':[],'2012':[]};
+layers['2011']['teu']=getLayer("./teus2011.geojson", 'blue');
+layers['2011']['ton']=getLayer("./tons2011.geojson", 'red');
+layers['2012']['teu']=getLayer("./teus2012.geojson", 'blue');
+layers['2012']['ton']=getLayer("./tons2012.geojson", 'red');
+
+$("#slider").slider({
+      value:2012,
+      min: 2011,
+      max: 2012,
+      step: 1,
+      slide: function( event, ui ) {
+		var w=$("input[name='radiob']:checked").val();
+		toggleLayer(ui.value,w);
+		console.log(ui.value+w);
+      }
+    });
+
+toggleLayer('2012','teu');
 </script>
 </body>
 </html>
