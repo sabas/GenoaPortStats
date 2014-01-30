@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="../script/normalize.css" type="text/css"/>
 <link href="../script/nvd3/src/nv.d3.css" rel="stylesheet" type="text/css"/>
 
-<title>Genoa Port Statistics - 2013 Port Traffic</title>
+<title>Genoa Port Statistics - Port Traffic</title>
 
 <style>
 *{font-family:Helvetica;color:black;padding:3px;}
@@ -22,7 +22,7 @@ display: block;
   height: 500px;
   min-width: 100px;
   min-height: 100px;
-  width:900px;
+  max-width:1280px;
 }
   .entry{
 	-moz-border-radius: 10px;
@@ -36,8 +36,8 @@ display: block;
 
 <body>
 <a href="../index.html" class="entry">Indice</a>
-<h1>Traffico mensile 2013</h1>
-<p><a href="MonthStatsPort2012.ods">Spreadsheet ODS</a></p>
+<h1>Traffico mensile</h1>
+<p><a href="MonthStatsPort.ods">Spreadsheet ODS</a></p>
   <div id="chart1">
     <svg></svg>
   </div>
@@ -78,7 +78,7 @@ d3.json('arrivi.json', function(data) {
 		  .tickFormat(d3.format('d'));
 	
 		chart.forceY([0, 750]);
-chart.reduceXTicks(false);
+//chart.reduceXTicks(false);
 	  d3.select('#chart1 svg')
 		  .datum(data)
 		.transition().duration(500)
@@ -136,7 +136,7 @@ d3.json('passeggeri.json', function(data) {
 	  chart.yAxis
 		  .axisLabel('Passeggeri')
 		  .tickFormat(d3.format('d'));
-chart.reduceXTicks(false);
+//chart.reduceXTicks(false);
 
 	  d3.select('#chart3 svg')
 		  .datum(data)
@@ -154,8 +154,10 @@ d3.json('tonstraffic.json', function(data) {
 	nv.addGraph(function() {
 	  chart = nv.models.stackedAreaChart()
                     .x(function(d) { 
-					var m={"Gennaio":1,"Febbraio":2,"Marzo":3,"Aprile":4,"Maggio":5,"Giugno":6,"Luglio":7,"Agosto":8,"Settembre":9,"Ottobre":10,"Novembre":11,"Dicembre":12};
-							return m[d[0]]; })
+					//var m={"GEN12":1,"FEB12":2,"MAR12":3,"APR12":4,"MAG12":5,"GIU12":6,"LUG12":7,"AGO12":8,"SET12":9,"OTT12":10,"NOV12":11,"DIC12":12,"GEN13":13,"FEB13":14,"MAR13":15,"APR13":16,"MAG13":17,"GIU13":18,"LUG13":19,"AGO13":20,"SET13":21,"OTT13":22,"NOV13":23};
+					var dat=Date.parse(d[0]);
+					
+							return dat; })
                     .y(function(d) { return d[1] })
                     .clipEdge(true);
 
@@ -163,9 +165,12 @@ d3.json('tonstraffic.json', function(data) {
 
 	  chart.xAxis
 			.axisLabel('Mese')
-		  .tickFormat(function(d) { 
-					var m=["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"];
-							return m[d-1]; });
+		  .tickFormat(function(d) {
+		  return d3.time.format('%b %y')(new Date(d));
+					//var m=["GEN12","FEB12","MAR12","APR12","MAG12","GIU12","LUG12","AGO12","SET12","OTT12","NOV12","DIC12","GEN13","FEB13","MAR13","APR13","MAG13","GIU13","LUG13","AGO13","SET13","OTT13","NOV13"];
+				//return (d.getMonth()+ 1)+" "+d.getYear();
+							//return m[d-1];
+							});
 	  chart.yAxis
 		  .axisLabel('Tonnellate')
 		  .tickFormat(d3.format('d'));
