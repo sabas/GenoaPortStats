@@ -116,8 +116,9 @@ function getLayer(file, color)
 var map = initmap(0,0,2, { });
 putMarker(map,null,44.4492,8.8807,"Genova");
 
-var layers={'2010':[],'2011':[],'2012':[]};
-
+var layers={'2009':[],'2010':[],'2011':[],'2012':[]};
+layers['2009']['teu']=getLayer("./teus2009.geojson", 'blue');
+layers['2009']['ton']=getLayer("./tons2009.geojson", 'red');
 layers['2010']['teu']=getLayer("./teus2010.geojson", 'blue');
 layers['2010']['ton']=getLayer("./tons2010.geojson", 'red');
 layers['2011']['teu']=getLayer("./teus2011.geojson", 'blue');
@@ -127,7 +128,7 @@ layers['2012']['ton']=getLayer("./tons2012.geojson", 'red');
 
 $("#slider").slider({
       value:2012,
-      min: 2010,
+      min: 2009,
       max: 2012,
       step: 1,
       slide: function( event, ui ) {
