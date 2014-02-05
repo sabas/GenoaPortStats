@@ -102,7 +102,8 @@ d3.json('passeggeri.json', function(data) {
 	  chart.yAxis
 		  .axisLabel('Passeggeri')
 		  .tickFormat(d3.format('d'));
-
+	
+	  chart.forceY([0, 3000000]);
 	  d3.select('#chart2 svg')
 		  .datum(data)
 		.transition().duration(500)
