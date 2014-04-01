@@ -100,7 +100,7 @@ function getLayer(file, color)
 <div id="panel">
 <a href="../index.html" class="entry">Indice</a>
 <h1>Top 61 porti collegati</h1>
-<p>Spreadsheet ODS (<a href="portstat2010.ods">2010</a>,<a href="portstat2011.ods">2011</a>,<a href="portstat2012.ods">2012</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
+<p>Spreadsheet ODS (<a href="portstat2010.ods">2010</a>,<a href="portstat2011.ods">2011</a>,<a href="portstat2012.ods">2012</a>,<a href="portstat2013.ods">2013</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
 <p>Seleziona se visualizzare il traffico per TEUs o per TONs</p>
 <input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'teu')" checked="checked" value="teu"/>TEUs
 <br/>
@@ -116,7 +116,7 @@ function getLayer(file, color)
 var map = initmap(0,0,2, { });
 putMarker(map,null,44.4492,8.8807,"Genova");
 
-var layers={'2009':[],'2010':[],'2011':[],'2012':[]};
+var layers={'2009':[],'2010':[],'2011':[],'2012':[],'2013':[]};
 
 layers['2009']['teu']=getLayer("./teus2009.geojson", 'blue');
 layers['2009']['ton']=getLayer("./tons2009.geojson", 'red');
@@ -130,10 +130,13 @@ layers['2011']['ton']=getLayer("./tons2011.geojson", 'red');
 layers['2012']['teu']=getLayer("./teus2012.geojson", 'blue');
 layers['2012']['ton']=getLayer("./tons2012.geojson", 'red');
 
+layers['2013']['teu']=getLayer("./teus2013.geojson", 'blue');
+layers['2013']['ton']=getLayer("./tons2013.geojson", 'red');
+
 $("#slider").slider({
-      value:2012,
+      value:2013,
       min: 2009,
-      max: 2012,
+      max: 2013,
       step: 1,
       slide: function( event, ui ) {
 		var w=$("input[name='radiob']:checked").val();
@@ -142,7 +145,7 @@ $("#slider").slider({
       }
     });
 
-toggleLayer('2012','teu');
+toggleLayer('2013','teu');
 </script>
 </body>
 </html>
