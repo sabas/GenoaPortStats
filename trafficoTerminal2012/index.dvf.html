@@ -110,8 +110,7 @@ map.addLayer(tile);
     onEachRecord: function(layer, record) {
 
       var $html = L.HTMLUtils.buildTable(record);
-
-      layer.bindPopup($html.wrap('<div/>').parent().html(), {
+      layer.bindPopup($html, {
         maxWidth: 400,
         minWidth: 400
       });
@@ -120,8 +119,6 @@ map.addLayer(tile);
   };
 
   var dataBarChart = new L.BarChartDataLayer(datacsv, options);
-
-
 		var legendControl = new L.Control.Legend();
 		legendControl.addTo(map);
         

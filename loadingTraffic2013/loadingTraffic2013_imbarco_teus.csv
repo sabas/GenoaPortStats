@@ -1,0 +1,288 @@
+Source;Ports;Target;Destination;Weight
+0;Genoa;0;Genoa;0
+1;Luanda;0;Genoa;0
+2;Cotonou;0;Genoa;290
+3;Douala;0;Genoa;1053
+4;Pointe Noire;0;Genoa;0
+5;Libreville;0;Genoa;0
+6;Banjul;0;Genoa;0
+7;Takoradi;0;Genoa;857
+8;Tema;0;Genoa;2094
+9;Conakry;0;Genoa;54
+10;Abidjan;0;Genoa;1687
+11;San Pedro;0;Genoa;5252
+12;Monrovia;0;Genoa;0
+13;Apapa;0;Genoa;418
+14;Lagos;0;Genoa;4355
+15;Tincan;0;Genoa;4566
+16;Dakar;0;Genoa;5855
+17;Freetown;0;Genoa;0
+18;Lomè;0;Genoa;1462
+19;Boma;0;Genoa;0
+20;Djibouti;0;Genoa;4954
+21;Massawa;0;Genoa;19
+22;Mombasa;0;Genoa;3249
+23;Maputo;0;Genoa;701
+24;Nacala;0;Genoa;241
+25;Port Victoria;0;Genoa;0
+26;Mogadishu;0;Genoa;48
+27;Cape Town;0;Genoa;90
+28;Durban;0;Genoa;4124
+29;Johannesburg/dbn;0;Genoa;4
+30;Port Sudan;0;Genoa;358
+31;Dar es Salaam;0;Genoa;1037
+32;Zanzibar;0;Genoa;6
+33;Alger;0;Genoa;10733
+34;Annaba;0;Genoa;58
+35;Bejaia;0;Genoa;888
+36;Ghazaouet;0;Genoa;2699
+37;Mostaganem;0;Genoa;5
+38;Oran;0;Genoa;598
+39;Skikda;0;Genoa;90
+40;Dekhalia;0;Genoa;0
+41;Suez;0;Genoa;0
+42;Alexandria;0;Genoa;15395
+43;Damietta;0;Genoa;5009
+44;El Dekheila;0;Genoa;0
+45;Port Said;0;Genoa;1391
+46;Port Said East;0;Genoa;13252
+47;AL Khums;0;Genoa;20
+48;Bingazi;0;Genoa;977
+49;Misurata;0;Genoa;4527
+50;Tripoli;0;Genoa;6339
+51;Zawia Terminal;0;Genoa;0
+52;Zuara;0;Genoa;0
+53;Tangier Med;0;Genoa;6724
+54;Casablanca;0;Genoa;5728
+55;Bizerta;0;Genoa;0
+56;La Goulette;0;Genoa;0
+57;La Skhirra;0;Genoa;0
+58;Rades;0;Genoa;6605
+59;Tunis;0;Genoa;7138
+60;Puerto Moin;0;Genoa;1906
+61;Havana;0;Genoa;2452
+62;Santiago de Cuba;0;Genoa;266
+63;Caucedo;0;Genoa;1159
+64;Haina;0;Genoa;0
+65;Pointe a Pitre;0;Genoa;1990
+66;Santo Tomas de Castilla;0;Genoa;0
+67;Kingston ;0;Genoa;8137
+68;Fort de France;0;Genoa;2080
+69;Altamira ;0;Genoa;6514
+70;Manzanillo;0;Genoa;406
+71;Progreso;0;Genoa;19
+72;Tampico;0;Genoa;0
+73;Veracruz;0;Genoa;8462
+74;Manzanillo ;0;Genoa;3818
+75;Hamilton;0;Genoa;27
+76;Halifax;0;Genoa;5688
+77;Vancouver;0;Genoa;2317
+78;Montreal;0;Genoa;26224
+79;Toronto;0;Genoa;199
+80;Palm Beach;0;Genoa;0
+81;Port Everglades;0;Genoa;4703
+82;Savannah;0;Genoa;20273
+83;West Palm Beach;0;Genoa;0
+84;Camden;0;Genoa;0
+85;New York;0;Genoa;40157
+86;Newark;0;Genoa;12274
+87;Norfolk;0;Genoa;18329
+88;Houston;0;Genoa;10635
+89;Mobile;0;Genoa;0
+90;New Orleans;0;Genoa;828
+91;Los Angeles;0;Genoa;9119
+92;Oakland;0;Genoa;5737
+93;Portland (West Coast);0;Genoa;474
+94;Tacoma, wa;0;Genoa;583
+95;Buenos Aires;0;Genoa;14948
+96;Zarate;0;Genoa;0
+97;Itajai;0;Genoa;129
+98;Itapora;0;Genoa;376
+99;Maceio;0;Genoa;0
+100;Navegantes;0;Genoa;6449
+101;Paranagua;0;Genoa;304
+102;Rio de Janeiro;0;Genoa;22184
+103;Rio Grande;0;Genoa;3476
+104;Santos;0;Genoa;27712
+105;Suape;0;Genoa;3221
+106;Vitoria;0;Genoa;2
+107;Valparaiso;0;Genoa;0
+108;Puerto Limon;0;Genoa;3
+109;Cartagena ;0;Genoa;14073
+110;Guayaquil;0;Genoa;1
+111;Asuncion;0;Genoa;0
+112;Callao;0;Genoa;1
+113;Montevideo;0;Genoa;3536
+114;La Guaira;0;Genoa;1807
+115;Puerto Cabello;0;Genoa;2
+116;Chefoo;0;Genoa;66
+117;Chiwan (Shenzhen);0;Genoa;2
+118;Dalian;0;Genoa;0
+119;Hong Kong;0;Genoa;36493
+120;Nanjing;0;Genoa;0
+121;Nansha;0;Genoa;8875
+122;Ningbo;0;Genoa;10004
+123;Qingdao;0;Genoa;8378
+124;Shanghai;0;Genoa;44685
+125;Shekou (Shenzhen);0;Genoa;4007
+126;Tianjinxingang;0;Genoa;0
+127;Xiamen (Xian);0;Genoa;5188
+128;Xingang ;0;Genoa;0
+129;Yantian (Shenzhen);0;Genoa;6
+130;Yantian Huangdong;0;Genoa;799
+131;Jakarta, Java;0;Genoa;0
+132;Port Kelang;0;Genoa;22509
+133;Tanjong Pelepas;0;Genoa;2
+134;Yangon;0;Genoa;34
+135;Manila;0;Genoa;0
+136;Singapore;0;Genoa;73226
+137;Busan (Pusan);0;Genoa;26204
+138;Kaohsiung;0;Genoa;5860
+139;Laem Chabang;0;Genoa;0
+140;Phuket;0;Genoa;0
+141;Haiphong;0;Genoa;0
+142;Ho Chi Minh City;0;Genoa;0
+143;Chittagong;0;Genoa;0
+144;Calicut;0;Genoa;0
+145;Hazira;0;Genoa;0
+146;Jawaharlal Neru (Nhava Sheva);0;Genoa;11469
+147;Kandla;0;Genoa;0
+148;Kolkata (Calcutta);0;Genoa;2
+149;Madras (Cennai);0;Genoa;0
+150;Mumbay;0;Genoa;0
+151;Karachi;0;Genoa;269
+152;Muhammad Bin Qasim;0;Genoa;1418
+153;Colombo;0;Genoa;0
+154;Bahrain;0;Genoa;70
+155;Bandar Abbas;0;Genoa;11085
+156;Umm Qasr;0;Genoa;577
+157;Ashdod;0;Genoa;10648
+158;Haifa;0;Genoa;6847
+159;Aqaba;0;Genoa;5898
+160;Aqaba (El Aqaba);0;Genoa;18
+161;Kuwait;0;Genoa;164
+162;Shuaiba;0;Genoa;14
+163;Shuwaikh;0;Genoa;186
+164;Beirut;0;Genoa;3550
+165;Tripoli in Lebanon;0;Genoa;0
+166;Muscat;0;Genoa;133
+167;Port Qaboos;0;Genoa;43
+168;Salalah;0;Genoa;1202
+169;Sohar;0;Genoa;61
+170;Doha;0;Genoa;766
+171;Ras Laffan;0;Genoa;0
+172;Al Jubail;0;Genoa;3
+173;Damman;0;Genoa;10
+174;Gizan;0;Genoa;0
+175;Jeddah;0;Genoa;28904
+176;Latakia;0;Genoa;4
+177;Eregli, Zonguldak;0;Genoa;0
+178;Aliaga;0;Genoa;313
+179;Ambarli;0;Genoa;2068
+180;Dikili, Izmir;0;Genoa;0
+181;Evyan Port/Kocaeli;0;Genoa;373
+182;Fethiye, Mugla;0;Genoa;0
+183;Gebze;0;Genoa;5914
+184;Gemlik, Bursa;0;Genoa;9756
+185;Haydarpasa, Istanbul;0;Genoa;223
+186;Iskenderun, Hatay;0;Genoa;17
+187;Istanbul;0;Genoa;7210
+188;Izmir;0;Genoa;2550
+189;Mersin, Icel;0;Genoa;866
+190;Abu Dhabi;0;Genoa;1159
+191;Ajman;0;Genoa;3
+192;Dubai;0;Genoa;5
+193;Fujairah;0;Genoa;15
+194;Jebel Ali;0;Genoa;46686
+195;Khor al Fakkan;0;Genoa;14026
+196;Mina Khalifa/Abu Dhabi;0;Genoa;0
+197;Sharjah;0;Genoa;204
+198;Hodeidah;0;Genoa;370
+199;Antwerpen;0;Genoa;0
+200;Ghent;0;Genoa;0
+201;Zeebrugge;0;Genoa;0
+202;Limassol;0;Genoa;550
+203;Kobenhavn;0;Genoa;0
+204;Kaskinen;0;Genoa;0
+205;Le Havre;0;Genoa;61
+206;St. Wandrille-Rancom;0;Genoa;0
+207;Bastia;0;Genoa;0
+208;Fos-sur-Mer;0;Genoa;6118
+209;Lavera;0;Genoa;0
+210;Lyon;0;Genoa;0
+211;Marseille;0;Genoa;6226
+212;Port de Bouc;0;Genoa;0
+213;Bremen;0;Genoa;0
+214;Bremerhaven;0;Genoa;0
+215;Brunsbuettel;0;Genoa;0
+216;Hamburg;0;Genoa;3224
+217;Gibraltar;0;Genoa;0
+218;Bristol;0;Genoa;0
+219;Garston;0;Genoa;0
+220;Southampton;0;Genoa;0
+221;Tilbury;0;Genoa;173
+222;Agioi Theodoroi;0;Genoa;0
+223;Eleftheres;0;Genoa;0
+224;Eleusis;0;Genoa;0
+225;Piraeus;0;Genoa;2497
+226;Thessaloniki;0;Genoa;0
+227;Malta;0;Genoa;8577
+228;Marsaxlokk;0;Genoa;37
+229;Amsterdam;0;Genoa;0
+230;Ijmuiden;0;Genoa;0
+231;Rotterdam;0;Genoa;1015
+232;Schiedam;0;Genoa;0
+233;Aveiro;0;Genoa;0
+234;Leixoes;0;Genoa;0
+235;Lisboa;0;Genoa;258
+236;Setubal;0;Genoa;340
+237;Ceuta;0;Genoa;0
+238;Santander;0;Genoa;0
+239;Algeciras;0;Genoa;31298
+240;Almoines;0;Genoa;123
+241;Barcelona;0;Genoa;8776
+242;Castellon de La Plana;0;Genoa;898
+243;Las Palmas;0;Genoa;14946
+244;Malaga;0;Genoa;0
+245;Sagunto;0;Genoa;0
+246;Santa Cruz de Tenerife;0;Genoa;46
+247;Tarragona;0;Genoa;13
+248;Tenerife;0;Genoa;29
+249;Valencia;0;Genoa;16213
+250;Norrkoping;0;Genoa;0
+251;Vladivostok;0;Genoa;1
+252;St. Petersburg ;0;Genoa;0
+253;Arbatax;0;Genoa;0
+254;Augusta;0;Genoa;0
+255;Brindisi;0;Genoa;0
+256;Cagliari;0;Genoa;2691
+257;Catania;0;Genoa;151
+258;Civitavecchia;0;Genoa;0
+259;Corigliano Calabro;0;Genoa;0
+260;Fiumicino;0;Genoa;0
+261;Gaeta;0;Genoa;0
+262;Gioia Tauro;0;Genoa;13783
+263;La Spezia;0;Genoa;1738
+264;Livorno;0;Genoa;734
+265;Marina di Carrara;0;Genoa;0
+266;Milazzo;0;Genoa;0
+267;Napoli;0;Genoa;6714
+268;Olbia;0;Genoa;0
+269;Palermo;0;Genoa;68
+270;Porto Empedocle;0;Genoa;0
+271;Porto Foxi;0;Genoa;0
+272;Porto Marghera;0;Genoa;0
+273;Porto Torres;0;Genoa;0
+274;Priolo;0;Genoa;0
+275;Ravenna;0;Genoa;0
+276;Salerno;0;Genoa;1760
+277;Savona-Vado;0;Genoa;0
+278;Taranto;0;Genoa;0
+279;Trieste;0;Genoa;0
+280;Vado Ligure;0;Genoa;0
+281;Venezia;0;Genoa;0
+282;Adelaide;0;Genoa;969
+283;Fremantle ;0;Genoa;2287
+284;Melbourne;0;Genoa;9657
+285;Sydney;0;Genoa;9572
+286;Auckland;0;Genoa;2
