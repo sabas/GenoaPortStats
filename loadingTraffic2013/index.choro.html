@@ -12,35 +12,47 @@
 <script type="text/javascript" src="../script/topojson.v1.min.js"></script>
 
 <style type="text/css">
-	*{font-family:Helvetica;color:black;}
-	h1,h3,a{color:#5b8fc9;}
-	h1,h3,p{padding:3px;}
+*{font-family:Helvetica;color:black;}
+h1,h3,a{color:#5b8fc9;}
+h1,h3,p{padding:3px;}
 
-	html,body{height:100%}
-  #mapapp{
-	 height:100%; 
-	 }
-  #map {
-  width:80%;
-  min-height:500px;
-  height:100%;
-  float:right;
-  }
-  #panel{
-   width:15%;
-   float:left;
-   padding:5px;
-  }
-  .entry{
+html,body{height:100%}
+#mapapp{
+height:100%; 
+}
+#map {
+width:80%;
+	min-height:500px;
+height:100%;
+float:right;
+}
+#panel{
+width:15%;
+float:left;
+padding:5px;
+}
+.entry{
 	-moz-border-radius: 10px;
-    border-radius: 10px;
-    border:2px solid #ddeeff;
-    padding:5px;
-    margin:5px;
-  }
-    .i{font-style:italic;}
-    .b{font-weight:bold;}
-    input{width:100%;}
+	border-radius: 10px;
+border:2px solid #ddeeff;
+padding:5px;
+margin:5px;
+}
+.i{font-style:italic;}
+.b{font-weight:bold;}
+input{width:100%;}
+button{width:100%;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #5b8fc9;
+	background-color:#fff;
+	color:#5b8fc9;
+	font-weight:bold;
+	padding: 10px 20px;
+}
+
+.loaded{background-color:#5b8fc9; color:#fff;}
 </style>
 
 </head>
@@ -50,86 +62,124 @@
 <a href="../index.html" class="entry">Indice</a>
 <h1>Loading Traffic 2013 (per imbarco)</h1>
 
+<p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
+<div id="legend">
+<button onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
+<button onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
+<button onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
+<button onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
+<button onclick="change('TEUS');toggle(this);" class="loaded">TEUS</button>
+<button onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
+<button onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
+<button onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
+<button onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
+<button onclick="change('TOTAL');toggle(this);">TOTAL</button>
+</div>
 </div>
 <div id='map'></div>
 </div>
 
 <script type="text/javascript" src="nation.topojson"></script>
 <script type="text/javascript">
-var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var	attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
-
-var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
-
-var map= new L.Map('map', {layers: [tile]});
-
-map.setView(new L.LatLng(44.4159,8.8456),3);
-map.addLayer(tile);
-       
-function getColor(d){
+function getColor(d)
+{
 	var colors=['#FFF5EB','#FEE6CE','#FDAE6B','#FD8D3C','#F16913','#D94801','#A63603','#7F3603','#641B05']; //colorbrewer ed un pizzico di fantasia
 	return colors[d];
 }
 function style(f)
 {
-	var max=jsonData.reduce(function(max, arr) { 
-		return Math.max(max, arr[param]); 
-	}, -Infinity);
-
-	var p=JSONSelect.match(':has(.ISO_A3:val("'+f.properties.ISO_A3+'")) > .'+param,jsonData);
-	if(typeof p === "undefined") return {
-				weight: 2,
-				opacity: 1,
-				color: 'white',
-				dashArray: '3',
-				fillOpacity: 0.7
-			}
-			
-    return {
-        fillColor: getColor(Math.ceil(8*p/max)),
-        weight: 2,
-        opacity: 1,
-        color: 'white',
-        dashArray: '3',
-        fillOpacity: 0.7
-    };
+	var p=JSONSelect.match(':has(.ISO_A3:val("'+f.properties.ISO_A3+'")) > ."'+param+'"',jsonData);
+	if(typeof p[0] === "undefined") return {
+		weight: 2,
+		opacity: 1,
+		color: 'white',
+		dashArray: '3',
+		fillOpacity: 0.7
+	}
+	return {
+		fillColor: getColor(Math.ceil(8*p[0]/max)),
+		weight: 2,
+		opacity: 1,
+		color: 'white',
+		dashArray: '3',
+		fillOpacity: 0.7
+	};
 }
 
-var baseMaps = {
-    "Base": tile
-  };
-  
-var overlays = {
-  };
-
-L.control.layers(baseMaps, overlays).addTo(map);
-
-var jsonData;
-var param='TEUS';
-
-function getBaseLayer(){
-return $.getJSON('nation.topojson',function (feat) { 
-    var county_geojson = topojson.feature(feat, feat.objects.ne_10m_admin_0_countries);
-	var jsonlayer = L.geoJson(county_geojson, {
+function getBaseLayer()
+{
+	return $.getJSON('nation.topojson',function (feat) { 
+		var county_geojson = topojson.feature(feat, feat.objects.ne_10m_admin_0_countries);
+		jsonlayer = L.geoJson(county_geojson, {
 			style: style
 		});
-	map.addLayer(jsonlayer);
-});
+		map.addLayer(jsonlayer);
+		lControl.addOverlay(jsonlayer, "Choropleth");
+	});
 }
 
-function colorize(){
-return $.getJSON('loadingTraffic2013_imbarco_nazioni.json',function (json) { 
-	jsonData=json;
-});
+function colorize()
+{
+	return $.getJSON('loadingTraffic2013_imbarco_nazioni.json',function (json) { 
+		jsonData=json;
+		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
+	});
 }
 
-function load(){
-    $.blockUI({message: "Loading...", css: { backgroundColor: '#f00', color: '#fff'} });
-	var loadingAddress = colorize();
-    var loadingCustomer = getBaseLayer();
+// load first the json dataset, then the world countries topojson
+function load()
+{
+	$.blockUI({message: "Loading...", css: { backgroundColor: '#f00', color: '#fff'} });
+	var loadingColor = colorize();
+	var loadingLayer = getBaseLayer();
 	$.unblockUI();
 }
 
+function change(property)
+{
+	param=property; //set global
+	max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
+	jsonlayer.eachLayer(function(layer){
+		var newStyle=style(layer.feature);
+		layer.setStyle(newStyle);		
+	});
+}
+
+function arrayMax(array) {
+    return Math.max.apply(null, array);
+}
+
+function toggle(o){
+$('button').removeClass('loaded');
+$(o).addClass('loaded');
+}
+
+/* INITIAL CONFIGURATION */
+var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
+
+var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
+
+var map= new L.Map('map', {layers: [tile]});
+
+map.setView(new L.LatLng(44.4159,8.8456),2);
+map.addLayer(tile);
+
+var baseMaps = {
+	"Base": tile
+};
+
+var overlays = {
+};
+
+var lControl=L.control.layers(baseMaps, overlays).addTo(map);
+
+var jsonData;
+var jsonlayer;
+var param='TEUS'; //first index to be considered
+var max;
+
+/* load the first index */
 load();
 </script>
 </body>
