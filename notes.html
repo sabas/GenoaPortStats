@@ -3,26 +3,17 @@
 <head>
 <title>Note</title>
 <meta charset="utf8"/>
-<link rel="stylesheet" href="../script/normalize.css" type="text/css"/>
+<link rel="stylesheet" href="script/ports.css" type="text/css"/>
 
-<style type="text/css">
-*{font-family:Helvetica;color:black;}
-h1,h2,h3,a{color:#5b8fc9;}
-h1,h2,h3,p{padding:3px;}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-.i{font-style:italic;}
-.b{font-weight:bold;}
-input{width:30px;}
-br{clear:both;}
-
-  .entry{
-	-moz-border-radius: 10px;
-    border-radius: 10px;
-    border:2px solid #ddeeff;
-    padding:5px;
-    margin:5px;
-  }
-</style>
+  ga('create', 'UA-13244504-2', 'stefanosabatini.eu');
+  ga('send', 'pageview');
+</script>
 </head>
 <body>
 <a href="index.html" class="entry">Indice</a>
@@ -32,6 +23,7 @@ br{clear:both;}
 <li><a href="http://tabula.nerdpower.org/">Tabula</a>: estrazione di dati tabulati da file pdf</li>
 <li>Libreoffice Calc</li>
 <li><a href="http://csv2json.herokuapp.com/">csv2json</a>: conversione rapida da csv a json</li>
+<li>QGis</li>
 </ul>
 <h2>Librerie utilizzate</h2>
 <ul>
@@ -41,6 +33,7 @@ br{clear:both;}
 <li><a href="https://github.com/sunng87/heatcanvas">Heatcanvas</a>: plugin per leaflet per heatmap</li>
 <li><a href="https://github.com/humangeo/leaflet-dvf">Leaflet DVF</a>: plugin per leaflet per data visualization</li>
 <li><a href="http://omnipotent.net/jquery.sparkline/#s-about">jQuery sparklines</a>: plugin per la generazione di sparkline</li>
+<li><a href="https://github.com/mbostock/topojson">Topojson</a>: estensione di GeoJson per la codifica topologica delle geometrie</li>
 </ul>
 <h2>Dati geografici</h2>
 <p>La georeferenziazione è stata ottenuta incrociando le informazioni da <a href="http://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015">World Port Index</a>, <a href="http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-populated-places/">Natural Earth</a> ed <a href="http://www.openstreetmap.org/">OpenStreetMap</a>.</p>

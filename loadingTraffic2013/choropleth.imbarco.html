@@ -3,58 +3,13 @@
 <head>
 <title>Genoa Port Statistics - 2013 Loading Traffic Choropleth (per imbarco)</title>
 <meta charset="utf8"/>
-<link rel="stylesheet" href="../script/normalize.css" type="text/css"/>
+<link rel="stylesheet" href="../script/ports.css" type="text/css"/>
 <link rel="stylesheet" href="../script/leaflet.css" type="text/css"/>
 <script type="text/javascript" src="../script/leaflet.js"></script>
 <script type="text/javascript" src="../script/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="../script/jquery.blockUI.js"></script>
 <script type="text/javascript" src="../script/jsonselect.min.js"></script>
 <script type="text/javascript" src="../script/topojson.v1.min.js"></script>
-
-<style type="text/css">
-*{font-family:Helvetica;color:black;}
-h1,h3,a{color:#5b8fc9;}
-h1,h3,p{padding:3px;}
-
-html,body{height:100%}
-#mapapp{
-height:100%; 
-}
-#map {
-width:80%;
-	min-height:500px;
-height:100%;
-float:right;
-}
-#panel{
-width:15%;
-float:left;
-padding:5px;
-}
-.entry{
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-border:2px solid #ddeeff;
-padding:5px;
-margin:5px;
-}
-.i{font-style:italic;}
-.b{font-weight:bold;}
-input{width:100%;}
-button{width:100%;
-	-moz-border-radius: 6px;
-	-webkit-border-radius: 6px;
-	border-radius: 6px;
-	border: 1px solid #5b8fc9;
-	background-color:#fff;
-	color:#5b8fc9;
-	font-weight:bold;
-	padding: 10px 20px;
-}
-
-.loaded{background-color:#5b8fc9; color:#fff;}
-</style>
-
 </head>
 <body>
 <div id="mapapp">
@@ -79,7 +34,6 @@ button{width:100%;
 <div id='map'></div>
 </div>
 
-<script type="text/javascript" src="nation.topojson"></script>
 <script type="text/javascript">
 function getColor(d)
 {
@@ -89,6 +43,8 @@ function getColor(d)
 function style(f)
 {
 	var p=JSONSelect.match(':has(.ISO_A3:val("'+f.properties.ISO_A3+'")) > ."'+param+'"',jsonData);
+	console.log(f.properties.ISO_A3);
+	console.log(p[0]);
 	if(typeof p[0] === "undefined") return {
 		weight: 2,
 		opacity: 1,
@@ -109,7 +65,7 @@ function style(f)
 function getBaseLayer()
 {
 	return $.getJSON('nation.topojson',function (feat) { 
-		var county_geojson = topojson.feature(feat, feat.objects.ne_10m_admin_0_countries);
+		var county_geojson = topojson.feature(feat, feat.objects.countries3);
 		jsonlayer = L.geoJson(county_geojson, {
 			style: style
 		});
