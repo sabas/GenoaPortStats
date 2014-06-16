@@ -15,7 +15,7 @@
 <div id="mapapp">
 <div id="panel">
 <a href="../index.html" class="entry">Indice</a>
-<h1>Loading Traffic 2013 (per imbarco)</h1>
+<h1>Loading Traffic 2013 (per sbarco)</h1>
 
 <p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
 <div id="legend">
@@ -74,7 +74,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('loadingTraffic2013_imbarco_nazioni.json',function (json) { 
+	return $.getJSON('loadingTraffic2013_sbarco_nazioni.json',function (json) { 
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 	});
