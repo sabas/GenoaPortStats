@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Shanghai	China	120320	121.4915	31.2246
+2	Singapore	Singapore	107024	103.8528	1.2906
+3	"Hong Kong"	China	59804	114.1229	22.3434
+4	Jeddah	"Saudi Arabia"	56922	39.164	21.5822
+5	"Jebel Ali"	"United Arab Emirates"	49906	55.0687	24.9959
+6	Ningbo	China	49129	121.5499	29.872
+7	Santos	Brazil	47616	-46.29	-23.8643
+8	"Busan (Pusan)"	"South Korea"	43513	129.0176	35.0803
+9	Algeciras	Spain	42804	-5.4278	36.1386
+10	Malta	Malta	38968	14.5244	35.918
+11	"New York"	"United States of America"	38859	-73.9796	40.6979
+12	Montreal	Canada	37137	-73.6554	45.5027
+13	Savannah	"United States of America"	33765	-81.098	31.9996
+14	Alexandria	Egypt	33379	29.8944	31.199
+15	"Gioia Tauro"	Italy	31700	15.9207	38.4271
+16	Newark	"United States of America"	30849	-74.1821	40.731
+17	"Port Kelang"	Malaysia	30235	101.3006	2.941
+18	Shekou	China	27373	113.9161	22.4715
+19	"Rio de Janeiro"	Brazil	26662	-42.756	-22.239
+20	Valencia	Spain	26095	-0.3525	39.4228
+21	"Khor al Fakkan"	"United Arab Emirates"	25825	56.3709	25.3584
+22	"Jawaharlal Neru (Nhava Sheva)"	India	25071	72.9644	18.9629
+23	Damietta	Egypt	24867	31.8214	31.4167
+24	"Yantian Huangdong"	China	24837	114.283	22.5841
+25	Kaohsiung	Taiwan	22898	120.2893	22.6015
+26	Qingdao	China	21943	120.3189	36.0696
+27	"Buenos Aires"	Argentina	21641	-58.446	-34.6129
+28	Haifa	Israel	21492	34.9885	32.8184
+29	Livorno	Italy	21163	10.3073	43.5457
+30	Norfolk	"United States of America"	20938	-76.196	37.0127
+31	Napoli	Italy	20544	14.2461	40.8529
+32	Alger	Algeria	20372	3.0601	36.7753
+33	Houston	"United States of America"	19133	-94.9171	29.7232
+34	Tunis	Tunisia	18812	10.1848	36.8001
+35	Istanbul	Turkey	18362	28.9652	41.0096
+36	"Las Palmas"	Spain	18355	-15.4357	28.0514
+37	Cartagena	Colombia	17281	-75.518	10.4162
+38	Cagliari	Italy	17233	9.096	39.2204
+39	Barcelona	Spain	17140	2.1889	41.3996
+40	Ashdod	Israel	15784	34.6601	31.8493
+41	Gemlik	Turkey	15591	29.1571	40.4302
+42	"Tanjong Pelepas"	Malaysia	14266	103.5457	1.357
+43	Rades	Tunisia	14080	10.277	36.7744
+44	Kingston	Jamaica	13572	-76.8223	17.9829
+45	Tripoli	Libya	13571	13.18	32.8925
+46	Xiamen	China	13449	118.1537	24.5029
+47	"Port Everglades"	"United States of America"	13242	-80.1083	26.0927
+48	Veracruz	Mexico	13113	-96.1242	19.2105
+49	Melbourne	Australia	11749	144.9158	-37.8139
+50	Djibouti	Djibouti	11318	43.1362	11.597
+51	Piraeus	Greece	11191	23.6486	37.9442
+52	Dakar	Senegal	11042	-17.447	14.693
+53	Salerno	Italy	10379	14.7637	40.6864
+54	"Bandar Abbas"	Iran	10376	56.2823	27.1762
+55	Mombasa	Kenia	10368	39.6527	-4.047
+56	Tincan	Nigeria	10137	3.3492	6.4343
+57	"Los Angeles"	"United States of America"	10086	-118.2113	33.7673
+58	"Tangier Med"	Marocco	9954	-5.7878	35.7913
+59	Caucedo	"Dominican Republic"	9795	-69.6155	18.4355
+60	Marseille	France	9745	5.356	43.3435
+61	"Port Said"	Egypt	9613	32.3192	31.2567

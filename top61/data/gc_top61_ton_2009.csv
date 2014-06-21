@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Ceyhan	Turkey	2729161	35.8331	37.0562
+2	Taranto	Italy	2265449	17.2997	40.4618
+3	Aberdeen	Scotland	2044106	-2.0914	57.1452
+4	Novorossiysk	Russia	1833746	37.7874	44.7108
+5	Cagliari	Italy	1487159	9.096	39.2204
+6	"Porto Torres"	Italy	1334059	8.3958	40.829
+7	Palermo	Italy	1144645	13.3473	38.1373
+8	Tunis	Tunisia	1077472	10.1848	36.8001
+9	Singapore	Singapore	1000662	103.8528	1.2906
+10	Shanghai	China	982521	121.4915	31.2246
+11	Catania	Italy	845593	15.0306	37.4603
+12	Barcelona	Spain	803687	2.1889	41.3996
+13	Melitah	Libya	720480	12.2303	32.8639
+14	"Zawia Terminal"	Libya	696180	12.7224	32.7706
+15	Abidjan	"Ivory Coast"	674152	1.87	9.77
+16	"Hong Kong"	China	644048	114.1229	22.3434
+17	Odessa	Ukraine	643943	30.7296	46.4713
+18	"New York"	"United States of America"	625643	-73.9796	40.6979
+19	"Moudi Terminal"	Cameroon	605629	8.4488	4.3611
+20	Malta	Malta	583840	14.5244	35.918
+21	"Abu Kammash"	Libya	578301	11.7363	33.0738
+22	"Termini Imerese"	Italy	552766	13.7101	37.9872
+23	"Ras Lanuf"	Libya	527086	18.4173	30.5869
+24	Alexandria	Egypt	506234	29.8944	31.199
+25	Livorno	Italy	501108	10.3073	43.5457
+26	"Sidi Kerir Terminal"	Egypt	409760	29.6734	31.0516
+27	Tuapse	Russia	402353	39.0721	44.0986
+28	Houston	"United States of America"	393245	-94.9171	29.7232
+29	Batumi	Georgia	373638	41.6568	41.6658
+30	Fos-sur-Mer	France	358248	4.9456	43.4381
+31	"Santa Panagia"	Italy	354559	15.2797	37.1086
+32	Yuzhnyy	Ukraine	340474	31.1114	46.6255
+33	Algeciras	Spain	335531	-5.4278	36.1386
+34	"Gioia Tauro"	Italy	328943	15.9207	38.4271
+35	"Busan (Pusan)"	"South Korea"	328134	129.0176	35.0803
+36	Olbia	Italy	319314	9.5397	40.9206
+37	Ningbo	China	307192	121.5499	29.872
+38	Montreal	Canada	289891	-73.6554	45.5027
+39	Tarragona	Spain	283783	1.2546	41.1172
+40	Augusta	Italy	279506	15.2059	37.224
+41	Koper	Slovenia	259091	13.7305	45.548
+42	Jeddah	"Saudi Arabia"	247850	39.164	21.5822
+43	"Port Kelang"	Malaysia	242839	101.3006	2.941
+44	"Tanjong Pelepas"	Malaysia	238378	103.5457	1.357
+45	Lagos	Nigeria	235208	3.3896	6.4452
+46	"Bouri Terminal"	Libya	233813	13.2605	33.8476
+47	"Khor al Fakkan"	"United Arab Emirates"	232936	56.3709	25.3584
+48	Milazzo	Italy	219123	15.2734	38.2144
+49	Kaohsiung	Taiwan	207338	120.2893	22.6015
+50	"Brass Terminal "	Nigeria	200829	4.3037	6.2439
+51	Santos	Brazil	199645	-46.29	-23.8643
+52	Valencia	Spain	197966	-0.3525	39.4228
+53	"La Skirra"	Tunisia	195705	10.1654	34.3343
+54	Alger	Algeria	194241	3.0601	36.7753
+55	Tripoli	Libya	189398	13.18	32.8925
+56	"Casablanca "	Morocco	184968	-5.4973	35.8935
+57	"Jebel Ali"	"United Arab Emirates"	182283	55.0687	24.9959
+58	Skikda	Algeria	178984	6.9	36.8804
+59	Mongstad	Norway	175226	5.0395	60.8157
+60	"Yantian Huangdong"	China	168573	114.283	22.5841
+61	Savannah	"United States of America"	167172	-81.098	31.9996

@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+"1 "	Novorossiysk	Russia	4360659	37.7874	44.7108
+"2 "	Taranto	Italy	3348987	17.2997	40.4618
+"3 "	Ceyhan	Turkey	2038546	35.8331	37.0562
+"4 "	Palermo	Italy	1873263	13.3473	38.1373
+"5 "	"Porto Torres"	Italy	1399715	8.3958	40.829
+"6 "	Shanghai	China	1310122	121.4915	31.2246
+"7 "	Cagliari	Italy	1156357	9.096	39.2204
+"8 "	Catania	Italy	1125597	15.0306	37.4603
+"9 "	Singapore	Singapore	888937	103.8528	1.2906
+"10 "	Rades	Tunisia	888127	10.277	36.7744
+"11 "	Malta	Malta	870504	14.5244	35.918
+"12 "	"New York"	"United States of America"	722183	-73.9796	40.6979
+"13 "	Barcelona	Spain	702240	2.1889	41.3996
+"14 "	Houston	"United States of America"	696142	-94.9171	29.7232
+"15 "	"Hong Kong"	China	605208	114.1229	22.3434
+"16 "	Milazzo	Italy	581887	15.2734	38.2144
+"17 "	Livorno	Italy	548428	10.3073	43.5457
+"18 "	Jeddah	"Saudi Arabia"	464244	39.164	21.5822
+"19 "	"Jebel Ali"	"United Arab Emirates"	452030	55.0687	24.9959
+"20 "	"Busan (Pusan)"	"South Korea"	450712	129.0176	35.0803
+"21 "	Ningbo	China	447702	121.5499	29.872
+"22 "	"Abo Terminal"	Nigeria	434774	5.684	4.7849
+"23 "	"Port Kelang"	Malaysia	432633	101.3006	2.941
+"24 "	Alexandria	Egypt	431061	29.8944	31.199
+"25 "	"Tunis "	Tunisia	429372	10.1848	36.8001
+"26 "	"La Skirra"	Tunisia	390936	10.1654	34.3343
+"27 "	"Porto Foxi"	Italy	380238	9.0293	39.0797
+"28 "	"Moudi Terminal"	Cameroon	355742	8.4488	4.3611
+"29 "	Batumi	Georgia	344830	41.6568	41.6658
+"30 "	"Termini Imerese"	Italy	334332	13.7101	37.9872
+"31 "	Augusta	Italy	330119	15.2059	37.224
+"32 "	"Jawaharlal Neru (Nhava Sheva)"	India	310655	72.9644	18.9629
+"33 "	Tuapse	Russia	308939	39.0721	44.0986
+"34 "	Olbia	Italy	297845	9.5397	40.9206
+"35 "	Skikda	Algeria	287176	6.9	36.8804
+"36 "	"Sidi Kerir Terminal"	Egypt	286705	29.6734	31.0516
+"37 "	Savannah	"United Arab Emirates"	280893	-81.098	31.9996
+"38 "	Qingdao	China	279263	120.3189	36.0696
+"39 "	Algeciras	Spain	276613	-5.4278	36.1386
+"40 "	Montreal	Canada	273893	-73.6554	45.5027
+"41 "	Santos	Brazil	273025	-46.29	-23.8643
+"42 "	Piraeus	Greece	269430	23.6486	37.9442
+"43 "	Kaohsiung	Taiwan	264109	120.2893	22.6015
+"44 "	"Gioia Tauro"	Italy	258950	15.9207	38.4271
+"45 "	Tartous	Syria	255223	35.8852	34.8936
+"46 "	"Zawia Terminal"	Libya	248560	12.7224	32.7706
+"47 "	"Khor al Fakkan"	"United Arab Emirates"	247725	56.3709	25.3584
+"48 "	Kulevi	Georgia	237364	42.2699	41.6578
+"49 "	"Port Said"	Egypt	234310	32.3192	31.2567
+"50 "	"Tanjong Pelepas"	Malaysia	210705	103.5457	1.357
+"51 "	Baniyas	Syria	210279	35.9449	35.182
+"52 "	Valencia	Spain	209864	-0.3525	39.4228
+"53 "	Shekou	China	207283	113.9161	22.4715
+"54 "	"Dumai, Sumatra"	Indonesia	203796	101.4533	1.6815
+"55 "	Newark	"United States of America"	200084	-74.1821	40.731
+"56 "	Damietta	Egypt	198140	31.8214	31.4167
+"57 "	Alger	Algeria	195132	3.0601	36.7753
+"58 "	"Las Palmas"	Spain	193387	-15.4357	28.0514
+"59 "	Fos-sur-Mer	France	193196	4.9456	43.4381
+"60 "	"Buenos Aires"	Argentina	185072	-58.446	-34.6129
+"61 "	Tess/Hartlepool	England	185039	-1.2031	54.6947

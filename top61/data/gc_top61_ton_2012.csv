@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Taranto	Italy	3067001	17.2997	40.4618
+2	Novorossiysk	Russia	2781103	37.7874	44.7108
+3	Palermo	Italy	2674027	13.3473	38.1373
+4	Ceyhan	Turkey	2024951	35.8331	37.0562
+5	Singapore	Singapore	1254539	103.8528	1.2906
+6	Catania	Italy	1199970	15.0306	37.4603
+7	Shanghai	China	1159911	121.4915	31.2246
+8	"Zawia Terminal"	Libya	1066019	12.7224	32.7706
+9	"Porto Torres"	Italy	1064256	8.3958	40.829
+10	Rades	Tunisia	963115	10.277	36.7744
+11	Malta	Malta	813698	14.5244	35.918
+12	Cagliari	Italy	793490	9.096	39.2204
+13	"Jebel Ali"	"United Arab Emirates"	689926	55.0687	24.9959
+14	"Brass Terminal"	Nigeria	676343	4.3037	6.2439
+15	"Es Sider"	Libya	662264	18.3657	30.6368
+16	Jeddah	"Saudi Arabia"	651278	39.164	21.5822
+17	Livorno	Italy	619250	10.3073	43.5457
+18	"Primorsk, Koivisto"	Russia	599653	28.622	60.3589
+19	"Hong Kong"	China	595912	114.1229	22.3434
+20	Santos	Brazil	569260	-46.29	-23.8643
+21	Algeciras	Spain	502980	-5.4278	36.1386
+22	"Busan (Pusan)"	"South Korea"	491274	129.0176	35.0803
+23	"Port Kelang"	Malaysia	449668	101.3006	2.941
+24	Barcelona	Spain	447572	2.1889	41.3996
+25	"Gioia Tauro"	Italy	431140	15.9207	38.4271
+26	"New York"	"United States of America"	417847	-73.9796	40.6979
+27	Tunis	Tunisia	401897	10.1848	36.8001
+28	Ningbo	China	400903	121.5499	29.872
+29	Alexandria	Egypt	396865	29.8944	31.199
+30	"Ras Lanuf"	Libya	365773	18.4173	30.5869
+31	Houston	"United States of America"	354018	-94.9171	29.7232
+32	Milazzo	Italy	350111	15.2734	38.2144
+33	Montreal	Canada	332363	-73.6554	45.5027
+34	Skikda	Algeria	327677	6.9	36.8804
+35	Savannah	"United States of America"	327151	-81.098	31.9996
+36	Bonny	Nigeria	326177	7.1668	4.4355
+37	Newark	"United States of America"	324963	-74.1821	40.731
+38	"Sidi Kerir Terminal"	Egypt	316400	29.6734	31.0516
+39	"Jawaharlal Neru (Nhava Sheva)"	India	307773	72.9644	18.9629
+40	"Khor al Fakkan"	"United Arab Emirates"	303264	56.3709	25.3584
+41	Lagos	Nigeria	297771	3.3896	6.4452
+42	Augusta	Italy	296726	15.2059	37.224
+43	"Rio de Janeiro"	Brazil	296650	-42.756	-22.239
+44	Valencia	Spain	294211	-0.3525	39.4228
+45	"Buenos Aires"	Argentina	255883	-58.446	-34.6129
+46	Kaohsiung	Taiwan	253379	120.2893	22.6015
+47	Olbia	Italy	252713	9.5397	40.9206
+48	Damietta	Egypt	249436	31.8214	31.4167
+49	"Las Palmas"	Spain	247040	-15.4357	28.0514
+50	Shekou	China	238934	113.9161	22.4715
+51	Tarragona	Spain	237360	1.2546	41.1172
+52	Batumi	Georgia	237198	41.6568	41.6658
+53	"Port Said"	Egypt	234960	32.3192	31.2567
+54	Norfolk	"United States of America"	230392	-76.196	37.0127
+55	Haifa	Israel	229853	34.9885	32.8184
+56	Qingdao	China	221946	120.3189	36.0696
+57	Napoli	Italy	211801	14.2461	40.8529
+58	Cartagena	Colombia	197936	-75.518	10.4162
+59	Ashdod	Israel	185148	34.6601	31.8493
+60	Forcados	Nigeria	182464	5.3534	5.4393
+61	Savona-Vado	Italy	178319	8.4555	44.2661

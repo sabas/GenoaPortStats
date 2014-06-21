@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Ceyhan	Turkey	3219859	35.8331	37.0562
+2	Novorossiysk	Russia	3079588	37.7874	44.7108
+3	Taranto	Italy	2751913	17.2997	40.4618
+4	Cagliari	Italy	1446915	9.096	39.2204
+5	"Porto Torres"	Italy	1408533	8.3958	40.829
+6	Shanghai	China	1283791	121.4915	31.2246
+7	Melitah	Libya	1249627	12.2303	32.8639
+8	Palermo	Italy	1096626	13.3473	38.1373
+9	"Sidi Kerir Terminal"	Egypt	1048097	29.6734	31.0516
+10	"Termini Imerese"	Italy	1046728	13.7101	37.9872
+11	Catania	Italy	1012912	15.0306	37.4603
+12	Singapore	Singapore	919378	103.8528	1.2906
+13	Tunis	Tunisia	819301	10.1848	36.8001
+14	"Zawia Terminal"	Libya	772369	12.7224	32.7706
+15	"New York"	"United States of America"	763548	-73.9796	40.6979
+16	Houston	"United States of America"	719216	-94.9171	29.7232
+17	Barcelona	Spain	699757	2.1889	41.3996
+18	Malta	Malta	659665	14.5244	35.918
+19	"Hong Kong"	China	614420	114.1229	22.3434
+20	"Moudi Terminal"	Cameroon	595287	8.4488	4.3611
+21	Alexandria	Egypt	536502	29.8944	31.199
+22	"Primorsk, Koivisto"	Russia	530210	28.622	60.3589
+23	Livorno	Italy	465148	10.3073	43.5457
+24	Rades	Tunisia	453370	10.277	36.7744
+25	Ningbo	China	452209	121.5499	29.872
+26	Fos-sur-Mer	France	448841	4.9456	43.4381
+27	Batumi	Georgia	430368	41.6568	41.6658
+28	Yuzhnyy	Ukraine	421108	31.1114	46.6255
+29	"Port Kelang"	Malaysia	386417	101.3006	2.941
+30	Jeddah	"Saudi Arabia"	369802	39.164	21.5822
+31	"Busan (Pusan)"	"South Korea"	324969	129.0176	35.0803
+32	"Jebel Ali"	"United Arab Emirates"	315214	55.0687	24.9959
+33	Baniyas	Syria	297451	35.9449	35.182
+34	Montreal	Canada	289759	-73.6554	45.5027
+35	Olbia	Italy	286901	9.5397	40.9206
+36	Kaohsiung	Taiwan	271863	120.2893	22.6015
+37	"Jawaharlal Neru (Nhava Sheva)"	India	265354	72.9644	18.9629
+38	Qingdao	China	260129	120.3189	36.0696
+39	"Gioia Tauro"	Italy	253609	15.9207	38.4271
+40	Savannah	"United States of America"	230860	-81.098	31.9996
+41	"Tanjong Pelepas"	Malaysia	229200	103.5457	1.357
+42	Skikda	Algeria	224123	6.9	36.8804
+43	"Khor al Fakkan"	"United Arab Emirates"	224039	56.3709	25.3584
+44	Marsaxlokk	Malta	222218	14.5441	35.8419
+45	Abidjan	"Ivory Coast"	220835	1.87	9.77
+46	"Ras Lanuf"	Lybia	218274	18.4173	30.5869
+47	Shekou	China	214089	113.9161	22.4715
+48	Gela	Italy	208550	14.2508	37.0666
+49	Milazzo	Italy	207742	15.2734	38.2144
+50	Santos	Brazil	206941	-46.29	-23.8643
+51	Tarragona	Spain	204613	1.2546	41.1172
+52	"Yantian Huangdong"	China	193753	114.283	22.5841
+53	"La Spezia"	Italy	185696	9.8282	44.107
+54	"Las Palmas"	Spain	185274	-15.4357	28.0514
+55	Jakarta	Indonesia	184241	106.8271	-6.1753
+56	"Mersin, Icel"	Turkey	176848	34.6305	36.8128
+57	Newark	"United States of America"	170846	-74.1821	40.731
+58	Kulevi	Georgia	167582	42.2699	41.6578
+59	"Karg Island"	Iran	165397	50.327	29.2347
+60	Haifa	Israel	162636	34.9885	32.8184
+61	Augusta	Italy	162388	15.2059	37.224

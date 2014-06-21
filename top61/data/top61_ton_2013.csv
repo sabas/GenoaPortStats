@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Novorossiysk"	"Russia"	3485473
+2	"Taranto"	"Italy"	3184765
+3	"Palermo"	"Italy"	2695874
+4	"Tunis"	"Tunisia"	1400657
+5	"Singapore"	"Singapore"	1399483
+6	"Catania"	"Italy"	1234242
+7	"Porto Torres"	"Italy"	1166564
+8	"Shanghai"	"China"	1128882
+9	"Zawia Terminal"	"Libya"	964358
+10	"Jebel Ali"	"Italy"	869025
+11	"Algeciras"	"Spain"	801035
+12	"Ceyhan"	"Turkey"	765643
+13	"Gioia Tauro"	"Italy"	725580
+14	"Hong Kong"	"China"	618260
+15	"Livorno"	"Italy"	616596
+16	"Cagliari"	"Italy"	607233
+17	"Primorsk, Koivisto"	"Russia"	593352
+18	"Jeddah"	"Saudi Arabia"	590841
+19	"New York"	"United States of America"	584293
+20	"Malta"	"Malta"	563322
+21	"Port Kelang"	"Malaysia"	505262
+22	"Arzew"	"Algeria"	486994
+23	"Santos"	"Brazil"	462377
+24	"Ras Lanuf"	"Libya"	445361
+25	"Pusan"	"South Korea"	439469
+26	"Es Sider"	"Libya"	411159
+27	"Alexandria"	"Egypt"	388327
+28	"Barcelona"	"Spain"	381014
+29	"Montreal"	"Canada"	370271
+30	"Bejaia"	"Algeria"	366877
+31	"Abo Terminal"	"Nigeria"	357977
+32	"Ningbo"	"China"	356761
+33	"Gela"	"Italy"	354037
+34	"Milazzo"	"Italy"	350267
+35	"Savannah"	"United States of America"	325907
+36	"Fos-sur-Mer"	"France"	325200
+37	"Rio de Janeiro"	"Brazil"	319823
+38	"Alger"	"Algeria"	315451
+39	"Olbia"	"Italy"	313943
+40	"La Skirra"	"Tunisia"	308802
+41	"Kerch"	"Ukraine"	307193
+42	"Houston"	"United States of America"	301630
+43	"Valencia"	"Spain"	300132
+44	"Las Palmas"	"Spain"	290340
+45	"Tangier Med"	"Morocco"	272241
+46	"Norfolk"	"United States of America"	265119
+47	"Marsa el Brega"	"Libya"	260246
+48	"Batumi"	"Georgia"	250318
+49	"Haifa"	"Israel"	245764
+50	"Sidi Kerir Terminal"	"Egypt"	242189
+51	"Cartagena"	"Spain"	235044
+52	"Khor al Fakkan"	"United Arab Emirates"	230101
+53	"Cartagena"	"Colombia"	223070
+54	"Augusta"	"Italy"	216448
+55	"Buenos Aires"	"Argentina"	210672
+56	"Rotterdam"	"Netherlands"	204287
+57	"New Orleans"	"United States of America"	202879
+58	"Napoli"	"Italy"	202858
+59	"Jawaharlal Neru (Nhava Sheva)"	"India"	201856
+60	"Damietta"	"Egypt"	199792
+61	"Fujairah"	"United Arab Emirates"	196178

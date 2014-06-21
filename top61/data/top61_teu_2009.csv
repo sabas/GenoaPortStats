@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Shanghai"	"China"	107563
+2	"Singapore"	"Singapore"	92153
+3	"Cagliari"	"Italy"	67231
+4	"Hong Kong"	"China"	65511
+5	"Pusan"	"South Korea"	33020
+6	"Gioia Tauro"	"Italy"	32123
+7	"Alexandria"	"Egypt"	31059
+8	"Ningbo"	"China"	30748
+9	"Jeddah"	"Saudi Arabia"	28395
+10	"Tunis"	"Tunisia"	27839
+11	"Montreal"	"Canada"	26852
+12	"Yantian Huangdong"	"China"	25156
+13	"Casablanca"	"Morocco"	23823
+14	"New York"	"United States of America"	23627
+15	"Alger"	"Algeria"	22005
+16	"Tanjong Pelepas"	"Malaysia"	21105
+17	"Khor al Fakkan"	"United Arab Emirates"	20396
+18	"Kaohsiung"	"Taiwan"	20021
+19	"Valencia"	"Spain"	19933
+20	"Malta"	"Malta"	19362
+21	"Haifa"	"Israel"	17005
+22	"Jebel Ali"	"United Arab Emirates"	16818
+23	"Savannah"	"United States of America"	16353
+24	"Shekou"	"China"	15395
+25	"Barcelona"	"Spain"	14962
+26	"Port Said"	"Egypt"	14359
+27	"Damietta"	"Egypt"	13479
+28	"Port Kelang"	"Malaysia"	12627
+29	"Istanbul"	"Turkey"	12621
+30	"Newark"	"United States of America"	12520
+31	"Jawaharlal Neru (Nhava Sheva)"	"India"	12513
+32	"Tripoli"	"Libya"	12391
+33	"Las Palmas"	"Spain"	12044
+34	"Houston"	"United States of America"	12041
+35	"Abidjan"	"Ivory Coast"	10985
+36	"Qingdao"	"China"	10860
+37	"Napoli"	"Italy"	10804
+38	"Xiamen"	"China"	10649
+39	"Santos"	"Brazil"	10169
+40	"Chiwan"	"China"	9913
+41	"Colombo"	"Sri Lanka"	9501
+42	"Gemlik"	"Turkey"	9122
+43	"Ashdod"	"Israel"	8683
+44	"Los Angeles"	"United States of America"	8613
+45	"Beirut"	"Lebanon"	8420
+46	"Port Sudan"	"Sudan"	8413
+47	"Misurata"	"Libya"	8407
+48	"Norfolk"	"United States of America"	8354
+49	"Livorno"	"Italy"	8340
+50	"Durban"	"South Africa"	8313
+51	"Lagos"	"Nigeria"	8100
+52	"Massawa"	"Eritrea"	7768
+53	"Fos-sur-Mer"	"France"	7595
+54	"Veracruz"	"Mexico"	7263
+55	"Jakarta"	"Indonesia"	7257
+56	"Oakland"	"United States of America"	7208
+57	"Tokyo"	"Japan"	7193
+58	"Buenos Aires"	"Argentina"	7129
+59	"Damman"	"Saudi Arabia"	6782
+60	"Tema"	"Ghana"	6729
+61	"Karachi"	"Pakistan"	6707

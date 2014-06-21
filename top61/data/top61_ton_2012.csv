@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Taranto"	"Italy"	3067001
+2	"Novorossiysk"	"Russia"	2781103
+3	"Palermo"	"Italy"	2674027
+4	"Ceyhan"	"Turkey"	2024951
+5	"Singapore"	"Singapore"	1254539
+6	"Catania"	"Italy"	1199970
+7	"Shanghai"	"China"	1159911
+8	"Zawia Terminal"	"Libya"	1066019
+9	"Porto Torres"	"Italy"	1064256
+10	"Rades"	"Tunisia"	963115
+11	"Malta"	"Malta"	813698
+12	"Cagliari"	"Italy"	793490
+13	"Jebel Ali"	"United Arab Emirates"	689926
+14	"Brass Terminal"	"Nigeria"	676343
+15	"Es Sider"	"Libya"	662264
+16	"Jeddah"	"Saudi Arabia"	651278
+17	"Livorno"	"Italy"	619250
+18	"Primorsk, Koivisto"	"Russia"	599653
+19	"Hong Kong"	"China"	595912
+20	"Santos"	"Brazil"	569260
+21	"Algeciras"	"Spain"	502980
+22	"Busan (Pusan)"	"South Korea"	491274
+23	"Port Kelang"	"Malaysia"	449668
+24	"Barcelona"	"Spain"	447572
+25	"Gioia Tauro"	"Italy"	431140
+26	"New York"	"United States of America"	417847
+27	"Tunis"	"Tunisia"	401897
+28	"Ningbo"	"China"	400903
+29	"Alexandria"	"Egypt"	396865
+30	"Ras Lanuf"	"Libya"	365773
+31	"Houston"	"United States of America"	354018
+32	"Milazzo"	"Italy"	350111
+33	"Montreal"	"Canada"	332363
+34	"Skikda"	"Algeria"	327677
+35	"Savannah"	"United States of America"	327151
+36	"Bonny"	"Nigeria"	326177
+37	"Newark"	"United States of America"	324963
+38	"Sidi Kerir Terminal"	"Egypt"	316400
+39	"Jawaharlal Neru (Nhava Sheva)"	"India"	307773
+40	"Khor al Fakkan"	"United Arab Emirates"	303264
+41	"Lagos"	"Nigeria"	297771
+42	"Augusta"	"Italy"	296726
+43	"Rio de Janeiro"	"Brazil"	296650
+44	"Valencia"	"Spain"	294211
+45	"Buenos Aires"	"Argentina"	255883
+46	"Kaohsiung"	"Taiwan"	253379
+47	"Olbia"	"Italy"	252713
+48	"Damietta"	"Egypt"	249436
+49	"Las Palmas"	"Spain"	247040
+50	"Shekou"	"China"	238934
+51	"Tarragona"	"Spain"	237360
+52	"Batumi"	"Georgia"	237198
+53	"Port Said"	"Egypt"	234960
+54	"Norfolk"	"United States of America"	230392
+55	"Haifa"	"Israel"	229853
+56	"Qingdao"	"China"	221946
+57	"Napoli"	"Italy"	211801
+58	"Cartagena"	"Colombia"	197936
+59	"Ashdod"	"Israel"	185148
+60	"Forcados"	"Nigeria"	182464
+61	"Savona-Vado"	"Italy"	178319

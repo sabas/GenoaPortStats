@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Singapore"	"Singapore"	118677
+2	"Shanghai"	"China"	112698
+3	"Jebel Ali"	"United Arab Emirates"	64309
+4	"Hong Kong"	"China"	61179
+5	"Algeciras"	"Spain"	57394
+6	"New York"	"United States of America"	57066
+7	"Gioia Tauro"	"Italy"	53534
+8	"Jeddah"	"Saudi Arabia"	53156
+9	"Malta"	"Malta"	47297
+10	"Ningbo"	"China"	44073
+11	"Montreal"	"Canada"	41751
+12	"Pusan"	"South Korea"	39506
+13	"Valencia"	"Spain"	38766
+14	"Santos"	"Brazil"	36857
+15	"Port Said"	"Egypt"	35259
+16	"Alexandria"	"Egypt"	33136
+17	"Port Kelang"	"Malaysia"	33048
+18	"Savannah"	"United States of America"	32695
+19	"Tunis"	"Tunisia"	30826
+20	"Rio de Janeiro"	"Brazil"	29240
+21	"Alger"	"Algeria"	24544
+22	"Norfolk"	"United States of America"	24194
+23	"Yantian Huangdong"	"China"	23391
+24	"Tangier Med"	"Morocco"	23117
+25	"Las Palmas"	"Spain"	21530
+26	"Damietta"	"Egypt"	20776
+27	"Haifa"	"Israel"	20724
+28	"Shenzhen"	"China"	20618
+29	"Cagliari"	"Italy"	20208
+30	"Qingdao"	"China"	19409
+31	"Buenos Aires"	"Argentina"	18693
+32	"Cartagena"	"Colombia"	18619
+33	"Ashdod"	"Israel"	17774
+34	"Livorno"	"Italy"	17578
+35	"Jawaharlal Neru (Nhava Sheva) "	"India"	17198
+36	"Istanbul"	"Turkey"	17476
+37	"Kaohsiung"	"Taiwan"	17172
+38	"Khor al Fakkan"	"United Arab Emirates"	15891
+39	"Tanjong Pelepas"	"Malaysia"	15347
+40	"Bandar Abbas"	"Iran"	15312
+41	"Newark"	"United States of America"	15140
+42	"Houston"	"United States of America"	15121
+43	"Nansha"	"China"	14346
+44	"Napoli"	"Italy"	13627
+45	"Gemlik"	"Turkey"	13310
+46	"Xiamen"	"China"	12951
+47	"Kingston"	"Jamaica"	12798
+48	"Misurata"	"Libya"	12133
+49	"Suape"	"Brazil"	12052
+50	"Veracruz"	"Mexico"	11976
+51	"Tripoli"	"Libya"	11889
+52	"Barcelona"	"Spain"	11573
+53	"Caucedo"	"Dominican Republic"	10759
+54	"Melbourne"	"Australia"	10555
+55	"Sydney"	"Australia"	10239
+56	"Piraeus"	"Greece"	9759
+57	"Los Angeles"	"United States of America"	9590
+58	"Djibouti"	"Djibouti"	9569
+59	"Salerno"	"Italy"	9238
+60	"Altamira"	"Mexico"	9058
+61	"Beirut"	"Lebanon"	8715

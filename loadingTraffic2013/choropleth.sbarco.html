@@ -19,16 +19,16 @@
 
 <p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
 <div id="legend">
-<button onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
-<button onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
-<button onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
-<button onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
-<button onclick="change('TEUS');toggle(this);" class="loaded">TEUS</button>
-<button onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
-<button onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
-<button onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
-<button onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
-<button onclick="change('TOTAL');toggle(this);">TOTAL</button>
+<button class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
+<button class="entry" onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
+<button class="entry" onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
+<button class="entry" onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
+<button class="entry loaded" onclick="change('TEUS');toggle(this);">TEUS</button>
+<button class="entry" onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
+<button class="entry" onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
+<button class="entry" onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
+<button class="entry" onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
+<button class="entry" onclick="change('TOTAL');toggle(this);">TOTAL</button>
 </div>
 </div>
 <div id='map'></div>
@@ -62,7 +62,7 @@ function style(f)
 
 function getBaseLayer()
 {
-	return $.getJSON('nation.topojson',function (feat) { 
+	return $.getJSON('nation.topojson',function (feat) {
 		var county_geojson = topojson.feature(feat, feat.objects.countries3);
 		jsonlayer = L.geoJson(county_geojson, {
 			style: style
@@ -74,7 +74,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('loadingTraffic2013_sbarco_nazioni.json',function (json) { 
+	return $.getJSON('loadingTraffic2013_sbarco_nazioni.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 	});
@@ -95,7 +95,7 @@ function change(property)
 	max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 	jsonlayer.eachLayer(function(layer){
 		var newStyle=style(layer.feature);
-		layer.setStyle(newStyle);		
+		layer.setStyle(newStyle);
 	});
 }
 

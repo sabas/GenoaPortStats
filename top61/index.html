@@ -35,8 +35,8 @@ $("#amount" ).html( '<p>Stai visualizzando il traffico per '+w+' del '+y+'</p>' 
 
 function getLayer(file, color)
 {
-	var maxsize=100;
-
+	var maxsize=50;
+    var max=0;
 	var myJson;
 	var myLayer;
 	$.ajax({
@@ -47,24 +47,25 @@ function getLayer(file, color)
 		myJson=json;
 		}
 		});
-		
-	var max=0;
+
+
 
 		$.each(myJson['features'],function(i,j)
-		{
+		{ 
 			if(j['properties']['quantity']>max) max=j['properties']['quantity'];
 		});
 
 	var coeff=maxsize/max;
-		
+
 		myLayer = L.geoJson(myJson,{
 			onEachFeature:function onEachFeature(feature, layer) {
-				if (feature.properties && feature.properties.name) {
-					layer.bindPopup("<span class='b'>Port:</span> "+feature.properties.name+"<br/><span class='b'>Quantity:</span> "+feature.properties.quantity);
+				if (feature.properties && feature.properties.port) {
+					layer.bindPopup("<span class='b'>Port:</span> "+feature.properties.port+"<br/><span class='b'>Quantity:</span> "+feature.properties.quantity);
 				}
 			},
 			pointToLayer: function (feature, latlng) {
 				var qt=feature.properties.quantity*coeff;
+                console.log(qt+" ")
 				return L.circleMarker(latlng, { radius:qt, fillOpacity: 0.5, color: color });
 				}
 		});
@@ -77,7 +78,6 @@ function getLayer(file, color)
 <div id="panel">
 <a href="../index.html" class="entry">Indice</a>
 <h1>Top 61 porti collegati</h1>
-<p>Spreadsheet ODS (<a href="portstat2009.ods">2009</a>,<a href="portstat2010.ods">2010</a>,<a href="portstat2011.ods">2011</a>,<a href="portstat2012.ods">2012</a>,<a href="portstat2013.ods">2013</a>), georefenziato con OpenStreetMap, mostrato con Leaflet.</p>
 <p>Seleziona se visualizzare il traffico per TEUs o per TONs</p>
 <input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'teu')" checked="checked" value="teu"/>TEUs
 <br/>
@@ -86,34 +86,43 @@ function getLayer(file, color)
 <p>Scroll per vedere anni diversi:</p>
 <div id="slider"></div>
 <div id="amount"></div>
+
+<h3>Dati</h3>
+<div class="datagrid">
+<table>
+<thead>
+<tr><th>Anno</th><th>Spreadsheet ODS</th></tr>
+</thead>
+<tbody>
+    <tr><td>2009</td><td><a href="data/portstat2009.ods">Download</a></td></tr>
+</tbody>
+</table>
+</div>
+
 </div>
 <div id='map'></div>
 </div>
+
 <script type="text/javascript">
 var map = initmap(0,0,2, { });
 putMarker(map,null,44.4492,8.8807,"Genova");
 
-var layers={'2009':[],'2010':[],'2011':[],'2012':[],'2013':[]};
+var ymin=2009;
+var ymax=2013;
 
-layers['2009']['teu']=getLayer("./teus2009.geojson", 'blue');
-layers['2009']['ton']=getLayer("./tons2009.geojson", 'red');
+var layers={};
 
-layers['2010']['teu']=getLayer("./teus2010.geojson", 'blue');
-layers['2010']['ton']=getLayer("./tons2010.geojson", 'red');
-
-layers['2011']['teu']=getLayer("./teus2011.geojson", 'blue');
-layers['2011']['ton']=getLayer("./tons2011.geojson", 'red');
-
-layers['2012']['teu']=getLayer("./teus2012.geojson", 'blue');
-layers['2012']['ton']=getLayer("./tons2012.geojson", 'red');
-
-layers['2013']['teu']=getLayer("./teus2013.geojson", 'blue');
-layers['2013']['ton']=getLayer("./tons2013.geojson", 'red');
+for(year=ymin;year<=ymax;year++)
+{
+layers[year]=[];
+layers[year]['teu']=getLayer("./data/gc_top61_teu_"+year+".geojson", 'blue');
+layers[year]['ton']=getLayer("./data/gc_top61_ton_"+year+".geojson", 'red');
+}
 
 $("#slider").slider({
-      value:2013,
-      min: 2009,
-      max: 2013,
+      value:ymax,
+      min: ymin,
+      max: ymax,
       step: 1,
       slide: function( event, ui ) {
 		var w=$("input[name='radiob']:checked").val();
@@ -121,7 +130,7 @@ $("#slider").slider({
       }
     });
 
-toggleLayer('2013','teu');
+toggleLayer(ymax,'teu');
 </script>
 </body>
 </html>
