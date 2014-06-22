@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Shanghai	China	157978	121.4915	31.2246
+2	Singapore	Singapore	127037	103.8528	1.2906
+3	"Hong Kong"	China	84920	114.1229	22.3434
+4	Cagliari	Italy	63770	9.0960	39.2204
+5	"Khor al Fakkan"	"United Arab Emirates"	40341	56.3709	25.3584
+6	Jeddah	"Saudi Arabia"	38116	39.1640	21.5822
+7	"Gioia Tauro"	Italy	37434	15.9207	38.4271
+8	Ningbo	China	37377	121.5499	29.8720
+9	"New York"	"United States of America"	32279	-73.9796	40.6979
+10	"Busan (Pusan)"	"South Korea"	31348	129.0176	35.0803
+11	Alexandria	Egypt	29012	29.8944	31.1990
+12	Tunis	Tunisia	28920	10.1848	36.8001
+13	Barcelona	Spain	28335	2.1889	41.3996
+14	Montreal	Canada	26170	-73.6554	45.5027
+15	Valencia	Spain	26062	-0.3525	39.4228
+16	Kaohsiung	Taiwan	25781	120.2893	22.6015
+17	Casablanca	Morocco	25348	-5.4973	35.8935
+18	Shekou	China	25041	113.9161	22.4715
+19	"Yantian Huangdong"	China	22997	114.2830	22.5841
+20	Alger	Algeria	20736	3.0601	36.7753
+21	"Port Kelang"	Malaysia	20585	101.3006	2.9410
+22	Damietta	Egypt	20163	31.8214	31.4167
+23	Malta	Malta	20161	14.5244	35.9180
+24	Santos	Brazil	18906	-46.2900	-23.8643
+25	Houston	"United States of America"	18200	-94.9171	29.7232
+26	Gemlik	Turkey	17800	29.1571	40.4302
+27	Livorno	Italy	17633	10.3073	43.5457
+28	Chiwan	China	17342	113.8926	22.4823
+29	"Xiamen "	China	17331	118.1537	24.5029
+30	"Tanjong Pelepas"	Malaysia	16418	103.5457	1.3570
+31	"Buenos Aires"	Argentina	15742	-58.4460	-34.6129
+32	Tripoli	Libya	15411	13.1800	32.8925
+33	"Jawaharlal Neru (Nhava Sheva)"	India	15162	72.9644	18.9629
+34	Tincan	Nigeria	14999	3.3492	6.4343
+35	Durban	"South Africa"	14840	31.0204	-29.8669
+36	"Port Said"	Egypt	14794	32.3192	31.2567
+37	Savannah	"United States of America"	14174	-81.0980	31.9996
+38	Abidjan	"Ivory Coast"	13482	1.8700	9.7700
+39	"Jebel Ali"	"United Arab Emirates"	13065	55.0687	24.9959
+40	Tema	Ghana	12969	0.0078	5.6403
+41	"Port Sudan"	Sudan	12430	37.2632	19.6165
+42	Marseille	France	12030	5.3560	43.3435
+43	Fos-sur-Mer	France	11798	4.9456	43.4381
+44	Ashdod	Israel	11755	34.6601	31.8493
+45	Norfolk	"United States of America"	11442	-76.1960	37.0127
+46	Colombo	"Sri Lanka"	11260	79.8533	6.9343
+47	"Bandar Abbas"	Iran	10993	56.2823	27.1762
+48	Qingdao	China	10754	120.3189	36.0696
+49	Newark	"United States of America"	10130	-74.1821	40.7310
+50	Veracruz	Mexico	9957	-96.1242	19.2105
+51	Haifa	Israel	9855	34.9885	32.8184
+52	"Las Palmas"	Spain	9257	-15.4357	28.0514
+53	Tianjinxingang	China	9105	117.1981	39.1236
+54	Karachi	Pakistan	8641	67.0353	24.8371
+55	Lagos	Nigeria	8229	3.3896	6.4452
+56	Napoli	Italy	8041	14.2461	40.8529
+57	Oakland	"United States of America"	8031	-122.2925	37.8039
+58	"Los Angeles"	"United States of America"	7813	-118.2113	33.7673
+59	Beirut	Lebanon	7284	35.4784	33.8959
+60	"Rio Grande"	Brazil	6870	-52.0700	-32.0432
+61	Dakar	Senegal	6529	-17.4470	14.6930

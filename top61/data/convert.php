@@ -60,6 +60,6 @@ function csv2geojson($csv,$sep){
 }
 
 $i=$_GET['i'];
-$o=str_replace("csv","geojson",$i);
+$o=str_replace("tsv","geojson",$i);
 file_put_contents($o,csv2geojson($i,"\t"));
 ?>

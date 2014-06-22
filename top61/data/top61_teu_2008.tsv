@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Shanghai"	"China"	157978
+2	"Singapore"	"Singapore"	127037
+3	"Hong Kong"	"China"	84920
+4	"Cagliari"	"Italy"	63770
+5	"Khor al Fakkan"	"United Arab Emirates"	40341
+6	"Jeddah"	"Saudi Arabia"	38116
+7	"Gioia Tauro"	"Italy"	37434
+8	"Ningbo"	"China"	37377
+9	"New York"	"United States of America"	32279
+10	"Busan (Pusan)"	"South Korea"	31348
+11	"Alexandria"	"Egypt"	29012
+12	"Tunis"	"Tunisia"	28920
+13	"Barcelona"	"Spain"	28335
+14	"Montreal"	"Canada"	26170
+15	"Valencia"	"Spain"	26062
+16	"Kaohsiung"	"Taiwan"	25781
+17	"Casablanca"	"Morocco"	25348
+18	"Shekou"	"China"	25041
+19	"Yantian Huangdong"	"China"	22997
+20	"Alger"	"Algeria"	20736
+21	"Port Kelang"	"Malaysia"	20585
+22	"Damietta"	"Egypt"	20163
+23	"Malta"	"Malta"	20161
+24	"Santos"	"Brazil"	18906
+25	"Houston"	"United States of America"	18200
+26	"Gemlik"	"Turkey"	17800
+27	"Livorno"	"Italy"	17633
+28	"Chiwan"	"China"	17342
+29	"Xiamen "	"China"	17331
+30	"Tanjong Pelepas"	"Malaysia"	16418
+31	"Buenos Aires"	"Argentina"	15742
+32	"Tripoli"	"Libya"	15411
+33	"Jawaharlal Neru (Nhava Sheva)"	"India"	15162
+34	"Tincan"	"Nigeria"	14999
+35	"Durban"	"South Africa"	14840
+36	"Port Said"	"Egypt"	14794
+37	"Savannah"	"United States of America"	14174
+38	"Abidjan"	"Ivory Coast"	13482
+39	"Jebel Ali"	"United Arab Emirates"	13065
+40	"Tema"	"Ghana"	12969
+41	"Port Sudan"	"Sudan"	12430
+42	"Marseille"	"France"	12030
+43	"Fos-sur-Mer"	"France"	11798
+44	"Ashdod"	"Israel"	11755
+45	"Norfolk"	"United States of America"	11442
+46	"Colombo"	"Sri Lanka"	11260
+47	"Bandar Abbas"	"Iran"	10993
+48	"Qingdao"	"China"	10754
+49	"Newark"	"United States of America"	10130
+50	"Veracruz"	"Mexico"	9957
+51	"Haifa"	"Israel"	9855
+52	"Las Palmas"	"Spain"	9257
+53	"Tianjinxingang"	"China"	9105
+54	"Karachi"	"Pakistan"	8641
+55	"Lagos"	"Nigeria"	8229
+56	"Napoli"	"Italy"	8041
+57	"Oakland"	"United States of America"	8031
+58	"Los Angeles"	"United States of America"	7813
+59	"Beirut"	"Lebanon"	7284
+60	"Rio Grande"	"Brazil"	6870
+61	"Dakar"	"Senegal"	6529

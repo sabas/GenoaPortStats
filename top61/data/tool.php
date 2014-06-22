@@ -41,7 +41,7 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$coordf="coordinates.csv";
+$coordf="coordinates.tsv";
 
 $file=$_GET['i'];
 

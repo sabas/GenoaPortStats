@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Genoa Port Statistics - Yearly Traffic</title>
+<title>Genoa Port Statistics - Yearly Traffic Top 61</title>
 <meta charset="utf8"/>
 <link rel="stylesheet" href="../script/ports.css" type="text/css"/>
 <link rel="stylesheet" href="../script/leaflet.css" type="text/css"/>
@@ -27,15 +27,14 @@ var currentLayer='';
 
 function toggleLayer(y,w)
 {
-if(currentLayer!=''&&map.hasLayer(currentLayer)) map.removeLayer(currentLayer);
-map.addLayer(layers[y][w]);
-currentLayer=layers[y][w];
-$("#amount" ).html( '<p>Stai visualizzando il traffico per '+w+' del '+y+'</p>' );
+    if(currentLayer!=''&&map.hasLayer(currentLayer)) map.removeLayer(currentLayer);
+    map.addLayer(layers[y][w]);
+    currentLayer=layers[y][w];
+    $("#amount" ).html( '<p>You\'re watching '+y+' traffic ranked by '+w+'</p>' );
 }
 
 function getLayer(file, color)
 {
-	var maxsize=50;
     var max=0;
 	var myJson;
 	var myLayer;
@@ -48,11 +47,9 @@ function getLayer(file, color)
 		}
 		});
 
-
-
 		$.each(myJson['features'],function(i,j)
-		{ 
-			if(j['properties']['quantity']>max) max=j['properties']['quantity'];
+		{
+			if(j['properties']['quantity']*1>max) max=j['properties']['quantity']; //*1 per forzare int
 		});
 
 	var coeff=maxsize/max;
@@ -60,12 +57,12 @@ function getLayer(file, color)
 		myLayer = L.geoJson(myJson,{
 			onEachFeature:function onEachFeature(feature, layer) {
 				if (feature.properties && feature.properties.port) {
-					layer.bindPopup("<span class='b'>Port:</span> "+feature.properties.port+"<br/><span class='b'>Quantity:</span> "+feature.properties.quantity);
+                    var text="<span class='b'>Port:</span> "+feature.properties.port+"<br/><span class='b'>Quantity:</span> "+feature.properties.quantity;
+					layer.bindPopup(text);
 				}
 			},
 			pointToLayer: function (feature, latlng) {
 				var qt=feature.properties.quantity*coeff;
-                console.log(qt+" ")
 				return L.circleMarker(latlng, { radius:qt, fillOpacity: 0.5, color: color });
 				}
 		});
@@ -76,25 +73,40 @@ function getLayer(file, color)
 <body>
 <div id="mapapp">
 <div id="panel">
-<a href="../index.html" class="entry">Indice</a>
-<h1>Top 61 porti collegati</h1>
-<p>Seleziona se visualizzare il traffico per TEUs o per TONs</p>
+<a href="../index.html" class="entry">Index</a>
+<h1>Top 61 ports</h1>
+<p>Choose traffic visualization (TEUs or TONs)</p>
 <input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'teu')" checked="checked" value="teu"/>TEUs
 <br/>
 <input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'ton')" value="ton"/>TONs
 <br/>
-<p>Scroll per vedere anni diversi:</p>
+<p>Slide to see different years:</p>
 <div id="slider"></div>
 <div id="amount"></div>
 
-<h3>Dati</h3>
+<h3>Data download</h3>
 <div class="datagrid">
 <table>
 <thead>
-<tr><th>Anno</th><th>Spreadsheet ODS</th></tr>
+<tr><th>Index</th><th>Year</th><th>CSV</th><th>GeoJSON</th></tr>
 </thead>
 <tbody>
-    <tr><td>2009</td><td><a href="data/portstat2009.ods">Download</a></td></tr>
+    <tr><td>TEU</td><td>2008</td><td><a href="data/gc_top61_teu_2008.csv">Download</a></td><td><a href="data/gc_top61_teu_2008.geojson">Download</a></td></tr>
+    <tr><td>TON</td><td>2008</td><td><a href="data/gc_top61_ton_2008.csv">Download</a></td><td><a href="data/gc_top61_ton_2008.geojson">Download</a></td></tr>
+    <tr><td>TEU</td><td>2009</td><td><a href="data/gc_top61_teu_2009.csv">Download</a></td><td><a href="data/gc_top61_teu_2009.geojson">Download</a></td></tr>
+    <tr><td>TON</td><td>2009</td><td><a href="data/gc_top61_ton_2009.csv">Download</a></td><td><a href="data/gc_top61_ton_2009.geojson">Download</a></td></tr>
+    <tr><td>TEU</td><td>2010</td><td><a href="data/gc_top61_teu_2010.csv">Download</a></td><td><a href="data/gc_top61_teu_2010.geojson">Download</a></td></tr>
+    <tr><td>TON</td><td>2010</td><td><a href="data/gc_top61_ton_2010.csv">Download</a></td><td><a href="data/gc_top61_ton_2010.geojson">Download</a></td></tr>
+    <tr><td>TEU</td><td>2011</td><td><a href="data/gc_top61_teu_2011.csv">Download</a></td><td><a href="data/gc_top61_teu_2011.geojson">Download</a></td></tr>
+    <tr><td>TON</td><td>2011</td><td><a href="data/gc_top61_ton_2011.csv">Download</a></td><td><a href="data/gc_top61_ton_2011.geojson">Download</a></td></tr>
+    <tr><td>TEU</td><td>2012</td><td><a href="data/gc_top61_teu_2012.csv">Download</a></td><td><a href="data/gc_top61_teu_2012.geojson">Download</a></td></tr>
+    <tr><td>TON</td><td>2012</td><td><a href="data/gc_top61_ton_2012.csv">Download</a></td><td><a href="data/gc_top61_ton_2012.geojson">Download</a></td></tr>
+    <tr><td>TEU</td><td>2013</td><td><a href="data/gc_top61_teu_2013.csv">Download</a></td><td><a href="data/gc_top61_teu_2013.geojson">Download</a></td></tr>
+    <tr><td>TON</td><td>2013</td><td><a href="data/gc_top61_ton_2013.csv">Download</a></td><td><a href="data/gc_top61_ton_2013.geojson">Download</a></td></tr>
+</tbody>
+</tbody>
+</tbody>
+</tbody>
 </tbody>
 </table>
 </div>
@@ -107,8 +119,9 @@ function getLayer(file, color)
 var map = initmap(0,0,2, { });
 putMarker(map,null,44.4492,8.8807,"Genova");
 
-var ymin=2009;
+var ymin=2008;
 var ymax=2013;
+var maxsize=75; //dimensione cerchio
 
 var layers={};
 

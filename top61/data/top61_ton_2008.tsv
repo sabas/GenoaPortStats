@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Taranto"	"Italy"	3360640
+2	"Barcelona"	"Spain"	1753263
+3	"Zawia Terminal"	"Libya"	1737428
+4	"Cagliari"	"Italy"	1658152
+5	"Palermo"	"Italy"	1563994
+6	"Ceyhan"	"Turkey"	1555404
+7	"Porto Torres"	"Italy"	1552577
+8	"Shanghai"	"China"	1498882
+9	"Singapore"	"Singapore"	1479094
+10	"Es Sider"	"Libya"	1433995
+11	"Sidi Kerir Terminal"	"Egypt"	1429967
+12	"Aberdeen"	"Scotland"	1324122
+13	"Tunis"	"Tunisia"	1259963
+14	"Ras Lanuf"	"Libya"	1191345
+15	"Novorossiysk"	"Russia"	1167996
+16	"Hong Kong"	"China"	809437
+17	"Abidjan"	"Ivory Coast"	725623
+18	"Catania"	"Italy"	708498
+19	"Batumi"	"Georgia"	649809
+20	"New York"	"United States of America"	622197
+21	"Yuzhnyy"	"Ukraine"	605661
+22	"Malta"	"Malta"	605539
+23	"Melitah"	"Libya"	556063
+24	"Abu Kammash"	"Libya"	547492
+25	"Moudi Terminal"	"Cameroon"	546996
+26	"Houston"	"United States of America"	504703
+27	"Livorno"	"Italy"	495237
+28	"Khor al Fakkan"	"United Arab Emirates"	49042
+29	"Olbia"	"Italy"	475055
+30	"Termini Imerese"	"Italy"	440802
+31	"Santa Panagia"	"Italy"	436089
+32	"Alexandria"	"Egypt"	410407
+33	"Koper"	"Slovenia"	408384
+34	"Jeddah"	"Saudi Arabia"	408296
+35	"Augusta"	"Italy"	407905
+36	"Tuapse"	"Russia"	398235
+37	"Fos-sur-Mer"	"France"	395898
+38	"Odessa"	"Ukraine"	383352
+39	"Gioia Tauro"	"Italy"	373191
+40	"Port Kelang"	"Malaysia"	359972
+41	"Ningbo"	"China"	359228
+42	"Santos"	"Brazil"	349517
+43	"Milazzo"	"Italy"	343682
+44	"Busan (Pusan)"	"South Korea"	325784
+45	"Tripoli"	"Libya"	296671
+46	"Montreal"	"Canada"	289437
+47	"Kaohsiung"	"Taiwan"	270769
+48	"Algeciras"	"Spain"	263824
+49	"Port Said"	"Egypt"	25134
+50	"Shekou"	"China"	246335
+51	"Valencia"	"Spain"	245948
+52	"Maracaibo"	"Venezuela"	234891
+53	"Casablanca "	"Morocco"	212036
+54	"Durban"	"South Africa"	203951
+55	"Poti"	"Gerogia"	192318
+56	"Buenos Aires"	"Argentina"	190581
+57	"Tincan"	"Nigeria"	18776
+58	"Tanjong Pelepas"	"Malaysia"	186153
+59	"Tema"	"Ghana"	183504
+60	"Jawaharlal Neru (Nhava Sheva)"	"India"	181994
+61	"Alger"	"Algeria"	180311

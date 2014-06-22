@@ -49,6 +49,8 @@ html,body{height:100%}
     padding:5px;
 }
 
+#slider{max-width:95%;}
+
 /*nvd3*/
 text {
     font: 12px sans-serif;
