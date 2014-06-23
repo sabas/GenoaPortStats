@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Taranto"	"Italy"	4378740
+2	"Cagliari"	"Italy"	1976039
+3	"Novorossiysk"	"Russia"	1878036
+4	"Zawia Terminal"	"Libya"	1848646
+5	"Es Sider"	"Libya"	1771249
+6	"Palermo"	"Italy"	1729627
+7	"Porto Torres"	"Italy"	1538448
+8	"Barcelona"	"Spain"	1186714
+9	"Singapore"	"Singapore"	1082991
+10	"Alexandria"	"Egypt"	1048561
+11	"Termini Imerese"	"Italy"	1046490
+12	"Sidi Kerir Terminal"	"Egypt"	997571
+13	"Tunis"	"Tunisia"	984568
+14	"Abidjan"	"Ivory Coast"	984396
+15	"Ras Lanuf"	"Libya"	896254
+16	"Batumi"	"Georgia"	885138
+17	"Tubarao"	"Brazil"	835262
+18	"Shanghai"	"China"	782608
+19	"Hong Kong"	"China"	782076
+20	"Karg Island"	"Iran"	742830
+21	"Algeciras"	"Spain"	681055
+22	"Alger"	"Algeria"	642691
+23	"Moudi Terminal"	"Cameroon"	632121
+24	"New York"	"United States of America"	625509
+25	"Houston"	"United States of America"	609965
+26	"Odessa"	"Ukraine"	605849
+27	"Milazzo"	"Italy"	546886
+28	"Santa Panagia"	"Italy"	499288
+29	"Montreal"	"Canada"	480019
+30	"Livorno"	"italy"	441743
+31	"Bouri Terminal"	"Libya"	422745
+32	"Skikda"	"Algeria"	419351
+33	"Abu Kammash"	"Libya"	401930
+34	"Augusta"	"Italy"	371104
+35	"Santos"	"Brazil"	366283
+36	"Forcados"	"Nigeria"	345396
+37	"Olbia"	"Italy"	329683
+38	"Fos-sur-Mer"	"France"	322146
+39	"Malta"	"Malta"	308432
+40	"Santa Marta"	"Colombia"	277160
+41	"Port Kelang"	"Malaysia"	274586
+42	"Chiwan"	"China"	269745
+43	"Marsa el Brega"	"Libya"	266880
+44	"Ashdod"	"Israel"	255745
+45	"Gioia Tauro"	"Italy"	253833
+46	"Izmir"	"Turhey"	253065
+47	"Aliaga"	"Turhey"	252841
+48	"Khor al Fakkan"	"United Arab Emirates"	250825
+49	"Durban"	"South Africa"	248498
+50	"La Skirra"	"Tunisia"	246934
+51	"Jeddah"	"Saudi Arabia"	236558
+52	"Xingang"	"China"	230692
+53	"Mongstad"	"Norway"	225382
+54	"Sture"	"Norway"	223668
+55	"Charleston"	"United States of America"	210230
+56	"Maracaibo"	"Venezuela"	205682
+57	"Casablanca"	"Morocco"	202499
+58	"Long Beach"	"United States of America"	195393
+59	"Norfolk"	"United States of America"	193438
+60	"Jawaharlal Neru (Nhava Sheva)"	"India"	188642
+61	"Ningbo"	"China"	183256

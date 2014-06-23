@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Shanghai"	"China"	137870
+2	"Singapore"	"Singapore"	110697
+3	"Hong Kong"	"China"	72147
+4	"Cagliari"	"Italy"	50932
+5	"New York"	"United States of America"	48920
+6	"Yantian Huangdong"	"China"	46608
+7	"Ningbo"	"China"	40418
+8	"Khor al Fakkan"	"United Arab Emirates"	36643
+9	"Alexandria"	"Egypt"	32585
+10	"Tunis"	"Tunisia"	31594
+11	"Jeddah"	"Saudi Arabia"	31536
+12	"Montreal"	"Canada"	31052
+13	"Kaohsiung"	"Taiwan"	28163
+14	"Gioia Tauro"	"Italy"	26413
+15	"Busan (Pusan)"	"South Korea"	24963
+16	"Houston"	"United States of America"	23519
+17	"Xiamen"	"China"	23240
+18	"Casablanca"	"Morocco"	22724
+19	"Jawaharlal Neru (Nhava Sheva)"	"India"	22000
+20	"Santos"	"Brazil"	19802
+21	"Valencia"	"Spain"	19790
+22	"Qingdao"	"China"	19330
+23	"Shekou"	"China"	18766
+24	"Barcelona"	"Spain"	18451
+25	"Port Said"	"Egypt"	18097
+26	"Charleston"	"United States of America"	17976
+27	"Norfolk"	"United States of America"	17881
+28	"Port Kelang"	"Malaysia"	16365
+29	"Alger"	"Algeria"	16364
+30	"Abidjan"	"Ivory Coast"	15969
+31	"Tema"	"Ghana"	14973
+32	"Jebel Ali"	"United Arab Emirates"	14876
+33	"Chiwan"	"China"	14567
+34	"Buenos Aires"	"Argentina"	14385
+35	"Durban"	"South Africa"	13511
+36	"Marseille"	"France"	13452
+37	"Savannah"	"United States of America"	13238
+38	"Tanjong Pelepas"	"Malaysia"	11993
+39	"Long Beach"	"United States of America"	11824
+40	"Malta"	"Malta"	11263
+41	"Veracruz"	"Mexico"	11249
+42	"Colombo"	"Sri Lanka"	11180
+43	"Livorno"	"Italy"	11158
+44	"Tincan"	"Nigeria"	10640
+45	"Damietta"	"Egypt"	10455
+46	"Rio de Janeiro"	"Brazil"	10375
+47	"Rio Grande"	"Brazil"	10330
+48	"Oakland"	"United States of America"	10154
+49	"Ashdod"	"Israel"	10040
+50	"Tripoli"	"Libya"	10005
+51	"Dakar"	"Senegal"	9297
+52	"Port Sudan"	"Sudan"	9228
+53	"Cape Town"	"South Africa"	8643
+54	"Lagos"	"Nigeria"	8417
+55	"Fos-sur-Mer"	"France"	8289
+56	"Napoli"	"Italy"	8205
+57	"Beirut"	"Lebanon"	8105
+58	"Tianjinxingang"	"China"	8059
+59	"Gemlik"	"Turkey"	8033
+60	"Karachi"	"Pakistan"	7986
+61	"Vancouver"	"Canada"	7883

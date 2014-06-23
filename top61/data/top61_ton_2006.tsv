@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Taranto"	"Italy"	4147454
+2	"Cagliari"	"Italy"	2239266
+3	"Zawia Terminal"	"Libya"	1921917
+4	"Abu Kammash"	"Libya"	1787696
+5	"Novorossiysk"	"Russia"	1644719
+6	"Palermo"	"Italy"	1619786
+7	"Ras Lanuf"	"Libya"	1562680
+8	"Barcelona"	"Spain"	1488134
+9	"Porto Torres"	"Italy"	1486585
+10	"Singapore"	"Singapore"	1378592
+11	"Es Sider"	"Libya"	1356545
+12	"Alexandria"	"Egypt"	1141514
+13	"Tunis"	"Tunisia"	1107770
+14	"Batumi"	"Georgia"	1101558
+15	"Shanghai"	"China"	1072259
+16	"Abidjan"	"Ivory Coast"	1004670
+17	"Termini Imerese"	"Italy"	932155
+18	"Karg Island"	"Iran"	910703
+19	"Sidi Kerir Terminal"	"Egypt"	780691
+20	"Hong Kong"	"China"	708936
+21	"Milazzo"	"Italy"	699375
+22	"Odessa"	"Ukraine"	635652
+23	"Bouri Terminal"	"Libya"	626001
+24	"New York"	"United States of America"	606981
+25	"Montreal"	"Canada"	510613
+26	"Augusta"	"Italy"	507522
+27	"Livorno"	"italy"	485257
+28	"Khor al Fakkan"	"United Arab Emirates"	440372
+29	"Ceyhan"	"Turkey"	438376
+30	"Aberdeen"	"Scotland"	417147
+31	"Catania"	"Italy"	411052
+32	"Moudi Terminal"	"Cameroon"	367639
+33	"Houston"	"United States of America"	348189
+34	"Olbia"	"Italy"	332930
+35	"Santa Marta"	"Colombia"	324267
+36	"Santos"	"Brazil"	312470
+37	"Santa Panagia"	"Italy"	300537
+38	"Ningbo"	"China"	290969
+39	"Fos-sur-Mer"	"France"	281259
+40	"Malta"	"Malta"	278021
+41	"Port Kelang"	"Malaysia"	269274
+42	"Djeno Terminal"	"Congo"	263605
+43	"Jeddah"	"Saudi Arabia"	261223
+44	"Kaohsiung"	"Taiwan"	230025
+45	"Tanjong Pelepas"	"Malaysia"	214339
+46	"Yantian Huangdong"	"China"	213405
+47	"Paranagua"	"Brazil"	211580
+48	"Bontang, Kalimantan"	"Indonesia"	211408
+49	"Norfolk"	"United States of America"	207778
+50	"Jawaharlal Neru (Nhava Sheva)"	"India"	202581
+51	"Busan (Pusan)"	"South Korea"	200244
+52	"Port Said"	"Egypt"	191006
+53	"Durban"	"South Africa"	184402
+54	"Casablanca"	"Morocco"	183479
+55	"Xiamen"	"China"	175251
+56	"Tess/Hartlepool"	"England"	173876
+57	"Qingdao"	"China"	173555
+58	"Chiwan"	"China"	165618
+59	"Supsa Terminal"	"Georgia"	165558
+60	"Gioia Tauro"	"Italy"	160329
+61	"Maracaibo"	"Venezuela"	158066

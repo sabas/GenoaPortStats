@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Singapore"	"Singapore"	89372
+2	"Hong Kong"	"China"	85200
+3	"Shanghai"	"China"	72400
+4	"New York"	"United States of America"	55670
+5	"Cagliari"	"Italy"	47073
+6	"Montreal"	"Canada"	42852
+7	"Houston"	"United States of America"	35105
+8	"Gioia Tauro"	"Italy"	34565
+9	"Alexandria"	"Egypt"	30407
+10	"Tunis"	"Tunisia"	28925
+11	"Chiwan"	"China"	27545
+12	"Jeddah"	"Saudi Arabia"	26540
+13	"Charleston"	"United States of America"	24040
+14	"Casablanca"	"Morocco"	22707
+15	"Khor al Fakkan"	"United Arab Emirates"	21884
+16	"Miami"	"United States of America"	21829
+17	"Alger"	"Algeria"	20982
+18	"Norfolk"	"United States of America"	19790
+19	"Santos"	"Brazil"	18222
+20	"Port Said"	"Egypt"	17560
+21	"Ningbo"	"China"	17172
+22	"Busan (Pusan)"	"Malaysia"	17024
+23	"Valencia"	"Spain"	16034
+24	"Port Kelang"	"Malaysia"	15889
+25	"Barcelona"	"Spain"	15632
+26	"Jawaharlal Neru (Nhava Sheva)"	"India"	15542
+27	"Malta"	"Malta"	15080
+28	"Long Beach"	"United States of America"	15018
+29	"Durban"	"South Africa"	14583
+30	"Fos-sur-Mer"	"France"	13968
+31	"Savannah"	"United States of America"	13931
+32	"Ashdod"	"Israel"	13884
+33	"Abidjan"	"Ivory Coast"	13501
+34	"Veracruz"	"Mexico"	13372
+35	"Napoli"	"Italy"	13232
+36	"Port Sudan"	"Sudan"	12724
+37	"Marseille"	"France"	12329
+38	"Livorno"	"Italy"	11991
+39	"Bandar Abbas"	"Iran"	11760
+40	"Buenos Aires"	"Argentina"	11403
+41	"Shekou"	"China"	10006
+42	"Haifa"	"Israel"	9652
+43	"Yantian Huangdong"	"China"	9510
+44	"Rio Grande"	"Brazil"	9425
+45	"Tema"	"Ghana"	9416
+46	"Oakland"	"United States of America"	9010
+47	"Colombo"	"Sri Lanka"	8890
+48	"Qingdao"	"China"	8862
+49	"Jebel Ali"	"United Arab Emirates"	8810
+50	"Tanjong Pelepas"	"Malaysia"	8806
+51	"Algeciras"	"Spain"	8495
+52	"Dakar"	"Senegal"	7930
+53	"Rio de Janeiro"	"Brazil"	7534
+54	"Altamira"	"Brazil"	7525
+55	"Xiamen"	"China"	7225
+56	"Dubai"	"United Arab Emirates"	7048
+57	"Kaohsiung"	"Taiwan"	6877
+58	"Abu Dhabi"	"United Arab Emirates"	6803
+59	"Lagos"	"Nigeria"	6779
+60	"Karachi"	"Pakistan"	6775
+61	"Misurata"	"Libya"	6754

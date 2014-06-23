@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Singapore"	"Singapore"	130297
+2	"Shanghai"	"China"	100898
+3	"Hong Kong"	"China"	74549
+4	"Cagliari"	"Italy"	47429
+5	"New York"	"United States of America"	45884
+6	"Montreal"	"Canada"	39141
+7	"Khor al Fakkan"	"United Arab Emirates"	34811
+8	"Ningbo"	"China"	32556
+9	"Alexandria"	"Egypt"	29119
+10	"Yantian Huangdong"	"China"	28841
+11	"Tunis"	"Tunisia"	27658
+12	"Jeddah"	"Saudi Arabia"	27461
+13	"Xiamen"	"China"	27136
+14	"Gioia Tauro"	"Italy"	23580
+15	"Kaohsiung"	"Taiwan"	22090
+16	"Casablanca"	"Morocco"	21143
+17	"Norfolk"	"United States of America"	20892
+18	"Santos"	"Brazil"	20760
+19	"Barcelona"	"Spain"	20181
+20	"Port Said"	"Egypt"	19672
+21	"Busan (Pusan)"	"South Korea"	18147
+22	"Tanjong Pelepas"	"Malaysia"	17302
+23	"Valencia"	"Spain"	16512
+24	"Alger"	"Algeria"	16276
+25	"Jawaharlal Neru (Nhava Sheva)"	"India"	15804
+26	"Chiwan"	"China"	15618
+27	"Qingdao"	"China"	15412
+28	"Charleston"	"United States of America"	14830
+29	"Houston"	"United States of America"	14472
+30	"Port Kelang"	"Malaysia"	13731
+31	"Abidjan"	"Ivory Coast"	13290
+32	"Durban"	"South Africa"	13227
+33	"Miami"	"United States of America"	13125
+34	"Shekou"	"China"	12504
+35	"Colombo"	"Sri Lanka"	12200
+36	"Buenos Aires"	"Argentina"	11935
+37	"Malta"	"Malta"	11657
+38	"Port Sudan"	"Sudan"	11597
+39	"Savannah"	"United States of America"	11547
+40	"Long Beach"	"United States of America"	11487
+41	"Ashdod"	"Israel"	11412
+42	"Tripoli"	"Libya"	11320
+43	"Damietta"	"Egypt"	11221
+44	"Tema"	"Ghana"	11211
+45	"Marseille"	"France"	10820
+46	"Taranto"	"Italy"	10382
+47	"Veracruz"	"Mexico"	10109
+48	"Napoli"	"Italy"	9949
+49	"Livorno"	"Italy"	9616
+50	"Oakland"	"United States of America"	9020
+51	"Jebel Ali"	"United Arab Emirates"	8971
+52	"Lagos"	"Nigeria"	8925
+53	"Karachi"	"Pakistan"	8418
+54	"Fos-sur-Mer"	"France"	8344
+55	"Rio Grande"	"Brazil"	8173
+56	"Cape Town"	"South Africa"	7598
+57	"Montevideo"	"Uruguay"	7190
+58	"Rio de Janeiro"	"Brazil"	6931
+59	"Las Palmas"	"Spain"	6765
+60	"Beirut"	"Lebanon"	6730
+61	"Los Angeles"	"United States of America"	6490

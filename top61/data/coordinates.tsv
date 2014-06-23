@@ -1,147 +1,165 @@
-"port"	"nation"	"lon"	"lat"
-"Aberdeen"	"Scotland"	-2.0914	57.1452
-"Abidjan"	"Ivory Coast"	1.8700	9.7700
-"Abo Terminal"	"Nigeria"	5.6840	4.7849
-"Abu Kammash"	"Libya"	11.7363	33.0738
-"Alexandria"	"Egypt"	29.8944	31.1990
-"Algeciras"	"Spain"	-5.4278	36.1386
-"Alger"	"Algeria"	3.0601	36.7753
-"Altamira"	"Mexico"	-97.9300	22.4062
-"Arzew"	"Algeria"	-0.3082	35.8547
-"Ashdod"	"Israel"	34.6601	31.8493
-"Augusta"	"Italy"	15.2059	37.2240
-"Bandar Abbas"	"Iran"	56.2823	27.1762
-"Baniyas"	"Syria"	35.9449	35.1820
-"Barcelona"	"Spain"	2.1889	41.3996
-"Batumi"	"Georgia"	41.6568	41.6658
-"Beirut"	"Lebanon"	35.4784	33.8959
-"Bejaia"	"Algeria"	5.0778	36.7414
-"Bonny"	"Nigeria"	7.1668	4.4355
-"Bouri Terminal"	"Libya"	13.2605	33.8476
-"Brass Terminal"	"Nigeria"	4.3037	6.2439
-"Buenos Aires"	"Argentina"	-58.4460	-34.6129
-"Busan (Pusan)"	"South Korea"	129.0176	35.0803
-"Cagliari"	"Italy"	9.0960	39.2204
-"Cartagena"	"Colombia"	-75.5180	10.4162
-"Casablanca"	"Morocco"	-5.4973	35.8935
-"Catania"	"Italy"	15.0306	37.4603
-"Caucedo"	"Dominican Republic"	-69.6155	18.4355
-"Ceyhan"	"Turkey"	35.8331	37.0562
-"Chiwan"	"China"	113.8926	22.4823
-"Colombo"	"Sri Lanka"	79.8533	6.9343
-"Dakar"	"Senegal"	-17.4470	14.6930
-"Damietta"	"Egypt"	31.8214	31.4167
-"Damman"	"Saudi  Arabia"	50.1571	26.4740
-"Djibouti"	"Djibouti"	43.1362	11.5970
-"Dumai, Sumatra"	"Indonesia"	101.4533	1.6815
-"Durban"	"South Africa"	31.0204	-29.8669
-"Es Sider"	"Libya"	18.3657	30.6368
-"Forcados"	"Nigeria"	5.3534	5.4393
-"Fos-sur-Mer"	"France"	4.9456	43.4381
-"Fujairah"	"United Arab Emirates"	56.3519	25.1224
-"Gela"	"Italy"	14.2508	37.0666
-"Gemlik"	"Turkey"	29.1571	40.4302
-"Gioia Tauro"	"Italy"	15.9207	38.4271
-"Haifa"	"Israel"	34.9885	32.8184
-"Hong Kong"	"China"	114.1229	22.3434
-"Houston"	"United States of America"	-94.9171	29.7232
-"Istanbul"	"Turkey"	28.9652	41.0096
-"Jakarta"	"Indonesia"	106.8271	-6.1753
-"Jawaharlal Neru (Nhava Sheva)"	"India"	72.9644	18.9629
-"Jebel Ali"	"United Arab Emirates"	55.0687	24.9959
-"Jeddah"	"Saudi Arabia"	39.1640	21.5822
-"Kaohsiung"	"Taiwan"	120.2893	22.6015
-"Karachi"	"Pakistan"	67.0353	24.8371
-"Karg Island"	"Iran"	50.3270	29.2347
-"Kerch"	"Ukraine"	36.5014	45.3617
-"Khor al Fakkan"	"United Arab Emirates"	56.3709	25.3584
-"Kingston"	"Jamaica"	-76.8223	17.9829
-"Koper"	"Slovenia"	13.7305	45.5480
-"Kulevi"	"Georgia"	42.2699	41.6578
-"La Skirra"	"Tunisia"	10.1654	34.3343
-"La Spezia"	"Italy"	9.8282	44.1070
-"Lagos"	"Nigeria"	3.3896	6.4452
-"Las Palmas"	"Spain"	-15.4357	28.0514
-"Livorno"	"Italy"	10.3073	43.5457
-"Los Angeles"	"United States of America"	-118.2113	33.7673
-"Malta"	"Malta"	14.5244	35.9180
-"Maracaibo"	"Venezuela"	-71.6017	10.6763
-"Marsa el Brega"	"Libya"	19.6944	30.3613
-"Marsaxlokk"	"Malta"	14.5441	35.8419
-"Marseille"	"France"	5.3560	43.3435
-"Massawa"	"Eritrea"	39.4698	15.6068
-"Melbourne"	"Australia"	144.9158	-37.8139
-"Melitah"	"Libya"	12.2303	32.8639
-"Mersin, Icel"	"Turkey"	34.6305	36.8128
-"Milazzo"	"Italy"	15.2734	38.2144
-"Misurata"	"Libya"	15.1000	32.3800
-"Mombasa"	"Kenia"	39.6527	-4.0470
-"Mongstad"	"Norway"	5.0395	60.8157
-"Montreal"	"Canada"	-73.6554	45.5027
-"Moudi Terminal"	"Cameroon"	8.4488	4.3611
-"Nansha"	"China"	113.5806	22.7759
-"Napoli"	"Italy"	14.2461	40.8529
-"New Orleans"	"United States of America"	-90.0261	30.0175
-"New York"	"United States of America"	-73.9796	40.6979
-"Newark"	"United States of America"	-74.1821	40.7310
-"Ningbo"	"China"	121.5499	29.8720
-"Norfolk"	"United States of America"	-76.1960	37.0127
-"Novorossiysk"	"Russia"	37.7874	44.7108
-"Oakland"	"United States of America"	-122.2925	37.8039
-"Odessa"	"Ukraine"	30.7296	46.4713
-"Olbia"	"Italy"	9.5397	40.9206
-"Palermo"	"Italy"	13.3473	38.1373
-"Piraeus"	"Greece"	23.6486	37.9442
-"Port Everglades"	"United States of America"	-80.1083	26.0927
-"Port Kelang"	"Malaysia"	101.3006	2.9410
-"Port Said"	"Egypt"	32.3192	31.2567
-"Port Sudan"	"Sudan"	37.2632	19.6165
-"Porto Foxi"	"Italy"	9.0293	39.0797
-"Porto Torres"	"Italy"	8.3958	40.8290
-"Poti"	"Georgia"	41.6802	42.1544
-"Primorsk, Koivisto"	"Russia"	28.6220	60.3589
-"Pusan"	"South Korea"	129.0752	35.1800
-"Qingdao"	"China"	120.3189	36.0696
-"Rades"	"Tunisia"	10.2770	36.7744
-"Ras Lanuf"	"Libya"	18.4173	30.5869
-"Rio de Janeiro"	"Brazil"	-42.7560	-22.2390
-"Rio Grande"	"Brazil"	-52.0700	-32.0432
-"Rotterdam"	"Olanda"	4.4261	51.9233
-"Salalah"	"Oman"	54.0957	17.0148
-"Salerno"	"Italy"	14.7637	40.6864
-"Santa Panagia"	"Italy"	15.2797	37.1086
-"Santos"	"Brazil"	-46.2900	-23.8643
-"Savannah"	"United States of America"	-81.0980	31.9996
-"Savona-Vado"	"Italy"	8.4555	44.2661
-"Shanghai"	"China"	121.4915	31.2246
-"Shekou"	"China"	113.9161	22.4715
-"Shenzhen"	"China"	114.0548	22.5408
-"Sidi Kerir Terminal"	"Egypt"	29.6734	31.0516
-"Singapore"	"Singapore"	103.8528	1.2906
-"Skikda"	"Algeria"	6.9000	36.8804
-"Suape"	"Brazil"	-34.9611	-8.3946
-"Sydney"	"Australia"	151.2169	-33.8558
-"Tangier Med"	"Marocco"	-5.7878	35.7913
-"Tanjong Pelepas"	"Malaysia"	103.5457	1.3570
-"Taranto"	"Italy"	17.2997	40.4618
-"Tarragona"	"Spain"	1.2546	41.1172
-"Tartous"	"Syria"	35.8852	34.8936
-"Tema"	"Ghana"	0.0078	5.6403
-"Termini Imerese"	"Italy"	13.7101	37.9872
-"Tess/Hartlepool"	"England"	-1.2031	54.6947
-"Tianjinxingang"	"China"	117.1981	39.1236
-"Tincan"	"Nigeria"	3.3492	6.4343
-"Tokyo"	"Japan"	139.7685	35.6801
-"Tripoli"	"Libya"	13.1800	32.8925
-"Tuapse"	"Russia"	39.0721	44.0986
-"Tunis"	"Tunisia"	10.1848	36.8001
-"Valencia"	"Spain"	-0.3525	39.4228
-"Veracruz"	"Mexico"	-96.1242	19.2105
-"Xiamen"	"China"	118.1537	24.5029
-"Xingang"	"China"	117.7433	38.9788
-"Yantian Huangdong"	"China"	114.2830	22.5841
-"Yuzhnyy"	"Ukraine"	31.1114	46.6255
-"Zawia Terminal"	"Libya"	12.7224	32.7706
+port	nation	lon	lat
+Aberdeen	Scotland	-2.0914	57.1452
+Abidjan	Ivory Coast	1.8700	9.7700
+Abo Terminal	Nigeria	5.6840	4.7849
+Abu Dhabi	United Arab Emirates	54.3784	24.4875
+Abu Kammash	Libya	11.7363	33.0738
+Alexandria	Egypt	29.8944	31.1990
+Algeciras	Spain	-5.4278	36.1386
+Alger	Algeria	3.0601	36.7753
+Aliaga	Turkey	26.9868	38.8032
+Altamira	Mexico	-97.9300	22.4062
+Arzew	Algeria	-0.3082	35.8547
+Ashdod	Israel	34.6601	31.8493
+Augusta	Italy	15.2059	37.2240
+Bandar Abbas	Iran	56.2823	27.1762
+Baniyas	Syria	35.9449	35.1820
+Barcelona	Spain	2.1889	41.3996
+Batumi	Georgia	41.6568	41.6658
+Beirut	Lebanon	35.4784	33.8959
+Bejaia	Algeria	5.0778	36.7414
+Bonny	Nigeria	7.1668	4.4355
+Bontang, Kalimantan	Indonesia	117.5026	0.1473
+Bouri Terminal	Libya	13.2605	33.8476
+Brass Terminal	Nigeria	4.3037	6.2439
+Buenos Aires	Argentina	-58.4460	-34.6129
+Busan (Pusan)	South Korea	129.0176	35.0803
+Cagliari	Italy	9.0960	39.2204
+Cape Town	South Africa	18.4469	-33.9252
+Cartagena	Colombia	-75.5180	10.4162
+Casablanca	Morocco	-5.4973	35.8935
+Catania	Italy	15.0306	37.4603
+Caucedo	Dominican Republic	-69.6155	18.4355
+Ceyhan	Turkey	35.8331	37.0562
+Charleston	United States of America	-79.9230	32.7755
+Chiwan	China	113.8926	22.4823
+Colombo	Sri Lanka	79.8533	6.9343
+Dakar	Senegal	-17.4470	14.6930
+Damietta	Egypt	31.8214	31.4167
+Damman	Saudi  Arabia	50.1571	26.4740
+Djeno Terminal	Congo	11.9378	-4.9167
+Djibouti	Djibouti	43.1362	11.5970
+Dubai	United Arab Emirates	55.2947	25.2681
+Dumai, Sumatra	Indonesia	101.4533	1.6815
+Durban	South Africa	31.0204	-29.8669
+Es Sider	Libya	18.3657	30.6368
+Forcados	Nigeria	5.3534	5.4393
+Fos-sur-Mer	France	4.9456	43.4381
+Fujairah	United Arab Emirates	56.3519	25.1224
+Gela	Italy	14.2508	37.0666
+Gemlik	Turkey	29.1571	40.4302
+Gioia Tauro	Italy	15.9207	38.4271
+Haifa	Israel	34.9885	32.8184
+Hong Kong	China	114.1229	22.3434
+Houston	United States of America	-94.9171	29.7232
+Istanbul	Turkey	28.9652	41.0096
+Izmir	Turkey	27.1459	38.4170
+Jakarta	Indonesia	106.8271	-6.1753
+Jawaharlal Neru (Nhava Sheva)	India	72.9644	18.9629
+Jebel Ali	United Arab Emirates	55.0687	24.9959
+Jeddah	Saudi Arabia	39.1640	21.5822
+Kaohsiung	Taiwan	120.2893	22.6015
+Karachi	Pakistan	67.0353	24.8371
+Karg Island	Iran	50.3270	29.2347
+Kerch	Ukraine	36.5014	45.3617
+Khor al Fakkan	United Arab Emirates	56.3709	25.3584
+Kingston	Jamaica	-76.8223	17.9829
+Koper	Slovenia	13.7305	45.5480
+Kulevi	Georgia	42.2699	41.6578
+La Skirra	Tunisia	10.1654	34.3343
+La Spezia	Italy	9.8282	44.1070
+Lagos	Nigeria	3.3896	6.4452
+Las Palmas	Spain	-15.4357	28.0514
+Lavera	France	5.0072	43.3887
+Livorno	Italy	10.3073	43.5457
+Los Angeles	United States of America	-118.2113	33.7673
+Long Beach	United States of America	-118.1914	33.7651
+Malta	Malta	14.5244	35.9180
+Maracaibo	Venezuela	-71.6017	10.6763
+Marsa el Brega	Libya	19.6944	30.3613
+Marsaxlokk	Malta	14.5441	35.8419
+Marseille	France	5.3560	43.3435
+Massawa	Eritrea	39.4698	15.6068
+Melbourne	Australia	144.9158	-37.8139
+Melitah	Libya	12.2303	32.8639
+Mersin, Icel	Turkey	34.6305	36.8128
+Miami	United States of America	-80.1679	25.7778
+Milazzo	Italy	15.2734	38.2144
+Misurata	Libya	15.1000	32.3800
+Mombasa	Kenia	39.6527	-4.0470
+Mongstad	Norway	5.0395	60.8157
+Montevideo	Uruguay	-56.2103	-34.8898
+Montreal	Canada	-73.6554	45.5027
+Moudi Terminal	Cameroon	8.4488	4.3611
+Nansha	China	113.5806	22.7759
+Napoli	Italy	14.2461	40.8529
+New Orleans	United States of America	-90.0261	30.0175
+New York	United States of America	-73.9796	40.6979
+Newark	United States of America	-74.1821	40.7310
+Ningbo	China	121.5499	29.8720
+Norfolk	United States of America	-76.1960	37.0127
+Novorossiysk	Russia	37.7874	44.7108
+Oakland	United States of America	-122.2925	37.8039
+Odessa	Ukraine	30.7296	46.4713
+Olbia	Italy	9.5397	40.9206
+Palermo	Italy	13.3473	38.1373
+Paranagua	Brazil	-48.5177	-25.5093
+Piraeus	Greece	23.6486	37.9442
+Port Everglades	United States of America	-80.1083	26.0927
+Port Kelang	Malaysia	101.3006	2.9410
+Port Said	Egypt	32.3192	31.2567
+Port Sudan	Sudan	37.2632	19.6165
+Porto Foxi	Italy	9.0293	39.0797
+Porto Torres	Italy	8.3958	40.8290
+Poti	Georgia	41.6802	42.1544
+Primorsk, Koivisto	Russia	28.6220	60.3589
+Pusan	South Korea	129.0752	35.1800
+Qingdao	China	120.3189	36.0696
+Rades	Tunisia	10.2770	36.7744
+Ras Lanuf	Libya	18.4173	30.5869
+Rio de Janeiro	Brazil	-42.7560	-22.2390
+Rio Grande	Brazil	-52.0700	-32.0432
+Rotterdam	Olanda	4.4261	51.9233
+Salalah	Oman	54.0957	17.0148
+Salerno	Italy	14.7637	40.6864
+Santa Marta	Colombia	-74.1954	11.2456
+Santa Panagia	Italy	15.2797	37.1086
+Santos	Brazil	-46.2900	-23.8643
+Savannah	United States of America	-81.0980	31.9996
+Savona-Vado	Italy	8.4555	44.2661
+Shanghai	China	121.4915	31.2246
+Shekou	China	113.9161	22.4715
+Shenzhen	China	114.0548	22.5408
+Sidi Kerir Terminal	Egypt	29.6734	31.0516
+Singapore	Singapore	103.8528	1.2906
+Skikda	Algeria	6.9000	36.8804
+Sture	Norway	4.8613	60.6181
+Suape	Brazil	-34.9611	-8.3946
+Supsa Terminal	Georgia	41.7694	42.0228
+Sydney	Australia	151.2169	-33.8558
+Tangier Med	Marocco	-5.7878	35.7913
+Tanjong Pelepas	Malaysia	103.5457	1.3570
+Taranto	Italy	17.2997	40.4618
+Tarragona	Spain	1.2546	41.1172
+Tartous	Syria	35.8852	34.8936
+Tema	Ghana	0.0078	5.6403
+Termini Imerese	Italy	13.7101	37.9872
+Tess/Hartlepool	England	-1.2031	54.6947
+Tianjinxingang	China	117.1981	39.1236
+Tincan	Nigeria	3.3492	6.4343
+Tokyo	Japan	139.7685	35.6801
+Tripoli	Libya	13.1800	32.8925
+Tuapse	Russia	39.0721	44.0986
+Tubarao	Brazil	-49.0018	-28.4696
+Tunis	Tunisia	10.1848	36.8001
+Valencia	Spain	-0.3525	39.4228
+Vancouver	Canada	-123.1183	49.2854
+Veracruz	Mexico	-96.1242	19.2105
+Xiamen	China	118.1537	24.5029
+Xingang	China	117.7433	38.9788
+Yantian Huangdong	China	114.2830	22.5841
+Yuzhnyy	Ukraine	31.1114	46.6255
+Zawia Terminal	Libya	12.7224	32.7706
 			
 			
 			
@@ -299,10 +317,10 @@
 			
 			
 			
-			"#NOME?"
-			"#NOME?"
+			#NOME?
+			#NOME?
 			
-			"#NOME?"
+			#NOME?
 			
 			
 			
@@ -360,7 +378,7 @@
 			
 			
 			
-			"#NOME?"
-			"#NOME?"
+			#NOME?
+			#NOME?
 			
-			"#NOME?"
+			#NOME?

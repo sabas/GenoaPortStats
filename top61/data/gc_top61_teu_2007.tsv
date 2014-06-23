@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Shanghai	China	137870	121.4915	31.2246
+2	Singapore	Singapore	110697	103.8528	1.2906
+3	"Hong Kong"	China	72147	114.1229	22.3434
+4	Cagliari	Italy	50932	9.0960	39.2204
+5	"New York"	"United States of America"	48920	-73.9796	40.6979
+6	"Yantian Huangdong"	China	46608	114.2830	22.5841
+7	Ningbo	China	40418	121.5499	29.8720
+8	"Khor al Fakkan"	"United Arab Emirates"	36643	56.3709	25.3584
+9	Alexandria	Egypt	32585	29.8944	31.1990
+10	Tunis	Tunisia	31594	10.1848	36.8001
+11	Jeddah	"Saudi Arabia"	31536	39.1640	21.5822
+12	Montreal	Canada	31052	-73.6554	45.5027
+13	Kaohsiung	Taiwan	28163	120.2893	22.6015
+14	"Gioia Tauro"	Italy	26413	15.9207	38.4271
+15	"Busan (Pusan)"	"South Korea"	24963	129.0176	35.0803
+16	Houston	"United States of America"	23519	-94.9171	29.7232
+17	Xiamen	China	23240	118.1537	24.5029
+18	Casablanca	Morocco	22724	-5.4973	35.8935
+19	"Jawaharlal Neru (Nhava Sheva)"	India	22000	72.9644	18.9629
+20	Santos	Brazil	19802	-46.2900	-23.8643
+21	Valencia	Spain	19790	-0.3525	39.4228
+22	Qingdao	China	19330	120.3189	36.0696
+23	Shekou	China	18766	113.9161	22.4715
+24	Barcelona	Spain	18451	2.1889	41.3996
+25	"Port Said"	Egypt	18097	32.3192	31.2567
+26	Charleston	"United States of America"	17976	-79.9230	32.7755
+27	Norfolk	"United States of America"	17881	-76.1960	37.0127
+28	"Port Kelang"	Malaysia	16365	101.3006	2.9410
+29	Alger	Algeria	16364	3.0601	36.7753
+30	Abidjan	"Ivory Coast"	15969	1.8700	9.7700
+31	Tema	Ghana	14973	0.0078	5.6403
+32	"Jebel Ali"	"United Arab Emirates"	14876	55.0687	24.9959
+33	Chiwan	China	14567	113.8926	22.4823
+34	"Buenos Aires"	Argentina	14385	-58.4460	-34.6129
+35	Durban	"South Africa"	13511	31.0204	-29.8669
+36	Marseille	France	13452	5.3560	43.3435
+37	Savannah	"United States of America"	13238	-81.0980	31.9996
+38	"Tanjong Pelepas"	Malaysia	11993	103.5457	1.3570
+39	"Long Beach"	"United States of America"	11824	-118.1914	33.7651
+40	Malta	Malta	11263	14.5244	35.9180
+41	Veracruz	Mexico	11249	-96.1242	19.2105
+42	Colombo	"Sri Lanka"	11180	79.8533	6.9343
+43	Livorno	Italy	11158	10.3073	43.5457
+44	Tincan	Nigeria	10640	3.3492	6.4343
+45	Damietta	Egypt	10455	31.8214	31.4167
+46	"Rio de Janeiro"	Brazil	10375	-42.7560	-22.2390
+47	"Rio Grande"	Brazil	10330	-52.0700	-32.0432
+48	Oakland	"United States of America"	10154	-122.2925	37.8039
+49	Ashdod	Israel	10040	34.6601	31.8493
+50	Tripoli	Libya	10005	13.1800	32.8925
+51	Dakar	Senegal	9297	-17.4470	14.6930
+52	"Port Sudan"	Sudan	9228	37.2632	19.6165
+53	"Cape Town"	"South Africa"	8643	18.4469	-33.9252
+54	Lagos	Nigeria	8417	3.3896	6.4452
+55	Fos-sur-Mer	France	8289	4.9456	43.4381
+56	Napoli	Italy	8205	14.2461	40.8529
+57	Beirut	Lebanon	8105	35.4784	33.8959
+58	Tianjinxingang	China	8059	117.1981	39.1236
+59	Gemlik	Turkey	8033	29.1571	40.4302
+60	Karachi	Pakistan	7986	67.0353	24.8371
+61	Vancouver	Canada	7883	-123.1183	49.2854

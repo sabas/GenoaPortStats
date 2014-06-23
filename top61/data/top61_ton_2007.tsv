@@ -1,0 +1,62 @@
+"id"	"port"	"nation"	"quantity"
+1	"Taranto"	"Italy"	3918313
+2	"Cagliari"	"Italy"	2033369
+3	"Zawia Terminal"	"Libya"	1903290
+4	"Barcelona"	"Spain"	1871303
+5	"Palermo"	"Italy"	1661687
+6	"Porto Torres"	"Italy"	1560045
+7	"Shanghai"	"China"	1433715
+8	"Singapore"	"Singapore"	1345987
+9	"Tunis"	"Tunisia"	1301870
+10	"Abu Kammash"	"Libya"	1268564
+11	"Aberdeen"	"Scotland"	1197548
+12	"Es Sider"	"Libya"	1169331
+13	"Odessa"	"Ukraine"	1150564
+14	"Novorossiysk"	"Russia"	1129529
+15	"Ras Lanuf"	"Libya"	1096962
+16	"Abidjan"	"Ivory Coast"	1004859
+17	"Ceyhan"	"Turkey"	893058
+18	"Termini Imerese"	"Italy"	878479
+19	"Alexandria"	"Egypt"	698320
+20	"Hong Kong"	"China"	670841
+21	"Catania"	"Italy"	656508
+22	"New York"	"United States of America"	638905
+23	"Karg Island"	"Iran"	633704
+24	"Augusta"	"Italy"	544808
+25	"Batumi"	"Georgia"	514179
+26	"Moudi Terminal"	"Cameroon"	509239
+27	"Marsa el Brega"	"Libya"	497514
+28	"Livorno"	"Italy"	479504
+29	"Houston"	"United States of America"	465117
+30	"Khor al Fakkan"	"United Arab Emirates"	459863
+31	"Poti"	"Gerogia"	452870
+32	"Bouri Terminal"	"Libya"	427267
+33	"Milazzo"	"Italy"	427058
+34	"Santa Panagia"	"Italy"	424116
+35	"Sidi Kerir Terminal"	"Egypt"	416408
+36	"Montreal"	"Canada"	413134
+37	"Fos-sur-Mer"	"France"	412253
+38	"Malta"	"Malta"	400953
+39	"Ningbo"	"China"	370363
+40	"Olbia"	"Italy"	351691
+41	"Yuzhnyy"	"Ukraine"	348192
+42	"Lavera"	"France"	327158
+43	"Santos"	"Brazil"	327046
+44	"Jeddah"	"Saudi Arabia"	312692
+45	"Casablanca "	"Morocco"	310023
+46	"Jawaharlal Neru (Nhava Sheva)"	"India"	303629
+47	"Yantian Huangdong"	"China"	301954
+48	"Algeciras"	"Spain"	301068
+49	"Kaohsiung"	"Taiwan"	292263
+50	"Tarragona"	"Spain"	289939
+51	"Port Kelang"	"Malaysia"	288824
+52	"Busan (Pusan)"	"South Korea"	272435
+53	"Alger"	"Algeria"	261788
+54	"Melitah"	"Libya"	254372
+55	"Qingdao"	"China"	232162
+56	"Tripoli"	"Libya"	203262
+57	"Gioia Tauro"	"Italy"	202194
+58	"Kerch"	"Ukraine"	188705
+59	"Port Said"	"Egypt"	188235
+60	"Norfolk"	"United States of America"	185287
+61	"Durban"	"South Africa"	182215
