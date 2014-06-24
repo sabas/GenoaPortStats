@@ -62,7 +62,7 @@ function style(f)
 
 function getBaseLayer()
 {
-	return $.getJSON('nation.topojson',function (feat) {
+	return $.getJSON('data/nation.topojson',function (feat) {
 		var county_geojson = topojson.feature(feat, feat.objects.countries3);
 		jsonlayer = L.geoJson(county_geojson, {
 			style: style
@@ -74,7 +74,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('loadingTraffic2013_sbarco_nazioni.json',function (json) {
+	return $.getJSON('data/loadingTraffic2013_sbarco_nazioni.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 	});
