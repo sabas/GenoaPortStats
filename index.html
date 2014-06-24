@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <link rel="stylesheet" href="script/ports.css" type="text/css"/>
+<link rel="stylesheet" href="script/960.css" type="text/css"/>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -17,20 +18,32 @@
 </script>
 
 </head>
-<body>
+<body class="main">
+<div class="container_12">
+<div class="grid_12">
 <h1>Genoa Port Stats</h1>
 <p>Statistics published by Genoa Port Authority on its <a href="http://servizi.porto.genova.it/traffici/statistiche.aspx">online services portal</a>.</p>
-<h3><a href="trafficoPorto/index.html">Traffico Mensile Porto (2012-14)</a></h3>
-<h3><a href="trafficoTerminal2014/index.sparklines.html">Traffico Mensile Terminal 2014</a></h3>
-<h3><a href="trafficoTerminal2013/index.sparklines.html">Traffico Mensile Terminal 2013</a></h3>
-<h3><a href="trafficoTerminal2012/index.sparklines.html">Traffico Mensile Terminal 2012</a> (<a href="trafficoTerminal2012/index.dvf.html">Versione parziale con DVF</a>)</h3>
-<h3><a href="top61/index.html">Top 61 ports by traffic (2008-2013)</a></h3>
-<h3>Tutti i porti collegati 2013, coropleta per <a href="loadingTraffic2013/choropleth.imbarco.html">porto di imbarco</a> e per <a href="loadingTraffic2013/choropleth.sbarco.html">porto di sbarco</a></h3>
-<h3>Tutti i porti collegati 2013, per <a href="loadingTraffic2013/index.imbarco.html">porto di imbarco</a> e per <a href="loadingTraffic2013/index.sbarco.html">porto di sbarco</a></h3>
-<h3>Tutti i porti collegati 2012, per <a href="loadingTraffic2012/index.imbarco.html">porto di imbarco</a> e per <a href="loadingTraffic2012/index.sbarco.html">porto di sbarco</a></h3>
-<h3><a href="storico/index.html">Traffico storico 2003/2013</a></h3>
-<a href="https://github.com/sabas/GenoaPortStats"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
-
+</div>
+</div>
+<div class="container_12">
+<div class="grid_8">
+<h2>Port traffic</h2>
+<h3>Monthly port stats</h3>
+<p><a href="trafficoPorto/index.html">Traffico Mensile Porto (2012-14)</a></p>
+<h3>Monthly terminal stats</h3>
+<p><a href="trafficoTerminal2014/index.sparklines.html">2014</a>, <a href="trafficoTerminal2013/index.sparklines.html">2013</a>, <a href="trafficoTerminal2012/index.sparklines.html">2012</a> (<a href="trafficoTerminal2012/index.dvf.html">Demo DVF</a>)</p>
+<p><a href="storico/index.html">Traffico storico 2003/2013</a></p>
+<h2>Global traffic</h2>
+<p>Import and export traffic for different years, presented per single port and per country.</p>
+<h3>2013</h3>
+<p>Heatmap for <a href="globalTraffic/2013/index.imbarco.html">loading</a> or <a href="globalTraffic/2013/index.sbarco.html">discharging</a> port.</p>
+<p>Choropleth for <a href="globalTraffic/2013/choropleth.imbarco.html">loading</a> or <a href="globalTraffic/2013/choropleth.sbarco.html">discharging</a> country.</p>
+<h3>2012</h3>
+<p>Tutti i porti collegati 2012, per <a href="loadingTraffic2012/index.imbarco.html">porto di imbarco</a> e per <a href="loadingTraffic2012/index.sbarco.html">porto di sbarco</a></p>
+<h3>Port ranking by traffic</h3>
+<p><a href="top61/index.html">First 61 ports by traffic quantity (import + export)</a> for years 2005-2013</p>
+</div>
+<div class="grid_4">
 <a href="notes.html">Pagina di note</a> su strumenti e procedure.
 <br/>
 <p><span class="b">Author</span>: Stefano Sabatini</p>
@@ -52,5 +65,10 @@ document.write('<a href="mailto:' + emailE + '">'+ emailE + '</a>');
                         { user: 'sabas', repo: 'GenoaPortStats', branch: 'gh-pages', last:3, limitMessageTo: 50 });
         });
   </script>
+</div>
+</div>
+
+<a href="https://github.com/sabas/GenoaPortStats"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+
 </body>
 </html>

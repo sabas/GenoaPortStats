@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Genoa Port Statistics - 2013 Loading Traffic Choropleth (per imbarco)</title>
+<title>Genoa Port Statistics - 2013 Import Traffic Choropleth (by country of loading)</title>
 <meta charset="utf8"/>
-<link rel="stylesheet" href="../script/ports.css" type="text/css"/>
-<link rel="stylesheet" href="../script/leaflet.css" type="text/css"/>
-<script type="text/javascript" src="../script/leaflet.js"></script>
-<script type="text/javascript" src="../script/jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="../script/jquery.blockUI.js"></script>
-<script type="text/javascript" src="../script/jsonselect.min.js"></script>
-<script type="text/javascript" src="../script/topojson.v1.min.js"></script>
+<link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
+<link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
+<script type="text/javascript" src="../../script/leaflet.js"></script>
+<script type="text/javascript" src="../../script/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../../script/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../../script/jsonselect.min.js"></script>
+<script type="text/javascript" src="../../script/topojson.v1.min.js"></script>
 </head>
 <body>
 <div id="mapapp">
 <div id="panel">
-<a href="../index.html" class="entry">Indice</a>
-<h1>Loading Traffic 2013 (per sbarco)</h1>
+<a href="../../index.html" class="entry">Index</a>
+<a href="data/index.html" class="entry">Get the data</a>
+<h1>2013 Import Traffic Choropleth (by country of loading)</h1>
 
 <p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
 <div id="legend">
-<button class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
-<button class="entry" onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
-<button class="entry" onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
-<button class="entry" onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
-<button class="entry loaded" onclick="change('TEUS');toggle(this);">TEUS</button>
-<button class="entry" onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
-<button class="entry" onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
-<button class="entry" onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
-<button class="entry" onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
-<button class="entry" onclick="change('TOTAL');toggle(this);">TOTAL</button>
+<button  class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
+<button  class="entry" onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
+<button  class="entry" onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
+<button  class="entry" onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
+<button  class="entry loaded" onclick="change('TEUS');toggle(this);">TEUS</button>
+<button  class="entry" onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
+<button  class="entry" onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
+<button  class="entry" onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
+<button  class="entry" onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
+<button  class="entry" onclick="change('TOTAL');toggle(this);">TOTAL</button>
 </div>
 </div>
 <div id='map'></div>
@@ -74,7 +75,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('data/loadingTraffic2013_sbarco_nazioni.json',function (json) {
+	return $.getJSON('data/globalTraffic_2013_loading_country.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 	});

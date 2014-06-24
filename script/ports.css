@@ -30,7 +30,7 @@ br{clear:both;}
     margin:5px;
 }
 
-
+body.main{margin:10px;}
 
 /*map panels*/
 html,body{height:100%}
@@ -83,8 +83,7 @@ button{width:100%;
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-size:13px;
-    width:500px;
-    margin-left:50px;
+    width:100%;
 }
 #github-commits *{padding: 0px;}
 #github-commits ul
@@ -93,7 +92,10 @@ button{width:100%;
     padding: 0px;
     margin: 0px;
 }
-#github-commits ul li{line-height:20px;}
+#github-commits ul li{line-height:25px; border:1px solid #ddeeff;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px; }
 .github-user, .github-avatar{vertical-align:middle; margin-right:3px;}
 .github-commit{margin:0 5px;}
 
