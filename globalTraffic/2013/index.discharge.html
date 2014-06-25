@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Genoa Port Statistics - 2013 Import Traffic Choropleth (by country of loading)</title>
+<title>Genoa Port Statistics - 2013 Export Traffic (by port of discharge)</title>
 <meta charset="utf8"/>
 <link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
 <link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
@@ -16,9 +16,8 @@
 <div id="panel">
 <a href="../../index.html" class="entry">Index</a>
 <a href="data/index.html" class="entry">Get the data</a>
-<h1>2013 Import Traffic Choropleth (by country of loading)</h1>
-<p class="i">I dati rappresentati non includono traffico di cui non viene indicata provenienza precisa da: Italia (28,00 tons) ed altri stati (78523,13 tons)</p>
-<p>Click sulla voce per visualizzare la heatmap.</p>
+<h1>2013 Export Traffic (by port of discharge)</h1>
+<p>Click on the index to load the heatmap.</p>
 <input type="radio" name="layerGroup" value="Containers full 20'" onclick="loadHeat(this.value)">Containers full 20'<br>
 <input type="radio" name="layerGroup" value="Containers full 40'" onclick="loadHeat(this.value)">Containers full 40'<br>
 <input type="radio" name="layerGroup" value="TEUS" onclick="loadHeat(this.value)" checked>TEUS<br>
@@ -28,6 +27,7 @@
 <input type="radio" name="layerGroup" value="Conventional Cargo" onclick="loadHeat(this.value)">Conventional Cargo<br>
 <input type="radio" name="layerGroup" value="Liquid Bulk" onclick="loadHeat(this.value)">Liquid Bulk<br>
 <input type="radio" name="layerGroup" value="Solid Bulk" onclick="loadHeat(this.value)">Solid Bulk<br>
+<p class="i">There's also generic traffic related to: Spain (11026 tons), France (1991 tons) and other countries (136864,79 tons)</p>
 </div>
 <div id='map'></div>
 </div>
@@ -55,9 +55,8 @@ if (heatmap.data.length>0) heatmap.clear();
 	for(var k=0;k<dataMap.length;k++){
 		var toHun=dataMax*dataMap[k][option];
 		heatmap.pushData(dataMap[k]['lat'],dataMap[k]['lon'],toHun);
-
 		var marker = new L.Marker(new L.LatLng(dataMap[k]['lat'],dataMap[k]['lon']));
-		marker.bindPopup(dataMap[k][option]);
+		marker.bindPopup(dataMap[k]["Ports"]+" "+dataMap[k][option]);
 		markerLayers.addLayer(marker);
 
 	}
@@ -65,7 +64,7 @@ if (heatmap.data.length>0) heatmap.clear();
 }
 
 var map = initmap(0,0,2, { });
-var dataMap=loadLayer("data/points.imb.json");
+var dataMap=loadLayer("data/globalTraffic_2013_discharge.json");
 putMarker(map,null,44.4492,8.8807,"Genova");
 
 var markerLayers = new L.LayerGroup();
