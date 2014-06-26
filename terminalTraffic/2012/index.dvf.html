@@ -26,21 +26,28 @@
 <body>
 <div id="mapapp">
 <div id="panel">
-<a href="../index.html" class="entry">Indice</a>
-<h1>Traffico Terminal 2012</h1>
-<p>(<a href="terminal_alldata.csv">Tabella in CSV</a>), i dati sul posizionamento sono derivati da OpenStreetMap, la visualizzazione è effettuata con il Leaflet Data Visualizaton Framework.</p>
-<p>Di tutti i dati al momento sono visualizzate solamente le quantità di contenitori movimentati.</p>
-<p><a href="index.sparklines.html">Versione con sparklines</a></p>
+<a href="../index.html" class="entry">Index</a>
+<a href="data/index.html" class="entry">Get the data</a>
+<h1>2012 Terminal Traffic</h1>
+<p>See also the <a href="index.html">sparklines</a>.</p>
 </div>
 <div id='map'></div>
 </div>
 
-<script src="terminal.inc.js"></script>
-<script src="data.inc.js"></script>
+<script src="data/data.inc.js"></script>
 
 <script type="text/javascript">
 var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 var	attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
+
+$.ajax({
+async: false,
+url: 'data/terminal.geojson',
+dataType:"json",
+success: function(json) {
+	term=json;
+	}
+});
 
 var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
 
@@ -92,18 +99,18 @@ map.addLayer(tile);
         maxWidth: 400,
         minWidth: 400
       });
-    
+
     }
   };
 
   var dataBarChart = new L.BarChartDataLayer(datacsv, options);
 		var legendControl = new L.Control.Legend();
 		legendControl.addTo(map);
-        
+
   var baseMaps = {
     "Base": tile
   };
-  
+
 var overlays = {
     "Barchart": dataBarChart.addTo(map)
   };
