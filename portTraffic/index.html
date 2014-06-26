@@ -33,7 +33,7 @@
 <script src="../script/nvd3/src/models/multiBarChart.js"></script>
 <script>
 
-d3.json('arrivi.json', function(data) {
+d3.json('data/arrivi.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
@@ -63,7 +63,7 @@ d3.json('arrivi.json', function(data) {
 	});
 });
 
-d3.json('tsl.json', function(data) {
+d3.json('data/tsl.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
@@ -93,7 +93,7 @@ d3.json('tsl.json', function(data) {
 	});
 });
 
-d3.json('passeggeri.json', function(data) {
+d3.json('data/passeggeri.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
@@ -122,7 +122,7 @@ d3.json('passeggeri.json', function(data) {
 	});
 });
 
-d3.json('tonstraffic.json', function(data) {
+d3.json('data/tonstraffic.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.stackedAreaChart()
