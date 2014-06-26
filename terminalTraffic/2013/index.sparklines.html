@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Genoa Port Statistics - 2014 Terminal Traffic</title>
+<title>Genoa Port Statistics - 2013 Terminal Traffic</title>
 <meta charset="utf8"/>
-<link rel="stylesheet" href="../script/ports.css" type="text/css"/>
-<link rel="stylesheet" href="../script/leaflet.css" type="text/css"/>
-<script type="text/javascript" src="../script/leaflet.js"></script>
-<script type="text/javascript" src="../script/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
+<link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
+<script type="text/javascript" src="../../script/leaflet.js"></script>
+<script type="text/javascript" src="../../script/jquery-1.10.2.min.js"></script>
 
-<script type="text/javascript" src="../script/jquery.sparkline.min.js"></script>
-<script type="text/javascript" src="../script/jsonselect.min.js"></script>
+<script type="text/javascript" src="../../script/jquery.sparkline.min.js"></script>
+<script type="text/javascript" src="../../script/jsonselect.min.js"></script>
 
 <script type="text/javascript" src="terminal.inc.js"></script>
-<script type="text/javascript" src="sparkdata2014.inc.js"></script>
+<script type="text/javascript" src="sparkdata2013.inc.js"></script><script type="text/javascript" src="terminal.inc.js"></script>
+<script type="text/javascript" src="sparkdata2013.inc.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,13 +29,12 @@
 <div id="mapapp">
 <div id="panel">
 <a href="../index.html" class="entry">Indice</a>
-<h1>Traffico Terminal 2014</h1>
+<h1>Traffico Terminal 2013</h1>
 <p>(<a href="terminal_alldata.csv">Tabella in CSV</a>), i dati sul posizionamento sono derivati da OpenStreetMap, la visualizzazione è effettuata con il Leaflet Data Visualizaton Framework.</p>
 <p><a href="index.dvf.html">Versione (parziale) con Leaflet DVF</a></p>
 </div>
 <div id='map'></div>
 </div>
-
 
 <script type="text/javascript">
 var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
@@ -83,7 +83,7 @@ L.geoJson(term, {
 map.on('popupopen', function(e) {
   $('.inlinesparkline').sparkline('html',{'defaultPixelsPerValue':6,'height':'30px', tooltipFormat: '{{x:levels}} - {{y}}',
     tooltipValueLookups: {
-        levels: $.range_map({ '0': 'gen-14','1': 'feb-14','2': 'mar-14','3': 'apr-14','4': 'mag-14','5': 'giu-14','6': 'lug-14','7': 'ago-14','8': 'set-14','9': 'ott-14','10': 'nov-14','11': 'dec-14' })
+        levels: $.range_map({ '0': 'gen-13','1': 'feb-13','2': 'mar-13','3': 'apr-13','4': 'mag-13','5': 'giu-13','6': 'lug-13','7': 'ago-13','8': 'set-13','9': 'ott-13','10': 'nov-13','11': 'dec-13' })
     }}); 
 });
 </script>
