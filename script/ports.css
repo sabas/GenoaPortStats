@@ -60,7 +60,8 @@ text {
 #chart1 svg,
 #chart2 svg,
 #chart3 svg,
-#chart4 svg {
+#chart4 svg,
+#chart5 svg {
     display: block;
     height: 500px;
     min-width: 100px;

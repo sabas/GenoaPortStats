@@ -28,11 +28,12 @@
 <div class="container_12">
 <div class="grid_8">
 <h2>Port traffic</h2>
-<h3>Monthly port stats</h3>
-<p><a href="portTraffic/index.html">Traffico Mensile Porto (2012-14)</a></p>
-<h3>Monthly terminal stats</h3>
-<p><a href="trafficoTerminal2014/index.sparklines.html">2014</a>, <a href="trafficoTerminal2013/index.sparklines.html">2013</a>, <a href="trafficoTerminal2012/index.sparklines.html">2012</a> (<a href="trafficoTerminal2012/index.dvf.html">Demo DVF</a>)</p>
+<h3>General stats</h3>
+<p><a href="portTraffic/index.html">Monthly port traffic (2012-14)</a></p>
 <p><a href="historic/index.html">Historical port traffic 2003/2013</a></p>
+<h3>Terminal stats</h3>
+<p><a href="trafficoTerminal2014/index.sparklines.html">2014</a>, <a href="trafficoTerminal2013/index.sparklines.html">2013</a>, <a href="trafficoTerminal2012/index.sparklines.html">2012</a> (<a href="trafficoTerminal2012/index.dvf.html">Demo DVF</a>)</p>
+
 <h2>Global traffic</h2>
 <p>Import and export traffic for different years, presented per single port and per country.</p>
 <h3>2013</h3>
@@ -46,13 +47,13 @@
 <div class="grid_4">
 <a href="notes.html">Notes</a> on tools and workflow.
 <br/>
-<p><span class="b">Author</span>: Stefano Sabatini</p>
+<p><span class="b">Author</span>: Stefano Sabatini (<span id="loremipsum"></span>)</p>
 <script>
 emailE=('sabas88@' + 'gmail.com');
-document.write('<a href="mailto:' + emailE + '">'+ emailE + '</a>');
+document.getElementById('loremipsum').innerHTML='<a href="mailto:' + emailE + '">'+ emailE + '</a>';
 </script>
-<p class="b">Licenze: <a href="http://creativecommons.org/licenses/by/4.0/">Dati CC-BY 4.0</a>, <a href="http://opensource.org/licenses/MIT">Codice MIT</a></p>
-<p class="b">Updated: 25/06/2014</p>
+<p><span class="b">Licenses</span>: Data <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a> (plus <a href="http://creativecommons.org/licenses/by/4.0/">ODBL</a> when using geocoding), Code <a href="http://opensource.org/licenses/MIT">MIT</a></p>
+<p class="b">Updated: 26/06/2014</p>
 
 <p class="b">Latest commits</p>
 <div id="github-commits"></div>

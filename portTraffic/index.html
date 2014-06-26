@@ -4,23 +4,27 @@
 <link rel="stylesheet" href="../script/ports.css" type="text/css"/>
 <link href="../script/nvd3/src/nv.d3.css" rel="stylesheet" type="text/css"/>
 
-<title>Genoa Port Statistics - Port Traffic</title>
+<title>Genoa Port Statistics - Monthly Port Stats</title>
 </head>
 
 <body class="main">
-<a href="../index.html" class="entry">Indice</a>
-<h1>Traffico mensile</h1>
-<p><a href="MonthStatsPort.ods">Spreadsheet ODS</a></p>
+<a href="../index.html" class="entry">Index</a>
+<a href="data/index.html" class="entry">Get the data</a>
+
+<h1>Monthly Port Stats</h1>
   <div id="chart1">
     <svg></svg>
   </div>
-    <div id="chart2">
+  <div id="chart2">
     <svg></svg>
   </div>
-    <div id="chart3">
+  <div id="chart3">
     <svg></svg>
   </div> 
   <div id="chart4">
+    <svg></svg>
+  </div>
+  <div id="chart5">
     <svg></svg>
   </div>
 
@@ -33,7 +37,7 @@
 <script src="../script/nvd3/src/models/multiBarChart.js"></script>
 <script>
 
-d3.json('data/arrivi.json', function(data) {
+d3.json('data/ship.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
@@ -43,15 +47,14 @@ d3.json('data/arrivi.json', function(data) {
 		chart.margin({left: 100}) 
 
 	  chart.xAxis
-			.axisLabel('Mese')
+			.axisLabel('Month')
 		  .tickFormat();
 
 	  chart.yAxis
-		  .axisLabel('Navi')
+		  .axisLabel('Vessels')
 		  .tickFormat(d3.format('d'));
 	
 		chart.forceY([0, 750]);
-	//chart.reduceXTicks(false);
 	  d3.select('#chart1 svg')
 		  .datum(data)
 		.transition().duration(500)
@@ -63,7 +66,7 @@ d3.json('data/arrivi.json', function(data) {
 	});
 });
 
-d3.json('data/tsl.json', function(data) {
+d3.json('data/gt.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
@@ -73,11 +76,11 @@ d3.json('data/tsl.json', function(data) {
 		chart.margin({left: 100}) 
 
 	  chart.xAxis
-			.axisLabel('Mese')
+			.axisLabel('Month')
 		  .tickFormat();
 
 	  chart.yAxis
-		  .axisLabel('Stazza Lorda')
+		  .axisLabel('Gross Tonnage')
 		  .tickFormat(d3.format('d'));
 	
 		chart.forceY([10000000, 20000000]);
@@ -93,7 +96,7 @@ d3.json('data/tsl.json', function(data) {
 	});
 });
 
-d3.json('data/passeggeri.json', function(data) {
+d3.json('data/person.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
@@ -103,13 +106,13 @@ d3.json('data/passeggeri.json', function(data) {
 		chart.margin({left: 100}) 
 
 	  chart.xAxis
-			.axisLabel('Mese')
+			.axisLabel('Month')
 		  .tickFormat();
 
 	  chart.yAxis
-		  .axisLabel('Passeggeri')
+		  .axisLabel('Passengers')
 		  .tickFormat(d3.format('d'));
-	//chart.reduceXTicks(false);
+	chart.forceY([0, 550000]);
 
 	  d3.select('#chart3 svg')
 		  .datum(data)
@@ -122,7 +125,35 @@ d3.json('data/passeggeri.json', function(data) {
 	});
 });
 
-d3.json('data/tonstraffic.json', function(data) {
+d3.json('data/teu.json', function(data) {
+	
+	nv.addGraph(function() {
+	  chart = nv.models.multiBarChart()
+	                      .x(function(d) { return d[0] })
+                    .y(function(d) { return d[1] })
+                    .clipEdge(true);
+		chart.margin({left: 100}) 
+
+	  chart.xAxis
+			.axisLabel('Month')
+		  .tickFormat();
+
+	  chart.yAxis
+		  .axisLabel('TEU')
+		  .tickFormat(d3.format('d'));
+	chart.forceY([0, 200000]);
+
+	  d3.select('#chart4 svg')
+		  .datum(data)
+		.transition().duration(500)
+		  .call(chart);
+
+	  nv.utils.windowResize(chart.update);
+
+	  return chart;
+	});
+});
+d3.json('data/ton.json', function(data) {
 	
 	nv.addGraph(function() {
 	  chart = nv.models.stackedAreaChart()
@@ -136,15 +167,15 @@ d3.json('data/tonstraffic.json', function(data) {
 		chart.margin({left: 100}) 
 
 	  chart.xAxis
-			.axisLabel('Mese')
+			.axisLabel('Month')
 		  .tickFormat(function(d) {
 		  return d3.time.format('%b %y')(new Date(d));
 			});
 	  chart.yAxis
-		  .axisLabel('Tonnellate')
+		  .axisLabel('Tons')
 		  .tickFormat(d3.format('d'));
 
-	  d3.select('#chart4 svg')
+	  d3.select('#chart5 svg')
 		  .datum(data)
 		.transition().duration(500)
 		  .call(chart);
