@@ -74,6 +74,7 @@ function getLayer(file, color)
 <div id="mapapp">
 <div id="panel">
 <a href="../index.html" class="entry">Index</a>
+<a href="data/index.html" class="entry">Get the data</a>
 <h1>Top 61 ports</h1>
 <p>Choose traffic visualization (TEUs or TONs)</p>
 <input type="radio" name="radiob" onclick="w=$('#slider').slider('option', 'value');toggleLayer(w,'teu')" checked="checked" value="teu"/>TEUs
@@ -83,9 +84,6 @@ function getLayer(file, color)
 <p>Slide to see different years:</p>
 <div id="slider"></div>
 <div id="amount"></div>
-
-<h3>Data download</h3>
-<p>Visit the <a href="data/index.html">specific page</a>.</p>
 </div>
 <div id='map'></div>
 </div>
