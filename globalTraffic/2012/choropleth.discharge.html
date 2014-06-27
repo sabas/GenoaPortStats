@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Genoa Port Statistics - 2013 Import Traffic Choropleth (by country of loading)</title>
+<title>Genoa Port Statistics - 2012 Export Traffic Choropleth (by country of discharge)</title>
 <meta charset="utf8"/>
 <link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
 <link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
@@ -16,19 +16,19 @@
 <div id="panel">
 <a href="../../index.html" class="entry">Index</a>
 <a href="data/index.html" class="entry">Get the data</a>
-<h1>2013 Import Traffic Choropleth (by country of loading)</h1>
+<h1>Loading Traffic 2012 (by country of discharge)</h1>
 <p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
 <div id="legend">
-<button  class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
-<button  class="entry" onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
-<button  class="entry" onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
-<button  class="entry" onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
-<button  class="entry loaded" onclick="change('TEUS');toggle(this);">TEUS</button>
-<button  class="entry" onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
-<button  class="entry" onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
-<button  class="entry" onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
-<button  class="entry" onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
-<button  class="entry" onclick="change('TOTAL');toggle(this);">TOTAL</button>
+<button class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
+<button class="entry" onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
+<button class="entry" onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
+<button class="entry" onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
+<button class="entry loaded" onclick="change('TEUS');toggle(this);">TEUS</button>
+<button class="entry" onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
+<button class="entry" onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
+<button class="entry" onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
+<button class="entry" onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
+<button class="entry" onclick="change('TOTAL');toggle(this);">TOTAL</button>
 </div>
 </div>
 <div id='map'></div>
@@ -74,7 +74,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('data/globalTraffic_2013_loading_country.json',function (json) {
+	return $.getJSON('data/globalTraffic_2012_discharge_country.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 	});

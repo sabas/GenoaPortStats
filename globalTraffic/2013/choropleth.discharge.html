@@ -62,7 +62,7 @@ function style(f)
 
 function getBaseLayer()
 {
-	return $.getJSON('data/nation.topojson',function (feat) {
+	return $.getJSON('../../common/nation.topojson',function (feat) {
 		var county_geojson = topojson.feature(feat, feat.objects.countries3);
 		jsonlayer = L.geoJson(county_geojson, {
 			style: style
