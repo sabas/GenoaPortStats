@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Genoa Port Statistics - 2012 Terminal Traffic</title>
+<title>Genoa Port Statistics - 2013 Terminal Traffic</title>
 <meta charset="utf8"/>
 <link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
 <link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
@@ -26,8 +26,7 @@
 <div id="panel">
 <a href="../../index.html" class="entry">Index</a>
 <a href="data/index.html" class="entry">Get the data</a>
-<h1>2012 Terminal Traffic</h1>
-<p>See also the <a href="index.dvf.html">DVF demo</a>.</p>
+<h1>2013 Terminal Traffic</h1>
 </div>
 <div id='map'></div>
 </div>
@@ -45,18 +44,18 @@ map.addLayer(tile);
 
 
 function avg(arr){
-	var sum = 0;
-	for(var i = 0; i < arr.length; i++){
-		sum += parseInt(arr[i]);
-	}
+ var sum = 0;
+for(var i = 0; i < arr.length; i++){
+    sum += parseInt(arr[i]);
+}
 
-	var avg = sum/arr.length;
-	return avg.toFixed(2);
+var avg = sum/arr.length;
+return avg.toFixed(2);
 }
 
 $.ajax({
 async: false,
-url: 'data/terminal_2012.json',
+url: 'data/terminal_2013.json',
 dataType:"json",
 success: function(json) {
     data=json;
@@ -65,7 +64,7 @@ success: function(json) {
 
 $.ajax({
 async: false,
-url: '../../common/terminal.geojson',
+url: 'data/terminal.geojson',
 dataType:"json",
 success: function(json) {
     term=json;
@@ -95,7 +94,7 @@ L.geoJson(term, {
 map.on('popupopen', function(e) {
   $('.inlinesparkline').sparkline('html',{'defaultPixelsPerValue':6,'height':'30px', tooltipFormat: '{{x:levels}} - {{y}}',
     tooltipValueLookups: {
-        levels: $.range_map({ '0': 'gen-12','1': 'feb-12','2': 'mar-12','3': 'apr-12','4': 'mag-12','5': 'giu-12','6': 'lug-12','7': 'ago-12','8': 'set-12','9': 'ott-12','10': 'nov-12','11': 'dec-12' })
+        levels: $.range_map({ '0': 'gen-13','1': 'feb-13','2': 'mar-13','3': 'apr-13','4': 'mag-13','5': 'giu-13','6': 'lug-13','7': 'ago-13','8': 'set-13','9': 'ott-13','10': 'nov-13','11': 'dec-13' })
     }});
 });
 </script>

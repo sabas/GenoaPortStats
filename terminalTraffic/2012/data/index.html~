@@ -13,7 +13,7 @@
 <h3>Data download</h3>
 
 <p><a href="terminal_2012.tsv">Download the complete TSV</a> or the <a href="terminal_2012.json">JSON version</a></p>
-<p><a href="../../../common/terminal.geojson">Download the terminal areas geojson.</a></p>
+<p><a href="terminal.geojson">Download the terminal areas geojson.</a></p>
 <h3>DVF demo</h3>
 <p><a href="container.tsv">Download the container TSV</a> or the <a href="data.inc.js">JS version</a></p>
 </body>
