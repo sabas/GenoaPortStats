@@ -41,7 +41,7 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$coordf="isoalpha3.tsv";
+$coordf="../../../isoalpha3.tsv";
 
 $file=$_GET['i'];
 
