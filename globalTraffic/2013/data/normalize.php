@@ -41,7 +41,7 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$coordf="../../../isoalpha3.tsv";
+$coordf="../../../common/countryInfo.tsv";
 
 $file=$_GET['i'];
 
@@ -49,30 +49,30 @@ $sep="\t";
 $coord=csvRead($coordf,$sep);
 $data=csvRead($file,$sep);
 
-$res= fopen("mat_".$file, "w+");
+$res= fopen("normalized_".$file, "w+");
 
 $header=array_keys($data[0]);
+
 fputcsv($res,$header,$sep);
 foreach($data as &$r)
 {
-    $port=findR(trim($r['Nation']));
-    if($port!=-1)
-	{
-    $r['ISO_A3']=$port;
-	}
-    else
-    {
-        echo $r['Nation']."<br>";
-    }
+$t=array();
+    $area=findR(trim($r['ISO_A3']));
+if($area==-1){echo $r['ISO_A3']; continue;}
+foreach($r as $k=>$v){
+if ($k=='ISO_A3'||$k=='Nation') $t[]=$v;
+else
+$t[]=number_format($v/$area,10,".",""); //10 decimali
+}
 
-fputcsv($res,$r,"\t");
+fputcsv($res,$t,"\t");
 }
 fclose($res);
 
 function findR($p){
 global $coord;
 foreach($coord as $k){
-    if ($k['name']==$p) return $k['alpha-3'];
+    if ($k['ISO3']==$p) return $k['Population'];
 }
 return -1;
 }
