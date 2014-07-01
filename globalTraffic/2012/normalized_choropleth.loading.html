@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Genoa Port Statistics - 2013 Import Traffic Choropleth (by country of loading)</title>
+<meta charset="utf8"/>
+<link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
+<link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
+<script type="text/javascript" src="../../script/leaflet.js"></script>
+<script type="text/javascript" src="../../script/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../../script/jquery.blockUI.js"></script>
+<script type="text/javascript" src="../../script/jsonselect.min.js"></script>
+<script type="text/javascript" src="../../script/topojson.v1.min.js"></script>
+</head>
+<body>
+<div id="mapapp">
+<div id="panel">
+<a href="../../index.html" class="entry">Index</a>
+<a href="data/index.html" class="entry">Get the data</a>
+<h1>2013 Import Traffic Choropleth (by country of loading)</h1>
+<p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
+<div id="legend">
+<button  class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
+<button  class="entry" onclick="change('Containers full 40\'');toggle(this);">Containers full 40'</button>
+<button  class="entry" onclick="change('Containers empty 20\'');toggle(this);">Containers empty 20'</button>
+<button  class="entry" onclick="change('Containers empty 40\'');toggle(this);">Containers empty 40'</button>
+<button  class="entry loaded" onclick="change('TEUS');toggle(this);">TEUS</button>
+<button  class="entry" onclick="change('Containerised Cargo');toggle(this);">Containerised Cargo</button>
+<button  class="entry" onclick="change('Conventional Cargo');toggle(this);">Conventional Cargo</button>
+<button  class="entry" onclick="change('Solid Bulk');toggle(this);">Solid Bulk</button>
+<button  class="entry" onclick="change('Liquid Bulk');toggle(this);">Liquid Bulk</button>
+<button  class="entry" onclick="change('TOTAL');toggle(this);">TOTAL</button>
+</div>
+</div>
+<div id='map'></div>
+</div>
+
+<script type="text/javascript">
+function getColor(d)
+{
+	var colors=['#FFF5EB','#FEE6CE','#FDAE6B','#FD8D3C','#F16913','#D94801','#A63603','#7F3603','#641B05']; //colorbrewer ed un pizzico di fantasia
+	return colors[d];
+}
+function style(f)
+{
+	var p=JSONSelect.match(':has(.ISO_A3:val("'+f.properties.ISO_A3+'")) > ."'+param+'"',jsonData);
+	if(typeof p[0] === "undefined") return {
+		weight: 2,
+		opacity: 1,
+		color: 'white',
+		dashArray: '3',
+		fillOpacity: 0.7
+	}
+	return {
+		fillColor: getColor(Math.ceil(8*p[0]/max)),
+		weight: 2,
+		opacity: 1,
+		color: 'white',
+		dashArray: '3',
+		fillOpacity: 0.7
+	};
+}
+
+function getBaseLayer()
+{
+	return $.getJSON('../../common/nation.topojson',function (feat) {
+		var county_geojson = topojson.feature(feat, feat.objects.countries3);
+		jsonlayer = L.geoJson(county_geojson, {
+			style: style
+		});
+		map.addLayer(jsonlayer);
+		lControl.addOverlay(jsonlayer, "Choropleth");
+	});
+}
+
+function colorize()
+{
+	return $.getJSON('data/normalized_globalTraffic_2012_loading_country.json',function (json) {
+		jsonData=json;
+		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
+	});
+}
+
+// load first the json dataset, then the world countries topojson
+function load()
+{
+	$.blockUI({message: "Loading...", css: { backgroundColor: '#f00', color: '#fff'} });
+	var loadingColor = colorize();
+	var loadingLayer = getBaseLayer();
+	$.unblockUI();
+}
+
+function change(property)
+{
+	param=property; //set global
+	max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
+	jsonlayer.eachLayer(function(layer){
+		var newStyle=style(layer.feature);
+		layer.setStyle(newStyle);
+	});
+}
+
+function arrayMax(array) {
+    return Math.max.apply(null, array);
+}
+
+function toggle(o){
+$('button').removeClass('loaded');
+$(o).addClass('loaded');
+}
+
+/* INITIAL CONFIGURATION */
+var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
+
+var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
+
+var map= new L.Map('map', {layers: [tile]});
+
+map.setView(new L.LatLng(44.4159,8.8456),2);
+map.addLayer(tile);
+
+var baseMaps = {
+	"Base": tile
+};
+
+var overlays = {
+};
+
+var lControl=L.control.layers(baseMaps, overlays).addTo(map);
+
+var jsonData;
+var jsonlayer;
+var param='TEUS'; //first index to be considered
+var max;
+
+/* load the first index */
+load();
+</script>
+</body>
+</html>
