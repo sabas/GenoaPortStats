@@ -16,7 +16,7 @@
 <div id="panel">
 <a href="../../index.html" class="entry">Index</a>
 <a href="data/index.html" class="entry">Get the data</a>
-<h1>Loading Traffic 2013 (by country of discharge)</h1>
+<h1>2013 Export Traffic Choropleth (by country of discharge)</h1>
 <p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
 <div id="legend">
 <button class="entry" onclick="change('Containers full 20\'');toggle(this);">Containers full 20'</button>
@@ -77,7 +77,6 @@ function colorize()
 	return $.getJSON('data/normalized_globalTraffic_2013_discharge_country.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
-console.log(JSONSelect.match('."'+param+'"',jsonData));
 	});
 }
 
