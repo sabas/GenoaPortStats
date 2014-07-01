@@ -74,7 +74,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('data/globalTraffic_2013_discharge_country.json',function (json) {
+	return $.getJSON('data/normalized_globalTraffic_2013_discharge_country.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 console.log(JSONSelect.match('."'+param+'"',jsonData));
