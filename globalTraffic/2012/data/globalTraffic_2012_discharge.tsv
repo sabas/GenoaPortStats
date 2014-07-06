@@ -1,451 +1,451 @@
-"Geographical Areas"	"Countries"	"locode"	"Ports"	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	"TEUS"	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	"TOTAL"	"lon"	"lat"
-"West Africa"	"Angola"	"AOLAD"	"Luanda"	1	0	0	0	1	20	0	0	0	20	"13.5412"	"-12.3700"
-"West Africa"	"Benin"	"BJCOO"	"Cotonou"	7	0	5	3	18	"132.36"	0	0	0	"132.36"	"-1.5267"	"12.3723"
-"West Africa"	"Cameroun"	"CMDLA"	"Douala"	278	44	54	13	446	"7393.85"	0	0	0	"7393.85"	"11.8800"	"-4.7700"
-"West Africa"	"Congo"	"CG001"	"Djeno Terminal"	0	0	0	0	0	0	0	0	147875	147875	"11.9370"	"-4.9136"
-"West Africa"	"Congo"	"CGPNR"	"Pointe Noire"	39	19	0	0	77	"1519.54"	0	0	0	"1519.54"	"-6.6400"	"4.7704"
-"West Africa"	"Gabon"	"GALBV"	"Libreville"	27	56	0	0	139	"2058.98"	0	0	0	"2058.98"	"9.4580"	"0.3854"
-"West Africa"	"Ghana"	"GHTKD"	"Takoradi"	166	190	5	179	909	"9544.92"	0	0	0	"9544.92"	"-1.7434"	"4.8848"
-"West Africa"	"Ghana"	"GHTEM"	"Tema"	1036	369	1129	1039	4981	"35037.32"	"177.80"	0	0	"35215.12"	"-16.5917"	"13.4539"
-"West Africa"	"Ivory coast"	"CIABJ"	"Abidjan"	1406	1279	542	606	5718	"70775.53"	"330.08"	0	0	"71105.61"	"9.7700"	"1.8700"
-"West Africa"	"Ivory coast"	"CISPY"	"San Pedro"	232	194	41	753	2167	"13469.20"	"51.50"	0	0	"13520.70"	"8.7833"	"3.7500"
-"West Africa"	"Namibia"	"NALUD"	"Luderitz"	0	0	0	0	0	0	"20354.59"	0	0	"20354.59"	"15.1573"	"-26.6500"
-"West Africa"	"Namibia"	"NAWVB"	"Walvis Bay"	0	0	0	0	0	0	"12156.07"	0	0	"12156.07"	"14.5053"	"-22.9575"
-"West Africa"	"Nigeria"	"NGABF"	"Abo Terminal"	0	0	0	0	0	0	0	0	93676	93676	"4.4670"	"5.7000"
-"West Africa"	"Nigeria"	"NGBON"	"Bonny"	0	0	0	0	0	0	0	0	326177	326177	"7.1663"	"4.4425"
-"West Africa"	"Nigeria"	"NGBRA"	"Brass Terminal"	0	0	0	0	0	0	0	0	676343	676343	"6.2433"	"4.3017"
-"West Africa"	"Nigeria"	"NGCBQ"	"Calabar"	0	0	0	0	0	0	0	0	87863	87863	"8.3374"	"4.9796"
-"West Africa"	"Nigeria"	"NGFOR"	"Forcados"	0	0	0	0	0	0	0	0	182464	182464	"5.4383"	"5.3589"
-"West Africa"	"Nigeria"	"NGLOS"	"Lagos"	125	50	929	974	3102	"9101.75"	"70.60"	0	181409	"190581.35"	"3.3896"	"6.4452"
-"West Africa"	"Nigeria"	"NGTIN"	"Tincan"	283	126	45	2668	5916	"19055.33"	0	0	0	"19055.33"	"3.3495"	"6.4317"
-"West Africa"	"Senegal"	"SNDKR"	"Dakar"	338	232	2236	1341	5720	"21399.28"	"3545.62"	0	1562	"26506.90"	"-17.4751"	"14.7178"
-"West Africa"	"Togo"	"TGLFW"	"Lome"	22	13	1	178	405	"1434.30"	0	0	0	"1434.30"	"1.2208"	"6.1339"
-"East Africa"	"Djibouti"	"DJJIB"	"Djibouti"	269	47	1136	1842	5183	"15640.56"	"765.59"	0	0	"16406.15"	"39.4500"	"15.6101"
-"East Africa"	"Kenya"	"KEMBA"	"Mombasa"	2536	173	316	830	4858	"46867.91"	"645.84"	0	0	"47513.75"	"43.2402"	"-11.7042"
-"East Africa"	"Mozambique"	"MZMPM"	"Maputo"	885	50	41	138	1302	"23289.56"	"45160.56"	0	0	"68450.12"	"40.6670"	"-14.5436"
-"East Africa"	"South Africa"	"ZACPT"	"Cape Town"	2	9	0	0	20	158	0	0	0	158	"37.2164"	"19.6158"
-"East Africa"	"South Africa"	"ZADUR"	"Durban"	417	134	27	154	1020	"13743.08"	"1143.19"	0	0	"14886.27"	"39.2664"	"-6.7981"
-"East Africa"	"South Africa"	"ZAJNB"	"Johannesburg/dbn"	0	0	0	0	0	0	0	0	39951	39951	"39.0900"	"-5.0700"
-"East Africa"	"South Africa"	"ZAPLZ"	"Port Elizabeth"	7	3	0	0	13	52	0	0	0	52	"39.2000"	"-6.1600"
-"East Africa"	"South Africa"	"ZARCB"	"Richards Bay"	0	0	0	0	0	0	"8088.27"	0	0	"8088.27"	"32.0556"	"-28.7747"
-"East Africa"	"South Africa"	"ZASDB"	"Saldanha Bay"	0	0	0	0	0	0	"10003.01"	0	0	"10003.01"	"18.0097"	"-33.0347"
-"East Africa"	"Tanzania"	"TZDAR"	"Dar es Salaam"	346	83	190	636	1974	"12554.47"	48	0	0	"12602.47"	"25.5981"	"-33.9681"
-"North Africa"	"Algeria"	"DZALG"	"Alger"	118	30	2760	4410	11758	"27267.52"	0	0	0	"27267.52"	"7.7600"	"36.9200"
-"North Africa"	"Algeria"	"DZAAE"	"Annaba"	0	0	0	0	0	0	"3212.28"	0	0	"3212.28"	"3.0486"	"36.7650"
-"North Africa"	"Algeria"	"DZAZW"	"Arzew"	0	0	0	0	0	0	0	0	13123	13123	"-0.3153"	"35.8570"
-"North Africa"	"Algeria"	"DZBJA"	"Bejaia"	125	0	0	182	489	"3167.10"	0	0	0	"3167.10"	"5.0700"	"36.7604"
-"North Africa"	"Algeria"	"DZORN"	"Oran"	0	0	4	50	104	"228.80"	0	0	0	"228.80"	"-0.6219"	"35.7119"
-"North Africa"	"Algeria"	"DZSKI"	"Skikda"	1	2	0	28	61	"165.70"	"5888.46"	0	223584	"229638.16"	"6.9000"	"36.8804"
-"North Africa"	"Egypt"	"EGSUZ"	"Suez"	0	0	0	0	0	0	0	0	4233	4233	"29.9481"	"31.2020"
-"North Africa"	"Egypt"	"EGWAF"	"Wadi Feiran"	0	0	0	0	0	0	0	0	79285	79285	"33.2546"	"28.6807"
-"North Africa"	"Egypt"	"EGALY"	"Alexandria"	3946	2067	954	3438	15910	"138287.81"	"2750.94"	6330	12169	"159537.75"	"31.8200"	"31.4204"
-"North Africa"	"Egypt"	"EGDAM"	"Damietta"	1306	2282	3373	4580	18403	"97472.71"	0	65035	5000	"167507.71"	"32.2900"	"31.2600"
-"North Africa"	"Egypt"	"EGPSD"	"Port Said"	16	72	400	3746	8052	"18094.33"	0	0	17282	"35376.33"	"32.3580"	"31.2119"
-"North Africa"	"Egypt"	"EGPSE"	"Port Said East"	74	11	260	482	1320	"4588.86"	0	0	0	"4588.86"	"32.5499"	"30.0050"
-"North Africa"	"Egypt"	"EG012"	"Sidi Kerir Terminal"	0	0	0	0	0	0	0	0	316400	316400	"29.6679"	"31.0482"
-"North Africa"	"Libya"	"LYKHO"	"AL Khums"	1	0	1	2	6	"14.33"	0	0	0	"14.33"	"20.0648"	"32.1187"
-"North Africa"	"Libya"	"LYBEN"	"Benghazi"	3	0	410	226	865	"2176.22"	"286.32"	0	0	"2462.54"	"14.2600"	"32.6604"
-"North Africa"	"Libya"	"LYBOT"	"Bouri Terminal"	0	0	0	0	0	0	0	0	85807	85807	"12.6497"	"33.9036"
-"North Africa"	"Libya"	"LYESI"	"Es Sider"	0	0	0	0	0	0	0	0	662264	662264	"18.3655"	"30.6380"
-"North Africa"	"Libya"	"LYMBR"	"Marsa el Brega"	0	0	0	0	0	0	0	0	162555	162555	"19.5988"	"30.3810"
-"North Africa"	"Libya"	"LY001"	"Marsa el Hariga"	0	0	0	0	0	0	0	0	45196	45196	"23.9847"	"32.0634"
-"North Africa"	"Libya"	"LYMTH"	"Melitah"	0	0	0	0	0	0	0	0	94362	94362	"12.2422"	"32.8591"
-"North Africa"	"Libya"	"LYMRA"	"Misurata"	4	3	650	520	1700	"3834.56"	"192.07"	0	0	"4026.63"	"15.1000"	"32.3800"
-"North Africa"	"Libya"	"LYRLA"	"Ras Lanuf"	0	0	0	0	0	0	0	0	365773	365773	"18.4178"	"30.5869"
-"North Africa"	"Libya"	"LYTIP"	"Tripoli"	80	46	1731	1702	5307	"14059.86"	"1657.92"	0	0	"15717.78"	"13.1800"	"32.8925"
-"North Africa"	"Libya"	"LYZAW"	"Zawia Terminal"	0	0	0	0	0	0	0	0	1066019	1066019	"12.7232"	"32.7658"
-"North Africa"	"Morocco"	"MATNG"	"Tangier"	41	54	4	75	303	"2037.63"	"21780.90"	0	0	"23818.53"	"-8.6459"	"33.1300"
-"North Africa"	"Morocco"	"MAPTM"	"Tangier Med"	424	682	468	3298	8852	"41944.17"	42628	0	0	"84572.17"	"-9.6200"	"30.4400"
-"North Africa"	"Morocco"	"MACAS"	"Casablanca"	44	53	476	1376	3378	"8733.33"	0	5499	0	"14232.33"	"-5.4973"	"35.8935"
-"North Africa"	"Morocco"	"MAMOH"	"Mohammedia"	0	0	0	0	0	0	0	18193	0	18193	"-7.3881"	"33.7070"
-"North Africa"	"Tunisia"	"TNBIZ"	"Bizerta"	0	0	0	0	0	0	0	8870	0	8870	"9.8714"	"37.2732"
-"North Africa"	"Tunisia"	"TNLSK"	"La Skhirra"	0	0	0	0	0	0	0	0	121850	121850	"10.1654"	"34.3343"
-"North Africa"	"Tunisia"	"TNRDS"	"Rades"	237	144	2383	1749	6406	"19069.01"	"455526.80"	0	0	"474595.81"	"10.2834"	"36.7779"
-"North Africa"	"Tunisia"	"TNSUS"	"Sousse"	0	0	0	0	0	0	0	66615	0	66615	"10.6350"	"35.8241"
-"North Africa"	"Tunisia"	"TNTUN"	"Tunis"	700	563	3399	3238	11701	"49264.02"	"152404.99"	6311	19380	"227360.01"	"10.1797"	"36.8028"
-"North Africa"	"Tunisia"	"TNZAR"	"Zarzis"	0	0	0	0	0	0	0	12940	11122	24062	"33.5016"	"11.1131"
-"Central America"	"Bahamas"	"BSFPO"	"Freeport bs"	10	34	40	7	132	"937.96"	0	0	0	"937.96"	"-78.6954"	"26.5357"
-"Central America"	"Costa Rica"	"CRLIO"	"Puerto Limon"	7	36	0	0	79	"1197.47"	0	0	0	"1197.47"	"-83.0308"	"9.9932"
-"Central America"	"Costa Rica"	"CRMOB"	"Puerto Moin"	239	479	0	16	1229	"17109.65"	0	0	0	"17109.65"	"-83.0760"	"9.9991"
-"Central America"	"Costa Rica"	"CRSJO"	"San Josè"	0	2	0	0	4	"60.56"	0	0	0	"60.56"	"-84.0793"	"9.9327"
-"Central America"	"Cuba"	"CUHAV"	"Havana"	85	574	675	950	3808	"21913.62"	0	0	0	"21913.62"	"-82.3659"	"23.1380"
-"Central America"	"Cuba"	"CUSCU"	"Santiago de Cuba"	9	171	62	193	799	"5023.14"	0	0	0	"5023.14"	"-75.8290"	"20.0289"
-"Central America"	"Dominican Republic"	"DOCAU"	"Caucedo"	1013	538	373	3180	8822	"52037.41"	0	0	0	"52037.41"	"-69.6449"	"18.4148"
-"Central America"	"Dominican Republic"	"DOHAI"	"Haina "	16	59	0	0	134	"2315.31"	0	0	0	"2315.31"	"-70.0192"	"18.4200"
-"Central America"	"Guadaloupe"	"GPPTP"	"Pointe a Pitre"	177	1	12	1	193	"3744.11"	0	0	0	"3744.11"	"-61.5334"	"16.2409"
-"Central America"	"Guatemala"	"GTSTC"	"Santo Tomas de Castilla"	7	3	0	0	13	"129.65"	"756.92"	0	0	"886.57"	"-88.6111"	"15.6867"
-"Central America"	"Honduras"	"HNPCR"	"Puerto Cortes"	2	0	0	0	2	"46.70"	0	0	0	"46.70"	"-87.9438"	"15.8453"
-"Central America"	"Jamaica"	"JMKIN"	"Kingston "	463	1033	533	3336	9734	"52461.21"	0	0	0	"52461.21"	"-76.7928"	"17.9712"
-"Central America"	"Martinique"	"MQFDF"	"Fort de France"	221	11	0	0	243	"5291.68"	0	0	0	"5291.68"	"-61.0768"	"14.6037"
-"Central America"	"Mexico"	"MXATM"	"Altamira "	1562	571	108	457	3726	"60759.39"	0	0	0	"60759.39"	"-97.9300"	"22.4062"
-"Central America"	"Mexico"	"MXZLO"	"Manzanillo"	186	147	62	60	662	"8095.65"	0	0	0	"8095.65"	"-104.3160"	"19.0506"
-"Central America"	"Mexico"	"MXVER"	"Veracruz"	400	773	207	1111	4375	"33456.59"	0	0	0	"33456.59"	"-96.1386"	"19.2002"
-"Central America"	"Panama"	"PACTB"	"Cristobal"	3	2	0	0	7	"117.40"	0	0	0	"117.40"	"-79.9046"	"9.3530"
-"Central America"	"Panama"	"PAMAN"	"Manzanillo "	303	288	10	137	1163	"14793.12"	0	0	0	"14793.12"	"-104.3160"	"19.0506"
-"Central America"	"Panama"	"PAPTY"	"Panama City"	188	196	129	276	1261	"10490.54"	0	0	0	"10490.54"	"-79.5345"	"8.9707"
-"Central America"	"Puerto Rico"	"PRSJU"	"San Juan "	0	1	0	0	2	"11.52"	0	0	0	"11.52"	"-66.0755"	"18.4464"
-"Central America"	"Trinidad"	"TTPOS"	"Port of Spain"	0	1	0	0	2	"11.76"	0	0	0	"11.76"	"-61.5181"	"10.6572"
-"North America"	"Canada"	"CACBC"	"Come By Chance"	0	0	0	0	0	0	0	0	39950	39950	"-53.9839"	"47.8460"
-"North America"	"Canada"	"CAHAL"	"Halifax"	71	10	0	1	93	"1666.13"	0	0	0	"1666.13"	"-63.5750"	"44.6484"
-"North America"	"Canada"	"CAVAN"	"Vancouver"	33	37	0	13	133	"1622.10"	0	0	0	"1622.10"	"-122.6745"	"45.6307"
-"North America"	"Canada"	"CACSC"	"Cote Ste. Catherine"	0	0	0	0	0	0	0	7286	0	7286	"-73.6329"	"45.4923"
-"North America"	"Canada"	"CAHAM"	"Hamilton"	0	0	0	0	0	0	0	0	5042	5042	"-79.8678"	"43.2547"
-"North America"	"Canada"	"CAMTR"	"Montreal"	1513	2278	583	3705	14062	"78925.68"	271	0	0	"79196.68"	"-73.5913"	"45.5225"
-"North America"	"United States of America"	"USCHS"	"Charleston"	3	0	28	216	463	"962.50"	1128	0	0	"2090.50"	"-79.9403"	"32.7876"
-"North America"	"United States of America"	"USCRP"	"Corpus Christi"	0	0	0	0	0	0	0	0	75739	75739	"-97.3930"	"27.8006"
-"North America"	"United States of America"	"USPEF"	"Port Everglades"	411	1000	329	1605	5950	"27642.40"	0	0	0	"27642.40"	"-80.1273"	"26.0969"
-"North America"	"United States of America"	"USSAV"	"Savannah"	901	4290	1402	1460	13803	"115292.07"	365	0	0	"115657.07"	"-81.0998"	"32.0835"
-"North America"	"United States of America"	"USUZD"	"Tarboro"	0	1	0	0	2	"20.50"	0	0	0	"20.50"	"-77.5355"	"35.8967"
-"North America"	"United States of America"	"USBAL"	"Baltimore"	2	5	7	5	29	"111.96"	"622.07"	0	0	"734.03"	"-76.6108"	"39.2909"
-"North America"	"United States of America"	"USBOS"	"Boston"	2	0	0	0	2	"11.60"	0	0	0	"11.60"	"-71.0641"	"42.3595"
-"North America"	"United States of America"	"USBJT"	"Bridgetown md"	0	1	0	0	2	"39.59"	0	0	0	"39.59"	"-75.8741"	"39.0346"
-"North America"	"United States of America"	"USNYC"	"New York"	1770	4204	50	534	11296	"115330.12"	1582	0	0	"116912.12"	"-73.9866"	"40.7306"
-"North America"	"United States of America"	"USEWR"	"Newark"	432	1317	145	565	4341	"33226.15"	0	0	0	"33226.15"	"-74.1728"	"40.7355"
-"North America"	"United States of America"	"USORF"	"Norfolk"	950	2026	254	204	5664	"55020.90"	640	0	0	"55660.90"	"-76.2904"	"36.9100"
-"North America"	"United States of America"	"USPHL"	"Philadelphia"	0	0	0	0	0	0	109	0	0	109	"-75.1748"	"39.9428"
-"North America"	"United States of America"	"USHOU"	"Houston"	1137	1719	79	510	5674	"61276.28"	"7087.15"	42544	59979	"170886.43"	"-95.3659"	"29.7580"
-"North America"	"United States of America"	"USMSY"	"New Orleans"	164	1064	493	172	3129	"30686.29"	0	77060	1795	"109541.29"	"-90.0694"	"29.9478"
-"North America"	"United States of America"	"USLGB"	"Long Beach"	0	0	0	0	0	0	0	0	41965	41965	"-118.1739"	"33.7762"
-"North America"	"United States of America"	"USLAX"	"Los Angeles"	70	173	0	3	422	"3255.10"	0	0	0	"3255.10"	"-118.2427"	"34.0537"
-"North America"	"United States of America"	"USOAK"	"Oakland"	1320	398	0	0	2116	"41970.80"	0	0	0	"41970.80"	"-122.2703"	"37.8037"
-"North America"	"United States of America"	"USPDX"	"Portland (West Coast)"	16	60	0	0	136	"1648.58"	0	0	0	"1648.58"	"-122.6723"	"45.5205"
-"North America"	"United States of America"	"USSEA"	"Seattle"	7	16	0	0	39	"499.78"	0	0	0	"499.78"	"-122.3306"	"47.6052"
-"North America"	"United States of America"	"USTIW"	"Tacoma. wa"	4	7	0	1	20	"203.74"	0	0	0	"203.74"	"-122.4371"	"47.2507"
-"South America"	"Argentina"	"ARBUE"	"Buenos Aires"	1473	1439	429	540	5860	"75310.35"	0	0	0	"75310.35"	"-58.3995"	"-34.6006"
-"South America"	"Argentina"	"ARSLO"	"San Lorenzo"	0	0	0	0	0	0	0	0	34002	34002	"-60.7427"	"-32.7472"
-"South America"	"Brazil"	"BRBEL"	"Belem"	6	2	0	0	10	"120.37"	0	0	0	"120.37"	"-48.4682"	"-1.4506"
-"South America"	"Brazil"	"BRFOR"	"Fortaleza"	56	4	0	0	64	"579.19"	0	0	0	"579.19"	"-38.5218"	"-3.7305"
-"South America"	"Brazil"	"BRITJ"	"Itajai"	365	885	114	413	3075	"35368.58"	0	0	0	"35368.58"	"-48.6800"	"-26.8996"
-"South America"	"Brazil"	"BRIOA"	"Itapora"	495	202	22	171	1263	"17081.78"	0	0	0	"17081.78"	"-54.7963"	"-22.0838"
-"South America"	"Brazil"	"BRNVT"	"Navegantes"	417	617	158	112	2033	"26758.27"	0	0	0	"26758.27"	"-48.6477"	"-26.8893"
-"South America"	"Brazil"	"BRPNG"	"Paranagua"	166	979	216	310	2960	"32717.35"	0	0	0	"32717.35"	"-48.5345"	"-25.5279"
-"South America"	"Brazil"	"BRPEC"	"Pecem"	3	13	79	165	438	"1296.34"	0	0	0	"1296.34"	"-38.8306"	"-3.5469"
-"South America"	"Brazil"	"BRRIO"	"Rio de Janeiro"	2820	476	143	1420	6755	"90720.36"	23	0	0	"90743.36"	"-43.2270"	"-22.9231"
-"South America"	"Brazil"	"BRRIG"	"Rio Grande"	469	617	31	173	2080	"21241.36"	0	0	0	"21241.36"	"-52.1200"	"-32.0495"
-"South America"	"Brazil"	"BRSSA"	"Salvador"	1	0	0	0	1	"29.40"	0	0	0	"29.40"	"-38.4819"	"-12.9680"
-"South America"	"Brazil"	"BRSSZ"	"Santos"	6771	3015	637	3438	20314	"254125.18"	0	0	0	"254125.18"	"-46.3349"	"-23.9518"
-"South America"	"Brazil"	"BRSFS"	"Sao Francisco do Sul"	1	39	5	56	196	"1372.30"	0	0	0	"1372.30"	"-48.6000"	"-26.2396"
-"South America"	"Brazil"	"BRSUA"	"Suape"	125	13	1168	1178	3675	"11410.58"	0	0	0	"11410.58"	"-34.9591"	"-8.3603"
-"South America"	"Chile"	"CLVAP"	"Valparaiso"	1	0	0	0	1	"25.36"	0	0	0	"25.36"	"-71.6230"	"-33.0458"
-"South America"	"Colombia"	"COCTG"	"Cartagena "	1660	564	272	1082	5224	"59535.09"	0	0	0	"59535.09"	"-75.5163"	"10.4017"
-"South America"	"Ecuador"	"ECGYE"	"Guayaquil"	2	0	0	0	2	"49.80"	0	0	0	"49.80"	"-79.9220"	"-2.2181"
-"South America"	"French Guiana"	"GFCAY"	"Cayenne"	0	0	0	0	0	0	"292.60"	0	0	"292.60"	"-52.3258"	"4.9371"
-"South America"	"Peru"	"PECLL"	"Callao"	2	2	0	0	6	"57.54"	0	0	0	"57.54"	"-77.1350"	"-12.0700"
-"South America"	"Uruguay"	"UYMVD"	"Montevideo"	177	951	164	473	3189	"33182.44"	0	0	0	"33182.44"	"-56.1730"	"-34.8561"
-"South America"	"Venezuela"	"VELAG"	"La Guaira"	0	0	26	115	256	512	0	0	0	512	"-66.9398"	"10.5999"
-"South America"	"Venezuela"	"VEPBL"	"Puerto Cabello"	44	0	8	2	56	"704.42"	0	0	0	"704.42"	"-68.1700"	"10.4704"
-"Far East"	"Cambodia"	"KHKOS"	"Kompongsom"	16	9	0	0	34	"363.82"	0	0	0	"363.82"	"103.5078"	"10.6460"
-"Far East"	"Cambodia"	"KHPNH"	"Phnom Penh"	1	0	0	0	1	"4.43"	0	0	0	"4.43"	"104.9147"	"11.5520"
-"Far East"	"China"	"CNAQG"	"Anqing"	5	31	0	0	67	"660.15"	0	0	0	"660.15"	"117.0430"	"30.5120"
-"Far East"	"China"	"CNBJO"	"Beijiao"	9	212	0	0	433	"2772.46"	0	0	0	"2772.46"	"103.0094"	"30.0073"
-"Far East"	"China"	"CNCSX"	"Changsha"	45	38	0	0	121	"1497.41"	0	0	0	"1497.41"	"112.9836"	"28.1874"
-"Far East"	"China"	"CNCGU"	"Changshu"	6	40	0	0	86	646	0	0	0	646	"120.7409"	"31.6434"
-"Far East"	"China"	"CNCZX"	"Changzhou"	47	16	0	0	79	"1394.29"	0	0	0	"1394.29"	"119.9388"	"31.7895"
-"Far East"	"China"	"CNYAN"	"Chefoo"	185	125	0	0	435	"4722.43"	0	0	0	"4722.43"	"121.3895"	"37.5340"
-"Far East"	"China"	"CNCWN"	"Chiwan "	424	1095	0	163	2940	"23717.04"	0	0	0	"23717.04"	"113.8829"	"22.4835"
-"Far East"	"China"	"CNCKG"	"Chongqing"	110	25	0	0	160	"2723.62"	0	0	0	"2723.62"	"106.5493"	"29.5586"
-"Far East"	"China"	"CNDLC"	"Dalian"	690	328	0	0	1346	"22106.85"	0	0	0	"22106.85"	"121.6106"	"38.9105"
-"Far East"	"China"	"CNFGC"	"Fangcheng"	23	0	0	0	23	"634.23"	0	0	0	"634.23"	"118.1812"	"35.2831"
-"Far East"	"China"	"CNFSH"	"Foshan"	10	8	0	0	26	"219.86"	0	0	0	"219.86"	"113.1146"	"23.0249"
-"Far East"	"China"	"CNFOC"	"Fuzhou"	132	153	0	0	438	"4322.94"	0	0	0	"4322.94"	"119.2957"	"26.0792"
-"Far East"	"China"	"CNGAS"	"Gaosha"	1	0	0	0	1	"3.55"	0	0	0	"3.55"	"115.6741"	"23.2743"
-"Far East"	"China"	"CNGOM"	"Guanghai"	9	0	0	0	9	"181.76"	0	0	0	"181.76"	"112.7969"	"21.9623"
-"Far East"	"China"	"CNGGS"	"Guangshui"	7	16	0	0	39	"285.55"	0	0	0	"285.55"	"113.8240"	"31.6183"
-"Far East"	"China"	"CNHAK"	"Haikou"	3	33	0	0	69	"524.77"	0	0	0	"524.77"	"110.3410"	"20.0424"
-"Far East"	"China"	"HKHKG"	"Hong Kong"	6365	9803	36	325	26657	"211345.79"	14	0	0	"211359.79"	"114.1849"	"22.3506"
-"Far East"	"China"	"CNHUA"	"Huangpu"	167	119	0	0	405	"4064.76"	0	0	0	"4064.76"	"116.4617"	"30.5595"
-"Far East"	"China"	"CNHSI"	"Huangshi"	0	7	0	0	14	"160.22"	0	0	0	"160.22"	"115.0333"	"30.2043"
-"Far East"	"China"	"CNJMN"	"Jiangmen"	31	117	0	0	265	"2534.06"	0	0	0	"2534.06"	"113.0790"	"22.5766"
-"Far East"	"China"	"CNJIA"	"Jiangyin"	61	158	0	0	377	"4523.67"	0	0	0	"4523.67"	"120.2635"	"31.9081"
-"Far East"	"China"	"CNJIZ"	"Jiazi"	1	2	0	0	5	"56.99"	0	0	0	"56.99"	"116.0670"	"22.8796"
-"Far East"	"China"	"CNJGZ"	"Jingzhou"	55	3	0	0	61	"1240.44"	0	0	0	"1240.44"	"112.1869"	"30.3539"
-"Far East"	"China"	"CNJIU"	"Jiujiang"	36	9	0	0	54	"1114.62"	0	0	0	"1114.62"	"115.9968"	"29.7077"
-"Far East"	"China"	"CNJZU"	"Jiuzhou"	4	3	0	0	10	"81.45"	0	0	0	"81.45"	"99.2292"	"25.7522"
-"Far East"	"China"	"CNLSI"	"Lanshi"	3	0	0	0	3	"62.48"	0	0	0	"62.48"	"113.1010"	"22.9808"
-"Far East"	"China"	"CNLYG"	"Lianyungang"	52	39	0	0	130	"1818.59"	0	0	0	"1818.59"	"119.1695"	"34.6093"
-"Far East"	"China"	"CNLHZ"	"Liuzhou"	0	5	0	0	10	"114.77"	0	0	0	"114.77"	"109.4066"	"24.3213"
-"Far East"	"China"	"CNKHN"	"Nanchang"	17	1	0	0	19	"411.97"	0	0	0	"411.97"	"115.8979"	"28.6965"
-"Far East"	"China"	"CNNKG"	"Nanjing"	266	355	0	0	976	"10872.52"	0	0	0	"10872.52"	"118.7913"	"32.0607"
-"Far East"	"China"	"CNNSA"	"Nansha"	508	1237	3	13	3011	"25264.39"	0	0	0	"25264.39"	"102.8383"	"23.2199"
-"Far East"	"China"	"CNNTG"	"Nantong"	84	45	0	0	174	"2266.18"	0	0	0	"2266.18"	"120.8902"	"31.9834"
-"Far East"	"China"	"CNNBO"	"Ningbo"	9150	12729	22	99	34828	"311777.04"	371	0	0	"312148.04"	"121.5499"	"29.8720"
-"Far East"	"China"	"CNPUT"	"Putian"	3	3	0	0	9	"65.24"	0	0	0	"65.24"	"119.0075"	"25.4342"
-"Far East"	"China"	"CNTAO"	"Qingdao"	4588	4341	10	243	13766	"161685.22"	0	0	0	"161685.22"	"120.3497"	"36.0895"
-"Far East"	"China"	"CNQHA"	"Qinhuangdao"	0	0	0	0	0	0	10	0	0	10	"119.5883"	"39.9317"
-"Far East"	"China"	"CNROQ"	"Rongqi"	13	187	0	0	387	"2461.71"	0	0	0	"2461.71"	"113.3071"	"22.7540"
-"Far East"	"China"	"CNSBU"	"Sanbu"	1	0	0	0	1	"21.45"	0	0	0	"21.45"	"112.6631"	"22.3629"
-"Far East"	"China"	"CNSHA"	"Shanghai"	20559	21072	159	639	64140	"650357.16"	939	0	0	"651296.16"	"121.4889"	"31.2253"
-"Far East"	"China"	"CNSWA"	"Shantou"	17	116	0	0	249	"1277.96"	0	0	0	"1277.96"	"116.6949"	"23.3653"
-"Far East"	"China"	"CNSSN"	"Shashan"	2	10	0	0	22	"102.36"	0	0	0	"102.36"	"113.1381"	"23.0315"
-"Far East"	"China"	"CNSHU"	"Shekou"	4227	8088	13	627	21670	"163398.34"	0	0	0	"163398.34"	"114.3485"	"30.7153"
-"Far East"	"China"	"CNSJW"	"Shijiazhuang"	1	0	0	0	1	"2.87"	0	0	0	"2.87"	"114.5086"	"38.0420"
-"Far East"	"China"	"CNSUD"	"Shunde"	10	18	0	0	46	"366.82"	0	0	0	"366.82"	"113.2715"	"22.8776"
-"Far East"	"China"	"CNTAG"	"Taicang"	41	1342	0	0	2725	"16352.40"	0	0	0	"16352.40"	"121.1058"	"31.4546"
-"Far East"	"China"	"CNTZO"	"Taizhou"	6	23	0	0	52	"522.80"	0	0	0	"522.80"	"121.4445"	"28.6836"
-"Far East"	"China"	"CNTSN"	"Tianjin"	424	286	0	0	996	"16011.43"	1078	0	0	"17089.43"	"117.1981"	"39.1236"
-"Far East"	"China"	"CNWAI"	"Waihai"	1	2	0	0	5	"51.22"	0	0	0	"51.22"	"113.1585"	"22.5856"
-"Far East"	"China"	"CNWZH"	"Wenzhou"	32	55	0	0	142	"1454.80"	0	0	0	"1454.80"	"120.6484"	"28.0222"
-"Far East"	"China"	"CNWUH"	"Wuhan"	166	95	0	0	356	"4462.84"	0	0	0	"4462.84"	"114.2993"	"30.5960"
-"Far East"	"China"	"CNWHI"	"Wuhu"	13	1	0	0	15	"320.25"	0	0	0	"320.25"	"118.3537"	"31.3426"
-"Far East"	"China"	"CNWUX"	"Wuxi"	9	15	0	0	39	"480.38"	0	0	0	"480.38"	"120.3129"	"31.5874"
-"Far East"	"China"	"CNWUZ"	"Wuzhou"	6	5	0	0	16	"211.67"	0	0	0	"211.67"	"111.2972"	"23.4783"
-"Far East"	"China"	"CNXMN"	"Xiamen (Xian)"	2272	3170	0	15	8642	"76116.85"	0	0	0	"76116.85"	"118.1356"	"24.4974"
-"Far East"	"China"	"CNXLA"	"Xianlang"	6	9	0	0	24	"161.01"	0	0	0	"161.01"	"120.2429"	"36.0113"
-"Far East"	"China"	"CNXIL"	"Xiaolan"	3	0	0	0	3	"27.78"	0	0	0	"27.78"	"113.2295"	"22.6731"
-"Far East"	"China"	"CNXGG"	"Xingang "	1222	542	0	0	2306	"35383.47"	"265.20"	0	0	"35648.67"	"117.7433"	"38.9788"
-"Far East"	"China"	"CNYZH"	"Yangzhou"	33	65	0	0	163	"1400.54"	0	0	0	"1400.54"	"119.4366"	"32.3927"
-"Far East"	"China"	"CNYNT"	"Yantai"	1	1	0	0	3	"45.34"	0	0	0	"45.34"	"121.3895"	"37.5340"
-"Far East"	"China"	"CNYYT"	"Yantian"	2	1	0	0	4	"64.47"	0	0	0	"64.47"	"114.3743"	"27.3659"
-"Far East"	"China"	"CNYTI"	"Yantian Huangdong"	3681	9656	0	164	23321	"160137.19"	0	0	0	"160137.19"	"114.2734"	"22.5863"
-"Far East"	"China"	"CNYIC"	"Yichang"	6	6	0	0	18	"236.47"	0	0	0	"236.47"	"111.3217"	"30.7711"
-"Far East"	"China"	"CNYIK"	"Yingkou"	5	0	0	0	5	"136.50"	0	0	0	"136.50"	"122.2474"	"40.6678"
-"Far East"	"China"	"CNYIX"	"Yixing"	31	0	0	0	31	"662.31"	0	0	0	"662.31"	"119.7853"	"31.3605"
-"Far East"	"China"	"CNYUE"	"Yueqing"	0	5	0	0	10	"154.75"	0	0	0	"154.75"	"120.9584"	"28.1260"
-"Far East"	"China"	"CNYUY"	"Yueyang"	0	32	0	0	64	"967.45"	0	0	0	"967.45"	"113.1230"	"29.3589"
-"Far East"	"China"	"CNZJG"	"Zhangjiagang"	289	61	0	0	411	"8489.73"	0	0	0	"8489.73"	"120.5427"	"31.8665"
-"Far East"	"China"	"CNZHA"	"Zhanjiang"	31	3	0	0	37	"895.92"	0	0	0	"895.92"	"110.4046"	"21.2022"
-"Far East"	"China"	"CNZQG"	"Zhaoqing"	0	1	0	0	2	"10.13"	0	0	0	"10.13"	"112.4728"	"23.0516"
-"Far East"	"China"	"CNZHP"	"Zhapu"	130	75	0	0	280	"4290.18"	0	0	0	"4290.18"	"121.0748"	"30.5942"
-"Far East"	"China"	"CNZHE"	"Zhenjiang"	15	2	0	0	19	"328.14"	0	0	0	"328.14"	"119.4580"	"32.2140"
-"Far East"	"China"	"CN013"	"Zhongshan"	29	45	0	0	119	"920.44"	0	0	0	"920.44"	"120.9419"	"31.2871"
-"Far East"	"China"	"CN014"	"Zhuhai"	10	28	0	0	66	"500.09"	0	0	0	"500.09"	"113.5680"	"22.2658"
-"Far East"	"China"	"CNZJI"	"Zhuji"	50	4	0	0	58	"1165.44"	0	0	0	"1165.44"	"120.2342"	"29.7161"
-"Far East"	"China"	"HKWNI"	"Wan Chai"	1	0	0	0	1	"12.70"	0	0	0	"12.70"	"114.1728"	"22.2788"
-"Far East"	"Indonesia"	"IDBTH"	"Batam"	0	0	0	0	0	0	0	0	35247	35247	"104.0285"	"1.1069"
-"Far East"	"Indonesia"	"IDBLW"	"Belawan. Sumatra"	144	23	0	0	190	"4006.61"	0	0	79105	"83111.61"	"98.6918"	"3.7828"
-"Far East"	"Indonesia"	"IDDUM"	"Dumai. Sumatra"	0	0	0	0	0	0	0	0	95993	95993	"101.4533"	"1.6815"
-"Far East"	"Indonesia"	"IDJKT"	"Jakarta. Java"	187	519	0	0	1225	"13343.32"	0	0	0	"13343.32"	"106.8271"	"-6.1753"
-"Far East"	"Indonesia"	"IDDJB"	"Jambi. Sumatra"	27	0	0	0	27	"647.06"	0	0	0	"647.06"	"103.6106"	"-1.5916"
-"Far East"	"Indonesia"	"IDPDG"	"Padang. Sumatra"	0	0	0	0	0	0	0	0	600	600	"100.3587"	"-0.9430"
-"Far East"	"Indonesia"	"IDPLM"	"Palembang. Sumatra"	55	0	0	0	55	"1374.91"	0	0	0	"1374.91"	"104.7569"	"-2.9888"
-"Far East"	"Indonesia"	"IDPNJ"	"Panjang"	1	0	0	0	1	"21.52"	0	0	0	"21.52"	"105.3155"	"-5.4615"
-"Far East"	"Indonesia"	"IDSRG"	"Semarang. Java"	95	63	0	0	221	"2831.34"	0	0	0	"2831.34"	"110.4099"	"-6.9834"
-"Far East"	"Indonesia"	"IDSUB"	"Surabaya. Java"	106	48	0	0	202	"2852.63"	0	0	0	"2852.63"	"112.7559"	"-7.2387"
-"Far East"	"Japan"	"JPHKT"	"Hakata. Fukuoka"	10	31	0	0	72	"435.23"	0	0	0	"435.23"	"130.4207"	"33.5901"
-"Far East"	"Japan"	"JPHHR"	"Higashiharima. Hyogo"	0	0	0	0	0	0	625	0	0	625	"134.8184"	"34.7154"
-"Far East"	"Japan"	"JPUKB"	"Kobe. Hyogo"	181	85	0	0	351	"3929.01"	"5104.78"	0	0	"9033.79"	"135.1343"	"34.7253"
-"Far East"	"Japan"	"JPMOJ"	"Moji. Fukuoka"	7	0	0	0	7	"152.17"	0	0	0	"152.17"	"130.9408"	"33.9066"
-"Far East"	"Japan"	"JPNGO"	"Nagoya. Aichi"	128	148	0	0	424	"4052.74"	1334	0	0	"5386.74"	"136.9000"	"35.1833"
-"Far East"	"Japan"	"JPKIJ"	"Niigata. Niigata"	1	0	0	0	1	"16.17"	0	0	0	"16.17"	"139.0255"	"37.8476"
-"Far East"	"Japan"	"JPOSA"	"Osaka. Osaka"	19	3	0	0	25	"297.96"	0	0	0	"297.96"	"135.5021"	"34.6938"
-"Far East"	"Japan"	"JPSMZ"	"Shimizu. Shizuoka"	1	20	0	0	41	"261.25"	0	0	0	"261.25"	"138.5010"	"35.0195"
-"Far East"	"Japan"	"JPTYO"	"Tokyo.Tokyo"	59	146	0	0	351	"2440.34"	1703	0	0	"4143.34"	"139.7685"	"35.6801"
-"Far East"	"Japan"	"JPYOK"	"Yokohama. Kanagawa"	45	98	0	0	241	"1636.51"	4155	0	0	"5791.51"	"139.6421"	"35.4450"
-"Far East"	"Malaysia"	"MYBKI"	"Kota Kinabalu. Sabah"	0	24	0	0	48	"490.08"	0	0	0	"490.08"	"116.1100"	"5.9800"
-"Far East"	"Malaysia"	"MYKUA"	"Kuantan"	0	0	0	0	0	0	0	0	100	100	"103.3200"	"3.8300"
-"Far East"	"Malaysia"	"MYMKZ"	"Malacca"	0	0	0	0	0	0	0	0	27125	27125	"102.2559"	"2.1908"
-"Far East"	"Malaysia"	"MYPGU"	"Pasir Gudang"	27	6	0	0	39	"615.01"	0	0	0	"615.01"	"103.8787"	"1.4537"
-"Far East"	"Malaysia"	"MYPEN"	"Penang"	269	116	0	0	501	"7210.46"	0	0	0	"7210.46"	"100.2878"	"5.3805"
-"Far East"	"Malaysia"	"MYPKG"	"Port Kelang"	4223	3008	185	1473	13370	"138451.82"	0	0	108904	"247355.82"	"101.3018"	"2.9422"
-"Far East"	"Malaysia"	"MYTPP"	"Tanjong Pelepas"	4484	4566	3	232	14083	"157089.91"	0	0	0	"157089.91"	"103.5457"	"1.3570"
-"Far East"	"Malaysia"	"MYWSP"	"Westport/Port Klang"	1	8	0	0	17	"155.87"	0	0	0	"155.87"	"101.3187"	"2.9553"
-"Far East"	"Myanmar"	"MMRGN"	"Yangon"	3	0	0	0	3	"77.43"	0	0	0	"77.43"	"96.1647"	"16.7853"
-"Far East"	"Philippines"	"PHCEB"	"Cebu"	4	0	0	0	4	"31.28"	0	0	0	"31.28"	"123.8981"	"10.3219"
-"Far East"	"Philippines"	"PHDVO"	"Davao. Mindanao"	2	8	0	0	18	"247.87"	0	0	0	"247.87"	"125.6280"	"7.1120"
-"Far East"	"Philippines"	"PHGES"	"General Santos. Dadiangas"	4	0	0	0	4	"62.18"	0	0	0	"62.18"	"125.1702"	"6.1124"
-"Far East"	"Philippines"	"PHMSY"	"Manansalay. Batangas"	1	7	0	0	15	"223.48"	0	0	0	"223.48"	"121.0578"	"13.7561"
-"Far East"	"Philippines"	"PHMNL"	"Manila"	63	141	0	0	345	"3249.63"	0	0	0	"3249.63"	"120.9803"	"14.6061"
-"Far East"	"Singapore"	"SGSIN"	"Singapore"	11971	12165	472	2884	42541	"403325.58"	42	0	0	"403367.58"	"103.8539"	"1.2950"
-"Far East"	"South Korea"	"KRPUS"	"Busan (Pusan)"	6548	4580	129	590	17017	"206408.85"	1675	0	0	"208083.85"	"129.0081"	"35.0970"
-"Far East"	"South Korea"	"KRKWY"	"Gwangyang (Kwangyang)"	152	70	0	0	292	"4012.71"	0	0	0	"4012.71"	"127.6032"	"34.8981"
-"Far East"	"South Korea"	"KRINC"	"Incheon (Inchon)"	101	1	0	0	103	"2045.37"	1091	0	0	"3136.37"	"126.6403"	"37.4781"
-"Far East"	"South Korea"	"KRMAS"	"Masan"	0	0	0	0	0	0	12519	0	0	12519	"128.5677"	"35.1969"
-"Far East"	"Taiwan"	"TWKHH"	"Kaohsiung"	4372	5150	4	69	14814	"152191.71"	0	0	0	"152191.71"	"120.2666"	"22.6333"
-"Far East"	"Taiwan"	"TWKEL"	"Keelung"	36	40	0	0	116	"882.02"	0	0	0	"882.02"	"121.7333"	"25.1333"
-"Far East"	"Taiwan"	"TWTXG"	"Taichung"	62	26	0	0	114	"1280.40"	0	0	0	"1280.40"	"120.6817"	"24.1521"
-"Far East"	"Taiwan"	"TWTAO"	"Taoyuan"	892	724	0	25	2390	"28947.69"	0	0	0	"28947.69"	"120.7600"	"23.1591"
-"Far East"	"Taiwan"	"TWTYN"	"Taoyuan City"	9	30	0	0	69	"469.32"	0	0	0	"469.32"	"121.3111"	"24.9889"
-"Far East"	"Thailand"	"THBKK"	"Bangkok"	314	94	0	0	502	"7017.18"	0	0	0	"7017.18"	"100.5147"	"13.7519"
-"Far East"	"Thailand"	"THKKC"	"Khon Kaen"	0	3	0	0	6	"37.78"	0	0	0	"37.78"	"102.8448"	"16.4346"
-"Far East"	"Thailand"	"THLMC"	"Laem Chabang"	1052	378	0	0	1808	"27040.45"	0	0	0	"27040.45"	"100.9152"	"13.0971"
-"Far East"	"Thailand"	"THSGZ"	"Songkhla"	50	109	0	0	268	"3864.76"	0	0	0	"3864.76"	"100.5981"	"7.1979"
-"Far East"	"Vietnam"	"VNCLN"	"Cai Lan"	1	1	0	0	3	"40.55"	0	0	0	"40.55"	"107.0556"	"20.9720"
-"Far East"	"Vietnam"	"VNCLI"	"Cat Lai"	27	89	0	0	205	"2014.46"	0	0	0	"2014.46"	"106.7891"	"10.7588"
-"Far East"	"Vietnam"	"VNHPH"	"Haiphong"	83	564	0	0	1211	"9864.47"	0	0	0	"9864.47"	"106.6781"	"20.8320"
-"Far East"	"Vietnam"	"VNSGN"	"Ho Chi Minh City"	452	250	0	0	952	"12203.54"	53	0	0	"12256.54"	"106.6931"	"10.7820"
-"Far East"	"Vietnam"	"VNUIH"	"Qui Nhon"	7	0	0	0	7	210	0	0	0	210	"109.2335"	"13.7722"
-"Far East"	"Vietnam"	"VNTCT"	"Tan Cang"	2	2	0	0	6	"91.46"	0	0	0	"91.46"	"106.7110"	"10.7842"
-"Far East"	"Vietnam"	"VNVUT"	"Vung Tau"	17	4	0	0	25	"430.68"	0	0	0	"430.68"	"107.0850"	"10.3554"
-"India and Pakistan"	"Bangladesh"	"BDMON"	"Chalna-Mongla"	2	0	0	0	2	"39.80"	0	0	0	"39.80"	"89.5828"	"22.5260"
-"India and Pakistan"	"Bangladesh"	"BDCGP"	"Chittagong"	67	105	0	0	277	1951	0	0	0	1951	"91.8413"	"22.3308"
-"India and Pakistan"	"Bangladesh"	"BDMGL"	"Mongla"	5	6	0	0	17	"231.65"	0	0	0	"231.65"	"89.5955"	"22.4987"
-"India and Pakistan"	"India"	"INCOK"	"Cochin"	501	367	6	13	1267	"17026.20"	0	0	0	"17026.20"	"76.2538"	"9.9622"
-"India and Pakistan"	"India"	"INGOA"	"Goa"	0	1	0	0	2	"18.98"	26	0	0	"44.98"	"73.8283"	"15.4993"
-"India and Pakistan"	"India"	"INHAL"	"Haldia"	22	0	0	0	22	"672.76"	0	0	0	"672.76"	"88.0608"	"22.0355"
-"India and Pakistan"	"India"	"INNSA"	"Jawaharlal Neru (Nhava Sheva)"	3999	2384	18	505	9795	"122481.30"	0	0	0	"122481.30"	"72.9530"	"18.9537"
-"India and Pakistan"	"India"	"INCCU"	"Kolkata (Calcutta)"	42	1	0	0	44	"1102.34"	0	0	0	"1102.34"	"88.3463"	"22.5687"
-"India and Pakistan"	"India"	"INMAA"	"Madras (Cennai)"	1578	946	10	247	3974	36267	44	0	0	36311	"80.2818"	"13.0804"
-"India and Pakistan"	"India"	"IN007"	"Mundra"	250	59	2	0	370	"6739.36"	0	0	0	"6739.36"	"69.7238"	"22.8396"
-"India and Pakistan"	"India"	"INTUT"	"Tuticorin"	6	13	1	0	33	"299.19"	0	0	0	"299.19"	"78.1452"	"8.8054"
-"India and Pakistan"	"India"	"INVIZ"	"Vizag"	0	0	0	0	0	0	"3868.74"	0	0	"3868.74"	"83.2997"	"17.7239"
-"India and Pakistan"	"Pakistan"	"PKBQM"	"Muhammad Bin Qasim"	589	596	5	26	1838	"18579.43"	0	0	0	"18579.43"	"67.3352"	"24.7855"
-"India and Pakistan"	"Sri Lanka"	"LKCMB"	"Colombo"	2302	1718	9	28	5803	"66309.48"	65	0	0	"66374.48"	"79.8533"	"6.9343"
-"Middle East"	"Bahrain"	"BHBAH"	"Bahrain"	0	1	0	0	2	"6.10"	0	0	0	"6.10"	"50.6831"	"26.2033"
-"Middle East"	"Iran"	"IRBND"	"Bandar Abbas"	846	128	72	1220	3614	"27876.55"	"25.70"	0	0	"27902.25"	"56.2766"	"27.1781"
-"Middle East"	"Iran"	"IRKHK"	"Kharg Island"	0	0	0	0	0	0	0	0	98238	98238	"50.3157"	"29.2340"
-"Middle East"	"Israel"	"ILASH"	"Ashdod"	392	496	1164	1448	5444	"23590.55"	0	0	0	"23590.55"	"34.6463"	"31.7981"
-"Middle East"	"Israel"	"ILHFA"	"Haifa"	2482	2766	639	2991	14635	"119264.38"	0	0	22691	"141955.38"	"34.9984"	"32.8191"
-"Middle East"	"Jordan"	"JOAQB"	"Aqaba"	13	8	6	47	129	"639.73"	12	0	0	"651.73"	"35.0028"	"29.5292"
-"Middle East"	"Lebanon"	"LBBEY"	"Beirut"	262	73	1519	810	3547	"11921.22"	"384.82"	0	0	"12306.04"	"35.4784"	"33.8959"
-"Middle East"	"Oman"	"OMSLL"	"Salalah"	151	31	0	15	243	"4237.84"	0	0	0	"4237.84"	"54.0957"	"17.0148"
-"Middle East"	"Qatar"	"QADOH"	"Doha"	0	0	0	0	0	0	413	0	0	413	"51.5268"	"25.2853"
-"Middle East"	"Saudi Arabia"	"SAJED"	"Jeddah"	5946	4279	3785	4673	27635	"261608.63"	"1360.49"	0	0	"262969.12"	"39.1640"	"21.5822"
-"Middle East"	"Turkey"	"TRERE"	"Eregli. Zonguldak"	0	0	0	0	0	0	0	0	59747	59747	"31.4218"	"41.2795"
-"Middle East"	"Turkey"	"TRALI"	"Aliaga"	1	15	35	0	66	"373.68"	0	0	18845	"19218.68"	"26.9742"	"38.7994"
-"Middle East"	"Turkey"	"TRAMB"	"Ambarli"	36	4	339	1065	2513	"5882.14"	0	0	0	"5882.14"	"28.7083"	"40.9775"
-"Middle East"	"Turkey"	"TRAYT"	"Antalya"	5	0	0	0	5	"144.68"	"2998.18"	0	0	"3142.86"	"30.6937"	"36.9009"
-"Middle East"	"Turkey"	"TR003"	"Ceyhan"	0	0	0	0	0	0	0	0	2024951	2024951	"35.8171"	"37.0283"
-"Middle East"	"Turkey"	"TRDRC"	"Derince. Kocaeli"	0	0	0	0	0	0	0	0	1448	1448	"29.8300"	"40.7569"
-"Middle East"	"Turkey"	"TREVY"	"Evyap Port"	0	1	0	0	2	"18.98"	0	0	0	"18.98"	"29.7113"	"40.7757"
-"Middle East"	"Turkey"	"TRGBZ"	"Gebze"	208	396	188	179	1546	"12741.20"	0	0	6218	"18959.20"	"29.4318"	"40.8007"
-"Middle East"	"Turkey"	"TRGEM"	"Gemlik. Bursa"	325	963	53	360	3024	"30873.66"	57	0	0	"30930.66"	"29.1571"	"40.4302"
-"Middle East"	"Turkey"	"TRHAY"	"Haydarpasa. Istanbul"	36	6	371	74	567	"1674.11"	0	0	0	"1674.11"	"29.0193"	"40.9966"
-"Middle East"	"Turkey"	"TRISK"	"Iskenderun. Hatay"	0	1	0	0	2	"9.70"	0	0	0	"9.70"	"36.1748"	"36.5781"
-"Middle East"	"Turkey"	"TRIST"	"Istanbul"	573	1553	1152	2899	10629	"55105.62"	2965	0	1242	"59312.62"	"28.9652"	"41.0096"
-"Middle East"	"Turkey"	"TRIZM"	"Izmir (Smyrna)"	513	1460	171	299	4202	"38985.54"	0	8940	0	"47925.54"	"27.1445"	"38.4153"
-"Middle East"	"Turkey"	"TRIZT"	"Izmit. Kocaeli"	2	51	58	61	284	"1365.94"	0	0	0	"1365.94"	"29.9298"	"40.7647"
-"Middle East"	"Turkey"	"TRLMA"	"Limas"	0	0	0	0	0	0	0	0	1800	1800	"26.9284"	"38.7579"
-"Middle East"	"Turkey"	"TRMRA"	"Marmara Adasi. Balikesir"	0	0	0	0	0	0	0	0	35388	35388	"27.5558"	"40.5877"
-"Middle East"	"Turkey"	"TRMRM"	"Marmaris. Mugla"	0	0	0	0	0	0	244	0	0	244	"28.2724"	"36.8542"
-"Middle East"	"Turkey"	"TRMER"	"Mersin. Icel"	1229	534	60	290	2937	"38922.92"	"3564.04"	13000	0	"55486.96"	"34.6305"	"36.8128"
-"Middle East"	"Turkey"	"TR006"	"Nemrut Bay"	86	32	0	1	152	"2545.53"	"3024.68"	0	0	"5570.21"	"26.9304"	"38.7641"
-"Middle East"	"Turkey"	"TRTEK"	"Tekirdag"	0	75	0	0	150	"1423.50"	0	0	0	"1423.50"	"27.5163"	"40.9812"
-"Middle East"	"Turkey"	"TRYPO"	"Yilport"	12	40	12	0	104	"1010.96"	0	0	0	"1010.96"	"29.5340"	"40.7743"
-"Middle East"	"United Arab Emirates"	"AEAUH"	"Abu Dhabi"	106	164	84	522	1562	"6480.70"	"881.85"	0	0	"7362.55"	"54.3706"	"24.4748"
-"Middle East"	"United Arab Emirates"	"AEJEA"	"Jebel Ali"	7599	5037	304	1004	19985	"293246.58"	"4500.85"	0	0	"297747.43"	"55.0910"	"24.9775"
-"Middle East"	"United Arab Emirates"	"AEKLF"	"Khor al Fakkan"	359	135	206	1124	3083	14305	0	0	0	14305	"56.3458"	"25.3570"
-"Europe"	"Albania"	"ALVOA"	"Valona"	0	0	0	0	0	0	0	0	27703	27703	"19.4912"	"40.4738"
-"Europe"	"Belgium"	"BEANR"	"Antwerpen"	5	0	50	39	133	276	29	0	0	305	"4.3997"	"51.2211"
-"Europe"	"Bulgaria"	"BGVAR"	"Varna"	0	0	0	0	0	0	0	0	3660	3660	"27.9017"	"43.2166"
-"Europe"	"Croatia"	"HRPLE"	"Ploce"	0	0	0	0	0	0	"3914.20"	0	0	"3914.20"	"17.4360"	"43.0534"
-"Europe"	"Cyprus"	"CYLMS"	"Limassol"	7	6	127	676	1498	"3023.51"	0	0	0	"3023.51"	"33.0423"	"34.6736"
-"Europe"	"Finland"	"FIHMN"	"Hamina"	0	0	0	0	0	0	4377	0	0	4377	"27.2000"	"60.5667"
-"Europe"	"Finland"	"FIPRS"	"Jakobstad"	0	0	0	0	0	0	19612	0	0	19612	"22.7000"	"63.6667"
-"Europe"	"Finland"	"FIKAS"	"Kaskinen"	0	0	0	0	0	0	30628	0	0	30628	"21.2229"	"62.3851"
-"Europe"	"Finland"	"FIKEM"	"Kemi"	0	0	0	0	0	0	25076	0	0	25076	"24.5666"	"65.7333"
-"Europe"	"Finland"	"FIKTK"	"Kotka"	0	0	0	0	0	0	5345	0	0	5345	"26.9456"	"60.4673"
-"Europe"	"Finland"	"FIOUL"	"Oulu"	0	0	0	0	0	0	6837	0	0	6837	"25.4717"	"65.0119"
-"Europe"	"Finland"	"FIRAU"	"Rauma"	0	0	0	0	0	0	18942	0	0	18942	"21.5039"	"61.1289"
-"Europe"	"France"	"FRLEH"	"Le Havre"	49	27	0	60	223	"1874.57"	0	0	15965	"17839.57"	"0.1079"	"49.4936"
-"Europe"	"France"	"FRPJE"	"Port Jerome"	0	0	0	0	0	0	0	0	2830	2830	"0.5428"	"49.4720"
-"Europe"	"France"	"FRBIA"	"Bastia"	0	0	0	0	0	0	"9498.18"	0	0	"9498.18"	"9.4525"	"42.7066"
-"Europe"	"France"	"FRFOS"	"Fos-sur-Mer"	267	1614	3	571	4640	"49447.29"	"76.60"	20077	32870	"102470.89"	"4.9456"	"43.4381"
-"Europe"	"France"	"FRLAV"	"Lavera"	0	0	0	0	0	0	0	0	102400	102400	"5.0256"	"43.3929"
-"Europe"	"France"	"FRMRS"	"Marseille"	580	564	98	133	2072	"22076.95"	"4961.49"	0	31904	"58942.44"	"5.3700"	"43.2962"
-"Europe"	"France"	"FRPSL"	"Port-Saint-Louis-Du-Rhone"	0	0	0	0	0	0	0	78255	0	78255	"4.8026"	"43.3891"
-"Europe"	"France"	"FRSET"	"Sete"	0	0	4	15	34	68	0	0	0	68	"3.6942"	"43.4017"
-"Europe"	"Germany"	"DEBRV"	"Bremerhaven"	0	0	0	0	0	0	43	0	0	43	"8.5866"	"53.5522"
-"Europe"	"Germany"	"DEHAM"	"Hamburg"	195	145	0	374	1233	"8305.08"	142	0	5246	"13693.08"	"10.0007"	"53.5503"
-"Europe"	"Gibilterra"	"GIGIB"	"Gibraltar"	0	0	0	0	0	0	0	0	39723	39723	"-5.3485"	"36.1451"
-"Europe"	"Gr. Britain"	"GBLON"	"London"	0	0	19	0	19	38	0	0	0	38	"-0.1276"	"51.5073"
-"Europe"	"Gr. Britain"	"GBSOU"	"Southampton"	0	0	0	0	0	0	42	0	14954	14996	"-1.4042"	"50.9035"
-"Europe"	"Gr. Britain"	"GBSWD"	"Southwold"	0	0	0	0	0	0	0	0	34702	34702	"1.6809"	"52.3256"
-"Europe"	"Gr. Britain"	"GBMME"	"Tees/Hartlepool"	0	0	0	0	0	0	0	0	79571	79571	"-1.2003"	"54.6957"
-"Europe"	"Gr. Britain"	"GBTIL"	"Tilbury"	27	22	0	197	465	"1427.20"	0	0	0	"1427.20"	"0.3644"	"51.4631"
-"Europe"	"Greece"	"GRPIR"	"Piraeus"	3702	1630	296	1067	9392	"116789.81"	2622	0	0	"119411.81"	"23.6486"	"37.9442"
-"Europe"	"Greece"	"GRSKG"	"Thessaloniki"	0	0	0	0	0	0	3358	0	0	3358	"22.9353"	"40.6403"
-"Europe"	"Malta"	"MTMLA"	"Malta"	5120	3338	2020	9145	32106	"220011.17"	"1608.28"	0	201508	"423127.45"	"14.5134"	"35.8988"
-"Europe"	"Malta"	"MT001"	"Marsaxlokk"	883	382	361	544	3096	"26408.22"	36	0	0	"26444.22"	"14.5441"	"35.8419"
-"Europe"	"Netherlands"	"NLIJM"	"Ijmuiden"	0	0	0	0	0	0	34	0	0	34	"4.6111"	"52.4574"
-"Europe"	"Netherlands"	"NLRTM"	"Rotterdam"	112	284	279	604	2167	"10400.96"	2	0	70121	"80523.96"	"4.4632"	"51.9229"
-"Europe"	"Netherlands"	"NLVLI"	"Vlissingen"	0	0	0	0	0	0	0	0	40059	40059	"3.5714"	"51.4612"
-"Europe"	"Norway"	"NOMON"	"Mongstad"	0	0	0	0	0	0	0	0	94300	94300	"5.0305"	"60.8154"
-"Europe"	"Norway"	"NOSOV"	"Sovik"	0	0	0	0	0	0	"118.40"	0	0	"118.40"	"6.2804"	"62.5463"
-"Europe"	"Poland"	"PLGDN"	"Gdansk"	0	0	0	0	0	0	0	0	98935	98935	"18.6543"	"54.3482"
-"Europe"	"Portugal"	"PTLEI"	"Leixoes"	0	0	0	0	0	0	0	0	1195	1195	"-8.6846"	"41.1903"
-"Europe"	"Portugal"	"PTLIS"	"Lisboa"	0	0	0	7	14	"30.80"	0	13109	0	"13139.80"	"-9.1394"	"38.7138"
-"Europe"	"Romania"	"ROGAT"	"Galati "	0	0	0	0	0	0	0	0	8951	8951	"28.0551"	"45.4337"
-"Europe"	"Romania"	"ROGRG"	"Giurgiu"	0	0	0	0	0	0	0	0	8060	8060	"25.9648"	"43.8961"
-"Europe"	"Slovenia"	"SIKOP"	"Capo d'Istria"	0	0	0	0	0	0	706	29401	0	30107	"13.7305"	"45.5480"
-"Europe"	"Spain"	"ESCEU"	"Ceuta"	0	0	0	0	0	0	"9117.69"	5308	0	"14425.69"	"-5.3041"	"35.8884"
-"Europe"	"Spain"	"ESAVS"	"Aviles"	0	0	0	0	0	0	"21068.44"	0	0	"21068.44"	"-5.9220"	"43.5558"
-"Europe"	"Spain"	"ESBIO"	"Bilbao"	0	0	0	0	0	0	2	0	0	2	"-2.9349"	"43.2630"
-"Europe"	"Spain"	"ESFER"	"El Ferrol"	0	0	0	0	0	0	"493.94"	0	0	"493.94"	"-8.2332"	"43.4847"
-"Europe"	"Spain"	"ESSDR"	"Santander"	0	0	0	0	0	0	"32830.80"	0	0	"32830.80"	"-3.8101"	"43.4623"
-"Europe"	"Spain"	"ESVGO"	"Vigo"	0	0	0	200	400	"901.62"	110	0	0	"1011.62"	"-8.7247"	"42.2377"
-"Europe"	"Spain"	"ESALG"	"Algeciras"	4056	4677	1962	7555	30482	"252550.74"	0	30075	64005	"346630.74"	"-5.4487"	"36.1311"
-"Europe"	"Spain"	"ESAPM"	"Almoines"	2	7	9	36	97	"389.99"	0	0	0	"389.99"	"-0.1810"	"38.9435"
-"Europe"	"Spain"	"ESAUZ"	"Arroyo de la Luz"	4	45	0	0	94	"488.83"	0	0	0	"488.83"	"-6.5846"	"39.4840"
-"Europe"	"Spain"	"ESBCN"	"Barcelona"	679	747	633	2342	7490	"40287.52"	"111786.46"	0	32352	"184425.98"	"2.1700"	"41.3870"
-"Europe"	"Spain"	"ESCAR"	"Cartagena  "	0	0	0	0	0	0	0	4661	58481	63142	"-1.0006"	"37.6268"
-"Europe"	"Spain"	"ESCAS"	"Castellon de La Plana"	3060	234	138	100	3866	"76316.21"	"7189.99"	0	0	"83506.20"	"-0.0374"	"39.9860"
-"Europe"	"Spain"	"ESGAN"	"Gandia"	0	0	0	0	0	0	"414.55"	0	0	"414.55"	"-0.1803"	"38.9676"
-"Europe"	"Spain"	"ESHUV"	"Huelva"	0	0	0	0	0	0	"3696.66"	0	19900	"23596.66"	"-6.9496"	"37.2567"
-"Europe"	"Spain"	"ESLPA"	"Las Palmas"	2649	1450	14	465	6493	"107148.09"	"92.30"	6319	0	"113559.39"	"-15.4351"	"28.1288"
-"Europe"	"Spain"	"ESAGP"	"Malaga"	37	42	0	970	2061	"5490.36"	0	0	43064	"48554.36"	"-4.4210"	"36.7211"
-"Europe"	"Spain"	"ESMTV"	"Montaverner"	419	38	0	61	617	"11094.50"	0	0	0	"11094.50"	"-0.4948"	"38.8879"
-"Europe"	"Spain"	"ESMOT"	"Motril"	0	0	0	0	0	0	"5064.54"	0	0	"5064.54"	"-3.5181"	"36.7496"
-"Europe"	"Spain"	"ESOPA"	"Oropesa"	4	2	15	15	53	233	0	0	0	233	"-5.1747"	"39.9175"
-"Europe"	"Spain"	"ESPMI"	"Palma de Mallorca"	0	0	0	0	0	0	"1408.32"	45462	0	"46870.32"	"2.6501"	"39.5696"
-"Europe"	"Spain"	"ESSCT"	"Santa Cruz de Tenerife"	2	26	0	0	54	"668.67"	0	0	0	"668.67"	"-16.2536"	"28.4598"
-"Europe"	"Spain"	"ESSVQ"	"Sevilla"	0	0	0	0	0	0	0	0	27724	27724	"-5.9953"	"37.3886"
-"Europe"	"Spain"	"ESTAR"	"Tarragona"	2	0	34	372	780	"1743.80"	0	153797	74683	"230223.80"	"1.2546"	"41.1172"
-"Europe"	"Spain"	"ESTCI"	"Tenerife"	16	3	0	0	22	"382.85"	0	0	0	"382.85"	"-16.7555"	"28.3159"
-"Europe"	"Spain"	"ESVLC"	"Valencia"	2127	535	174	7407	18185	"93134.11"	"57344.74"	0	52050	"202528.85"	"-0.3760"	"39.4699"
-"Europe"	"Sweden"	"SEHUS"	"Husum"	0	0	0	0	0	0	3894	0	0	3894	"19.1619"	"63.3334"
-"Europe"	"Sweden"	"SE001"	"Jatterson"	0	0	0	0	0	0	4174	0	0	4174	"16.5505"	"57.0975"
-"Europe"	"Sweden"	"SEKAN"	"Karlshamn"	0	0	0	0	0	0	4500	0	0	4500	"14.8646"	"56.1704"
-"Europe"	"Sweden"	"SEVAG"	"Varberg"	0	0	0	0	0	0	2375	0	0	2375	"12.2503"	"57.1057"
-"Georgia. Russia. Ukraine"	"Georgia"	"GEBUS"	"Batumi"	0	0	0	0	0	0	0	0	236167	236167	"41.6471"	"41.6515"
-"Georgia. Russia. Ukraine"	"Georgia"	"GEKLV"	"Kulevi"	0	0	0	0	0	0	0	0	139209	139209	"41.6649"	"42.2703"
-"Georgia. Russia. Ukraine"	"Georgia"	"GESPA"	"Supsa Terminal"	0	0	0	0	0	0	0	0	80758	80758	"41.8127"	"42.0438"
-"Georgia. Russia. Ukraine"	"Moldavia"	"MDGIU"	"Giurgiulesti"	0	0	0	0	0	0	0	0	11874	11874	"28.1982"	"45.4825"
-"Georgia. Russia. Ukraine"	"Russia"	"RUMMK"	"Murmansk"	0	0	0	0	0	0	0	0	93306	93306	"33.0750"	"68.9707"
-"Georgia. Russia. Ukraine"	"Russia"	"RUPRI"	"Primorsk. Koivisto"	0	0	0	0	0	0	0	0	599653	599653	"28.6167"	"60.3667"
-"Georgia. Russia. Ukraine"	"Russia"	"RUKZP"	"Kavkaz"	0	0	0	0	0	0	0	0	65834	65834	"36.6740"	"45.3406"
-"Georgia. Russia. Ukraine"	"Russia"	"RUNVS"	"Novorossiysk"	13	3	0	498	1015	2869	"22523.14"	0	2752308	"2777700.14"	"37.7900"	"44.7278"
-"Georgia. Russia. Ukraine"	"Russia"	"RUTUA"	"Tuapse"	0	0	0	0	0	0	0	0	59872	59872	"39.0721"	"44.0986"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UAERD"	"Berdyansk"	0	0	0	0	0	0	0	9650	0	9650	"36.7898"	"46.7607"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UAILK"	"Illichivs'k"	0	0	0	0	0	0	0	19501	0	19501	"30.6561"	"46.3016"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UAKEH"	"Kerch"	0	0	0	0	0	0	0	0	133389	133389	"36.4546"	"45.3544"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UAKHE"	"Kherson"	0	0	0	0	0	0	0	0	3000	3000	"32.6131"	"46.6551"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UAZHD"	"Mariupol "	0	0	0	0	0	0	"13204.76"	36511	0	"49715.76"	"37.5500"	"47.0958"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UANIK"	"Nikolayev"	0	0	0	0	0	0	0	0	14995	14995	"32.0027"	"46.9705"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UAODS"	"Odessa"	0	0	0	0	0	0	0	5100	3140	8240	"30.7296"	"46.4713"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UASVP"	"Sevastopol"	0	0	0	0	0	0	"2947.48"	0	0	"2947.48"	"33.5224"	"44.6115"
-"Georgia. Russia. Ukraine"	"Ukraine"	"UA012"	"Yuzhnyy"	0	0	0	0	0	0	0	2256	0	2256	"31.1029"	"46.6238"
-"Italy"	"Italy"	"ITAOI"	"Ancona"	6	5	0	0	16	"171.73"	0	20600	0	"20771.73"	"13.5175"	"43.6171"
-"Italy"	"Italy"	"ITATX"	"Arbatax"	0	0	0	0	0	0	"7111.47"	0	0	"7111.47"	"9.7077"	"39.9354"
-"Italy"	"Italy"	"ITASS"	"Assemini"	0	0	0	0	0	0	0	0	26990	26990	"9.0015"	"39.2915"
-"Italy"	"Italy"	"ITAUG"	"Augusta"	0	0	0	0	0	0	0	0	97402	97402	"15.2197"	"37.2369"
-"Italy"	"Italy"	"ITBRI"	"Bari"	0	0	0	0	0	0	0	16177	0	16177	"16.8620"	"41.1258"
-"Italy"	"Italy"	"ITCAG"	"Cagliari"	3890	2213	547	2498	13859	"140317.80"	0	0	572931	"713248.80"	"9.1169"	"39.2225"
-"Italy"	"Italy"	"ITCTA"	"Catania"	102	23	76	104	432	"2960.96"	"595085.65"	0	0	"598046.61"	"15.0871"	"37.5026"
-"Italy"	"Italy"	"ITCVV"	"Civitavecchia"	0	0	0	0	0	0	0	52425	0	52425	"11.7988"	"42.0988"
-"Italy"	"Italy"	"ITFCO"	"Fiumicino"	0	0	0	0	0	0	0	0	26865	26865	"12.2339"	"41.7677"
-"Italy"	"Italy"	"ITGAE"	"Gaeta"	0	0	0	0	0	0	0	0	22293	22293	"13.5628"	"41.2183"
-"Italy"	"Italy"	"ITGEA"	"Gela"	0	0	0	0	0	0	0	0	115078	115078	"14.2502"	"37.0664"
-"Italy"	"Italy"	"ITGOA"	"Genova (Oil terminal)"	0	0	0	0	0	0	0	0	5497	5497	"8.8323"	"44.4211"
-"Italy"	"Italy"	"ITGIT"	"Gioia Tauro"	10475	4688	125	2076	24128	"348153.97"	0	0	0	"348153.97"	"15.8990"	"38.4240"
-"Italy"	"Italy"	"IT023"	"Isola del Giglio"	0	0	0	0	0	0	0	0	1467	1467	"10.9228"	"42.3599"
-"Italy"	"Italy"	"ITSPE"	"La Spezia"	36	71	145	1171	2665	"7322.24"	"16.40"	0	0	"7338.64"	"9.8282"	"44.1070"
-"Italy"	"Italy"	"ITLIV"	"Livorno"	3775	2985	170	5051	20017	"160784.22"	"334.10"	0	312218	"473336.32"	"10.3160"	"43.5426"
-"Italy"	"Italy"	"ITMDC"	"Marina di Carrara"	0	0	0	0	0	0	243	0	0	243	"10.0450"	"44.0388"
-"Italy"	"Italy"	"ITMAZ"	"Mazara del Vallo"	0	0	0	0	0	0	0	0	6300	6300	"12.5890"	"37.6539"
-"Italy"	"Italy"	"ITMLZ"	"Milazzo"	0	0	0	0	0	0	0	0	324415	324415	"15.2412"	"38.2208"
-"Italy"	"Italy"	"ITNAP"	"Napoli"	2381	1972	425	943	8636	"91128.35"	"2796.65"	0	0	93925	"14.2493"	"40.8516"
-"Italy"	"Italy"	"ITOLB"	"Olbia"	0	0	0	0	0	0	"192697.98"	0	0	"192697.98"	"9.4994"	"40.9241"
-"Italy"	"Italy"	"IT888"	"Other Italian ports"	2	7	86	171	444	"1107.56"	"196.05"	0	0	"1303.61"	"12.5081"	"41.8977"
-"Italy"	"Italy"	"ITPMO"	"Palermo"	2	4	0	1	12	"117.88"	"1370990.38"	0	0	"1371108.26"	"13.3357"	"38.1111"
-"Italy"	"Italy"	"ITPIO"	"Piombino"	0	0	0	0	0	0	0	7708	0	7708	"10.5225"	"42.9348"
-"Italy"	"Italy"	"ITPEM"	"Porto Empedocle"	0	0	0	0	0	0	0	32516	0	32516	"13.5264"	"37.2934"
-"Italy"	"Italy"	"ITPFX"	"Porto Foxi"	0	0	0	0	0	0	0	0	106806	106806	"9.0293"	"39.0797"
-"Italy"	"Italy"	"ITPSS"	"Porto Santo Stefano"	0	0	0	0	0	0	0	0	1002	1002	"11.1237"	"42.4338"
-"Italy"	"Italy"	"ITPTO"	"Porto Torres"	0	0	0	0	0	0	"630455.08"	4409	0	"634864.08"	"8.4031"	"40.8344"
-"Italy"	"Italy"	"ITPRI"	"Priolo"	0	0	0	0	0	0	0	0	10279	10279	"15.2032"	"37.1723"
-"Italy"	"Italy"	"ITSAL"	"Salerno"	2668	2081	250	1135	9350	"103536.16"	0	0	0	"103536.16"	"14.7658"	"40.6780"
-"Italy"	"Italy"	"ITSPA"	"Santa Panagia"	0	0	0	0	0	0	0	0	64869	64869	"15.2797"	"37.1086"
-"Italy"	"Italy"	"ITSVN"	"Savona-Vado"	0	0	0	0	0	0	0	31321	84900	116221	"8.4810"	"44.3079"
-"Italy"	"Italy"	"ITTAR"	"Taranto"	15	22	2	13	87	"688.18"	0	2856669	169571	"3026928.18"	"17.2432"	"40.4712"
-"Italy"	"Italy"	"ITTPS"	"Trapani"	2	0	0	0	2	42	0	0	0	42	"12.5437"	"38.0161"
-"Oceania "	"Australia"	"AUADL"	"Adelaide"	34	15	9	66	205	"1313.01"	0	0	0	"1313.01"	"138.5999"	"-34.9274"
-"Oceania "	"Australia"	"AUBNE"	"Brisbane"	2	0	0	0	2	"47.83"	887	0	0	"934.83"	"153.0235"	"-27.4690"
-"Oceania "	"Australia"	"AUFRE"	"Fremantle "	18	1	24	93	230	"875.39"	0	0	0	"875.39"	"115.7462"	"-32.0559"
-"Oceania "	"Australia"	"AUMEL"	"Melbourne"	192	89	169	196	931	"6980.45"	0	0	0	"6980.45"	"144.9632"	"-37.8142"
-"Oceania "	"Australia"	"AUSYD"	"Sydney"	163	73	31	106	552	"4681.43"	0	0	0	"4681.43"	"151.2165"	"33.8548"
-"Oceania "	"New Zealand"	"NZAKL"	"Auckland"	16	0	0	0	16	"346.92"	0	0	0	"346.92"	"174.7656"	"-36.8535"
-"Oceania "	"New Zealand"	"NZLYT"	"Lyttelton"	1	0	0	0	1	"21.60"	0	0	0	"21.60"	"172.7206"	"-43.6025"
-"Oceania "	"New Zealand"	"NZNPE"	"Napier"	33	1	0	0	35	"726.78"	0	0	0	"726.78"	"176.9179"	"39.4909"
-"Oceania "	"New Zealand"	"NZTRG"	"Tauranga"	2	0	0	0	2	"33.78"	0	0	0	"33.78"	"176.1684"	"37.6865"
-"Oceania "	"Papua New Guinea"	"PGKIM"	"Kimbe"	0	0	0	0	0	0	0	0	12310	12310	"150.1530"	"-5.5563"
-"Not specified"	"Not specified"	"UNKNW"	"Not specified"	1212	816	9287	22160	56451	"149711.70"	"31110.49"	0	0	"180822.19"	"0.0000"	"0.0000"
+"Geographical Areas"	Countries	locode	Ports	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	TEUS	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	TOTAL	lon	lat	lon	lat
+"West Africa"	Angola	AOLAD	Luanda	1	0	0	0	1	20	0	0	0	20	13.5412	-12.3700
+"West Africa"	Benin	BJCOO	Cotonou	7	0	5	3	18	132.36	0	0	0	132.36	-1.5267	12.3723
+"West Africa"	Cameroun	CMDLA	Douala	278	44	54	13	446	7393.85	0	0	0	7393.85	11.8800	-4.7700
+"West Africa"	Congo	CG001	"Djeno Terminal"	0	0	0	0	0	0	0	0	147875	147875	11.9370	-4.9136
+"West Africa"	Congo	CGPNR	"Pointe Noire"	39	19	0	0	77	1519.54	0	0	0	1519.54	-6.6400	4.7704
+"West Africa"	Gabon	GALBV	Libreville	27	56	0	0	139	2058.98	0	0	0	2058.98	9.4580	0.3854
+"West Africa"	Ghana	GHTKD	Takoradi	166	190	5	179	909	9544.92	0	0	0	9544.92	-1.7434	4.8848
+"West Africa"	Ghana	GHTEM	Tema	1036	369	1129	1039	4981	35037.32	177.80	0	0	35215.12	-16.5917	13.4539
+"West Africa"	"Ivory coast"	CIABJ	Abidjan	1406	1279	542	606	5718	70775.53	330.08	0	0	71105.61	9.7700	1.8700
+"West Africa"	"Ivory coast"	CISPY	"San Pedro"	232	194	41	753	2167	13469.20	51.50	0	0	13520.70	8.7833	3.7500
+"West Africa"	Namibia	NALUD	Luderitz	0	0	0	0	0	0	20354.59	0	0	20354.59	15.1573	-26.6500
+"West Africa"	Namibia	NAWVB	"Walvis Bay"	0	0	0	0	0	0	12156.07	0	0	12156.07	14.5053	-22.9575
+"West Africa"	Nigeria	NGABF	"Abo Terminal"	0	0	0	0	0	0	0	0	93676	93676	4.4670	5.7000
+"West Africa"	Nigeria	NGBON	Bonny	0	0	0	0	0	0	0	0	326177	326177	7.1663	4.4425
+"West Africa"	Nigeria	NGBRA	"Brass Terminal"	0	0	0	0	0	0	0	0	676343	676343	6.2433	4.3017
+"West Africa"	Nigeria	NGCBQ	Calabar	0	0	0	0	0	0	0	0	87863	87863	8.3374	4.9796
+"West Africa"	Nigeria	NGFOR	Forcados	0	0	0	0	0	0	0	0	182464	182464	5.4383	5.3589
+"West Africa"	Nigeria	NGLOS	Lagos	125	50	929	974	3102	9101.75	70.60	0	181409	190581.35	3.3896	6.4452
+"West Africa"	Nigeria	NGTIN	Tincan	283	126	45	2668	5916	19055.33	0	0	0	19055.33	3.3495	6.4317
+"West Africa"	Senegal	SNDKR	Dakar	338	232	2236	1341	5720	21399.28	3545.62	0	1562	26506.90	-17.4751	14.7178
+"West Africa"	Togo	TGLFW	Lome	22	13	1	178	405	1434.30	0	0	0	1434.30	1.2208	6.1339
+"East Africa"	Djibouti	DJJIB	Djibouti	269	47	1136	1842	5183	15640.56	765.59	0	0	16406.15	39.4500	15.6101
+"East Africa"	Kenya	KEMBA	Mombasa	2536	173	316	830	4858	46867.91	645.84	0	0	47513.75	43.2402	-11.7042
+"East Africa"	Mozambique	MZMPM	Maputo	885	50	41	138	1302	23289.56	45160.56	0	0	68450.12	40.6670	-14.5436
+"East Africa"	"South Africa"	ZACPT	"Cape Town"	2	9	0	0	20	158	0	0	0	158	37.2164	19.6158
+"East Africa"	"South Africa"	ZADUR	Durban	417	134	27	154	1020	13743.08	1143.19	0	0	14886.27	39.2664	-6.7981
+"East Africa"	"South Africa"	ZAJNB	Johannesburg/dbn	0	0	0	0	0	0	0	0	39951	39951	39.0900	-5.0700
+"East Africa"	"South Africa"	ZAPLZ	"Port Elizabeth"	7	3	0	0	13	52	0	0	0	52	39.2000	-6.1600
+"East Africa"	"South Africa"	ZARCB	"Richards Bay"	0	0	0	0	0	0	8088.27	0	0	8088.27	32.0556	-28.7747
+"East Africa"	"South Africa"	ZASDB	"Saldanha Bay"	0	0	0	0	0	0	10003.01	0	0	10003.01	18.0097	-33.0347
+"East Africa"	Tanzania	TZDAR	"Dar es Salaam"	346	83	190	636	1974	12554.47	48	0	0	12602.47	25.5981	-33.9681
+"North Africa"	Algeria	DZALG	Alger	118	30	2760	4410	11758	27267.52	0	0	0	27267.52	7.7600	36.9200
+"North Africa"	Algeria	DZAAE	Annaba	0	0	0	0	0	0	3212.28	0	0	3212.28	3.0486	36.7650
+"North Africa"	Algeria	DZAZW	Arzew	0	0	0	0	0	0	0	0	13123	13123	-0.3153	35.8570
+"North Africa"	Algeria	DZBJA	Bejaia	125	0	0	182	489	3167.10	0	0	0	3167.10	5.0700	36.7604
+"North Africa"	Algeria	DZORN	Oran	0	0	4	50	104	228.80	0	0	0	228.80	-0.6219	35.7119
+"North Africa"	Algeria	DZSKI	Skikda	1	2	0	28	61	165.70	5888.46	0	223584	229638.16	6.9000	36.8804
+"North Africa"	Egypt	EGSUZ	Suez	0	0	0	0	0	0	0	0	4233	4233	29.9481	31.2020
+"North Africa"	Egypt	EGWAF	"Wadi Feiran"	0	0	0	0	0	0	0	0	79285	79285	33.2546	28.6807
+"North Africa"	Egypt	EGALY	Alexandria	3946	2067	954	3438	15910	138287.81	2750.94	6330	12169	159537.75	31.8200	31.4204
+"North Africa"	Egypt	EGDAM	Damietta	1306	2282	3373	4580	18403	97472.71	0	65035	5000	167507.71	32.2900	31.2600
+"North Africa"	Egypt	EGPSD	"Port Said"	16	72	400	3746	8052	18094.33	0	0	17282	35376.33	32.3580	31.2119
+"North Africa"	Egypt	EGPSE	"Port Said East"	74	11	260	482	1320	4588.86	0	0	0	4588.86	32.5499	30.0050
+"North Africa"	Egypt	EG012	"Sidi Kerir Terminal"	0	0	0	0	0	0	0	0	316400	316400	29.6679	31.0482
+"North Africa"	Libya	LYKHO	"AL Khums"	1	0	1	2	6	14.33	0	0	0	14.33	20.0648	32.1187
+"North Africa"	Libya	LYBEN	Benghazi	3	0	410	226	865	2176.22	286.32	0	0	2462.54	14.2600	32.6604
+"North Africa"	Libya	LYBOT	"Bouri Terminal"	0	0	0	0	0	0	0	0	85807	85807	12.6497	33.9036
+"North Africa"	Libya	LYESI	"Es Sider"	0	0	0	0	0	0	0	0	662264	662264	18.3655	30.6380
+"North Africa"	Libya	LYMBR	"Marsa el Brega"	0	0	0	0	0	0	0	0	162555	162555	19.5988	30.3810
+"North Africa"	Libya	LY001	"Marsa el Hariga"	0	0	0	0	0	0	0	0	45196	45196	23.9847	32.0634
+"North Africa"	Libya	LYMTH	Melitah	0	0	0	0	0	0	0	0	94362	94362	12.2422	32.8591
+"North Africa"	Libya	LYMRA	Misurata	4	3	650	520	1700	3834.56	192.07	0	0	4026.63	15.1000	32.3800
+"North Africa"	Libya	LYRLA	"Ras Lanuf"	0	0	0	0	0	0	0	0	365773	365773	18.4178	30.5869
+"North Africa"	Libya	LYTIP	Tripoli	80	46	1731	1702	5307	14059.86	1657.92	0	0	15717.78	13.1800	32.8925
+"North Africa"	Libya	LYZAW	"Zawia Terminal"	0	0	0	0	0	0	0	0	1066019	1066019	12.7224	32.7706
+"North Africa"	Morocco	MATNG	Tangier	41	54	4	75	303	2037.63	21780.90	0	0	23818.53	-8.6459	33.1300
+"North Africa"	Morocco	MAPTM	"Tangier Med"	424	682	468	3298	8852	41944.17	42628	0	0	84572.17	-9.6200	30.4400
+"North Africa"	Morocco	MACAS	Casablanca	44	53	476	1376	3378	8733.33	0	5499	0	14232.33	-5.4973	35.8935
+"North Africa"	Morocco	MAMOH	Mohammedia	0	0	0	0	0	0	0	18193	0	18193	-7.3881	33.7070
+"North Africa"	Tunisia	TNBIZ	Bizerta	0	0	0	0	0	0	0	8870	0	8870	9.8801	37.2744
+"North Africa"	Tunisia	TNLSK	"La Skhirra"	0	0	0	0	0	0	0	0	121850	121850	10.1654	34.3343
+"North Africa"	Tunisia	TNRDS	Rades	237	144	2383	1749	6406	19069.01	455526.80	0	0	474595.81	10.2834	36.7779
+"North Africa"	Tunisia	TNSUS	Sousse	0	0	0	0	0	0	0	66615	0	66615	10.6350	35.8241
+"North Africa"	Tunisia	TNTUN	Tunis	700	563	3399	3238	11701	49264.02	152404.99	6311	19380	227360.01	10.1797	36.8028
+"North Africa"	Tunisia	TNZAR	Zarzis	0	0	0	0	0	0	0	12940	11122	24062	33.5016	11.1131
+"Central America"	Bahamas	BSFPO	"Freeport bs"	10	34	40	7	132	937.96	0	0	0	937.96	-78.6954	26.5357
+"Central America"	"Costa Rica"	CRLIO	"Puerto Limon"	7	36	0	0	79	1197.47	0	0	0	1197.47	-83.0308	9.9932
+"Central America"	"Costa Rica"	CRMOB	"Puerto Moin"	239	479	0	16	1229	17109.65	0	0	0	17109.65	-83.0760	9.9991
+"Central America"	"Costa Rica"	CRSJO	"San Josè"	0	2	0	0	4	60.56	0	0	0	60.56	-84.0793	9.9327
+"Central America"	Cuba	CUHAV	Havana	85	574	675	950	3808	21913.62	0	0	0	21913.62	-82.3659	23.1380
+"Central America"	Cuba	CUSCU	"Santiago de Cuba"	9	171	62	193	799	5023.14	0	0	0	5023.14	-75.8290	20.0289
+"Central America"	"Dominican Republic"	DOCAU	Caucedo	1013	538	373	3180	8822	52037.41	0	0	0	52037.41	-69.6449	18.4148
+"Central America"	"Dominican Republic"	DOHAI	"Haina "	16	59	0	0	134	2315.31	0	0	0	2315.31	-70.0192	18.4200
+"Central America"	Guadaloupe	GPPTP	"Pointe a Pitre"	177	1	12	1	193	3744.11	0	0	0	3744.11	-61.5334	16.2409
+"Central America"	Guatemala	GTSTC	"Santo Tomas de Castilla"	7	3	0	0	13	129.65	756.92	0	0	886.57	-88.6111	15.6867
+"Central America"	Honduras	HNPCR	"Puerto Cortes"	2	0	0	0	2	46.70	0	0	0	46.70	-87.9438	15.8453
+"Central America"	Jamaica	JMKIN	"Kingston "	463	1033	533	3336	9734	52461.21	0	0	0	52461.21	-76.7928	17.9712
+"Central America"	Martinique	MQFDF	"Fort de France"	221	11	0	0	243	5291.68	0	0	0	5291.68	-61.0768	14.6037
+"Central America"	Mexico	MXATM	"Altamira "	1562	571	108	457	3726	60759.39	0	0	0	60759.39	-97.9300	22.4062
+"Central America"	Mexico	MXZLO	Manzanillo	186	147	62	60	662	8095.65	0	0	0	8095.65	-104.3160	19.0506
+"Central America"	Mexico	MXVER	Veracruz	400	773	207	1111	4375	33456.59	0	0	0	33456.59	-96.1386	19.2002
+"Central America"	Panama	PACTB	Cristobal	3	2	0	0	7	117.40	0	0	0	117.40	-79.9046	9.3530
+"Central America"	Panama	PAMAN	"Manzanillo "	303	288	10	137	1163	14793.12	0	0	0	14793.12	-104.3160	19.0506
+"Central America"	Panama	PAPTY	"Panama City"	188	196	129	276	1261	10490.54	0	0	0	10490.54	-79.5345	8.9707
+"Central America"	"Puerto Rico"	PRSJU	"San Juan "	0	1	0	0	2	11.52	0	0	0	11.52	-66.0755	18.4464
+"Central America"	Trinidad	TTPOS	"Port of Spain"	0	1	0	0	2	11.76	0	0	0	11.76	-61.5181	10.6572
+"North America"	Canada	CACBC	"Come By Chance"	0	0	0	0	0	0	0	0	39950	39950	-53.9839	47.8460
+"North America"	Canada	CAHAL	Halifax	71	10	0	1	93	1666.13	0	0	0	1666.13	-63.5750	44.6484
+"North America"	Canada	CAVAN	Vancouver	33	37	0	13	133	1622.10	0	0	0	1622.10	-122.6745	45.6307
+"North America"	Canada	CACSC	"Cote Ste. Catherine"	0	0	0	0	0	0	0	7286	0	7286	-73.6329	45.4923
+"North America"	Canada	CAHAM	Hamilton	0	0	0	0	0	0	0	0	5042	5042	-79.8678	43.2547
+"North America"	Canada	CAMTR	Montreal	1513	2278	583	3705	14062	78925.68	271	0	0	79196.68	-73.5913	45.5225
+"North America"	"United States of America"	USCHS	Charleston	3	0	28	216	463	962.50	1128	0	0	2090.50	-79.9403	32.7876
+"North America"	"United States of America"	USCRP	"Corpus Christi"	0	0	0	0	0	0	0	0	75739	75739	-97.3930	27.8006
+"North America"	"United States of America"	USPEF	"Port Everglades"	411	1000	329	1605	5950	27642.40	0	0	0	27642.40	-80.1273	26.0969
+"North America"	"United States of America"	USSAV	Savannah	901	4290	1402	1460	13803	115292.07	365	0	0	115657.07	-81.0998	32.0835
+"North America"	"United States of America"	USUZD	Tarboro	0	1	0	0	2	20.50	0	0	0	20.50	-77.5355	35.8967
+"North America"	"United States of America"	USBAL	Baltimore	2	5	7	5	29	111.96	622.07	0	0	734.03	-76.6108	39.2909
+"North America"	"United States of America"	USBOS	Boston	2	0	0	0	2	11.60	0	0	0	11.60	-71.0641	42.3595
+"North America"	"United States of America"	USBJT	"Bridgetown md"	0	1	0	0	2	39.59	0	0	0	39.59	-75.8741	39.0346
+"North America"	"United States of America"	USNYC	"New York"	1770	4204	50	534	11296	115330.12	1582	0	0	116912.12	-73.9866	40.7306
+"North America"	"United States of America"	USEWR	Newark	432	1317	145	565	4341	33226.15	0	0	0	33226.15	-74.1728	40.7355
+"North America"	"United States of America"	USORF	Norfolk	950	2026	254	204	5664	55020.90	640	0	0	55660.90	-76.2904	36.9100
+"North America"	"United States of America"	USPHL	Philadelphia	0	0	0	0	0	0	109	0	0	109	-75.1748	39.9428
+"North America"	"United States of America"	USHOU	Houston	1137	1719	79	510	5674	61276.28	7087.15	42544	59979	170886.43	-95.3659	29.7580
+"North America"	"United States of America"	USMSY	"New Orleans"	164	1064	493	172	3129	30686.29	0	77060	1795	109541.29	-90.0694	29.9478
+"North America"	"United States of America"	USLGB	"Long Beach"	0	0	0	0	0	0	0	0	41965	41965	-118.1739	33.7762
+"North America"	"United States of America"	USLAX	"Los Angeles"	70	173	0	3	422	3255.10	0	0	0	3255.10	-118.2427	34.0537
+"North America"	"United States of America"	USOAK	Oakland	1320	398	0	0	2116	41970.80	0	0	0	41970.80	-122.2703	37.8037
+"North America"	"United States of America"	USPDX	"Portland (West Coast)"	16	60	0	0	136	1648.58	0	0	0	1648.58	-122.6723	45.5205
+"North America"	"United States of America"	USSEA	Seattle	7	16	0	0	39	499.78	0	0	0	499.78	-122.3306	47.6052
+"North America"	"United States of America"	USTIW	"Tacoma. wa"	4	7	0	1	20	203.74	0	0	0	203.74	-122.4371	47.2507
+"South America"	Argentina	ARBUE	"Buenos Aires"	1473	1439	429	540	5860	75310.35	0	0	0	75310.35	-58.3995	-34.6006
+"South America"	Argentina	ARSLO	"San Lorenzo"	0	0	0	0	0	0	0	0	34002	34002	-60.7427	-32.7472
+"South America"	Brazil	BRBEL	Belem	6	2	0	0	10	120.37	0	0	0	120.37	-48.4682	-1.4506
+"South America"	Brazil	BRFOR	Fortaleza	56	4	0	0	64	579.19	0	0	0	579.19	-38.5218	-3.7305
+"South America"	Brazil	BRITJ	Itajai	365	885	114	413	3075	35368.58	0	0	0	35368.58	-48.6800	-26.8996
+"South America"	Brazil	BRIOA	Itapora	495	202	22	171	1263	17081.78	0	0	0	17081.78	-54.7963	-22.0838
+"South America"	Brazil	BRNVT	Navegantes	417	617	158	112	2033	26758.27	0	0	0	26758.27	-48.6477	-26.8893
+"South America"	Brazil	BRPNG	Paranagua	166	979	216	310	2960	32717.35	0	0	0	32717.35	-48.5345	-25.5279
+"South America"	Brazil	BRPEC	Pecem	3	13	79	165	438	1296.34	0	0	0	1296.34	-38.8306	-3.5469
+"South America"	Brazil	BRRIO	"Rio de Janeiro"	2820	476	143	1420	6755	90720.36	23	0	0	90743.36	-43.2270	-22.9231
+"South America"	Brazil	BRRIG	"Rio Grande"	469	617	31	173	2080	21241.36	0	0	0	21241.36	-52.1200	-32.0495
+"South America"	Brazil	BRSSA	Salvador	1	0	0	0	1	29.40	0	0	0	29.40	-38.4819	-12.9680
+"South America"	Brazil	BRSSZ	Santos	6771	3015	637	3438	20314	254125.18	0	0	0	254125.18	-46.3349	-23.9518
+"South America"	Brazil	BRSFS	"Sao Francisco do Sul"	1	39	5	56	196	1372.30	0	0	0	1372.30	-48.6000	-26.2396
+"South America"	Brazil	BRSUA	Suape	125	13	1168	1178	3675	11410.58	0	0	0	11410.58	-34.9591	-8.3603
+"South America"	Chile	CLVAP	Valparaiso	1	0	0	0	1	25.36	0	0	0	25.36	-71.6230	-33.0458
+"South America"	Colombia	COCTG	"Cartagena "	1660	564	272	1082	5224	59535.09	0	0	0	59535.09	-75.5163	10.4017
+"South America"	Ecuador	ECGYE	Guayaquil	2	0	0	0	2	49.80	0	0	0	49.80	-79.9220	-2.2181
+"South America"	"French Guiana"	GFCAY	Cayenne	0	0	0	0	0	0	292.60	0	0	292.60	-52.3258	4.9371
+"South America"	Peru	PECLL	Callao	2	2	0	0	6	57.54	0	0	0	57.54	-77.1350	-12.0700
+"South America"	Uruguay	UYMVD	Montevideo	177	951	164	473	3189	33182.44	0	0	0	33182.44	-56.1730	-34.8561
+"South America"	Venezuela	VELAG	"La Guaira"	0	0	26	115	256	512	0	0	0	512	-66.9398	10.5999
+"South America"	Venezuela	VEPBL	"Puerto Cabello"	44	0	8	2	56	704.42	0	0	0	704.42	-68.1700	10.4704
+"Far East"	Cambodia	KHKOS	Kompongsom	16	9	0	0	34	363.82	0	0	0	363.82	103.5078	10.6460
+"Far East"	Cambodia	KHPNH	"Phnom Penh"	1	0	0	0	1	4.43	0	0	0	4.43	104.9147	11.5520
+"Far East"	China	CNAQG	Anqing	5	31	0	0	67	660.15	0	0	0	660.15	117.0430	30.5120
+"Far East"	China	CNBJO	Beijiao	9	212	0	0	433	2772.46	0	0	0	2772.46	103.0094	30.0073
+"Far East"	China	CNCSX	Changsha	45	38	0	0	121	1497.41	0	0	0	1497.41	112.9836	28.1874
+"Far East"	China	CNCGU	Changshu	6	40	0	0	86	646	0	0	0	646	120.7409	31.6434
+"Far East"	China	CNCZX	Changzhou	47	16	0	0	79	1394.29	0	0	0	1394.29	119.9388	31.7895
+"Far East"	China	CNYAN	Chefoo	185	125	0	0	435	4722.43	0	0	0	4722.43	121.3895	37.5340
+"Far East"	China	CNCWN	"Chiwan "	424	1095	0	163	2940	23717.04	0	0	0	23717.04	113.8829	22.4835
+"Far East"	China	CNCKG	Chongqing	110	25	0	0	160	2723.62	0	0	0	2723.62	106.5493	29.5586
+"Far East"	China	CNDLC	Dalian	690	328	0	0	1346	22106.85	0	0	0	22106.85	121.6106	38.9105
+"Far East"	China	CNFGC	Fangcheng	23	0	0	0	23	634.23	0	0	0	634.23	118.1812	35.2831
+"Far East"	China	CNFSH	Foshan	10	8	0	0	26	219.86	0	0	0	219.86	113.1146	23.0249
+"Far East"	China	CNFOC	Fuzhou	132	153	0	0	438	4322.94	0	0	0	4322.94	119.2957	26.0792
+"Far East"	China	CNGAS	Gaosha	1	0	0	0	1	3.55	0	0	0	3.55	115.6741	23.2743
+"Far East"	China	CNGOM	Guanghai	9	0	0	0	9	181.76	0	0	0	181.76	112.7969	21.9623
+"Far East"	China	CNGGS	Guangshui	7	16	0	0	39	285.55	0	0	0	285.55	113.8240	31.6183
+"Far East"	China	CNHAK	Haikou	3	33	0	0	69	524.77	0	0	0	524.77	110.3410	20.0424
+"Far East"	China	HKHKG	"Hong Kong"	6365	9803	36	325	26657	211345.79	14	0	0	211359.79	114.1849	22.3506
+"Far East"	China	CNHUA	Huangpu	167	119	0	0	405	4064.76	0	0	0	4064.76	116.4617	30.5595
+"Far East"	China	CNHSI	Huangshi	0	7	0	0	14	160.22	0	0	0	160.22	115.0333	30.2043
+"Far East"	China	CNJMN	Jiangmen	31	117	0	0	265	2534.06	0	0	0	2534.06	113.0790	22.5766
+"Far East"	China	CNJIA	Jiangyin	61	158	0	0	377	4523.67	0	0	0	4523.67	120.2635	31.9081
+"Far East"	China	CNJIZ	Jiazi	1	2	0	0	5	56.99	0	0	0	56.99	116.0670	22.8796
+"Far East"	China	CNJGZ	Jingzhou	55	3	0	0	61	1240.44	0	0	0	1240.44	112.1869	30.3539
+"Far East"	China	CNJIU	Jiujiang	36	9	0	0	54	1114.62	0	0	0	1114.62	115.9968	29.7077
+"Far East"	China	CNJZU	Jiuzhou	4	3	0	0	10	81.45	0	0	0	81.45	99.2292	25.7522
+"Far East"	China	CNLSI	Lanshi	3	0	0	0	3	62.48	0	0	0	62.48	113.1010	22.9808
+"Far East"	China	CNLYG	Lianyungang	52	39	0	0	130	1818.59	0	0	0	1818.59	119.1695	34.6093
+"Far East"	China	CNLHZ	Liuzhou	0	5	0	0	10	114.77	0	0	0	114.77	109.4066	24.3213
+"Far East"	China	CNKHN	Nanchang	17	1	0	0	19	411.97	0	0	0	411.97	115.8979	28.6965
+"Far East"	China	CNNKG	Nanjing	266	355	0	0	976	10872.52	0	0	0	10872.52	118.7913	32.0607
+"Far East"	China	CNNSA	Nansha	508	1237	3	13	3011	25264.39	0	0	0	25264.39	102.8383	23.2199
+"Far East"	China	CNNTG	Nantong	84	45	0	0	174	2266.18	0	0	0	2266.18	120.8902	31.9834
+"Far East"	China	CNNBO	Ningbo	9150	12729	22	99	34828	311777.04	371	0	0	312148.04	121.5499	29.8720
+"Far East"	China	CNPUT	Putian	3	3	0	0	9	65.24	0	0	0	65.24	119.0075	25.4342
+"Far East"	China	CNTAO	Qingdao	4588	4341	10	243	13766	161685.22	0	0	0	161685.22	120.3497	36.0895
+"Far East"	China	CNQHA	Qinhuangdao	0	0	0	0	0	0	10	0	0	10	119.5883	39.9317
+"Far East"	China	CNROQ	Rongqi	13	187	0	0	387	2461.71	0	0	0	2461.71	113.3071	22.7540
+"Far East"	China	CNSBU	Sanbu	1	0	0	0	1	21.45	0	0	0	21.45	112.6631	22.3629
+"Far East"	China	CNSHA	Shanghai	20559	21072	159	639	64140	650357.16	939	0	0	651296.16	121.4889	31.2253
+"Far East"	China	CNSWA	Shantou	17	116	0	0	249	1277.96	0	0	0	1277.96	116.6949	23.3653
+"Far East"	China	CNSSN	Shashan	2	10	0	0	22	102.36	0	0	0	102.36	113.1381	23.0315
+"Far East"	China	CNSHU	Shekou	4227	8088	13	627	21670	163398.34	0	0	0	163398.34	114.3485	30.7153
+"Far East"	China	CNSJW	Shijiazhuang	1	0	0	0	1	2.87	0	0	0	2.87	114.5086	38.0420
+"Far East"	China	CNSUD	Shunde	10	18	0	0	46	366.82	0	0	0	366.82	113.2715	22.8776
+"Far East"	China	CNTAG	Taicang	41	1342	0	0	2725	16352.40	0	0	0	16352.40	121.1058	31.4546
+"Far East"	China	CNTZO	Taizhou	6	23	0	0	52	522.80	0	0	0	522.80	121.4445	28.6836
+"Far East"	China	CNTSN	Tianjin	424	286	0	0	996	16011.43	1078	0	0	17089.43	117.1981	39.1236
+"Far East"	China	CNWAI	Waihai	1	2	0	0	5	51.22	0	0	0	51.22	113.1585	22.5856
+"Far East"	China	CNWZH	Wenzhou	32	55	0	0	142	1454.80	0	0	0	1454.80	120.6484	28.0222
+"Far East"	China	CNWUH	Wuhan	166	95	0	0	356	4462.84	0	0	0	4462.84	114.2993	30.5960
+"Far East"	China	CNWHI	Wuhu	13	1	0	0	15	320.25	0	0	0	320.25	118.3537	31.3426
+"Far East"	China	CNWUX	Wuxi	9	15	0	0	39	480.38	0	0	0	480.38	120.3129	31.5874
+"Far East"	China	CNWUZ	Wuzhou	6	5	0	0	16	211.67	0	0	0	211.67	111.2972	23.4783
+"Far East"	China	CNXMN	"Xiamen (Xian)"	2272	3170	0	15	8642	76116.85	0	0	0	76116.85	118.1356	24.4974
+"Far East"	China	CNXLA	Xianlang	6	9	0	0	24	161.01	0	0	0	161.01	120.2429	36.0113
+"Far East"	China	CNXIL	Xiaolan	3	0	0	0	3	27.78	0	0	0	27.78	113.2295	22.6731
+"Far East"	China	CNXGG	"Xingang "	1222	542	0	0	2306	35383.47	265.20	0	0	35648.67	117.7433	38.9788
+"Far East"	China	CNYZH	Yangzhou	33	65	0	0	163	1400.54	0	0	0	1400.54	119.4366	32.3927
+"Far East"	China	CNYNT	Yantai	1	1	0	0	3	45.34	0	0	0	45.34	121.3895	37.5340
+"Far East"	China	CNYYT	Yantian	2	1	0	0	4	64.47	0	0	0	64.47	114.3743	27.3659
+"Far East"	China	CNYTI	"Yantian Huangdong"	3681	9656	0	164	23321	160137.19	0	0	0	160137.19	114.2734	22.5863
+"Far East"	China	CNYIC	Yichang	6	6	0	0	18	236.47	0	0	0	236.47	111.3217	30.7711
+"Far East"	China	CNYIK	Yingkou	5	0	0	0	5	136.50	0	0	0	136.50	122.2474	40.6678
+"Far East"	China	CNYIX	Yixing	31	0	0	0	31	662.31	0	0	0	662.31	119.7853	31.3605
+"Far East"	China	CNYUE	Yueqing	0	5	0	0	10	154.75	0	0	0	154.75	120.9584	28.1260
+"Far East"	China	CNYUY	Yueyang	0	32	0	0	64	967.45	0	0	0	967.45	113.1230	29.3589
+"Far East"	China	CNZJG	Zhangjiagang	289	61	0	0	411	8489.73	0	0	0	8489.73	120.5427	31.8665
+"Far East"	China	CNZHA	Zhanjiang	31	3	0	0	37	895.92	0	0	0	895.92	110.4046	21.2022
+"Far East"	China	CNZQG	Zhaoqing	0	1	0	0	2	10.13	0	0	0	10.13	112.4728	23.0516
+"Far East"	China	CNZHP	Zhapu	130	75	0	0	280	4290.18	0	0	0	4290.18	121.0748	30.5942
+"Far East"	China	CNZHE	Zhenjiang	15	2	0	0	19	328.14	0	0	0	328.14	119.4580	32.2140
+"Far East"	China	CN013	Zhongshan	29	45	0	0	119	920.44	0	0	0	920.44	120.9419	31.2871
+"Far East"	China	CN014	Zhuhai	10	28	0	0	66	500.09	0	0	0	500.09	113.5680	22.2658
+"Far East"	China	CNZJI	Zhuji	50	4	0	0	58	1165.44	0	0	0	1165.44	120.2342	29.7161
+"Far East"	China	HKWNI	"Wan Chai"	1	0	0	0	1	12.70	0	0	0	12.70	114.1728	22.2788
+"Far East"	Indonesia	IDBTH	Batam	0	0	0	0	0	0	0	0	35247	35247	104.0285	1.1069
+"Far East"	Indonesia	IDBLW	"Belawan. Sumatra"	144	23	0	0	190	4006.61	0	0	79105	83111.61	98.6918	3.7828
+"Far East"	Indonesia	IDDUM	"Dumai. Sumatra"	0	0	0	0	0	0	0	0	95993	95993	101.4533	1.6815
+"Far East"	Indonesia	IDJKT	"Jakarta. Java"	187	519	0	0	1225	13343.32	0	0	0	13343.32	106.8271	-6.1753
+"Far East"	Indonesia	IDDJB	"Jambi. Sumatra"	27	0	0	0	27	647.06	0	0	0	647.06	103.6106	-1.5916
+"Far East"	Indonesia	IDPDG	"Padang. Sumatra"	0	0	0	0	0	0	0	0	600	600	100.3587	-0.9430
+"Far East"	Indonesia	IDPLM	"Palembang. Sumatra"	55	0	0	0	55	1374.91	0	0	0	1374.91	104.7569	-2.9888
+"Far East"	Indonesia	IDPNJ	Panjang	1	0	0	0	1	21.52	0	0	0	21.52	105.3155	-5.4615
+"Far East"	Indonesia	IDSRG	"Semarang. Java"	95	63	0	0	221	2831.34	0	0	0	2831.34	110.4099	-6.9834
+"Far East"	Indonesia	IDSUB	"Surabaya. Java"	106	48	0	0	202	2852.63	0	0	0	2852.63	112.7559	-7.2387
+"Far East"	Japan	JPHKT	"Hakata. Fukuoka"	10	31	0	0	72	435.23	0	0	0	435.23	130.4207	33.5901
+"Far East"	Japan	JPHHR	"Higashiharima. Hyogo"	0	0	0	0	0	0	625	0	0	625	134.8184	34.7154
+"Far East"	Japan	JPUKB	"Kobe. Hyogo"	181	85	0	0	351	3929.01	5104.78	0	0	9033.79	135.1343	34.7253
+"Far East"	Japan	JPMOJ	"Moji. Fukuoka"	7	0	0	0	7	152.17	0	0	0	152.17	130.9408	33.9066
+"Far East"	Japan	JPNGO	"Nagoya. Aichi"	128	148	0	0	424	4052.74	1334	0	0	5386.74	136.9000	35.1833
+"Far East"	Japan	JPKIJ	"Niigata. Niigata"	1	0	0	0	1	16.17	0	0	0	16.17	139.0255	37.8476
+"Far East"	Japan	JPOSA	"Osaka. Osaka"	19	3	0	0	25	297.96	0	0	0	297.96	135.5021	34.6938
+"Far East"	Japan	JPSMZ	"Shimizu. Shizuoka"	1	20	0	0	41	261.25	0	0	0	261.25	138.5010	35.0195
+"Far East"	Japan	JPTYO	Tokyo.Tokyo	59	146	0	0	351	2440.34	1703	0	0	4143.34	139.7685	35.6801
+"Far East"	Japan	JPYOK	"Yokohama. Kanagawa"	45	98	0	0	241	1636.51	4155	0	0	5791.51	139.6421	35.4450
+"Far East"	Malaysia	MYBKI	"Kota Kinabalu. Sabah"	0	24	0	0	48	490.08	0	0	0	490.08	116.1100	5.9800
+"Far East"	Malaysia	MYKUA	Kuantan	0	0	0	0	0	0	0	0	100	100	103.3200	3.8300
+"Far East"	Malaysia	MYMKZ	Malacca	0	0	0	0	0	0	0	0	27125	27125	102.2559	2.1908
+"Far East"	Malaysia	MYPGU	"Pasir Gudang"	27	6	0	0	39	615.01	0	0	0	615.01	103.8787	1.4537
+"Far East"	Malaysia	MYPEN	Penang	269	116	0	0	501	7210.46	0	0	0	7210.46	100.2878	5.3805
+"Far East"	Malaysia	MYPKG	"Port Kelang"	4223	3008	185	1473	13370	138451.82	0	0	108904	247355.82	101.3018	2.9422
+"Far East"	Malaysia	MYTPP	"Tanjong Pelepas"	4484	4566	3	232	14083	157089.91	0	0	0	157089.91	103.5457	1.3570
+"Far East"	Malaysia	MYWSP	"Westport/Port Klang"	1	8	0	0	17	155.87	0	0	0	155.87	101.3187	2.9553
+"Far East"	Myanmar	MMRGN	Yangon	3	0	0	0	3	77.43	0	0	0	77.43	96.1647	16.7853
+"Far East"	Philippines	PHCEB	Cebu	4	0	0	0	4	31.28	0	0	0	31.28	123.8981	10.3219
+"Far East"	Philippines	PHDVO	"Davao. Mindanao"	2	8	0	0	18	247.87	0	0	0	247.87	125.6280	7.1120
+"Far East"	Philippines	PHGES	"General Santos. Dadiangas"	4	0	0	0	4	62.18	0	0	0	62.18	125.1702	6.1124
+"Far East"	Philippines	PHMSY	"Manansalay. Batangas"	1	7	0	0	15	223.48	0	0	0	223.48	121.0578	13.7561
+"Far East"	Philippines	PHMNL	Manila	63	141	0	0	345	3249.63	0	0	0	3249.63	120.9803	14.6061
+"Far East"	Singapore	SGSIN	Singapore	11971	12165	472	2884	42541	403325.58	42	0	0	403367.58	103.8539	1.2950
+"Far East"	"South Korea"	KRPUS	"Busan (Pusan)"	6548	4580	129	590	17017	206408.85	1675	0	0	208083.85	129.0081	35.0970
+"Far East"	"South Korea"	KRKWY	"Gwangyang (Kwangyang)"	152	70	0	0	292	4012.71	0	0	0	4012.71	127.6032	34.8981
+"Far East"	"South Korea"	KRINC	"Incheon (Inchon)"	101	1	0	0	103	2045.37	1091	0	0	3136.37	126.6403	37.4781
+"Far East"	"South Korea"	KRMAS	Masan	0	0	0	0	0	0	12519	0	0	12519	128.5677	35.1969
+"Far East"	Taiwan	TWKHH	Kaohsiung	4372	5150	4	69	14814	152191.71	0	0	0	152191.71	120.2666	22.6333
+"Far East"	Taiwan	TWKEL	Keelung	36	40	0	0	116	882.02	0	0	0	882.02	121.7333	25.1333
+"Far East"	Taiwan	TWTXG	Taichung	62	26	0	0	114	1280.40	0	0	0	1280.40	120.6817	24.1521
+"Far East"	Taiwan	TWTAO	Taoyuan	892	724	0	25	2390	28947.69	0	0	0	28947.69	120.7600	23.1591
+"Far East"	Taiwan	TWTYN	"Taoyuan City"	9	30	0	0	69	469.32	0	0	0	469.32	121.3111	24.9889
+"Far East"	Thailand	THBKK	Bangkok	314	94	0	0	502	7017.18	0	0	0	7017.18	100.5147	13.7519
+"Far East"	Thailand	THKKC	"Khon Kaen"	0	3	0	0	6	37.78	0	0	0	37.78	102.8448	16.4346
+"Far East"	Thailand	THLMC	"Laem Chabang"	1052	378	0	0	1808	27040.45	0	0	0	27040.45	100.9152	13.0971
+"Far East"	Thailand	THSGZ	Songkhla	50	109	0	0	268	3864.76	0	0	0	3864.76	100.5981	7.1979
+"Far East"	Vietnam	VNCLN	"Cai Lan"	1	1	0	0	3	40.55	0	0	0	40.55	107.0556	20.9720
+"Far East"	Vietnam	VNCLI	"Cat Lai"	27	89	0	0	205	2014.46	0	0	0	2014.46	106.7891	10.7588
+"Far East"	Vietnam	VNHPH	Haiphong	83	564	0	0	1211	9864.47	0	0	0	9864.47	106.6781	20.8320
+"Far East"	Vietnam	VNSGN	"Ho Chi Minh City"	452	250	0	0	952	12203.54	53	0	0	12256.54	106.6931	10.7820
+"Far East"	Vietnam	VNUIH	"Qui Nhon"	7	0	0	0	7	210	0	0	0	210	109.2335	13.7722
+"Far East"	Vietnam	VNTCT	"Tan Cang"	2	2	0	0	6	91.46	0	0	0	91.46	106.7110	10.7842
+"Far East"	Vietnam	VNVUT	"Vung Tau"	17	4	0	0	25	430.68	0	0	0	430.68	107.0850	10.3554
+"India and Pakistan"	Bangladesh	BDMON	Chalna-Mongla	2	0	0	0	2	39.80	0	0	0	39.80	89.5828	22.5260
+"India and Pakistan"	Bangladesh	BDCGP	Chittagong	67	105	0	0	277	1951	0	0	0	1951	91.8413	22.3308
+"India and Pakistan"	Bangladesh	BDMGL	Mongla	5	6	0	0	17	231.65	0	0	0	231.65	89.5955	22.4987
+"India and Pakistan"	India	INCOK	Cochin	501	367	6	13	1267	17026.20	0	0	0	17026.20	76.2538	9.9622
+"India and Pakistan"	India	INGOA	Goa	0	1	0	0	2	18.98	26	0	0	44.98	73.8283	15.4993
+"India and Pakistan"	India	INHAL	Haldia	22	0	0	0	22	672.76	0	0	0	672.76	88.0608	22.0355
+"India and Pakistan"	India	INNSA	"Jawaharlal Neru (Nhava Sheva)"	3999	2384	18	505	9795	122481.30	0	0	0	122481.30	72.9530	18.9537
+"India and Pakistan"	India	INCCU	"Kolkata (Calcutta)"	42	1	0	0	44	1102.34	0	0	0	1102.34	88.3463	22.5687
+"India and Pakistan"	India	INMAA	"Madras (Cennai)"	1578	946	10	247	3974	36267	44	0	0	36311	80.2818	13.0804
+"India and Pakistan"	India	IN007	Mundra	250	59	2	0	370	6739.36	0	0	0	6739.36	69.7238	22.8396
+"India and Pakistan"	India	INTUT	Tuticorin	6	13	1	0	33	299.19	0	0	0	299.19	78.1452	8.8054
+"India and Pakistan"	India	INVIZ	Vizag	0	0	0	0	0	0	3868.74	0	0	3868.74	83.2997	17.7239
+"India and Pakistan"	Pakistan	PKBQM	"Muhammad Bin Qasim"	589	596	5	26	1838	18579.43	0	0	0	18579.43	67.3352	24.7855
+"India and Pakistan"	"Sri Lanka"	LKCMB	Colombo	2302	1718	9	28	5803	66309.48	65	0	0	66374.48	79.8533	6.9343
+"Middle East"	Bahrain	BHBAH	Bahrain	0	1	0	0	2	6.10	0	0	0	6.10	50.6831	26.2033
+"Middle East"	Iran	IRBND	"Bandar Abbas"	846	128	72	1220	3614	27876.55	25.70	0	0	27902.25	56.2766	27.1781
+"Middle East"	Iran	IRKHK	"Kharg Island"	0	0	0	0	0	0	0	0	98238	98238	50.3157	29.2340
+"Middle East"	Israel	ILASH	Ashdod	392	496	1164	1448	5444	23590.55	0	0	0	23590.55	34.6463	31.7981
+"Middle East"	Israel	ILHFA	Haifa	2482	2766	639	2991	14635	119264.38	0	0	22691	141955.38	34.9984	32.8191
+"Middle East"	Jordan	JOAQB	Aqaba	13	8	6	47	129	639.73	12	0	0	651.73	35.0028	29.5292
+"Middle East"	Lebanon	LBBEY	Beirut	262	73	1519	810	3547	11921.22	384.82	0	0	12306.04	35.4784	33.8959
+"Middle East"	Oman	OMSLL	Salalah	151	31	0	15	243	4237.84	0	0	0	4237.84	54.0957	17.0148
+"Middle East"	Qatar	QADOH	Doha	0	0	0	0	0	0	413	0	0	413	51.5268	25.2853
+"Middle East"	"Saudi Arabia"	SAJED	Jeddah	5946	4279	3785	4673	27635	261608.63	1360.49	0	0	262969.12	39.1640	21.5822
+"Middle East"	Turkey	TRERE	"Eregli. Zonguldak"	0	0	0	0	0	0	0	0	59747	59747	31.4215	41.2797
+"Middle East"	Turkey	TRALI	Aliaga	1	15	35	0	66	373.68	0	0	18845	19218.68	26.9742	38.7994
+"Middle East"	Turkey	TRAMB	Ambarli	36	4	339	1065	2513	5882.14	0	0	0	5882.14	28.7083	40.9775
+"Middle East"	Turkey	TRAYT	Antalya	5	0	0	0	5	144.68	2998.18	0	0	3142.86	30.6937	36.9009
+"Middle East"	Turkey	TR003	Ceyhan	0	0	0	0	0	0	0	0	2024951	2024951	35.8171	37.0283
+"Middle East"	Turkey	TRDRC	"Derince. Kocaeli"	0	0	0	0	0	0	0	0	1448	1448	29.8300	40.7569
+"Middle East"	Turkey	TREVY	"Evyap Port"	0	1	0	0	2	18.98	0	0	0	18.98	29.7113	40.7757
+"Middle East"	Turkey	TRGBZ	Gebze	208	396	188	179	1546	12741.20	0	0	6218	18959.20	29.4318	40.8007
+"Middle East"	Turkey	TRGEM	"Gemlik. Bursa"	325	963	53	360	3024	30873.66	57	0	0	30930.66	29.1571	40.4302
+"Middle East"	Turkey	TRHAY	"Haydarpasa. Istanbul"	36	6	371	74	567	1674.11	0	0	0	1674.11	29.0193	40.9966
+"Middle East"	Turkey	TRISK	"Iskenderun. Hatay"	0	1	0	0	2	9.70	0	0	0	9.70	36.1748	36.5781
+"Middle East"	Turkey	TRIST	Istanbul	573	1553	1152	2899	10629	55105.62	2965	0	1242	59312.62	28.9652	41.0096
+"Middle East"	Turkey	TRIZM	"Izmir (Smyrna)"	513	1460	171	299	4202	38985.54	0	8940	0	47925.54	27.1445	38.4153
+"Middle East"	Turkey	TRIZT	"Izmit. Kocaeli"	2	51	58	61	284	1365.94	0	0	0	1365.94	29.9298	40.7647
+"Middle East"	Turkey	TRLMA	Limas	0	0	0	0	0	0	0	0	1800	1800	26.9284	38.7579
+"Middle East"	Turkey	TRMRA	"Marmara Adasi. Balikesir"	0	0	0	0	0	0	0	0	35388	35388	27.5558	40.5877
+"Middle East"	Turkey	TRMRM	"Marmaris. Mugla"	0	0	0	0	0	0	244	0	0	244	28.2724	36.8542
+"Middle East"	Turkey	TRMER	"Mersin. Icel"	1229	534	60	290	2937	38922.92	3564.04	13000	0	55486.96	34.6305	36.8128
+"Middle East"	Turkey	TR006	"Nemrut Bay"	86	32	0	1	152	2545.53	3024.68	0	0	5570.21	26.9304	38.7641
+"Middle East"	Turkey	TRTEK	Tekirdag	0	75	0	0	150	1423.50	0	0	0	1423.50	27.5163	40.9812
+"Middle East"	Turkey	TRYPO	Yilport	12	40	12	0	104	1010.96	0	0	0	1010.96	29.5340	40.7743
+"Middle East"	"United Arab Emirates"	AEAUH	"Abu Dhabi"	106	164	84	522	1562	6480.70	881.85	0	0	7362.55	54.3706	24.4748
+"Middle East"	"United Arab Emirates"	AEJEA	"Jebel Ali"	7599	5037	304	1004	19985	293246.58	4500.85	0	0	297747.43	55.0910	24.9775
+"Middle East"	"United Arab Emirates"	AEKLF	"Khor al Fakkan"	359	135	206	1124	3083	14305	0	0	0	14305	56.3458	25.3570
+Europe	Albania	ALVOA	Valona	0	0	0	0	0	0	0	0	27703	27703	19.4912	40.4738
+Europe	Belgium	BEANR	Antwerpen	5	0	50	39	133	276	29	0	0	305	4.3997	51.2211
+Europe	Bulgaria	BGVAR	Varna	0	0	0	0	0	0	0	0	3660	3660	27.9017	43.2166
+Europe	Croatia	HRPLE	Ploce	0	0	0	0	0	0	3914.20	0	0	3914.20	17.4360	43.0534
+Europe	Cyprus	CYLMS	Limassol	7	6	127	676	1498	3023.51	0	0	0	3023.51	33.0423	34.6736
+Europe	Finland	FIHMN	Hamina	0	0	0	0	0	0	4377	0	0	4377	27.2000	60.5667
+Europe	Finland	FIPRS	Jakobstad	0	0	0	0	0	0	19612	0	0	19612	22.7000	63.6667
+Europe	Finland	FIKAS	Kaskinen	0	0	0	0	0	0	30628	0	0	30628	21.2229	62.3851
+Europe	Finland	FIKEM	Kemi	0	0	0	0	0	0	25076	0	0	25076	24.5666	65.7333
+Europe	Finland	FIKTK	Kotka	0	0	0	0	0	0	5345	0	0	5345	26.9456	60.4673
+Europe	Finland	FIOUL	Oulu	0	0	0	0	0	0	6837	0	0	6837	25.4717	65.0119
+Europe	Finland	FIRAU	Rauma	0	0	0	0	0	0	18942	0	0	18942	21.5039	61.1289
+Europe	France	FRLEH	"Le Havre"	49	27	0	60	223	1874.57	0	0	15965	17839.57	0.1079	49.4936
+Europe	France	FRPJE	"Port Jerome"	0	0	0	0	0	0	0	0	2830	2830	0.5428	49.4720
+Europe	France	FRBIA	Bastia	0	0	0	0	0	0	9498.18	0	0	9498.18	9.4525	42.7066
+Europe	France	FRFOS	Fos-sur-Mer	267	1614	3	571	4640	49447.29	76.60	20077	32870	102470.89	4.9456	43.4381
+Europe	France	FRLAV	Lavera	0	0	0	0	0	0	0	0	102400	102400	5.0256	43.3929
+Europe	France	FRMRS	Marseille	580	564	98	133	2072	22076.95	4961.49	0	31904	58942.44	5.3700	43.2962
+Europe	France	FRPSL	Port-Saint-Louis-Du-Rhone	0	0	0	0	0	0	0	78255	0	78255	4.8026	43.3891
+Europe	France	FRSET	Sete	0	0	4	15	34	68	0	0	0	68	3.6942	43.4017
+Europe	Germany	DEBRV	Bremerhaven	0	0	0	0	0	0	43	0	0	43	8.5866	53.5522
+Europe	Germany	DEHAM	Hamburg	195	145	0	374	1233	8305.08	142	0	5246	13693.08	10.0007	53.5503
+Europe	Gibilterra	GIGIB	Gibraltar	0	0	0	0	0	0	0	0	39723	39723	-5.3485	36.1451
+Europe	"Gr. Britain"	GBLON	London	0	0	19	0	19	38	0	0	0	38	-0.1276	51.5073
+Europe	"Gr. Britain"	GBSOU	Southampton	0	0	0	0	0	0	42	0	14954	14996	-1.4042	50.9035
+Europe	"Gr. Britain"	GBSWD	Southwold	0	0	0	0	0	0	0	0	34702	34702	1.6809	52.3256
+Europe	"Gr. Britain"	GBMME	Tees/Hartlepool	0	0	0	0	0	0	0	0	79571	79571	-1.2003	54.6957
+Europe	"Gr. Britain"	GBTIL	Tilbury	27	22	0	197	465	1427.20	0	0	0	1427.20	0.3644	51.4631
+Europe	Greece	GRPIR	Piraeus	3702	1630	296	1067	9392	116789.81	2622	0	0	119411.81	23.6486	37.9442
+Europe	Greece	GRSKG	Thessaloniki	0	0	0	0	0	0	3358	0	0	3358	22.9353	40.6403
+Europe	Malta	MTMLA	Malta	5120	3338	2020	9145	32106	220011.17	1608.28	0	201508	423127.45	14.5134	35.8988
+Europe	Malta	MT001	Marsaxlokk	883	382	361	544	3096	26408.22	36	0	0	26444.22	14.5441	35.8419
+Europe	Netherlands	NLIJM	Ijmuiden	0	0	0	0	0	0	34	0	0	34	4.6104	52.4573
+Europe	Netherlands	NLRTM	Rotterdam	112	284	279	604	2167	10400.96	2	0	70121	80523.96	4.4632	51.9229
+Europe	Netherlands	NLVLI	Vlissingen	0	0	0	0	0	0	0	0	40059	40059	3.5714	51.4612
+Europe	Norway	NOMON	Mongstad	0	0	0	0	0	0	0	0	94300	94300	5.0305	60.8154
+Europe	Norway	NOSOV	Sovik	0	0	0	0	0	0	118.40	0	0	118.40	6.2804	62.5463
+Europe	Poland	PLGDN	Gdansk	0	0	0	0	0	0	0	0	98935	98935	18.6543	54.3482
+Europe	Portugal	PTLEI	Leixoes	0	0	0	0	0	0	0	0	1195	1195	-8.6846	41.1903
+Europe	Portugal	PTLIS	Lisboa	0	0	0	7	14	30.80	0	13109	0	13139.80	-9.1394	38.7138
+Europe	Romania	ROGAT	"Galati "	0	0	0	0	0	0	0	0	8951	8951	28.0551	45.4337
+Europe	Romania	ROGRG	Giurgiu	0	0	0	0	0	0	0	0	8060	8060	25.9648	43.8961
+Europe	Slovenia	SIKOP	"Capo d'Istria"	0	0	0	0	0	0	706	29401	0	30107	13.7305	45.5480
+Europe	Spain	ESCEU	Ceuta	0	0	0	0	0	0	9117.69	5308	0	14425.69	-5.3041	35.8884
+Europe	Spain	ESAVS	Aviles	0	0	0	0	0	0	21068.44	0	0	21068.44	-5.9220	43.5558
+Europe	Spain	ESBIO	Bilbao	0	0	0	0	0	0	2	0	0	2	-2.9349	43.2630
+Europe	Spain	ESFER	"El Ferrol"	0	0	0	0	0	0	493.94	0	0	493.94	-8.2332	43.4847
+Europe	Spain	ESSDR	Santander	0	0	0	0	0	0	32830.80	0	0	32830.80	-3.8101	43.4623
+Europe	Spain	ESVGO	Vigo	0	0	0	200	400	901.62	110	0	0	1011.62	-8.7247	42.2377
+Europe	Spain	ESALG	Algeciras	4056	4677	1962	7555	30482	252550.74	0	30075	64005	346630.74	-5.4487	36.1311
+Europe	Spain	ESAPM	Almoines	2	7	9	36	97	389.99	0	0	0	389.99	-0.1810	38.9435
+Europe	Spain	ESAUZ	"Arroyo de la Luz"	4	45	0	0	94	488.83	0	0	0	488.83	-6.5846	39.4840
+Europe	Spain	ESBCN	Barcelona	679	747	633	2342	7490	40287.52	111786.46	0	32352	184425.98	2.1700	41.3870
+Europe	Spain	ESCAR	"Cartagena  "	0	0	0	0	0	0	0	4661	58481	63142	-1.0006	37.6268
+Europe	Spain	ESCAS	"Castellon de La Plana"	3060	234	138	100	3866	76316.21	7189.99	0	0	83506.20	-0.0374	39.9860
+Europe	Spain	ESGAN	Gandia	0	0	0	0	0	0	414.55	0	0	414.55	-0.1803	38.9676
+Europe	Spain	ESHUV	Huelva	0	0	0	0	0	0	3696.66	0	19900	23596.66	-6.9496	37.2567
+Europe	Spain	ESLPA	"Las Palmas"	2649	1450	14	465	6493	107148.09	92.30	6319	0	113559.39	-15.4351	28.1288
+Europe	Spain	ESAGP	Malaga	37	42	0	970	2061	5490.36	0	0	43064	48554.36	-4.4210	36.7211
+Europe	Spain	ESMTV	Montaverner	419	38	0	61	617	11094.50	0	0	0	11094.50	-0.4948	38.8879
+Europe	Spain	ESMOT	Motril	0	0	0	0	0	0	5064.54	0	0	5064.54	-3.5181	36.7496
+Europe	Spain	ESOPA	Oropesa	4	2	15	15	53	233	0	0	0	233	-5.1747	39.9175
+Europe	Spain	ESPMI	"Palma de Mallorca"	0	0	0	0	0	0	1408.32	45462	0	46870.32	2.6501	39.5696
+Europe	Spain	ESSCT	"Santa Cruz de Tenerife"	2	26	0	0	54	668.67	0	0	0	668.67	-16.2536	28.4598
+Europe	Spain	ESSVQ	Sevilla	0	0	0	0	0	0	0	0	27724	27724	-5.9953	37.3886
+Europe	Spain	ESTAR	Tarragona	2	0	34	372	780	1743.80	0	153797	74683	230223.80	1.2546	41.1172
+Europe	Spain	ESTCI	Tenerife	16	3	0	0	22	382.85	0	0	0	382.85	-16.7555	28.3159
+Europe	Spain	ESVLC	Valencia	2127	535	174	7407	18185	93134.11	57344.74	0	52050	202528.85	-0.3760	39.4699
+Europe	Sweden	SEHUS	Husum	0	0	0	0	0	0	3894	0	0	3894	19.1619	63.3334
+Europe	Sweden	SE001	Jatterson	0	0	0	0	0	0	4174	0	0	4174	16.5505	57.0975
+Europe	Sweden	SEKAN	Karlshamn	0	0	0	0	0	0	4500	0	0	4500	14.8646	56.1704
+Europe	Sweden	SEVAG	Varberg	0	0	0	0	0	0	2375	0	0	2375	12.2503	57.1057
+"Georgia. Russia. Ukraine"	Georgia	GEBUS	Batumi	0	0	0	0	0	0	0	0	236167	236167	41.6471	41.6515
+"Georgia. Russia. Ukraine"	Georgia	GEKLV	Kulevi	0	0	0	0	0	0	0	0	139209	139209	41.6649	42.2703
+"Georgia. Russia. Ukraine"	Georgia	GESPA	"Supsa Terminal"	0	0	0	0	0	0	0	0	80758	80758	41.8127	42.0438
+"Georgia. Russia. Ukraine"	Moldavia	MDGIU	Giurgiulesti	0	0	0	0	0	0	0	0	11874	11874	28.1982	45.4825
+"Georgia. Russia. Ukraine"	Russia	RUMMK	Murmansk	0	0	0	0	0	0	0	0	93306	93306	33.0750	68.9707
+"Georgia. Russia. Ukraine"	Russia	RUPRI	"Primorsk. Koivisto"	0	0	0	0	0	0	0	0	599653	599653	28.6167	60.3667
+"Georgia. Russia. Ukraine"	Russia	RUKZP	Kavkaz	0	0	0	0	0	0	0	0	65834	65834	36.6740	45.3406
+"Georgia. Russia. Ukraine"	Russia	RUNVS	Novorossiysk	13	3	0	498	1015	2869	22523.14	0	2752308	2777700.14	37.7900	44.7278
+"Georgia. Russia. Ukraine"	Russia	RUTUA	Tuapse	0	0	0	0	0	0	0	0	59872	59872	39.0721	44.0986
+"Georgia. Russia. Ukraine"	Ukraine	UAERD	Berdyansk	0	0	0	0	0	0	0	9650	0	9650	36.7898	46.7607
+"Georgia. Russia. Ukraine"	Ukraine	UAILK	Illichivs'k	0	0	0	0	0	0	0	19501	0	19501	30.6561	46.3016
+"Georgia. Russia. Ukraine"	Ukraine	UAKEH	Kerch	0	0	0	0	0	0	0	0	133389	133389	36.4546	45.3544
+"Georgia. Russia. Ukraine"	Ukraine	UAKHE	Kherson	0	0	0	0	0	0	0	0	3000	3000	32.6131	46.6551
+"Georgia. Russia. Ukraine"	Ukraine	UAZHD	"Mariupol "	0	0	0	0	0	0	13204.76	36511	0	49715.76	37.5500	47.0958
+"Georgia. Russia. Ukraine"	Ukraine	UANIK	Nikolayev	0	0	0	0	0	0	0	0	14995	14995	32.0027	46.9705
+"Georgia. Russia. Ukraine"	Ukraine	UAODS	Odessa	0	0	0	0	0	0	0	5100	3140	8240	30.7296	46.4713
+"Georgia. Russia. Ukraine"	Ukraine	UASVP	Sevastopol	0	0	0	0	0	0	2947.48	0	0	2947.48	33.5224	44.6115
+"Georgia. Russia. Ukraine"	Ukraine	UA012	Yuzhnyy	0	0	0	0	0	0	0	2256	0	2256	31.1029	46.6238
+Italy	Italy	ITAOI	Ancona	6	5	0	0	16	171.73	0	20600	0	20771.73	13.5175	43.6171
+Italy	Italy	ITATX	Arbatax	0	0	0	0	0	0	7111.47	0	0	7111.47	9.7077	39.9354
+Italy	Italy	ITASS	Assemini	0	0	0	0	0	0	0	0	26990	26990	9.0015	39.2915
+Italy	Italy	ITAUG	Augusta	0	0	0	0	0	0	0	0	97402	97402	15.2197	37.2369
+Italy	Italy	ITBRI	Bari	0	0	0	0	0	0	0	16177	0	16177	16.8620	41.1258
+Italy	Italy	ITCAG	Cagliari	3890	2213	547	2498	13859	140317.80	0	0	572931	713248.80	9.1169	39.2225
+Italy	Italy	ITCTA	Catania	102	23	76	104	432	2960.96	595085.65	0	0	598046.61	15.0871	37.5026
+Italy	Italy	ITCVV	Civitavecchia	0	0	0	0	0	0	0	52425	0	52425	11.7988	42.0988
+Italy	Italy	ITFCO	Fiumicino	0	0	0	0	0	0	0	0	26865	26865	12.2339	41.7677
+Italy	Italy	ITGAE	Gaeta	0	0	0	0	0	0	0	0	22293	22293	13.5628	41.2183
+Italy	Italy	ITGEA	Gela	0	0	0	0	0	0	0	0	115078	115078	14.2502	37.0664
+Italy	Italy	ITGOA	"Genova (Oil terminal)"	0	0	0	0	0	0	0	0	5497	5497	8.8323	44.4211
+Italy	Italy	ITGIT	"Gioia Tauro"	10475	4688	125	2076	24128	348153.97	0	0	0	348153.97	15.8990	38.4240
+Italy	Italy	IT023	"Isola del Giglio"	0	0	0	0	0	0	0	0	1467	1467	10.9228	42.3599
+Italy	Italy	ITSPE	"La Spezia"	36	71	145	1171	2665	7322.24	16.40	0	0	7338.64	9.8282	44.1070
+Italy	Italy	ITLIV	Livorno	3775	2985	170	5051	20017	160784.22	334.10	0	312218	473336.32	10.3160	43.5426
+Italy	Italy	ITMDC	"Marina di Carrara"	0	0	0	0	0	0	243	0	0	243	10.0450	44.0388
+Italy	Italy	ITMAZ	"Mazara del Vallo"	0	0	0	0	0	0	0	0	6300	6300	12.5890	37.6539
+Italy	Italy	ITMLZ	Milazzo	0	0	0	0	0	0	0	0	324415	324415	15.2412	38.2208
+Italy	Italy	ITNAP	Napoli	2381	1972	425	943	8636	91128.35	2796.65	0	0	93925	14.2493	40.8516
+Italy	Italy	ITOLB	Olbia	0	0	0	0	0	0	192697.98	0	0	192697.98	9.4994	40.9241
+Italy	Italy	IT888	"Other Italian ports"	2	7	86	171	444	1107.56	196.05	0	0	1303.61	12.5081	41.8977
+Italy	Italy	ITPMO	Palermo	2	4	0	1	12	117.88	1370990.38	0	0	1371108.26	13.3357	38.1111
+Italy	Italy	ITPIO	Piombino	0	0	0	0	0	0	0	7708	0	7708	10.5225	42.9348
+Italy	Italy	ITPEM	"Porto Empedocle"	0	0	0	0	0	0	0	32516	0	32516	13.5264	37.2934
+Italy	Italy	ITPFX	"Porto Foxi"	0	0	0	0	0	0	0	0	106806	106806	9.0293	39.0797
+Italy	Italy	ITPSS	"Porto Santo Stefano"	0	0	0	0	0	0	0	0	1002	1002	11.1237	42.4338
+Italy	Italy	ITPTO	"Porto Torres"	0	0	0	0	0	0	630455.08	4409	0	634864.08	8.4031	40.8344
+Italy	Italy	ITPRI	Priolo	0	0	0	0	0	0	0	0	10279	10279	15.2032	37.1723
+Italy	Italy	ITSAL	Salerno	2668	2081	250	1135	9350	103536.16	0	0	0	103536.16	14.7658	40.6780
+Italy	Italy	ITSPA	"Santa Panagia"	0	0	0	0	0	0	0	0	64869	64869	15.2797	37.1086
+Italy	Italy	ITSVN	Savona-Vado	0	0	0	0	0	0	0	31321	84900	116221	8.4810	44.3079
+Italy	Italy	ITTAR	Taranto	15	22	2	13	87	688.18	0	2856669	169571	3026928.18	17.2432	40.4712
+Italy	Italy	ITTPS	Trapani	2	0	0	0	2	42	0	0	0	42	12.5437	38.0161
+"Oceania "	Australia	AUADL	Adelaide	34	15	9	66	205	1313.01	0	0	0	1313.01	138.5999	-34.9274
+"Oceania "	Australia	AUBNE	Brisbane	2	0	0	0	2	47.83	887	0	0	934.83	153.0235	-27.4690
+"Oceania "	Australia	AUFRE	"Fremantle "	18	1	24	93	230	875.39	0	0	0	875.39	115.7462	-32.0559
+"Oceania "	Australia	AUMEL	Melbourne	192	89	169	196	931	6980.45	0	0	0	6980.45	144.9632	-37.8142
+"Oceania "	Australia	AUSYD	Sydney	163	73	31	106	552	4681.43	0	0	0	4681.43	151.2165	33.8548
+"Oceania "	"New Zealand"	NZAKL	Auckland	16	0	0	0	16	346.92	0	0	0	346.92	174.7656	-36.8535
+"Oceania "	"New Zealand"	NZLYT	Lyttelton	1	0	0	0	1	21.60	0	0	0	21.60	172.7206	-43.6025
+"Oceania "	"New Zealand"	NZNPE	Napier	33	1	0	0	35	726.78	0	0	0	726.78	176.9179	39.4909
+"Oceania "	"New Zealand"	NZTRG	Tauranga	2	0	0	0	2	33.78	0	0	0	33.78	176.1684	37.6865
+"Oceania "	"Papua New Guinea"	PGKIM	Kimbe	0	0	0	0	0	0	0	0	12310	12310	150.1530	-5.5563
+"Not specified"	"Not specified"	UNKNW	"Not specified"	1212	816	9287	22160	56451	149711.70	31110.49	0	0	180822.19	0.0000	0.0000
