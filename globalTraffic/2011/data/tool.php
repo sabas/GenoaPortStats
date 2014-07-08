@@ -41,7 +41,7 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$coordf="../../../common/locode_coordinates.tsv";
+$coordf="../../../isoalpha3.tsv";
 
 $file=$_GET['i'];
 
@@ -49,25 +49,20 @@ $sep="\t";
 $coord=csvRead($coordf,$sep);
 $data=csvRead($file,$sep);
 
-$res= fopen("gc_".$file, "w+");
+$res= fopen("mat_".$file, "w+");
 
 $header=array_keys($data[0]);
-$header[]="lon";
-$header[]="lat";
 fputcsv($res,$header,$sep);
 foreach($data as &$r)
 {
-    $port=findR(trim($r['locode']));
+    $port=findR(trim($r['Nation']));
     if($port!=-1)
 	{
-    $r['lon']=$port['lon'];
-    $r['lat']=$port['lat'];
+    $r['ISO_A3']=$port;
 	}
     else
     {
-        echo $r['locode']."<br>";
-        $r['lon']="#";
-        $r['lat']="#";
+        echo $r['Nation']."<br>";
     }
 
 fputcsv($res,$r,"\t");
@@ -77,7 +72,7 @@ fclose($res);
 function findR($p){
 global $coord;
 foreach($coord as $k){
-    if ($k['locode']==$p) return $k;
+    if ($k['name']==$p) return $k['alpha-3'];
 }
 return -1;
 }

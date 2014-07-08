@@ -1,4 +1,4 @@
-"Geographical Areas"	Countries	locode	Ports	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	TEUS	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	TOTAL	lon	lat	lon	lat
+"Geographical Areas"	Countries	locode	Ports	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	TEUS	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	TOTAL	lon	lat
 "West Africa"	Angola	AOLAD	Luanda	1	0	0	0	1	20	0	0	0	20	13.5412	-12.3700
 "West Africa"	Benin	BJCOO	Cotonou	7	0	5	3	18	132.36	0	0	0	132.36	-1.5267	12.3723
 "West Africa"	Cameroun	CMDLA	Douala	278	44	54	13	446	7393.85	0	0	0	7393.85	11.8800	-4.7700

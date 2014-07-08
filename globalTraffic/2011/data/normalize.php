@@ -41,7 +41,7 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$coordf="../../../common/locode_coordinates.tsv";
+$coordf="../../../common/countryInfo.tsv";
 
 $file=$_GET['i'];
 
@@ -49,35 +49,30 @@ $sep="\t";
 $coord=csvRead($coordf,$sep);
 $data=csvRead($file,$sep);
 
-$res= fopen("gc_".$file, "w+");
+$res= fopen("normalized_".$file, "w+");
 
 $header=array_keys($data[0]);
-$header[]="lon";
-$header[]="lat";
+
 fputcsv($res,$header,$sep);
 foreach($data as &$r)
 {
-    $port=findR(trim($r['locode']));
-    if($port!=-1)
-	{
-    $r['lon']=$port['lon'];
-    $r['lat']=$port['lat'];
-	}
-    else
-    {
-        echo $r['locode']."<br>";
-        $r['lon']="#";
-        $r['lat']="#";
-    }
+$t=array();
+    $area=findR(trim($r['ISO_A3']));
+if($area==-1){echo $r['ISO_A3']; continue;}
+foreach($r as $k=>$v){
+if ($k=='ISO_A3'||$k=='Nation') $t[]=$v;
+else
+$t[]=number_format($v/$area,10,".",""); //10 decimali
+}
 
-fputcsv($res,$r,"\t");
+fputcsv($res,$t,"\t");
 }
 fclose($res);
 
 function findR($p){
 global $coord;
 foreach($coord as $k){
-    if ($k['locode']==$p) return $k;
+    if ($k['ISO3']==$p) return $k['Population'];
 }
 return -1;
 }

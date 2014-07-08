@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Genoa Port Statistics - 2012 Export Traffic (by port of discharge)</title>
+<meta charset="utf8"/>
+<link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
+<link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
+<script type="text/javascript" src="../../script/leaflet.js"></script>
+<script type="text/javascript" src="../../script/map.js"></script>
+<script type="text/javascript" src="../../script/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="../../script/heatcanvas.js"></script>
+<script type="text/javascript" src="../../script/heatcanvas-leaflet.js"></script>
+
+<script type="text/javascript">
+function loadLayer(file)
+{
+	var myLayer;
+    $.ajax({
+    async: false,
+    url: file,
+    dataType:"json",
+    success: function(json) {
+        myLayer=json;
+        }
+	});
+	return myLayer;
+}
+function loadHeat(option){
+   if (heatmap.data.length>0) heatmap.clear();
+    map.removeLayer(heatmap);
+    map.removeLayer(markerLayers);
+
+    var dataMax=100/Math.max.apply(Math,dataMap.map(function(o){return o[option];}));
+
+    for(var k=0;k<dataMap.length;k++){
+        var toHun=dataMax*dataMap[k][option];
+        heatmap.pushData(dataMap[k]['lat'],dataMap[k]['lon'],toHun);
+        
+        var marker = new L.Marker(new L.LatLng(dataMap[k]['lat'],dataMap[k]['lon']));
+        marker.bindPopup(dataMap[k][option]);
+        markerLayers.addLayer(marker);
+    
+    }
+    map.addLayer(heatmap);
+}
+</script>
+</head>
+<body>
+<div id="mapapp">
+<div id="panel">
+<a href="../../index.html" class="entry">Index</a>
+<a href="data/index.html" class="entry">Get the data</a>
+<h1>2012 Export Traffic (by port of discharge)</h1>
+<p>Click on the index to load the heatmap.</p>
+<input type="radio" name="layerGroup" value="Containers full 20'" onclick="loadHeat(this.value)">Containers full 20'<br>
+<input type="radio" name="layerGroup" value="Containers full 40'" onclick="loadHeat(this.value)">Containers full 40'<br>
+<input type="radio" name="layerGroup" value="TEUS" onclick="loadHeat(this.value)" checked>TEUS<br>
+<input type="radio" name="layerGroup" value="Containers empty 20'" onclick="loadHeat(this.value)">Containers empty 20'<br>
+<input type="radio" name="layerGroup" value="Containers empty 40'" onclick="loadHeat(this.value)">Containers empty 40'<br>
+<input type="radio" name="layerGroup" value="Containerised Cargo" onclick="loadHeat(this.value)">Containerised Cargo<br>
+<input type="radio" name="layerGroup" value="Conventional Cargo" onclick="loadHeat(this.value)">Conventional Cargo<br>
+<input type="radio" name="layerGroup" value="Liquid Bulk" onclick="loadHeat(this.value)">Liquid Bulk<br>
+<input type="radio" name="layerGroup" value="Solid Bulk" onclick="loadHeat(this.value)">Solid Bulk<br>
+<p class="i">There's also generic traffic related to: Italy (1303.61 tons) and other countries (180822.19 tons)</p>
+</div>
+<div id='map'></div>
+</div>
+<script type="text/javascript">
+var map = initmap(0,0,2, { });
+var dataMap=loadLayer("data/globalTraffic_2012_discharge.json");
+putMarker(map,null,44.4492,8.8807,"Genova");
+
+var markerLayers = new L.LayerGroup();
+var heatmap = new L.TileLayer.HeatCanvas({},{'step':1, 'degree':HeatCanvas.LINEAR, 'opacity':0.4});
+
+L.control.layers({"heatmap":heatmap}, {"markers": markerLayers}).addTo(map);
+
+loadHeat('TEUS'); //default
+</script>
+</body>
+</html>

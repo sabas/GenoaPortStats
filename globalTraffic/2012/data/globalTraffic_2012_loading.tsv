@@ -1,4 +1,4 @@
-"Geographical Areas"	Countries	locode	Ports	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	TEUS	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	TOTAL	lon	lat	lon	lat
+"Geographical Areas"	Countries	locode	Ports	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	TEUS	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	TOTAL	lon	lat
 "West Africa"	Angola	AOCAB	Cabinda	0	2	0	0	4	36.25	0	0	0	36.25	12.1900	-5.5596
 "West Africa"	Angola	AOLOB	Lobito	1	4	0	0	9	77.23	0	0	0	77.23	13.2325	-8.8363
 "West Africa"	Angola	AOLAD	Luanda	39	53	0	1	147	1827.34	380.62	0	0	2207.96	13.5412	-12.3700

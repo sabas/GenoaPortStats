@@ -41,7 +41,7 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$coordf="../../common/coordinates.tsv";
+$coordf="../../../common/locode_coordinates.tsv";
 
 $file=$_GET['i'];
 
