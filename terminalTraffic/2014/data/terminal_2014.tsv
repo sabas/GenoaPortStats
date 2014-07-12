@@ -1,55 +1,55 @@
-"id"	"name"	"type"	"unit"	"Jan 2014"	"Feb 2014"	"Mar 2014"	"Apr 2014"
-"sech"	"TERMINAL SECH"	"container"	"teu"	24222	33145	31689	31763
-"sech"	"TERMINAL SECH"	"miscellaneous goods"	"tons"	52	116	21	258
-"sech"	"TERMINAL SECH"	"trucks"	"mtl"	0	0	0	0
-"sangiorgio"	"TERMINAL SAN GIORGIO "	"container"	"teu"	8213	8175	8564	9234
-"sangiorgio"	"TERMINAL SAN GIORGIO"	"miscellaneous goods"	"tons"	6992	6978	10859	7227
-"sangiorgio"	"TERMINAL SAN GIORGIO"	"trucks/vehicles"	"mtl"	105058	116244	137214	121744
-"sangiorgio"	"TERMINAL SAN GIORGIO"	"vehicles "	"num"	2545	4079	5538	5146
-"sangiorgio"	"TERMINAL SAN GIORGIO"	"passengers"	"num"	0	0	0	0
-"messina"	"TERMINAL MESSINA"	"container"	"teu"	15968	13051	16717	17357
-"messina"	"TERMINAL MESSINA"	"miscellaneous goods"	"tons"	2476	937	2471	3684
-"messina"	"TERMINAL MESSINA"	"trucks"	"mtl"	12615	6315	11441	13057
-"gmt"	"GENOA METAL TERMINAL"	"container"	"teu"	93	52	76	81
-"gmt"	"GENOA METAL TERMINAL"	"miscellaneous goods"	"tons"	34196	20293	21524	22497
-"gmt"	"GENOA METAL TERMINAL"	"trucks"	"mtl"	0	0	0	0
-"gpt"	"TERMINAL REBORA"	"container"	"teu"	16491	20367	25674	24783
-"gpt"	"TERMINAL REBORA"	"miscellaneous goods"	"tons"	0	0	14	0
-"gpt"	"TERMINAL REBORA"	"trucks"	"mtl"	29931	37696	42669	36992
-"rinfuse"	"TERMINAL RINFUSE"	"minerals"	"tons"	91551	53751	52096	66305
-"rinfuse"	"TERMINAL RINFUSE"	"steel and miscellaneous goods"	"tons"	1334	2428	2553	2999
-"rinfuse"	"ROLCIM (T. Rinfuse)"	"cemento"	"tons"	3000	3000	0	10190
-"portopasseggeri"	"STAZIONI MARITTIME"	"passengers"	"num"	93434	74348	92049	184946
-"portopasseggeri"	"STAZIONI MARITTIME"	"vehicles"	"num"	24458	17111	23055	35081
-"portopasseggeri"	"STAZIONI MARITTIME"	"trucks"	"mtl"	142794	144067	163949	158001
-"portopasseggeri"	"STAZIONI MARITTIME"	"new vehicles"	"num"	1015	1704	820	871
-"forest"	"TERMINAL FOREST"	"timber"	"tons"	13590	13129	8062	14380
-"forest"	"TERMINAL FOREST"	"miscellaneous goods"	"tons"	0	0	0	0
-"frutta"	"TERMINAL FRUTTA"	"container"	"teu"	0	0	0	0
-"frutta"	"TERMINAL FRUTTA"	"vegetables"	"tons"	0	0	0	0
-"frutta"	"TERMINAL FRUTTA"	"miscellaneous goods"	"tons"	0	0	0	0
-"frutta"	"TERMINAL FRUTTA"	"vehicles"	"num"	0	0	0	0
-"frutta"	"TERMINAL FRUTTA"	"trucks"	"mtl"	0	0	0	0
-"vte"	"V.T.E."	"container"	"teu"	92102	91219	95728	93729
-"vte"	"V.T.E."	"car carrier"	"tons"	856	0	681	0
-"vte"	"V.T.E."	"miscellaneous goods"	"tons"	159	127	25	307
-"vte"	"V.T.E."	"trucks"	"mtl"	0	0	0	0
-"vte"	"V.T.E."	"vehicles"	"num"	0	0	0	0
-"vte"	"V.T.E."	"passengers"	"num"	0	0	0	0
-"enel"	"ENEL"	"coal"	"tons"	0	0	0	0
-"enel"	"ENEL"	"olii minerali"	"tons"	1774	0	0	1875
-"ilva"	"ILVA/A. CORNIGLIANO"	"minerali"	"tons"	7900	7900	7900	21570
-"ilva"	"ILVA/A. CORNIGLIANO"	"steel"	"tons"	234337	258294	237134	187987
-"portopetroli"	"PORTO PETROLI"	"oil"	"tons"	1344551	1210473	1216784	1092035
-"portopetroli"	"PORTO PETROLI"	"chemicals"	"tons"	26466	17077	26185	20177
-"enipetrolig"	"ENI / PETROLIG"	"mineral oil"	"tons"	10128	47190	40865	26149
-"silomar"	"SILOMAR"	"chemicals"	"tons"	15348	19208	16777	15044
-"silomar"	"SILOMAR"	"mineral oil/biodegradables"	"tons"	0	0	0	0
-"silomar"	"SILOMAR"	"vegetable oil"	"tons"	0	0	3983	8108
-"saar"	"S.A.A.R."	"vegetable oil"	"tons"	9493	17058	9621	23226
-"saar"	"S.A.A.R."	"chemicals"	"tons"	2099	6726	8028	2781
-"saar"	"S.A.A.R."	"mineral/biodegradable oil"	"tons"	2298	2538	0	2935
-"sampolii"	"SAMPIERDARENA OLII"	"vegetable oil"	"tons"	6640	6151	9487	9533
-"sampolii"	"SAMPIERDARENA OLII"	"wine"	"tons"	3365	6470	6882	2470
-"sampolii"	"SAMPIERDARENA OLII"	"chemicals"	"tons"	0	0	1600	0
-"getoil"	"GETOIL"	"mineral oil"	"tons"	0	0	0	4400
+"id"	"name"	"type"	"unit"	"Jan 2014"	"Feb 2014"	"Mar 2014"	"Apr 2014"	"May 2014"
+"sech"	"TERMINAL SECH"	"container"	"teu"	24222	33145	31689	31763	35998
+"sech"	"TERMINAL SECH"	"miscellaneous goods"	"tons"	52	116	21	258	0
+"sech"	"TERMINAL SECH"	"trucks"	"mtl"	0	0	0	0	0
+"sangiorgio"	"TERMINAL SAN GIORGIO "	"container"	"teu"	8213	8175	8564	9234	7913
+"sangiorgio"	"TERMINAL SAN GIORGIO"	"miscellaneous goods"	"tons"	6992	6978	10859	7227	1465
+"sangiorgio"	"TERMINAL SAN GIORGIO"	"trucks/vehicles"	"mtl"	105058	116244	137214	121744	144647
+"sangiorgio"	"TERMINAL SAN GIORGIO"	"vehicles "	"num"	2545	4079	5538	5146	4726
+"sangiorgio"	"TERMINAL SAN GIORGIO"	"passengers"	"num"	0	0	0	0	0
+"messina"	"TERMINAL MESSINA"	"container"	"teu"	15968	13051	16717	17357	20408
+"messina"	"TERMINAL MESSINA"	"miscellaneous goods"	"tons"	2476	937	2471	3684	959
+"messina"	"TERMINAL MESSINA"	"trucks"	"mtl"	12615	6315	11441	13057	11342
+"gmt"	"GENOA METAL TERMINAL"	"container"	"teu"	93	52	76	81	0
+"gmt"	"GENOA METAL TERMINAL"	"miscellaneous goods"	"tons"	34196	20293	21524	22497	51272
+"gmt"	"GENOA METAL TERMINAL"	"trucks"	"mtl"	0	0	0	0	0
+"gpt"	"TERMINAL REBORA"	"container"	"teu"	16491	20367	25674	24783	24407
+"gpt"	"TERMINAL REBORA"	"miscellaneous goods"	"tons"	0	0	14	0	32
+"gpt"	"TERMINAL REBORA"	"trucks"	"mtl"	29931	37696	42669	36992	44818
+"rinfuse"	"TERMINAL RINFUSE"	"minerals"	"tons"	91551	53751	52096	66305	53692
+"rinfuse"	"TERMINAL RINFUSE"	"steel and miscellaneous goods"	"tons"	1334	2428	2553	2999	1951
+"rinfuse"	"ROLCIM (T. Rinfuse)"	"cemento"	"tons"	3000	3000	0	10190	5198
+"portopasseggeri"	"STAZIONI MARITTIME"	"passengers"	"num"	93434	74348	92049	184946	173613
+"portopasseggeri"	"STAZIONI MARITTIME"	"vehicles"	"num"	24458	17111	23055	35081	39532
+"portopasseggeri"	"STAZIONI MARITTIME"	"trucks"	"mtl"	142794	144067	163949	158001	169627
+"portopasseggeri"	"STAZIONI MARITTIME"	"new vehicles"	"num"	1015	1704	820	871	927
+"forest"	"TERMINAL FOREST"	"timber"	"tons"	13590	13129	8062	14380	5738
+"forest"	"TERMINAL FOREST"	"miscellaneous goods"	"tons"	0	0	0	0	0
+"frutta"	"TERMINAL FRUTTA"	"container"	"teu"	0	0	0	0	0
+"frutta"	"TERMINAL FRUTTA"	"vegetables"	"tons"	0	0	0	0	0
+"frutta"	"TERMINAL FRUTTA"	"miscellaneous goods"	"tons"	0	0	0	0	0
+"frutta"	"TERMINAL FRUTTA"	"vehicles"	"num"	0	0	0	0	0
+"frutta"	"TERMINAL FRUTTA"	"trucks"	"mtl"	0	0	0	0	0
+"vte"	"V.T.E."	"container"	"teu"	92102	91219	95728	93729	97077
+"vte"	"V.T.E."	"car carrier"	"tons"	856	0	681	0	1217
+"vte"	"V.T.E."	"miscellaneous goods"	"tons"	159	127	25	307	208
+"vte"	"V.T.E."	"trucks"	"mtl"	0	0	0	0	0
+"vte"	"V.T.E."	"vehicles"	"num"	0	0	0	0	0
+"vte"	"V.T.E."	"passengers"	"num"	0	0	0	0	0
+"enel"	"ENEL"	"coal"	"tons"	0	0	0	0	0
+"enel"	"ENEL"	"olii minerali"	"tons"	1774	0	0	1875	0
+"ilva"	"ILVA/A. CORNIGLIANO"	"minerali"	"tons"	7900	7900	7900	21570	24595
+"ilva"	"ILVA/A. CORNIGLIANO"	"steel"	"tons"	234337	258294	237134	187987	271391
+"portopetroli"	"PORTO PETROLI"	"oil"	"tons"	1344551	1210473	1216784	1092035	1528902
+"portopetroli"	"PORTO PETROLI"	"chemicals"	"tons"	26466	17077	26185	20177	20417
+"enipetrolig"	"ENI / PETROLIG"	"mineral oil"	"tons"	10128	47190	40865	26149	347
+"silomar"	"SILOMAR"	"chemicals"	"tons"	15348	19208	16777	15044	24479
+"silomar"	"SILOMAR"	"mineral oil/biodegradables"	"tons"	0	0	0	0	0
+"silomar"	"SILOMAR"	"vegetable oil"	"tons"	0	0	3983	8108	438
+"saar"	"S.A.A.R."	"vegetable oil"	"tons"	9493	17058	9621	23226	1319
+"saar"	"S.A.A.R."	"chemicals"	"tons"	2099	6726	8028	2781	0
+"saar"	"S.A.A.R."	"mineral/biodegradable oil"	"tons"	2298	2538	0	2935	0
+"sampolii"	"SAMPIERDARENA OLII"	"vegetable oil"	"tons"	6640	6151	9487	9533	33
+"sampolii"	"SAMPIERDARENA OLII"	"wine"	"tons"	3365	6470	6882	2470	2757
+"sampolii"	"SAMPIERDARENA OLII"	"chemicals"	"tons"	0	0	1600	0	4
+"getoil"	"GETOIL"	"mineral oil"	"tons"	0	0	0	4400	92
