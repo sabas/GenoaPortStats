@@ -19,25 +19,25 @@
 "West Africa"	"Ivory Coast"	CIABJ	Abidjan	1742	1076	10	14	3932	59514.89	2193.47	0.00	0.00	61708.36	9.7700	1.8700
 "West Africa"	"Ivory Coast"	CISPY	"San Pedro"	60	36	0	0	132	2123.42	240.00	0.00	0.00	2363.42	8.7833	3.7500
 "West Africa"	Liberia	LRMLW	Monrovia	26	39	0	0	104	1484.41	0.00	0.00	0.00	1484.41	-10.7997	6.3146
-"West Africa"	Mali	MLMKO	Bamako	0	1	0	0	2	12.99	0.00	0.00	0.00	12.99	#	#
-"West Africa"	Mauritania	MRNDB	Nouadhibou	1	0	0	0	1	17.20	0.00	0.00	0.00	17.20	#	#
+"West Africa"	Mali	MLMKO	Bamako	0	1	0	0	2	12.99	0.00	0.00	0.00	12.99	-8.0001	12.6483
+"West Africa"	Mauritania	MRNDB	Nouadhibou	1	0	0	0	1	17.20	0.00	0.00	0.00	17.20	-17.0501	20.9131
 "West Africa"	Mauritania	MRNKC	Nouakchott	35	16	0	0	67	825.86	0.00	0.00	0.00	825.86	-15.9763	18.0790
 "West Africa"	Namibia	NAWVB	"Walvis Bay"	26	38	0	0	102	1152.16	0.00	0.00	0.00	1152.16	14.5053	-22.9575
 "West Africa"	Nigeria	NGAPP	Apapa	265	181	0	0	627	8832.84	46.00	0.00	0.00	8878.84	3.3745	6.4513
 "West Africa"	Nigeria	NGLOS	Lagos	1775	846	0	4	3475	52664.80	18436.47	0.00	0.00	71101.27	3.3896	6.4452
 "West Africa"	Nigeria	NGONN	Onne	259	158	0	0	575	8681.02	0.00	0.00	0.00	8681.02	7.1569	4.7223
 "West Africa"	Nigeria	NGTIN	Tincan	1573	1241	0	0	4055	65693.19	0.00	0.00	0.00	65693.19	3.3495	6.4317
-"West Africa"	Nigeria	NGWAR	Warri	1	20	0	0	41	385.33	1089.20	0.00	0.00	1474.53	#	#
+"West Africa"	Nigeria	NGWAR	Warri	1	20	0	0	41	385.33	1089.20	0.00	0.00	1474.53	5.7500	5.5191
 "West Africa"	"Sao Tomè. Principe"	STTMS	"Sao Tomè Island"	2	0	0	0	2	22.35	0.00	0.00	0.00	22.35	-13.2362	8.4720
 "West Africa"	Senegal	SNDKR	Dakar	2269	1798	1	0	5866	81841.76	22253.16	0.00	0.00	104094.92	-17.4751	14.7178
 "West Africa"	"Sierra Leone"	SLFNA	Freetown	29	16	0	0	61	848.95	13.00	0.00	0.00	861.95	-13.2654	8.4804
 "West Africa"	Togo	TGLFW	Lomè	618	500	55	47	1767	22947.51	4958.88	0.00	0.00	27906.39	1.2208	6.1339
-"East Africa"	Botswana	BWGBE	Gaborone	1	1	0	0	3	38.07	0.00	0.00	0.00	38.07	#	#
+"East Africa"	Botswana	BWGBE	Gaborone	1	1	0	0	3	38.07	0.00	0.00	0.00	38.07	25.9077	-24.6588
 "East Africa"	Djibouti	DJJIB	Djibouti	804	711	7	0	2233	23378.07	7781.68	0.00	0.00	31159.75	39.4500	15.6101
 "East Africa"	Eritrea	ERMSW	Massawa	3317	2402	1220	358	10057	112367.92	36.28	0.00	0.00	112404.20	38.6981	9.0353
 "East Africa"	Kenya	KEMBA	Mombasa	655	188	2	0	1033	13751.32	5267.17	0.00	0.00	19018.49	43.2402	-11.7042
-"East Africa"	Madagascar	MGDIE	"Diego Suarez"	1	0	0	0	1	6.32	0.00	0.00	0.00	6.32	#	#
-"East Africa"	Madagascar	MGMJN	Majunga	0	1	0	0	2	7.18	0.00	0.00	0.00	7.18	#	#
+"East Africa"	Madagascar	MGDIE	"Diego Suarez"	1	0	0	0	1	6.32	0.00	0.00	0.00	6.32	49.2916	-12.2787
+"East Africa"	Madagascar	MGMJN	Majunga	0	1	0	0	2	7.18	0.00	0.00	0.00	7.18	46.3176	-15.7178
 "East Africa"	Madagascar	MGNOS	Nossi-Be	14	1	0	0	16	186.72	0.00	0.00	0.00	186.72	48.2666	-13.4000
 "East Africa"	Madagascar	MGTMM	Tamatave	39	34	0	0	107	1384.92	0.00	0.00	0.00	1384.92	49.4107	-18.1554
 "East Africa"	Madagascar	MGTLE	Tulear	1	0	0	0	1	9.66	0.00	0.00	0.00	9.66	49.4050	-18.1818
@@ -51,8 +51,8 @@
 "East Africa"	"South Africa"	ZACPT	"Cape Town"	2333	1349	64	6	5107	63761.66	13.00	0.00	0.00	63774.66	37.2164	19.6158
 "East Africa"	"South Africa"	ZAZBA	Coega	289	359	0	0	1007	12774.47	0.00	0.00	0.00	12774.47	45.0164	10.4356
 "East Africa"	"South Africa"	ZADUR	Durban	2917	2883	0	0	8683	102361.16	3325.70	0.00	0.00	105686.86	39.2664	-6.7981
-"East Africa"	"South Africa"	ZAELS	"East London"	4	2	0	0	8	74.38	0.00	0.00	0.00	74.38	#	#
-"East Africa"	"South Africa"	ZAGRM	Germiston	1	0	0	0	1	22.65	0.00	0.00	0.00	22.65	#	#
+"East Africa"	"South Africa"	ZAELS	"East London"	4	2	0	0	8	74.38	0.00	0.00	0.00	74.38	27.9001	-33.0193
+"East Africa"	"South Africa"	ZAGRM	Germiston	1	0	0	0	1	22.65	0.00	0.00	0.00	22.65	28.1805	-26.2294
 "East Africa"	"South Africa"	ZAJNB	Johannesburg/dbn	170	112	0	0	394	4698.57	0.00	0.00	0.00	4698.57	39.0900	-5.0700
 "East Africa"	"South Africa"	ZAPLZ	"Port Elizabeth"	18	43	0	0	104	1228.71	0.00	0.00	0.00	1228.71	39.2000	-6.1600
 "East Africa"	"South Africa"	ZAPRY	Pretoria	1	0	0	0	1	18.17	0.00	0.00	0.00	18.17	18.4330	-33.9181
@@ -68,7 +68,7 @@
 "North Africa"	Algeria	DZMOS	Mostaganem	3	0	0	0	3	55.05	2057.70	0.00	0.00	2112.75	0.0936	35.9287
 "North Africa"	Algeria	DZORN	Oran	104	85	0	0	274	3288.28	652.01	0.00	0.00	3940.29	-0.6219	35.7119
 "North Africa"	Algeria	DZSKI	Skikda	177	346	0	0	869	9230.19	2811.73	0.00	0.00	12041.92	6.9000	36.8804
-"North Africa"	Algeria	DZTEN	Tenes	0	0	0	0	0	0.00	2199.00	0.00	0.00	2199.00	#	#
+"North Africa"	Algeria	DZTEN	Tenes	0	0	0	0	0	0.00	2199.00	0.00	0.00	2199.00	1.3093	36.5093
 "North Africa"	Egypt	EGALY	Alexandria	5780	6159	332	55	18540	219862.45	11641.47	0.00	1660.00	233163.92	31.8200	31.4204
 "North Africa"	Egypt	EGDAM	Damietta	944	1862	3	92	4855	63198.32	343.00	0.00	0.00	63541.32	32.2900	31.2600
 "North Africa"	Egypt	EGPSD	"Port Said"	622	1392	780	51	4288	43191.33	0.00	0.00	39443.00	82634.33	32.3580	31.2119
@@ -87,7 +87,7 @@
 "North Africa"	Tunisia	TNSFA	Sfax	155	104	0	40	443	6258.44	0.00	0.00	0.00	6258.44	10.7601	34.7398
 "North Africa"	Tunisia	TNSUS	Sousse	0	35	0	0	70	470.19	0.00	0.00	0.00	470.19	10.6350	35.8241
 "North Africa"	Tunisia	TNTUN	Tunis	2823	2848	49	33	8634	110962.82	223112.80	0.00	0.00	334075.62	10.1797	36.8028
-"Central America"	" Netherlands Antilles"	ANKRA	"Kralendijk. Bonaire"	1	0	0	0	1	25.25	0.00	0.00	0.00	25.25	#	#
+"Central America"	" Netherlands Antilles"	ANKRA	"Kralendijk. Bonaire"	1	0	0	0	1	25.25	0.00	0.00	0.00	25.25	-68.2734	12.1435
 "Central America"	" Netherlands Antilles"	ANPHI	Philipsburg	4	0	0	0	4	95.80	0.00	0.00	0.00	95.80	-63.0483	18.0250
 "Central America"	" Netherlands Antilles"	ANWIL	"Willemstad. Curacao"	34	7	0	0	48	828.93	0.00	0.00	0.00	828.93	-68.9309	12.1091
 "Central America"	Aruba	AWORJ	Oraniestad	33	3	0	0	39	789.03	0.00	0.00	0.00	789.03	-70.0357	12.5269
