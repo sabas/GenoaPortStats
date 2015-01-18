@@ -30,7 +30,7 @@ br{clear:both;}
     margin:5px;
 }
 
-body.main{margin:10px;}
+body.main{margin-top:10px; height:auto;}
 
 /*map panels*/
 html,body{height:100%}
