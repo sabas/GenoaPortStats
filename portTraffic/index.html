@@ -2,13 +2,24 @@
 <html lang="en">
 <meta charset="utf-8"/>
 <link rel="stylesheet" href="../script/ports.css" type="text/css"/>
-<link href="../script/nvd3/src/nv.d3.css" rel="stylesheet" type="text/css"/>
+<link href="../script/nv.d3.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="../script/unsemantic.css" type="text/css"/>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-13244504-2', 'stefanosabatini.eu');
+  ga('send', 'pageview');
+</script>
 <title>Genoa Port Statistics - Monthly Port Stats</title>
 </head>
 
 <body class="main">
-<a href="../index.html" class="entry">Index</a>
+<div class="grid-container">
+<div class="grid-100">
+<a href="../port.html" class="entry">Index</a>
 <a href="data/index.html" class="entry">Get the data</a>
 
 <h1>Monthly Port Stats</h1>
@@ -28,13 +39,11 @@
     <svg></svg>
   </div>
 
-<script src="../script/nvd3/lib/d3.v3.min.js"></script>
-<script src="../script/nvd3/nv.d3.min.js"></script>
-<script src="../script/nvd3/src/tooltip.js"></script>
-<script src="../script/nvd3/src/utils.js"></script>
-<script src="../script/nvd3/src/models/legend.js"></script>
-<script src="../script/nvd3/src/models/axis.js"></script>
-<script src="../script/nvd3/src/models/multiBarChart.js"></script>
+</div>
+</div>
+
+<script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+<script src="../script/nv.d3.min.js"></script>
 <script>
 
 d3.json('data/ship.json', function(data) {
@@ -141,7 +150,7 @@ d3.json('data/teu.json', function(data) {
 	  chart.yAxis
 		  .axisLabel('TEU')
 		  .tickFormat(d3.format('d'));
-	chart.forceY([0, 200000]);
+	chart.forceY([0, 250000]);
 
 	  d3.select('#chart4 svg')
 		  .datum(data)
@@ -174,7 +183,6 @@ d3.json('data/ton.json', function(data) {
 	  chart.yAxis
 		  .axisLabel('Tons')
 		  .tickFormat(d3.format('d'));
-
 	  d3.select('#chart5 svg')
 		  .datum(data)
 		.transition().duration(500)
