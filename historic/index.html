@@ -14,7 +14,7 @@
   ga('send', 'pageview');
 </script>
 
-<title>Genoa Port Statistics - Historic Port Traffic 2003-2013</title>
+<title>Genoa Port Statistics - Historical Port Traffic 2003-2013</title>
 </head>
 
 <body class="main">
@@ -23,7 +23,7 @@
 <a href="../port.html" class="entry">Index</a>
 <a href="data/index.html" class="entry">Get the data</a>
 
-<h1>Historic Port Traffic 2003-2013</h1>
+<h1>Historical Port Traffic 2003-2013</h1>
   <div id="chart1">
     <svg></svg>
   </div>
@@ -44,13 +44,13 @@
 <script>
 var chart;
 d3.json('data/ship.json', function(data) {
-	
+
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
 	                      .x(function(d) { return d[0] })
                     .y(function(d) { return d[1] })
                     .clipEdge(true);
-		chart.margin({left: 100}) 
+		chart.margin({left: 100})
 
 	  chart.xAxis
 		  .axisLabel('Year')
@@ -61,7 +61,7 @@ d3.json('data/ship.json', function(data) {
 		  .axisLabel('Vessels')
           .axisLabelDistance(-5)
 		  .tickFormat(d3.format('d'));
-	
+
 		chart.forceY([0, 10000]);
 
 	  d3.select('#chart1 svg')
@@ -75,13 +75,13 @@ d3.json('data/ship.json', function(data) {
 });
 
 d3.json('data/person.json', function(data) {
-	
+
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
 	                      .x(function(d) { return d[0] })
                     .y(function(d) { return d[1] })
                     .clipEdge(true);
-		chart.margin({left: 100}) 
+		chart.margin({left: 100})
 
 	  chart.xAxis
 			.axisLabel('Year')
@@ -90,7 +90,7 @@ d3.json('data/person.json', function(data) {
 	  chart.yAxis
 		  .axisLabel('Passengers')
 		  .tickFormat(d3.format('d'));
-	
+
 	  chart.forceY([0, 3000000]);
 	  d3.select('#chart2 svg')
 		  .datum(data)
@@ -104,13 +104,13 @@ d3.json('data/person.json', function(data) {
 });
 
 d3.json('data/teu.json', function(data) {
-	
+
 	nv.addGraph(function() {
 	  chart = nv.models.multiBarChart()
 	                      .x(function(d) { return d[0] })
                     .y(function(d) { return d[1] })
                     .clipEdge(true);
-		chart.margin({left: 100}) 
+		chart.margin({left: 100})
 
 	  chart.xAxis
 			.axisLabel('Year')
@@ -119,7 +119,7 @@ d3.json('data/teu.json', function(data) {
 	  chart.yAxis
 		  .axisLabel('Teu')
 		  .tickFormat(d3.format('d'));
-	
+
 	  chart.forceY([0, 2500000]);
 	  d3.select('#chart3 svg')
 		  .datum(data)
@@ -133,14 +133,14 @@ d3.json('data/teu.json', function(data) {
 });
 
 d3.json('data/ton.json', function(data) {
-	
+
 	nv.addGraph(function() {
 	  chart = nv.models.stackedAreaChart()
                     .x(function(d) { return d[0] })
                     .y(function(d) { return d[1] })
                     .clipEdge(true);
 
-		chart.margin({left: 100}) 
+		chart.margin({left: 100})
 
 	  chart.xAxis
 			.axisLabel('Year')
