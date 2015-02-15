@@ -65,7 +65,7 @@ foreach($data as &$r)
 	}
     else
     {
-        echo $r['locode']."<br>";
+        echo $r['locode']." ".$r['Ports']." ".$r['Countries']."<br>";
         $r['lon']="#";
         $r['lat']="#";
     }
