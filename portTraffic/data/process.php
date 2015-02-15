@@ -41,7 +41,8 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-$i=$_GET['i'];
+//$i=$_GET['i'];
+$i="MonthlyPortStats.tsv";
 $sep="\t";
 $in=csvRead($i,$sep);
 
