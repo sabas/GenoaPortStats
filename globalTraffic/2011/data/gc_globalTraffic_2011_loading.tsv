@@ -104,7 +104,7 @@
 "Central America"	"Dominican Republic"	DOCAU	Caucedo	21	102	0	0	225	1912.39	0.00	0.00	0.00	1912.39	-69.6449	18.4148
 "Central America"	"Dominican Republic"	DOHAI	"Haina "	256	362	0	3	986	12098.50	146.00	0.00	0.00	12244.50	-70.0192	18.4200
 "Central America"	"El Salvador"	SVAQJ	Acajutla	5	5	0	0	15	217.77	0.00	0.00	0.00	217.77	-89.8278	13.5934
-"Central America"	"El Salvador"	SVLLD	"La Libertad"	2	0	0	0	2	46.06	0.00	0.00	0.00	46.06	#	#
+"Central America"	"El Salvador"	SVLLD	"La Libertad"	2	0	0	0	2	46.06	0.00	0.00	0.00	46.06	-89.3170	13.4864
 "Central America"	"El Salvador"	SVSAL	"San Salvador"	13	27	0	0	67	683.55	0.00	0.00	0.00	683.55	-89.1930	13.6978
 "Central America"	Grenada	GDSTG	"Saint Georges"	0	1	0	0	2	9.70	0.00	0.00	0.00	9.70	-61.7518	12.0535
 "Central America"	Guadaloupe	GPPTP	"Pointe a Pitre"	381	373	0	0	1127	14737.04	0.00	0.00	0.00	14737.04	-61.5334	16.2409
@@ -118,11 +118,11 @@
 "Central America"	Martinique	MQFDF	"Fort de France"	234	314	0	3	868	11527.55	0.00	0.00	0.00	11527.55	-61.0768	14.6037
 "Central America"	Mexico	MXATM	"Altamira "	814	1548	0	16	3942	42847.66	0.00	0.00	0.00	42847.66	-97.9300	22.4062
 "Central America"	Mexico	MXCJS	"Ciudad Juarez"	17	14	0	0	45	436.41	0.00	0.00	0.00	436.41	-106.4952	31.7435
-"Central America"	Mexico	MXCOA	Coatzacoalcos	0	3	0	0	6	24.15	0.00	0.00	0.00	24.15	#	#
+"Central America"	Mexico	MXCOA	Coatzacoalcos	0	3	0	0	6	24.15	0.00	0.00	0.00	24.15	-94.4464	18.1413
 "Central America"	Mexico	MXESE	Ensenada	1	4	0	0	9	96.53	0.00	0.00	0.00	96.53	-116.6248	31.8607
 "Central America"	Mexico	MXGDL	"Guadalajara. gro"	5	13	0	0	31	417.04	0.00	0.00	0.00	417.04	-103.3470	20.6761
 "Central America"	Mexico	MXLZC	"Lazaro Cardenas"	0	30	0	0	60	608.85	0.00	0.00	0.00	608.85	-102.1985	17.9598
-"Central America"	Mexico	MXLEN	Leon	2	0	0	0	2	21.83	0.00	0.00	0.00	21.83	#	#
+"Central America"	Mexico	MXLEN	Leon	2	0	0	0	2	21.83	0.00	0.00	0.00	21.83	-102.1985	17.9598
 "Central America"	Mexico	MXZLO	Manzanillo	28	36	0	8	116	1175.82	122.00	0.00	0.00	1297.82	-104.3160	19.0506
 "Central America"	Mexico	MXMZT	Mazatlan	6	0	0	0	6	157.46	0.00	0.00	0.00	157.46	-106.4162	23.2234
 "Central America"	Mexico	MXMEX	"Mexico City"	28	266	0	0	560	5408.16	0.00	0.00	0.00	5408.16	-99.1332	19.4325

@@ -4,10 +4,11 @@
 <title>Genoa Port Statistics - 2013 Import Traffic (by port of loading)</title>
 <meta charset="utf8"/>
 <link rel="stylesheet" href="../../script/ports.css" type="text/css"/>
-<link rel="stylesheet" href="../../script/leaflet.css" type="text/css"/>
-<script type="text/javascript" src="../../script/leaflet.js"></script>
-<script type="text/javascript" src="../../script/map.js"></script>
-<script type="text/javascript" src="../../script/jquery-1.10.2.min.js"></script>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
 <script type="text/javascript" src="../../script/heatcanvas.js"></script>
 <script type="text/javascript" src="../../script/heatcanvas-leaflet.js"></script>
 <script>
@@ -73,9 +74,20 @@ if (heatmap.data.length>0) heatmap.clear();
 	map.addLayer(heatmap);
 }
 
-var map = initmap(0,0,2, { });
+var layerurl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var	attr = 'Dati &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> sotto licenza ODBL';
+
+var tile = new L.TileLayer(layerurl, {maxZoom: 18, attribution: attr});
+
+var map= new L.Map('map', {layers: [tile]});
+
+map.setView(new L.LatLng(0,0),2);
+map.addLayer(tile);
+
+L.marker([44.4492,8.8807]).addTo(map)
+	.bindPopup('Genova');
+
 var dataMap=loadLayer("data/globalTraffic_2013_loading.json");
-putMarker(map,null,44.4492,8.8807,"Genova");
 
 var markerLayers = new L.LayerGroup();
 var heatmap = new L.TileLayer.HeatCanvas({},{'step':1, 'degree':HeatCanvas.LINEAR, 'opacity':0.4});
