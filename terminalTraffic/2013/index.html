@@ -27,7 +27,7 @@
 <div id="mapapp">
 <div id="panel">
 <a href="../../port.html" class="entry">Index</a>
-<a href="data/index.html" class="entry">Get the data</a>
+<a href="../data/index.html" class="entry">Get the data</a>
 <h1>2013 Terminal Traffic</h1>
 </div>
 <div id='map'></div>
@@ -57,7 +57,7 @@ return avg.toFixed(2);
 
 $.ajax({
 async: false,
-url: 'data/terminal_2013.json',
+url: '../data/terminal_2013.json',
 dataType:"json",
 success: function(json) {
     data=json;

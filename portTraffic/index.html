@@ -42,7 +42,7 @@
 </div>
 </div>
 
-<script src="http://d3js.org/d3.v3.js" charset="utf-8"></script>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="../script/nv.d3.min.js"></script>
 <script>
 
@@ -92,8 +92,7 @@ d3.json('data/gt.json', function(data) {
 		  .axisLabel('Gross Tonnage')
 		  .tickFormat(d3.format('d'));
 	
-		chart.forceY([10000000, 20000000]);
-	//chart.reduceXTicks(false);
+		chart.forceY([0, 20000000]);
 	  d3.select('#chart2 svg')
 		  .datum(data)
 		.transition().duration(500)
@@ -168,7 +167,6 @@ d3.json('data/ton.json', function(data) {
 	  chart = nv.models.stackedAreaChart()
                     .x(function(d) {
 					var dat=Date.parse(d[0]);
-					
 							return dat; })
                     .y(function(d) { return d[1] })
                     .clipEdge(true);
