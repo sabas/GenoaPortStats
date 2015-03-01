@@ -59,7 +59,7 @@ function loadHeat(option){
 <div id="mapapp">
 <div id="panel">
 <a href="../../global.html" class="entry">Index</a>
-<a href="data/index.html" class="entry">Get the data</a>
+<a href="../data/index.html" class="entry">Get the data</a>
 <h1>2012 Export Traffic (by port of discharge)</h1>
 <p>Click on the index to load the heatmap.</p>
 <input type="radio" name="layerGroup" value="Containers full 20'" onclick="loadHeat(this.value)">Containers full 20'<br>
@@ -89,7 +89,7 @@ map.addLayer(tile);
 L.marker([44.4492,8.8807]).addTo(map)
 	.bindPopup('Genova');
 
-var dataMap=loadLayer("data/globalTraffic_2012_discharge.json");
+var dataMap=loadLayer("../data/globalTraffic_2012_discharge.json");
 
 var markerLayers = new L.LayerGroup();
 var heatmap = new L.TileLayer.HeatCanvas({},{'step':1, 'degree':HeatCanvas.LINEAR, 'opacity':0.4});

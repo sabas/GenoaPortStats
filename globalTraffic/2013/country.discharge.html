@@ -26,7 +26,7 @@ ga('send', 'pageview');
 <div id="mapapp">
 <div id="panel">
 <a href="../../global.html" class="entry">Index</a>
-<a href="data/index.html" class="entry">Get the data</a>
+<a href="../data/index.html" class="entry">Get the data</a>
 <h1>2013 Export Traffic Cartogram (by country of discharge)</h1>
 <p>Global loading traffic grouped by countries. Each button below loads different indexes.</p>
 <div id="legend">
@@ -85,7 +85,7 @@ function getBaseLayer()
 
 function colorize()
 {
-	return $.getJSON('data/globalTraffic_2013_discharge_country.json',function (json) {
+	return $.getJSON('../data/globalTraffic_2013_discharge_country.json',function (json) {
 		jsonData=json;
 		max=arrayMax(JSONSelect.match('."'+param+'"',jsonData));
 console.log(JSONSelect.match('."'+param+'"',jsonData));
