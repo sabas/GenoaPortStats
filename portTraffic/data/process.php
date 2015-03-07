@@ -1,6 +1,8 @@
 <?php
+
 function csvRead($file,$sep)
 {
+$csv=[];
 	if (($handle = fopen($file, "r")) !== FALSE) {
 		$k=0;
 
@@ -12,16 +14,29 @@ function csvRead($file,$sep)
 				$i=-1;
 				foreach ($data as $cell)
 				{
-					$titles[++$i]=$cell;
+                    $i++;
+					$csv[$i]['series']=$cell;
+				}
+			continue;
+			}
+
+			if ($k==2)
+			{
+				$i=-1;
+				foreach ($data as $cell)
+				{
+                    $i++;
+					$csv[$i]['unit']=$cell;
 				}
 			continue;
 			}
 
 			$i=-1;
-				foreach ($data as $cell)
-				{
-				$csv[$k-2][$titles[++$i]]=$cell;
-				}
+			foreach ($data as $cell)
+			{
+                $i++;
+				$csv[$i]['data'][]=$cell;
+			}
 		}
 		fclose($handle);
 	}
@@ -41,33 +56,26 @@ function csvDump($arr,$sep)
     return 	$tmp;
 }
 
-//$i=$_GET['i'];
 $i="MonthlyPortStats.tsv";
 $sep="\t";
 $in=csvRead($i,$sep);
-
 $hold=array();
 
-foreach ($in as $row){
-    $unit=$row['unit'];
-    unset($row['unit']);
-    $key=$row['object'];
-    unset($row['object']);
-    if(!is_array($hold))$hold[$unit]=[];
-    $temp=[];
-
-    $temp['key']=$key;
-    $temp['values']=[];
-    foreach($row as $y=>$occ){
-        $temp['values'][]=[$y,(int)$occ];
+$time=[];
+foreach ($in as $k => $series){
+    //first is time
+    if ($k==0) {
+        $time=$series['data'];
+        continue;
     }
-    $hold[$unit][]=$temp;
+    $arr['key']=$series['series'];
+    $arr['values']=[];
+    foreach ($series['data'] as $i => $d){
+    $arr['values'][]=[$time[$i],$d];
+    }
+    $hold[$series['unit']][]=$arr;
 }
-
-//echo json_encode($hold,JSON_NUMERIC_CHECK);
-
-foreach ($hold as $unit => $data){
-file_put_contents($unit.".json",json_encode($data));
+foreach ($hold as $unit =>$data){
+file_put_contents($unit.".json",json_encode($data,JSON_NUMERIC_CHECK));
 }
-
 ?>
