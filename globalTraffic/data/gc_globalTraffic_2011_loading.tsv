@@ -1,111 +1,111 @@
 "Geographical Areas"	Countries	locode	Ports	"Containers full 20'"	"Containers full 40'"	"Containers empty 20'"	"Containers empty 40'"	TEUS	"Containerised Cargo"	"Conventional Cargo"	"Solid Bulk"	"Liquid Bulk"	TOTAL	lon	lat
-"West Africa"	Angola	AOCAB	Cabinda	4	4	0	0	12	163.50	0.00	0.00	0.00	163.50	12.19	5.5596
+"West Africa"	Angola	AOCAB	Cabinda	4	4	0	0	12	163.50	0.00	0.00	0.00	163.50	12.1900	5.5596
 "West Africa"	Angola	AOLOB	Lobito	5	8	0	0	21	258.72	0.00	0.00	0.00	258.72	13.2325	8.8363
-"West Africa"	Angola	AOLAD	Luanda	141	114	0	0	369	5056.09	0.00	0.00	0.00	5056.09	13.5412	12.37
+"West Africa"	Angola	AOLAD	Luanda	141	114	0	0	369	5056.09	0.00	0.00	0.00	5056.09	13.5412	12.3700
 "West Africa"	Angola	AOSZA	"San Antonio do Zaire"	0	3	0	0	6	30.52	0.00	0.00	0.00	30.52	12.3718	6.1343
 "West Africa"	Benin	BJCOO	Cotonou	240	176	0	0	592	9263.41	1655.28	0.00	0.00	10918.69	1.5267	12.3723
-"West Africa"	"Burkina Faso"	BFOUA	Ouagadougou	4	5	0	0	14	166.54	0.00	0.00	0.00	166.54	2.518	6.402
+"West Africa"	"Burkina Faso"	BFOUA	Ouagadougou	4	5	0	0	14	166.54	0.00	0.00	0.00	166.54	2.5180	6.4020
 "West Africa"	Cameroon	CMDLA	Douala	592	355	30	27	1386	20096.55	217.78	0.00	0.00	20314.33	9.6978	4.0482
-"West Africa"	"Cape Verde"	CVRAI	Praia	9	10	0	0	29	295.78	0.00	0.00	0.00	295.78	4.042	5.3219
-"West Africa"	Congo	CGPNR	"Pointe Noire"	296	466	0	1	1230	14915.69	0.00	0.00	0.00	14915.69	6.64	4.7704
+"West Africa"	"Cape Verde"	CVRAI	Praia	9	10	0	0	29	295.78	0.00	0.00	0.00	295.78	4.0420	5.3219
+"West Africa"	Congo	CGPNR	"Pointe Noire"	296	466	0	1	1230	14915.69	0.00	0.00	0.00	14915.69	6.6400	4.7704
 "West Africa"	"Equatorial Guinea"	GQBSG	Bata	52	15	0	0	82	1222.64	53.50	0.00	0.00	1276.14	9.7722	1.8653
 "West Africa"	"Equatorial Guinea"	GQSSG	Malabo	5	29	0	0	63	585.85	0.00	0.00	0.00	585.85	8.7886	3.7522
-"West Africa"	Gabon	GALBV	Libreville	257	164	0	0	585	9753.55	0.00	0.00	0.00	9753.55	9.458	0.3854
-"West Africa"	Gabon	GAPOG	"Port Gentil"	6	2	0	0	10	189.30	0.00	0.00	0.00	189.30	8.78	0.72
+"West Africa"	Gabon	GALBV	Libreville	257	164	0	0	585	9753.55	0.00	0.00	0.00	9753.55	9.4580	0.3854
+"West Africa"	Gabon	GAPOG	"Port Gentil"	6	2	0	0	10	189.30	0.00	0.00	0.00	189.30	8.7800	0.7200
 "West Africa"	Gambia	GMBJL	Banjul	7	57	0	0	121	1352.67	0.00	0.00	0.00	1352.67	0.0222	5.6232
 "West Africa"	Ghana	GHTKD	Takoradi	314	2332	0	0	4978	53999.51	0.00	0.00	0.00	53999.51	1.7434	4.8848
 "West Africa"	Ghana	GHTEM	Tema	2124	1297	78	79	4954	70355.16	4002.14	0.00	0.00	74357.30	16.5917	13.4539
 "West Africa"	Guinea	GNCKY	Conakry	178	153	0	0	484	7156.04	2550.49	0.00	0.00	9706.53	13.6822	9.5335
-"West Africa"	"Ivory Coast"	CIABJ	Abidjan	1742	1076	10	14	3932	59514.89	2193.47	0.00	0.00	61708.36	9.77	1.87
-"West Africa"	"Ivory Coast"	CISPY	"San Pedro"	60	36	0	0	132	2123.42	240.00	0.00	0.00	2363.42	8.7833	3.75
+"West Africa"	"Ivory Coast"	CIABJ	Abidjan	1742	1076	10	14	3932	59514.89	2193.47	0.00	0.00	61708.36	9.7700	1.8700
+"West Africa"	"Ivory Coast"	CISPY	"San Pedro"	60	36	0	0	132	2123.42	240.00	0.00	0.00	2363.42	8.7833	3.7500
 "West Africa"	Liberia	LRMLW	Monrovia	26	39	0	0	104	1484.41	0.00	0.00	0.00	1484.41	10.7997	6.3146
 "West Africa"	Mali	MLMKO	Bamako	0	1	0	0	2	12.99	0.00	0.00	0.00	12.99	8.0001	12.6483
 "West Africa"	Mauritania	MRNDB	Nouadhibou	1	0	0	0	1	17.20	0.00	0.00	0.00	17.20	17.0501	20.9131
-"West Africa"	Mauritania	MRNKC	Nouakchott	35	16	0	0	67	825.86	0.00	0.00	0.00	825.86	15.9763	18.079
+"West Africa"	Mauritania	MRNKC	Nouakchott	35	16	0	0	67	825.86	0.00	0.00	0.00	825.86	15.9763	18.0790
 "West Africa"	Namibia	NAWVB	"Walvis Bay"	26	38	0	0	102	1152.16	0.00	0.00	0.00	1152.16	14.5053	22.9575
 "West Africa"	Nigeria	NGAPP	Apapa	265	181	0	0	627	8832.84	46.00	0.00	0.00	8878.84	3.3745	6.4513
 "West Africa"	Nigeria	NGLOS	Lagos	1775	846	0	4	3475	52664.80	18436.47	0.00	0.00	71101.27	3.3896	6.4452
 "West Africa"	Nigeria	NGONN	Onne	259	158	0	0	575	8681.02	0.00	0.00	0.00	8681.02	7.1569	4.7223
 "West Africa"	Nigeria	NGTIN	Tincan	1573	1241	0	0	4055	65693.19	0.00	0.00	0.00	65693.19	3.3495	6.4317
-"West Africa"	Nigeria	NGWAR	Warri	1	20	0	0	41	385.33	1089.20	0.00	0.00	1474.53	5.75	5.5191
-"West Africa"	"Sao Tomè. Principe"	STTMS	"Sao Tomè Island"	2	0	0	0	2	22.35	0.00	0.00	0.00	22.35	13.2362	8.472
+"West Africa"	Nigeria	NGWAR	Warri	1	20	0	0	41	385.33	1089.20	0.00	0.00	1474.53	5.7500	5.5191
+"West Africa"	"Sao Tomè. Principe"	STTMS	"Sao Tomè Island"	2	0	0	0	2	22.35	0.00	0.00	0.00	22.35	13.2362	8.4720
 "West Africa"	Senegal	SNDKR	Dakar	2269	1798	1	0	5866	81841.76	22253.16	0.00	0.00	104094.92	17.4751	14.7178
 "West Africa"	"Sierra Leone"	SLFNA	Freetown	29	16	0	0	61	848.95	13.00	0.00	0.00	861.95	13.2654	8.4804
 "West Africa"	Togo	TGLFW	Lomè	618	500	55	47	1767	22947.51	4958.88	0.00	0.00	27906.39	1.2208	6.1339
 "East Africa"	Botswana	BWGBE	Gaborone	1	1	0	0	3	38.07	0.00	0.00	0.00	38.07	25.9077	24.6588
-"East Africa"	Djibouti	DJJIB	Djibouti	804	711	7	0	2233	23378.07	7781.68	0.00	0.00	31159.75	39.45	15.6101
+"East Africa"	Djibouti	DJJIB	Djibouti	804	711	7	0	2233	23378.07	7781.68	0.00	0.00	31159.75	39.4500	15.6101
 "East Africa"	Eritrea	ERMSW	Massawa	3317	2402	1220	358	10057	112367.92	36.28	0.00	0.00	112404.20	38.6981	9.0353
 "East Africa"	Kenya	KEMBA	Mombasa	655	188	2	0	1033	13751.32	5267.17	0.00	0.00	19018.49	43.2402	11.7042
 "East Africa"	Madagascar	MGDIE	"Diego Suarez"	1	0	0	0	1	6.32	0.00	0.00	0.00	6.32	49.2916	12.2787
 "East Africa"	Madagascar	MGMJN	Majunga	0	1	0	0	2	7.18	0.00	0.00	0.00	7.18	46.3176	15.7178
-"East Africa"	Madagascar	MGNOS	Nossi-Be	14	1	0	0	16	186.72	0.00	0.00	0.00	186.72	48.2666	13.4
+"East Africa"	Madagascar	MGNOS	Nossi-Be	14	1	0	0	16	186.72	0.00	0.00	0.00	186.72	48.2666	13.4000
 "East Africa"	Madagascar	MGTMM	Tamatave	39	34	0	0	107	1384.92	0.00	0.00	0.00	1384.92	49.4107	18.1554
-"East Africa"	Madagascar	MGTLE	Tulear	1	0	0	0	1	9.66	0.00	0.00	0.00	9.66	49.405	18.1818
+"East Africa"	Madagascar	MGTLE	Tulear	1	0	0	0	1	9.66	0.00	0.00	0.00	9.66	49.4050	18.1818
 "East Africa"	Mauritius	MUPLU	"Port Louis"	63	42	0	0	147	2097.35	0.00	0.00	0.00	2097.35	57.5046	20.1639
 "East Africa"	Mozambique	MZBEW	Beira	22	33	0	0	88	1039.81	0.00	0.00	0.00	1039.81	34.8341	19.8285
-"East Africa"	Mozambique	MZMPM	Maputo	33	16	0	0	65	842.95	754.10	0.00	0.00	1597.05	40.667	14.5436
+"East Africa"	Mozambique	MZMPM	Maputo	33	16	0	0	65	842.95	754.10	0.00	0.00	1597.05	40.6670	14.5436
 "East Africa"	Mozambique	MZMNC	Nacala	5	5	0	0	15	209.70	0.00	0.00	0.00	209.70	32.5872	25.9533
 "East Africa"	Reunion	REPDG	"Port Reunion"	158	147	0	0	452	5461.89	0.00	0.00	0.00	5461.89	55.2871	20.9358
-"East Africa"	Seychelles	SCPOV	"Port Victoria"	296	62	0	0	420	7105.56	0.00	0.00	0.00	7105.56	55.45	4.6166
-"East Africa"	Somalia	SOBBO	Berbera	1	0	0	0	1	8.20	0.00	0.00	0.00	8.20	31.58	4.83
+"East Africa"	Seychelles	SCPOV	"Port Victoria"	296	62	0	0	420	7105.56	0.00	0.00	0.00	7105.56	55.4500	4.6166
+"East Africa"	Somalia	SOBBO	Berbera	1	0	0	0	1	8.20	0.00	0.00	0.00	8.20	31.5800	4.8300
 "East Africa"	"South Africa"	ZACPT	"Cape Town"	2333	1349	64	6	5107	63761.66	13.00	0.00	0.00	63774.66	37.2164	19.6158
 "East Africa"	"South Africa"	ZAZBA	Coega	289	359	0	0	1007	12774.47	0.00	0.00	0.00	12774.47	45.0164	10.4356
 "East Africa"	"South Africa"	ZADUR	Durban	2917	2883	0	0	8683	102361.16	3325.70	0.00	0.00	105686.86	39.2664	6.7981
 "East Africa"	"South Africa"	ZAELS	"East London"	4	2	0	0	8	74.38	0.00	0.00	0.00	74.38	27.9001	33.0193
 "East Africa"	"South Africa"	ZAGRM	Germiston	1	0	0	0	1	22.65	0.00	0.00	0.00	22.65	28.1805	26.2294
-"East Africa"	"South Africa"	ZAJNB	Johannesburg/dbn	170	112	0	0	394	4698.57	0.00	0.00	0.00	4698.57	39.09	5.07
-"East Africa"	"South Africa"	ZAPLZ	"Port Elizabeth"	18	43	0	0	104	1228.71	0.00	0.00	0.00	1228.71	39.2	6.16
-"East Africa"	"South Africa"	ZAPRY	Pretoria	1	0	0	0	1	18.17	0.00	0.00	0.00	18.17	18.433	33.9181
+"East Africa"	"South Africa"	ZAJNB	Johannesburg/dbn	170	112	0	0	394	4698.57	0.00	0.00	0.00	4698.57	39.0900	5.0700
+"East Africa"	"South Africa"	ZAPLZ	"Port Elizabeth"	18	43	0	0	104	1228.71	0.00	0.00	0.00	1228.71	39.2000	6.1600
+"East Africa"	"South Africa"	ZAPRY	Pretoria	1	0	0	0	1	18.17	0.00	0.00	0.00	18.17	18.4330	33.9181
 "East Africa"	Sudan	SDJUM	Jubail	0	0	0	0	0	0.00	543.00	0.00	0.00	543.00	30.9781	29.8631
 "East Africa"	Sudan	SDPZU	"Port Sudan"	2203	1901	995	181	7362	81774.07	313.18	0.00	0.00	82087.25	28.0281	26.1681
 "East Africa"	Tanzania	TZDAR	"Dar es Salaam"	383	184	0	0	751	10934.57	1621.25	0.00	0.00	12555.82	25.5981	33.9681
-"East Africa"	Tanzania	TZZNZ	Zanzibar	6	4	0	0	14	163.45	0.00	0.00	0.00	163.45	25.6939	33.804
+"East Africa"	Tanzania	TZZNZ	Zanzibar	6	4	0	0	14	163.45	0.00	0.00	0.00	163.45	25.6939	33.8040
 "East Africa"	Zimbabwe	ZWHRE	Harare	1	7	0	0	15	202.07	0.00	0.00	0.00	202.07	31.0428	17.8158
-"North Africa"	Algeria	DZALG	Alger	1845	2565	0	0	6975	72034.71	0.00	0.00	0.00	72034.71	7.76	36.92
-"North Africa"	Algeria	DZAAE	Annaba	50	71	0	0	192	2262.87	0.00	0.00	0.00	2262.87	3.0486	36.765
-"North Africa"	Algeria	DZBJA	Bejaia	131	165	0	0	461	6151.10	0.00	0.00	0.00	6151.10	5.07	36.7604
+"North Africa"	Algeria	DZALG	Alger	1845	2565	0	0	6975	72034.71	0.00	0.00	0.00	72034.71	7.7600	36.9200
+"North Africa"	Algeria	DZAAE	Annaba	50	71	0	0	192	2262.87	0.00	0.00	0.00	2262.87	3.0486	36.7650
+"North Africa"	Algeria	DZBJA	Bejaia	131	165	0	0	461	6151.10	0.00	0.00	0.00	6151.10	5.0700	36.7604
 "North Africa"	Algeria	DZGHA	Ghazaouet	6	107	0	0	220	2771.72	0.00	0.00	1517.00	4288.72	1.8634	35.0974
 "North Africa"	Algeria	DZMOS	Mostaganem	3	0	0	0	3	55.05	2057.70	0.00	0.00	2112.75	0.0936	35.9287
 "North Africa"	Algeria	DZORN	Oran	104	85	0	0	274	3288.28	652.01	0.00	0.00	3940.29	0.6219	35.7119
-"North Africa"	Algeria	DZSKI	Skikda	177	346	0	0	869	9230.19	2811.73	0.00	0.00	12041.92	6.9	36.8804
+"North Africa"	Algeria	DZSKI	Skikda	177	346	0	0	869	9230.19	2811.73	0.00	0.00	12041.92	6.9000	36.8804
 "North Africa"	Algeria	DZTEN	Tenes	0	0	0	0	0	0.00	2199.00	0.00	0.00	2199.00	1.3093	36.5093
-"North Africa"	Egypt	EGALY	Alexandria	5780	6159	332	55	18540	219862.45	11641.47	0.00	1660.00	233163.92	31.82	31.4204
-"North Africa"	Egypt	EGDAM	Damietta	944	1862	3	92	4855	63198.32	343.00	0.00	0.00	63541.32	32.29	31.26
-"North Africa"	Egypt	EGPSD	"Port Said"	622	1392	780	51	4288	43191.33	0.00	0.00	39443.00	82634.33	32.358	31.2119
-"North Africa"	Egypt	EGPSE	"Port Said East"	184	312	2	49	908	10032.11	0.00	0.00	0.00	10032.11	32.5499	30.005
+"North Africa"	Egypt	EGALY	Alexandria	5780	6159	332	55	18540	219862.45	11641.47	0.00	1660.00	233163.92	31.8200	31.4204
+"North Africa"	Egypt	EGDAM	Damietta	944	1862	3	92	4855	63198.32	343.00	0.00	0.00	63541.32	32.2900	31.2600
+"North Africa"	Egypt	EGPSD	"Port Said"	622	1392	780	51	4288	43191.33	0.00	0.00	39443.00	82634.33	32.3580	31.2119
+"North Africa"	Egypt	EGPSE	"Port Said East"	184	312	2	49	908	10032.11	0.00	0.00	0.00	10032.11	32.5499	30.0050
 "North Africa"	Libya	LYKHO	"AL Khums"	20	6	0	0	32	514.28	20784.80	0.00	0.00	21299.08	20.0648	32.1187
-"North Africa"	Libya	LYBEN	Bingazi	403	206	0	0	815	12748.43	1466.80	0.00	0.00	14215.23	14.26	32.6604
-"North Africa"	Libya	LYMRA	Misurata	207	260	0	0	727	8656.28	764.55	0.00	0.00	9420.83	15.1	32.38
-"North Africa"	Libya	LYTIP	Tripoli	613	517	0	5	1657	21644.77	402.50	0.00	0.00	22047.27	13.18	32.8925
-"North Africa"	Morocco	MATNG	Tangier	2	0	0	0	2	28.13	30694.64	0.00	0.00	30722.77	8.6459	33.13
-"North Africa"	Morocco	MAPTM	"Tangier Med"	786	793	0	0	2372	33002.32	58004.00	0.00	0.00	91006.32	9.62	30.44
+"North Africa"	Libya	LYBEN	Bingazi	403	206	0	0	815	12748.43	1466.80	0.00	0.00	14215.23	14.2600	32.6604
+"North Africa"	Libya	LYMRA	Misurata	207	260	0	0	727	8656.28	764.55	0.00	0.00	9420.83	15.1000	32.3800
+"North Africa"	Libya	LYTIP	Tripoli	613	517	0	5	1657	21644.77	402.50	0.00	0.00	22047.27	13.1800	32.8925
+"North Africa"	Morocco	MATNG	Tangier	2	0	0	0	2	28.13	30694.64	0.00	0.00	30722.77	8.6459	33.1300
+"North Africa"	Morocco	MAPTM	"Tangier Med"	786	793	0	0	2372	33002.32	58004.00	0.00	0.00	91006.32	9.6200	30.4400
 "North Africa"	Morocco	MAAGA	Agadir	19	48	0	0	115	1575.55	0.00	0.00	0.00	1575.55	7.6183	33.6019
 "North Africa"	Morocco	MACAS	Casablanca	1937	2958	1	50	7954	99563.84	10260.50	0.00	0.00	109824.34	5.4973	35.8935
 "North Africa"	Tunisia	TNLGN	"La Goulette"	0	0	0	0	0	0.00	204.00	0.00	0.00	204.00	10.3033	36.8092
 "North Africa"	Tunisia	TNLSK	"La Skhirra"	0	0	0	0	0	0.00	0.00	0.00	71245.00	71245.00	10.1654	34.3343
 "North Africa"	Tunisia	TNRDS	Rades	2231	1854	4	4	5951	87954.04	349154.82	0.00	0.00	437108.86	10.2834	36.7779
 "North Africa"	Tunisia	TNSFA	Sfax	155	104	0	40	443	6258.44	0.00	0.00	0.00	6258.44	10.7601	34.7398
-"North Africa"	Tunisia	TNSUS	Sousse	0	35	0	0	70	470.19	0.00	0.00	0.00	470.19	10.635	35.8241
+"North Africa"	Tunisia	TNSUS	Sousse	0	35	0	0	70	470.19	0.00	0.00	0.00	470.19	10.6350	35.8241
 "North Africa"	Tunisia	TNTUN	Tunis	2823	2848	49	33	8634	110962.82	223112.80	0.00	0.00	334075.62	10.1797	36.8028
 "Central America"	" Netherlands Antilles"	ANKRA	"Kralendijk. Bonaire"	1	0	0	0	1	25.25	0.00	0.00	0.00	25.25	68.2734	12.1435
-"Central America"	" Netherlands Antilles"	ANPHI	Philipsburg	4	0	0	0	4	95.80	0.00	0.00	0.00	95.80	63.0483	18.025
+"Central America"	" Netherlands Antilles"	ANPHI	Philipsburg	4	0	0	0	4	95.80	0.00	0.00	0.00	95.80	63.0483	18.0250
 "Central America"	" Netherlands Antilles"	ANWIL	"Willemstad. Curacao"	34	7	0	0	48	828.93	0.00	0.00	0.00	828.93	68.9309	12.1091
 "Central America"	Aruba	AWORJ	Oraniestad	33	3	0	0	39	789.03	0.00	0.00	0.00	789.03	70.0357	12.5269
 "Central America"	Bahamas	BSNAS	"Nassau. New Providence Island"	1	1	0	0	3	30.80	0.00	0.00	0.00	30.80	77.3383	25.0783
 "Central America"	Barbados	BBBGI	Bridgetown	32	10	0	0	52	775.55	0.00	0.00	0.00	775.55	59.6188	13.1018
 "Central America"	Belize	BZBZE	"Belize City"	2	3	0	0	8	83.63	0.00	0.00	0.00	83.63	88.2017	17.4952
-"Central America"	"Cayman Islands"	KYGEC	Georgetown	33	5	0	0	43	789.89	0.00	0.00	0.00	789.89	81.3717	19.287
+"Central America"	"Cayman Islands"	KYGEC	Georgetown	33	5	0	0	43	789.89	0.00	0.00	0.00	789.89	81.3717	19.2870
 "Central America"	"Costa Rica"	CRLIO	"Puerto Limon"	39	148	0	0	335	3512.35	0.00	0.00	0.00	3512.35	83.0308	9.9932
-"Central America"	"Costa Rica"	CRMOB	"Puerto Moin"	3	4	0	0	11	133.38	0.00	0.00	0.00	133.38	83.076	9.9991
+"Central America"	"Costa Rica"	CRMOB	"Puerto Moin"	3	4	0	0	11	133.38	0.00	0.00	0.00	133.38	83.0760	9.9991
 "Central America"	"Costa Rica"	CRSJO	"San Josè"	2	1	0	0	4	37.48	0.00	0.00	0.00	37.48	84.0793	9.9327
-"Central America"	Cuba	CUHAV	Havana	105	49	0	0	203	2947.16	0.00	0.00	0.00	2947.16	82.3659	23.138
-"Central America"	Cuba	CUSCU	"Santiago de Cuba"	157	264	0	0	685	8352.75	0.00	0.00	0.00	8352.75	75.829	20.0289
+"Central America"	Cuba	CUHAV	Havana	105	49	0	0	203	2947.16	0.00	0.00	0.00	2947.16	82.3659	23.1380
+"Central America"	Cuba	CUSCU	"Santiago de Cuba"	157	264	0	0	685	8352.75	0.00	0.00	0.00	8352.75	75.8290	20.0289
 "Central America"	Dominica	DMRSU	Roseau	1	0	0	0	1	24.00	0.00	0.00	0.00	24.00	61.3874	15.2982
 "Central America"	"Dominican Republic"	DOCAU	Caucedo	21	102	0	0	225	1912.39	0.00	0.00	0.00	1912.39	69.6449	18.4148
-"Central America"	"Dominican Republic"	DOHAI	"Haina "	256	362	0	3	986	12098.50	146.00	0.00	0.00	12244.50	70.0192	18.42
+"Central America"	"Dominican Republic"	DOHAI	"Haina "	256	362	0	3	986	12098.50	146.00	0.00	0.00	12244.50	70.0192	18.4200
 "Central America"	"El Salvador"	SVAQJ	Acajutla	5	5	0	0	15	217.77	0.00	0.00	0.00	217.77	89.8278	13.5934
-"Central America"	"El Salvador"	SVLLD	"La Libertad"	2	0	0	0	2	46.06	0.00	0.00	0.00	46.06	89.317	13.4864
-"Central America"	"El Salvador"	SVSAL	"San Salvador"	13	27	0	0	67	683.55	0.00	0.00	0.00	683.55	89.193	13.6978
+"Central America"	"El Salvador"	SVLLD	"La Libertad"	2	0	0	0	2	46.06	0.00	0.00	0.00	46.06	89.3170	13.4864
+"Central America"	"El Salvador"	SVSAL	"San Salvador"	13	27	0	0	67	683.55	0.00	0.00	0.00	683.55	89.1930	13.6978
 "Central America"	Grenada	GDSTG	"Saint Georges"	0	1	0	0	2	9.70	0.00	0.00	0.00	9.70	61.7518	12.0535
 "Central America"	Guadaloupe	GPPTP	"Pointe a Pitre"	381	373	0	0	1127	14737.04	0.00	0.00	0.00	14737.04	61.5334	16.2409
 "Central America"	Guatemala	GTGUA	"Guatemala City"	1	1	0	0	3	29.50	0.00	0.00	0.00	29.50	90.5349	14.6166
@@ -116,14 +116,14 @@
 "Central America"	Honduras	HNTGU	Tegucigalpa	1	2	0	0	5	34.34	0.00	0.00	0.00	34.34	87.2013	14.0932
 "Central America"	Jamaica	JMKIN	"Kingston "	206	456	16	0	1134	14070.41	0.00	0.00	0.00	14070.41	76.7928	17.9712
 "Central America"	Martinique	MQFDF	"Fort de France"	234	314	0	3	868	11527.55	0.00	0.00	0.00	11527.55	61.0768	14.6037
-"Central America"	Mexico	MXATM	"Altamira "	814	1548	0	16	3942	42847.66	0.00	0.00	0.00	42847.66	97.93	22.4062
+"Central America"	Mexico	MXATM	"Altamira "	814	1548	0	16	3942	42847.66	0.00	0.00	0.00	42847.66	97.9300	22.4062
 "Central America"	Mexico	MXCJS	"Ciudad Juarez"	17	14	0	0	45	436.41	0.00	0.00	0.00	436.41	106.4952	31.7435
 "Central America"	Mexico	MXCOA	Coatzacoalcos	0	3	0	0	6	24.15	0.00	0.00	0.00	24.15	94.4464	18.1413
 "Central America"	Mexico	MXESE	Ensenada	1	4	0	0	9	96.53	0.00	0.00	0.00	96.53	116.6248	31.8607
-"Central America"	Mexico	MXGDL	"Guadalajara. gro"	5	13	0	0	31	417.04	0.00	0.00	0.00	417.04	103.347	20.6761
+"Central America"	Mexico	MXGDL	"Guadalajara. gro"	5	13	0	0	31	417.04	0.00	0.00	0.00	417.04	103.3470	20.6761
 "Central America"	Mexico	MXLZC	"Lazaro Cardenas"	0	30	0	0	60	608.85	0.00	0.00	0.00	608.85	102.1985	17.9598
 "Central America"	Mexico	MXLEN	Leon	2	0	0	0	2	21.83	0.00	0.00	0.00	21.83	102.1985	17.9598
-"Central America"	Mexico	MXZLO	Manzanillo	28	36	0	8	116	1175.82	122.00	0.00	0.00	1297.82	104.316	19.0506
+"Central America"	Mexico	MXZLO	Manzanillo	28	36	0	8	116	1175.82	122.00	0.00	0.00	1297.82	104.3160	19.0506
 "Central America"	Mexico	MXMZT	Mazatlan	6	0	0	0	6	157.46	0.00	0.00	0.00	157.46	106.4162	23.2234
 "Central America"	Mexico	MXMEX	"Mexico City"	28	266	0	0	560	5408.16	0.00	0.00	0.00	5408.16	99.1332	19.4325
 "Central America"	Mexico	MXMTY	"Monterrey. nl"	0	9	0	0	18	139.61	0.00	0.00	0.00	139.61	100.3061	25.6765
@@ -132,8 +132,8 @@
 "Central America"	Mexico	MXVER	Veracruz	2182	3522	0	2	9230	105004.85	973.40	0.00	0.00	105978.25	96.1386	19.2002
 "Central America"	Nicaragua	NICIO	Corinto	1	0	0	0	1	8.07	0.00	0.00	0.00	8.07	87.1743	12.4817
 "Central America"	Panama	PABLB	Balboa	4	2	0	0	8	85.99	0.00	0.00	0.00	85.99	79.5593	8.9509
-"Central America"	Panama	PACTB	Cristobal	28	150	0	0	328	3599.66	0.00	0.00	0.00	3599.66	79.9046	9.353
-"Central America"	Panama	PAMAN	"Manzanillo "	365	711	0	1	1789	21538.35	0.00	0.00	0.00	21538.35	104.316	19.0506
+"Central America"	Panama	PACTB	Cristobal	28	150	0	0	328	3599.66	0.00	0.00	0.00	3599.66	79.9046	9.3530
+"Central America"	Panama	PAMAN	"Manzanillo "	365	711	0	1	1789	21538.35	0.00	0.00	0.00	21538.35	104.3160	19.0506
 "Central America"	"Puerto Rico"	PRGUY	Guayanilla	0	0	0	0	0	0.00	0.00	0.00	30071.00	30071.00	-66.7918	18.0191
 "Central America"	"Puerto Rico"	PRSJU	"San Juan "	30	105	0	0	240	2773.35	0.00	0.00	0.00	2773.35	66.0755	18.4464
 "Central America"	"St Kitts. Nevis"	KNBAS	"Basseterre. St Kitts"	1	0	0	0	1	6.80	0.00	0.00	0.00	6.80	-62.7223	17.2961
@@ -142,7 +142,7 @@
 "Central America"	Trinidad	TTPOS	"Port of Spain"	11	17	0	0	45	445.33	0.00	0.00	0.00	445.33	61.5181	10.6572
 "North America"	Bermuda	BMBDA	Hamilton	24	19	0	0	62	897.76	0.00	0.00	0.00	897.76	64.7827	32.2953
 "North America"	Canada	CAGGW	Georgetown	27	5	0	0	37	609.72	0.00	0.00	0.00	609.72	62.5315	46.1844
-"North America"	Canada	CAHAL	Halifax	108	243	0	0	594	7108.65	0.00	0.00	0.00	7108.65	63.575	44.6484
+"North America"	Canada	CAHAL	Halifax	108	243	0	0	594	7108.65	0.00	0.00	0.00	7108.65	63.5750	44.6484
 "North America"	Canada	CAWNP	Winnipeg	17	22	0	0	61	580.33	0.00	0.00	0.00	580.33	97.1667	49.8833
 "North America"	Canada	CACAL	Calgary	180	104	0	0	388	5540.76	0.00	0.00	0.00	5540.76	114.0626	51.0531
 "North America"	Canada	CAVAN	Vancouver	226	689	0	0	1604	22426.89	0.00	0.00	0.00	22426.89	122.6745	45.6307
@@ -151,10 +151,10 @@
 "North America"	Canada	CALTW	Listowel	2	49	0	0	100	1100.58	0.00	0.00	0.00	1100.58	80.9529	43.7316
 "North America"	Canada	CAMTR	Montreal	2857	7444	34	36	17851	196213.28	0.00	0.00	0.00	196213.28	73.5913	45.5225
 "North America"	Canada	CAOSH	Oshawa	0	8	0	0	16	120.50	0.00	0.00	0.00	120.50	-78.8596	43.9184
-"North America"	Canada	CAOTT	Ottawa	4	4	0	0	12	95.09	0.00	0.00	0.00	95.09	75.69	45.421
+"North America"	Canada	CAOTT	Ottawa	4	4	0	0	12	95.09	0.00	0.00	0.00	95.09	75.6900	45.4210
 "North America"	Canada	CAQUE	Quebec	2	9	0	0	20	153.86	0.00	0.00	0.00	153.86	71.2349	46.8257
-"North America"	Canada	CASSM	"Sault Ste Marie"	1	0	0	0	1	11.56	0.00	0.00	0.00	11.56	-84.3194549	46.5218221
-"North America"	Canada	CASBR	Sherbrooke	1	0	0	0	1	3.14	0.00	0.00	0.00	3.14	71.8877	45.403
+"North America"	Canada	CASSM	"Sault Ste Marie"	1	0	0	0	1	11.56	0.00	0.00	0.00	11.56	-84.3195	46.5218
+"North America"	Canada	CASBR	Sherbrooke	1	0	0	0	1	3.14	0.00	0.00	0.00	3.14	71.8877	45.4030
 "North America"	Canada	CATRR	"Three rivers (Trois-Rivieres)"	0	1	0	0	2	28.95	0.00	0.00	0.00	28.95	72.5558	46.3318
 "North America"	Canada	CATOR	Toronto	497	1319	0	0	3135	33160.62	0.00	0.00	0.00	33160.62	79.3849	43.6529
 "North America"	Canada	CAWEL	Welland	18	25	0	0	68	888.02	0.00	0.00	0.00	888.02	79.2491	42.9924
@@ -164,7 +164,7 @@
 "North America"	"United States of America"	USCHS	Charleston	10	87	0	0	184	1932.44	0.00	0.00	0.00	1932.44	79.9403	32.7876
 "North America"	"United States of America"	USCLT	"Charlotte. nc"	41	193	0	0	427	3273.87	0.00	0.00	0.00	3273.87	80.8414	35.2258
 "North America"	"United States of America"	USCHA	"Chattanooga. tn"	16	43	0	0	102	948.42	0.00	0.00	0.00	948.42	85.3097	35.0456
-"North America"	"United States of America"	USCRP	"Corpus Christi"	0	1	0	0	2	11.80	0.00	0.00	0.00	11.80	97.393	27.8006
+"North America"	"United States of America"	USCRP	"Corpus Christi"	0	1	0	0	2	11.80	0.00	0.00	0.00	11.80	97.3930	27.8006
 "North America"	"United States of America"	USDAB	"Daytona Beach"	5	4	0	0	13	130.18	0.00	0.00	0.00	130.18	81.0228	29.2108
 "North America"	"United States of America"	USDEC	Decatur	4	30	0	0	64	592.61	0.00	0.00	0.00	592.61	88.9524	39.8454
 "North America"	"United States of America"	USDUR	Durham	2	2	0	0	6	56.99	0.00	0.00	0.00	56.99	#	#
@@ -173,14 +173,14 @@
 "North America"	"United States of America"	USHPS	"Hampton Roads "	30	24	0	0	78	1158.65	0.00	0.00	0.00	1158.65	#	#
 "North America"	"United States of America"	USJAX	Jacksonville	19	224	0	0	467	5524.56	0.00	0.00	0.00	5524.56	81.6557	30.3322
 "North America"	"United States of America"	USKCK	"Kansas City ks"	5	7	0	0	19	128.01	0.00	0.00	0.00	128.01	94.7495	39.1147
-"North America"	"United States of America"	USMKC	"Kansas City mo"	28	36	0	0	100	1197.93	0.00	0.00	0.00	1197.93	94.563	39.0845
-"North America"	"United States of America"	USTYS	"Knoxville. tn"	7	43	0	0	93	768.95	0.00	0.00	0.00	768.95	83.921	35.9604
+"North America"	"United States of America"	USMKC	"Kansas City mo"	28	36	0	0	100	1197.93	0.00	0.00	0.00	1197.93	94.5630	39.0845
+"North America"	"United States of America"	USTYS	"Knoxville. tn"	7	43	0	0	93	768.95	0.00	0.00	0.00	768.95	83.9210	35.9604
 "North America"	"United States of America"	USMIA	Miami	127	445	0	78	1173	11982.38	0.00	0.00	0.00	11982.38	80.1937	25.7743
 "North America"	"United States of America"	USMRY	"Monterry. ca"	1	0	0	0	1	7.85	0.00	0.00	0.00	7.85	121.8919	36.6012
-"North America"	"United States of America"	USORL	"Orlando. fl"	13	15	0	0	43	429.89	0.00	0.00	0.00	429.89	81.379	28.5421
+"North America"	"United States of America"	USORL	"Orlando. fl"	13	15	0	0	43	429.89	0.00	0.00	0.00	429.89	81.3790	28.5421
 "North America"	"United States of America"	USPAB	"Palm Beach"	0	0	0	0	0	0.00	187.00	0.00	0.00	187.00	80.0365	26.7056
 "North America"	"United States of America"	USPEF	"Port Everglades"	1454	2552	0	6	6570	95400.33	457.19	0.00	0.00	95857.52	80.1273	26.0969
-"North America"	"United States of America"	USINT	"Salem. nc"	1	6	0	0	13	97.47	0.00	0.00	0.00	97.47	81.1954	35.434
+"North America"	"United States of America"	USINT	"Salem. nc"	1	6	0	0	13	97.47	0.00	0.00	0.00	97.47	81.1954	35.4340
 "North America"	"United States of America"	USSAV	Savannah	2733	6267	210	52	15581	170411.68	0.00	0.00	0.00	170411.68	81.0998	32.0835
 "North America"	"United States of America"	USPBI	"West Palm Beach"	1	0	0	0	1	12.18	674.70	0.00	0.00	686.88	80.0552	26.7152
 "North America"	"United States of America"	USABY	"Albany. ny"	3	5	0	0	13	138.52	0.00	0.00	0.00	138.52	#	#
@@ -190,12 +190,12 @@
 "North America"	"United States of America"	USUBS	"Columbus. mi"	3	0	0	0	3	48.53	0.00	0.00	0.00	48.53	88.4273	33.4957
 "North America"	"United States of America"	USGBO	Greensboro	26	31	0	0	88	927.21	0.00	0.00	0.00	927.21	79.7911	36.0727
 "North America"	"United States of America"	USGLH	Greenville	0	3	0	0	6	45.90	0.00	0.00	0.00	45.90	#	#
-"North America"	"United States of America"	USHAR	"Harrisburg. pa"	16	33	0	0	82	794.86	0.00	0.00	0.00	794.86	76.887	40.2667
+"North America"	"United States of America"	USHAR	"Harrisburg. pa"	16	33	0	0	82	794.86	0.00	0.00	0.00	794.86	76.8870	40.2667
 "North America"	"United States of America"	USLEX	Lexington	118	22	0	0	162	2582.57	0.00	0.00	0.00	2582.57	#	#
 "North America"	"United States of America"	USNYC	"New York"	3720	12339	0	36	28470	316997.67	0.00	0.00	263906.00	580903.67	73.9866	40.7306
 "North America"	"United States of America"	USEWR	Newark	2142	7247	0	4	16644	184963.22	0.00	0.00	0.00	184963.22	74.1728	40.7355
-"North America"	"United States of America"	USORF	Norfolk	2060	3863	0	1	9788	103064.50	0.00	0.00	0.00	103064.50	76.2904	36.91
-"North America"	"United States of America"	USPAT	Paterson	2	24	0	0	50	480.71	0.00	0.00	0.00	480.71	74.173	40.9175
+"North America"	"United States of America"	USORF	Norfolk	2060	3863	0	1	9788	103064.50	0.00	0.00	0.00	103064.50	76.2904	36.9100
+"North America"	"United States of America"	USPAT	Paterson	2	24	0	0	50	480.71	0.00	0.00	0.00	480.71	74.1730	40.9175
 "North America"	"United States of America"	USPDT	"Pendleton. or"	0	1	0	0	2	10.70	0.00	0.00	0.00	10.70	#	#
 "North America"	"United States of America"	USPHL	Philadelphia	19	122	0	0	263	3060.34	0.00	0.00	1100.00	4160.34	75.1748	39.9428
 "North America"	"United States of America"	USPIT	"Pittsburgh. pa"	32	12	0	0	56	765.05	0.00	0.00	0.00	765.05	79.9926	40.4407
@@ -203,17 +203,17 @@
 "North America"	"United States of America"	USPWM	"Portland (East Coast)"	3	1	0	0	5	41.23	0.00	0.00	0.00	41.23	70.2504	43.6635
 "North America"	"United States of America"	USPSM	Portsmouth	9	13	0	0	35	484.95	0.00	0.00	0.00	484.95	#	#
 "North America"	"United States of America"	USRIV	Reidsville	1	1	0	0	3	37.87	0.00	0.00	0.00	37.87	#	#
-"North America"	"United States of America"	USRLL	Roselle	12	21	0	0	54	437.41	0.00	0.00	0.00	437.41	88.0917	41.975
-"North America"	"United States of America"	USGSP	"Spartanburg. sc"	31	188	0	0	407	3247.67	0.00	0.00	0.00	3247.67	81.931	34.9504
+"North America"	"United States of America"	USRLL	Roselle	12	21	0	0	54	437.41	0.00	0.00	0.00	437.41	88.0917	41.9750
+"North America"	"United States of America"	USGSP	"Spartanburg. sc"	31	188	0	0	407	3247.67	0.00	0.00	0.00	3247.67	81.9310	34.9504
 "North America"	"United States of America"	USSUT	"Sunny Point"	1	8	0	0	17	197.58	0.00	0.00	0.00	197.58	77.9461	34.0007
 "North America"	"United States of America"	USABQ	"Albuquerque. nm"	4	13	0	0	30	245.44	0.00	0.00	0.00	245.44	106.6521	35.0837
 "North America"	"United States of America"	USBTR	"Baton Rouge"	2	0	0	0	2	41.40	0.00	0.00	0.00	41.40	91.1544	30.4509
 "North America"	"United States of America"	USBHM	"Birmingham. al"	2	17	0	0	36	372.78	0.00	0.00	0.00	372.78	86.8052	33.5199
-"North America"	"United States of America"	USDAL	Dallas	50	78	0	0	206	1944.23	0.00	0.00	0.00	1944.23	96.8	32.7801
-"North America"	"United States of America"	USELP	"El Paso. tx"	56	202	0	0	460	4480.35	0.00	0.00	0.00	4480.35	106.4873	31.76
-"North America"	"United States of America"	USGLS	Galveston	8	1	0	0	10	83.65	0.00	0.00	0.00	83.65	94.7976	29.299
+"North America"	"United States of America"	USDAL	Dallas	50	78	0	0	206	1944.23	0.00	0.00	0.00	1944.23	96.8000	32.7801
+"North America"	"United States of America"	USELP	"El Paso. tx"	56	202	0	0	460	4480.35	0.00	0.00	0.00	4480.35	106.4873	31.7600
+"North America"	"United States of America"	USGLS	Galveston	8	1	0	0	10	83.65	0.00	0.00	0.00	83.65	94.7976	29.2990
 "North America"	"United States of America"	USGPT	Gulfport	2	2	0	0	6	53.02	0.00	0.00	0.00	53.02	89.0928	30.3674
-"North America"	"United States of America"	USHOU	Houston	3570	3645	0	28	10916	150701.41	471.36	0.00	0.00	151172.77	95.3659	29.758
+"North America"	"United States of America"	USHOU	Houston	3570	3645	0	28	10916	150701.41	471.36	0.00	0.00	151172.77	95.3659	29.7580
 "North America"	"United States of America"	USLRD	"Laredo. tx"	18	22	0	0	62	517.08	0.00	0.00	0.00	517.08	99.5088	27.5063
 "North America"	"United States of America"	USLIT	"Little Rock. ar"	3	15	0	0	33	393.69	0.00	0.00	0.00	393.69	92.2896	34.7465
 "North America"	"United States of America"	USLUI	Louisville.	61	75	0	0	211	2821.73	0.00	0.00	0.00	2821.73	85.7634	38.2455
@@ -225,9 +225,9 @@
 "North America"	"United States of America"	USOKC	"Oklahoma City"	2	4	0	0	10	93.48	0.00	0.00	0.00	93.48	97.5193	35.4702
 "North America"	"United States of America"	USOMA	"Omaha. ne"	1	22	0	0	45	302.52	0.00	0.00	0.00	302.52	96.1266	41.2052
 "North America"	"United States of America"	USPSD	Pasadena	0	1	0	0	2	21.57	0.00	0.00	0.00	21.57	#	#
-"North America"	"United States of America"	USPLV	"Port Lavaca"	2	1	0	0	4	54.57	0.00	0.00	0.00	54.57	96.624	28.6154
+"North America"	"United States of America"	USPLV	"Port Lavaca"	2	1	0	0	4	54.57	0.00	0.00	0.00	54.57	96.6240	28.6154
 "North America"	"United States of America"	USSAT	"San Antonio"	2	137	0	0	276	1573.80	0.00	0.00	0.00	1573.80	98.4946	29.4247
-"North America"	"United States of America"	USSTL	"St Louis"	23	54	0	0	131	1478.80	0.00	0.00	0.00	1478.80	90.195	38.6275
+"North America"	"United States of America"	USSTL	"St Louis"	23	54	0	0	131	1478.80	0.00	0.00	0.00	1478.80	90.1950	38.6275
 "North America"	"United States of America"	USTPA	Tampa	69	98	0	0	265	3833.26	1351.05	0.00	0.00	5184.31	82.4584	27.9478
 "North America"	"United States of America"	USTUL	"Tulsa. ok"	5	30	0	0	65	570.39	0.00	0.00	0.00	570.39	95.9902	36.1524
 "North America"	"United States of America"	USICT	"Wichita. ks"	13	194	0	0	401	3881.48	0.00	0.00	0.00	3881.48	97.3384	37.6938
@@ -242,24 +242,24 @@
 "North America"	"United States of America"	USCHI	Chicago	1743	2047	0	0	5837	68575.74	0.00	0.00	0.00	68575.74	87.6251	41.8758
 "North America"	"United States of America"	USCVG	Cincinnati	19	37	0	0	93	1024.71	0.00	0.00	0.00	1024.71	84.5136	39.1019
 "North America"	"United States of America"	USCLE	"Cleveland. oh"	44	61	0	0	166	1666.49	0.00	0.00	0.00	1666.49	81.6811	41.4949
-"North America"	"United States of America"	USCMH	"Columbus. oh"	35	69	0	0	173	1749.49	0.00	0.00	0.00	1749.49	82.9989	39.963
+"North America"	"United States of America"	USCMH	"Columbus. oh"	35	69	0	0	173	1749.49	0.00	0.00	0.00	1749.49	82.9989	39.9630
 "North America"	"United States of America"	USDAY	"Dayton. oh"	17	12	0	0	41	327.33	0.00	0.00	0.00	327.33	84.1905	39.7593
 "North America"	"United States of America"	USDSM	"Des Moines"	16	75	0	0	166	1521.78	0.00	0.00	0.00	1521.78	93.6038	41.5914
 "North America"	"United States of America"	USDET	Detroit	173	133	0	0	439	5538.67	0.00	0.00	0.00	5538.67	83.0567	42.3493
-"North America"	"United States of America"	USDLH	Duluth	1	4	0	0	9	99.89	0.00	0.00	0.00	99.89	92.1236	46.773
+"North America"	"United States of America"	USDLH	Duluth	1	4	0	0	9	99.89	0.00	0.00	0.00	99.89	92.1236	46.7730
 "North America"	"United States of America"	USERI	Erie	4	4	0	0	12	111.32	0.00	0.00	0.00	111.32	80.0849	42.1297
 "North America"	"United States of America"	USEVV	"Evansville. in"	0	2	0	0	4	32.76	0.00	0.00	0.00	32.76	87.5589	37.9741
-"North America"	"United States of America"	USFWA	"Fort Wayne"	17	60	0	0	137	1143.65	0.00	0.00	0.00	1143.65	85.137	41.0811
+"North America"	"United States of America"	USFWA	"Fort Wayne"	17	60	0	0	137	1143.65	0.00	0.00	0.00	1143.65	85.1370	41.0811
 "North America"	"United States of America"	USGYY	Gary	9	1	0	0	11	200.55	0.00	0.00	0.00	200.55	#	#
 "North America"	"United States of America"	USGRR	"Grand Rapids"	3	31	0	0	65	602.45	0.00	0.00	0.00	602.45	85.6682	42.9636
 "North America"	"United States of America"	USGRB	"Green Bay"	8	5	0	0	18	190.83	0.00	0.00	0.00	190.83	88.0189	44.5351
-"North America"	"United States of America"	USIND	"Indianapolis. in"	101	77	0	0	255	3315.96	0.00	0.00	0.00	3315.96	86.158	39.7684
+"North America"	"United States of America"	USIND	"Indianapolis. in"	101	77	0	0	255	3315.96	0.00	0.00	0.00	3315.96	86.1580	39.7684
 "North America"	"United States of America"	USLWM	Lawrence	16	1	0	0	18	311.34	0.00	0.00	0.00	311.34	#	#
 "North America"	"United States of America"	USLUI	Louisville.	31	83	0	0	197	2378.10	0.00	0.00	0.00	2378.10	85.7634	38.2455
 "North America"	"United States of America"	USMNN	Marion	3	66	0	0	135	1288.96	0.00	0.00	0.00	1288.96	88.9314	37.7309
 "North America"	"United States of America"	USMKE	Milwaukee	12	18	0	0	48	439.85	0.00	0.00	0.00	439.85	87.9217	43.0344
 "North America"	"United States of America"	USPIA	"Peoria. Il"	48	2	0	0	52	964.63	0.00	0.00	0.00	964.63	89.5857	40.6932
-"North America"	"United States of America"	USPHN	"Port Huron"	1	0	0	0	1	14.43	0.00	0.00	0.00	14.43	82.437	42.9824
+"North America"	"United States of America"	USPHN	"Port Huron"	1	0	0	0	1	14.43	0.00	0.00	0.00	14.43	82.4370	42.9824
 "North America"	"United States of America"	USRAC	Racine	20	26	0	0	72	916.70	0.00	0.00	0.00	916.70	87.7846	42.7269
 "North America"	"United States of America"	USROU	Romulus	72	128	0	0	328	3187.83	0.00	0.00	0.00	3187.83	83.3942	42.2229
 "North America"	"United States of America"	USSTP	"St Paul"	4	12	0	0	28	255.28	0.00	0.00	0.00	255.28	170.2782	57.1246
@@ -276,7 +276,7 @@
 "North America"	"United States of America"	USPHX	"Phoenix. az"	7	22	0	0	51	392.75	0.00	0.00	0.00	392.75	112.0708	33.4477
 "North America"	"United States of America"	USRNO	Reno	1	5	0	0	11	89.37	0.00	0.00	0.00	89.37	119.8138	39.5291
 "North America"	"United States of America"	USSAC	Sacramento	0	4	0	0	8	75.70	0.00	0.00	0.00	75.70	121.2981	38.4732
-"North America"	"United States of America"	USSAN	"San Diego"	0	2	0	0	4	22.24	0.00	0.00	0.00	22.24	117.2103	32.746
+"North America"	"United States of America"	USSAN	"San Diego"	0	2	0	0	4	22.24	0.00	0.00	0.00	22.24	117.2103	32.7460
 "North America"	"United States of America"	USSFO	"San Francisco"	0	3	0	0	6	58.34	0.00	0.00	0.00	58.34	122.4183	37.7793
 "North America"	"United States of America"	USSMO	"San Mateo. ca"	0	1	0	0	2	6.52	0.00	0.00	0.00	6.52	#	#
 "North America"	"United States of America"	USSPQ	"San Pedro"	4	17	0	0	38	245.72	0.00	0.00	0.00	245.72	118.2819	33.7319
@@ -287,71 +287,71 @@
 "North America"	"United States of America"	USNPO	Newport	0	0	0	0	0	0.00	8.00	0.00	0.00	8.00	#	#
 "North America"	"United States of America"	USOAK	Oakland	361	1682	0	0	3725	47763.52	0.00	0.00	0.00	47763.52	122.2703	37.8037
 "North America"	"United States of America"	USPDX	"Portland (West Coast)"	67	307	0	0	681	6789.89	0.00	0.00	0.00	6789.89	122.6723	45.5205
-"North America"	"United States of America"	USSLC	"Saltlake City. ut"	5	18	0	0	41	443.23	0.00	0.00	0.00	443.23	111.8904	40.767
+"North America"	"United States of America"	USSLC	"Saltlake City. ut"	5	18	0	0	41	443.23	0.00	0.00	0.00	443.23	111.8904	40.7670
 "North America"	"United States of America"	USSEA	Seattle	78	196	0	0	470	5188.81	0.00	0.00	0.00	5188.81	122.3306	47.6052
 "North America"	"United States of America"	USTIW	"Tacoma. wa"	0	7	0	0	14	97.65	0.00	0.00	0.00	97.65	122.4371	47.2507
 "South America"	Argentina	ARBUE	"Buenos Aires"	2783	3302	8	867	11129	117340.60	0.00	0.00	0.00	117340.60	58.3995	34.6006
-"South America"	Argentina	ARPMY	"Puerto Madryn"	267	14	0	0	295	8078.51	0.00	0.00	0.00	8078.51	65.04	42.77
+"South America"	Argentina	ARPMY	"Puerto Madryn"	267	14	0	0	295	8078.51	0.00	0.00	0.00	8078.51	65.0400	42.7700
 "South America"	Argentina	ARROS	Rosario	106	72	0	0	250	3123.95	0.00	0.00	0.00	3123.95	60.6634	32.9586
-"South America"	Argentina	ARUSH	Ushuaia	1	30	0	0	61	748.53	0.00	0.00	0.00	748.53	68.31	54.79
-"South America"	Argentina	ARZAE	Zarate	63	106	0	0	275	3671.14	0.00	0.00	0.00	3671.14	59.04	34.0896
-"South America"	Bolivia	BOCBB	Cochabamba	0	1	0	0	2	22.42	0.00	0.00	0.00	22.42	-66.1570139	-17.3935419
+"South America"	Argentina	ARUSH	Ushuaia	1	30	0	0	61	748.53	0.00	0.00	0.00	748.53	68.3100	54.7900
+"South America"	Argentina	ARZAE	Zarate	63	106	0	0	275	3671.14	0.00	0.00	0.00	3671.14	59.0400	34.0896
+"South America"	Bolivia	BOCBB	Cochabamba	0	1	0	0	2	22.42	0.00	0.00	0.00	22.42	-66.1570	-17.3935
 "South America"	Brazil	BRBEL	Belem	0	6	0	0	12	61.06	0.00	0.00	0.00	61.06	48.4682	1.4506
 "South America"	Brazil	BRFOR	Fortaleza	0	0	0	0	0	0.00	569.02	0.00	0.00	569.02	38.5218	3.7305
-"South America"	Brazil	BRITJ	Itajai	191	232	0	329	1313	9049.26	804.00	0.00	0.00	9853.26	48.68	26.8996
-"South America"	Brazil	BRITQ	Itaqui	0	6	0	0	12	110.10	271.64	0.00	0.00	381.74	-56.54979	-29.13059
-"South America"	Brazil	BRMAO	Manaus	72	6	0	0	84	1920.21	0.00	0.00	0.00	1920.21	60.002	3.0981
+"South America"	Brazil	BRITJ	Itajai	191	232	0	329	1313	9049.26	804.00	0.00	0.00	9853.26	48.6800	26.8996
+"South America"	Brazil	BRITQ	Itaqui	0	6	0	0	12	110.10	271.64	0.00	0.00	381.74	-56.5498	-29.1306
+"South America"	Brazil	BRMAO	Manaus	72	6	0	0	84	1920.21	0.00	0.00	0.00	1920.21	60.0020	3.0981
 "South America"	Brazil	BRNVT	Navegantes	544	1140	98	1721	6364	39428.23	0.00	0.00	0.00	39428.23	48.6477	26.8893
 "South America"	Brazil	BRPNG	Paranagua	836	500	0	235	2306	26950.14	745.52	0.00	0.00	27695.66	48.5345	25.5279
 "South America"	Brazil	BRPEC	Pecem	42	36	0	0	114	1538.36	0.00	0.00	0.00	1538.36	38.8306	3.5469
-"South America"	Brazil	BRRIO	"Rio de Janeiro"	677	1445	0	0	3567	40130.34	913.37	0.00	0.00	41043.71	43.227	22.9231
-"South America"	Brazil	BRRIG	"Rio Grande"	843	697	0	257	2751	27997.87	0.00	0.00	0.00	27997.87	52.12	32.0495
-"South America"	Brazil	BRSSA	Salvador	354	155	0	0	664	9831.86	545.00	0.00	0.00	10376.86	38.4819	12.968
+"South America"	Brazil	BRRIO	"Rio de Janeiro"	677	1445	0	0	3567	40130.34	913.37	0.00	0.00	41043.71	43.2270	22.9231
+"South America"	Brazil	BRRIG	"Rio Grande"	843	697	0	257	2751	27997.87	0.00	0.00	0.00	27997.87	52.1200	32.0495
+"South America"	Brazil	BRSSA	Salvador	354	155	0	0	664	9831.86	545.00	0.00	0.00	10376.86	38.4819	12.9680
 "South America"	Brazil	BRSSZ	Santos	4368	5005	726	161	15426	175119.30	0.00	0.00	0.00	175119.30	46.3349	23.9518
-"South America"	Brazil	BRSFS	"Sao Francisco do Sul"	92	151	0	0	394	4186.90	0.00	0.00	0.00	4186.90	48.6	26.2396
+"South America"	Brazil	BRSFS	"Sao Francisco do Sul"	92	151	0	0	394	4186.90	0.00	0.00	0.00	4186.90	48.6000	26.2396
 "South America"	Brazil	BRSUA	Suape	297	399	0	0	1095	14137.28	389.10	0.00	0.00	14526.38	34.9591	8.3603
-"South America"	Brazil	BRVIX	Vitoria	770	514	0	0	1798	26605.73	176.00	0.00	0.00	26781.73	40.3679	20.322
+"South America"	Brazil	BRVIX	Vitoria	770	514	0	0	1798	26605.73	176.00	0.00	0.00	26781.73	40.3679	20.3220
 "South America"	Chile	CLARI	Arica	6	11	0	0	28	305.86	0.00	0.00	0.00	305.86	70.3126	18.4775
-"South America"	Chile	CLLQN	Lirquen	2	4	0	0	10	153.05	0.00	0.00	0.00	153.05	-72.97402	-36.71338
-"South America"	Chile	CLSAI	"San Antonio"	194	237	0	0	668	8186.05	0.00	0.00	0.00	8186.05	71.61	33.5995
-"South America"	Chile	CLVAP	Valparaiso	253	181	0	0	615	8442.76	523.55	0.00	0.00	8966.31	71.623	33.0458
+"South America"	Chile	CLLQN	Lirquen	2	4	0	0	10	153.05	0.00	0.00	0.00	153.05	-72.9740	-36.7134
+"South America"	Chile	CLSAI	"San Antonio"	194	237	0	0	668	8186.05	0.00	0.00	0.00	8186.05	71.6100	33.5995
+"South America"	Chile	CLVAP	Valparaiso	253	181	0	0	615	8442.76	523.55	0.00	0.00	8966.31	71.6230	33.0458
 "South America"	Colombia	COBUN	Buenaventura	5	44	0	0	93	1002.05	0.00	0.00	0.00	1002.05	77.0505	3.8724
 "South America"	Colombia	COBAQ	Barranquilla	31	21	0	0	73	885.61	0.00	0.00	0.00	885.61	74.8019	10.9619
 "South America"	Colombia	COCTG	"Cartagena "	1063	1524	0	4	4119	50321.59	6404.51	0.00	0.00	56726.10	75.5163	10.4017
 "South America"	Colombia	COTRB	Turbo	0	0	0	0	0	0.00	13.00	0.00	0.00	13.00	76.7313	8.0921
-"South America"	Ecuador	ECESM	Esmeraldas	6	7	0	0	20	188.95	0.00	0.00	0.00	188.95	79.67	0.9304
-"South America"	Ecuador	ECGYE	Guayaquil	147	172	0	0	491	4954.55	0.00	0.00	0.00	4954.55	79.922	2.2181
-"South America"	Guyana	GYGEO	Georgetown	3	8	0	0	19	213.71	0.00	0.00	0.00	213.71	58.167	6.802
+"South America"	Ecuador	ECESM	Esmeraldas	6	7	0	0	20	188.95	0.00	0.00	0.00	188.95	79.6700	0.9304
+"South America"	Ecuador	ECGYE	Guayaquil	147	172	0	0	491	4954.55	0.00	0.00	0.00	4954.55	79.9220	2.2181
+"South America"	Guyana	GYGEO	Georgetown	3	8	0	0	19	213.71	0.00	0.00	0.00	213.71	58.1670	6.8020
 "South America"	Paraguay	PYASU	Asuncion	23	26	0	0	75	946.21	0.00	0.00	0.00	946.21	57.6435	25.2945
-"South America"	Peru	PECLL	Callao	144	202	0	0	548	5857.46	2221.61	0.00	0.00	8079.07	77.135	12.07
-"South America"	Peru	PEPAI	Paita	0	2	0	0	4	29.39	0.00	0.00	0.00	29.39	81.12	5.09
-"South America"	Suriname	SRPBM	Paramaribo	22	30	0	0	82	1035.51	0.00	0.00	0.00	1035.51	55.167	5.835
-"South America"	Uruguay	UYMVD	Montevideo	403	487	34	462	2335	16901.00	0.00	0.00	0.00	16901.00	56.173	34.8561
+"South America"	Peru	PECLL	Callao	144	202	0	0	548	5857.46	2221.61	0.00	0.00	8079.07	77.1350	12.0700
+"South America"	Peru	PEPAI	Paita	0	2	0	0	4	29.39	0.00	0.00	0.00	29.39	81.1200	5.0900
+"South America"	Suriname	SRPBM	Paramaribo	22	30	0	0	82	1035.51	0.00	0.00	0.00	1035.51	55.1670	5.8350
+"South America"	Uruguay	UYMVD	Montevideo	403	487	34	462	2335	16901.00	0.00	0.00	0.00	16901.00	56.1730	34.8561
 "South America"	Venezuela	VEEGU	"El Guamache"	67	62	0	0	191	2539.87	0.00	0.00	0.00	2539.87	63.9045	10.7422
 "South America"	Venezuela	VEGUT	Guanta	34	217	2	3	476	5104.03	0.00	0.00	0.00	5104.03	64.5971	10.2393
 "South America"	Venezuela	VELAG	"La Guaira"	610	1070	5	0	2755	34045.15	3058.08	0.00	0.00	37103.23	66.9398	10.5999
 "South America"	Venezuela	VEMAR	Maracaibo	56	158	0	0	372	4067.90	0.00	0.00	0.00	4067.90	71.6619	10.7319
-"South America"	Venezuela	VEPBL	"Puerto Cabello"	113	171	260	0	715	6061.45	0.00	0.00	0.00	6061.45	68.17	10.4704
+"South America"	Venezuela	VEPBL	"Puerto Cabello"	113	171	260	0	715	6061.45	0.00	0.00	0.00	6061.45	68.1700	10.4704
 "Far East"	Brunei	BNMUA	Muara	24	8	0	0	40	565.90	0.00	0.00	0.00	565.90	115.0716	5.0243
-"Far East"	Cambodia	KHKOS	Kompongsom	10	48	0	0	106	821.21	0.00	0.00	0.00	821.21	103.5078	10.646
-"Far East"	Cambodia	KHPNH	"Phnom Penh"	4	4	0	0	12	149.36	0.00	0.00	0.00	149.36	104.9147	11.552
+"Far East"	Cambodia	KHKOS	Kompongsom	10	48	0	0	106	821.21	0.00	0.00	0.00	821.21	103.5078	10.6460
+"Far East"	Cambodia	KHPNH	"Phnom Penh"	4	4	0	0	12	149.36	0.00	0.00	0.00	149.36	104.9147	11.5520
 "Far East"	China	CNBHY	Beihai	4	0	0	0	4	81.00	0.00	0.00	0.00	81.00	109.1068	21.4799
 "Far East"	China	CNCSX	Changsha	3	61	0	0	125	1158.11	0.00	0.00	0.00	1158.11	112.9836	28.1874
 "Far East"	China	CNCGU	Changshu	0	150	0	0	300	4384.85	0.00	0.00	0.00	4384.85	120.7409	31.6434
 "Far East"	China	CNCTU	Chengdu	3	56	0	0	115	872.30	0.00	0.00	0.00	872.30	104.0614	30.6765
-"Far East"	China	CNCLJ	Chenglinji	0	46	0	0	92	1198.24	0.00	0.00	0.00	1198.24	113.123	29.3589
+"Far East"	China	CNCLJ	Chenglinji	0	46	0	0	92	1198.24	0.00	0.00	0.00	1198.24	113.1230	29.3589
 "Far East"	China	CNCWN	"Chiwan "	72	434	415	250	1855	13674.59	0.00	0.00	0.00	13674.59	113.8829	22.4835
 "Far East"	China	CNCKG	Chongqing	19	370	0	0	759	10518.98	0.00	0.00	0.00	10518.98	106.5493	29.5586
 "Far East"	China	CNDLC	Dalian	210	965	0	19	2178	18946.86	305.00	0.00	0.00	19251.86	121.6106	38.9105
 "Far East"	China	CNDGG	Dongguan	1	1	0	0	3	35.60	0.00	0.00	0.00	35.60	113.7525	23.0449
 "Far East"	China	CNFOC	Fuzhou	4	22	0	0	48	522.29	0.00	0.00	0.00	522.29	119.2957	26.0792
-"Far East"	China	CNCAN	Guangzhou	2	2	0	0	6	49.81	0.00	0.00	0.00	49.81	113.253	23.1229
-"Far East"	China	CNHAK	Haikou	1	2	0	0	5	56.57	0.00	0.00	0.00	56.57	110.341	20.0424
+"Far East"	China	CNCAN	Guangzhou	2	2	0	0	6	49.81	0.00	0.00	0.00	49.81	113.2530	23.1229
+"Far East"	China	CNHAK	Haikou	1	2	0	0	5	56.57	0.00	0.00	0.00	56.57	110.3410	20.0424
 "Far East"	China	CNHGH	Hangzhou	0	5	0	0	10	64.92	0.00	0.00	0.00	64.92	120.1493	30.2665
 "Far East"	China	HKHKG	"Hong Kong"	6005	9337	523	1100	27402	325044.64	1229.00	0.00	0.00	326273.64	114.1849	22.3506
 "Far East"	China	CNHUA	Huangpu	248	1113	0	0	2474	34949.59	0.00	0.00	0.00	34949.59	116.4617	30.5595
-"Far East"	China	CNSIA	"Ji An"	0	1	0	0	2	7.21	0.00	0.00	0.00	7.21	114.9875869	27.1169617
-"Far East"	China	CNJMN	Jiangmen	35	78	0	0	191	1814.33	0.00	0.00	0.00	1814.33	113.079	22.5766
+"Far East"	China	CNSIA	"Ji An"	0	1	0	0	2	7.21	0.00	0.00	0.00	7.21	114.9876	27.1170
+"Far East"	China	CNJMN	Jiangmen	35	78	0	0	191	1814.33	0.00	0.00	0.00	1814.33	113.0790	22.5766
 "Far East"	China	CNJIU	Jiujiang	0	1	1	0	3	21.90	0.00	0.00	0.00	21.90	115.9968	29.7077
 "Far East"	China	CNLYG	Lianyungang	1	21	0	85	213	777.22	0.00	0.00	0.00	777.22	119.1695	34.6093
 "Far East"	China	CNMAC	Macau	2	0	0	0	2	34.62	0.00	0.00	0.00	34.62	#	#
@@ -360,10 +360,10 @@
 "Far East"	China	CNNKG	Nanjing	15	36	0	0	87	720.88	0.00	0.00	0.00	720.88	118.7913	32.0607
 "Far East"	China	CNNSA	Nansha	40	1427	57	5	2961	41006.81	0.00	0.00	0.00	41006.81	102.8383	23.2199
 "Far East"	China	CNNTG	Nantong	2	7	0	0	16	140.58	0.00	0.00	0.00	140.58	120.8902	31.9834
-"Far East"	China	CNNBO	Ningbo	983	867	2721	2069	9576	56986.95	0.00	0.00	0.00	56986.95	121.5499	29.872
+"Far East"	China	CNNBO	Ningbo	983	867	2721	2069	9576	56986.95	0.00	0.00	0.00	56986.95	121.5499	29.8720
 "Far East"	China	CNTAO	Qingdao	798	1380	3103	992	8645	55746.15	0.00	0.00	0.00	55746.15	120.3497	36.0895
 "Far East"	China	CNQZJ	Quanzhou	0	4	0	0	8	112.48	0.00	0.00	0.00	112.48	118.5858	24.9027
-"Far East"	China	CNROQ	Rongqi	46	6	0	0	58	1056.89	0.00	0.00	0.00	1056.89	113.3071	22.754
+"Far East"	China	CNROQ	Rongqi	46	6	0	0	58	1056.89	0.00	0.00	0.00	1056.89	113.3071	22.7540
 "Far East"	China	CNSJQ	Sanshui	135	185	2	0	507	8905.56	0.00	0.00	0.00	8905.56	112.8915	23.1588
 "Far East"	China	CNSHG	"Sha Gang"	157	80	0	0	317	6597.95	0.00	0.00	0.00	6597.95	113.2878	22.8944
 "Far East"	China	CNSHA	Shanghai	6611	13654	9731	8197	60044	454951.50	1813.84	0.00	0.00	456765.34	121.4889	31.2253
@@ -375,7 +375,7 @@
 "Far East"	China	CNTSN	Tianjin	2	1	0	0	4	32.79	0.00	0.00	0.00	32.79	117.1981	39.1236
 "Far East"	China	CNTXG	Tianjinxingang	930	3422	7	11	7803	97512.34	0.00	0.00	0.00	97512.34	117.1981	39.1236
 "Far East"	China	CNWEI	"Weihai Shandong"	2	0	0	0	2	41.28	0.00	0.00	0.00	41.28	122.1154	37.5118
-"Far East"	China	CNWUH	Wuhan	16	91	0	0	198	1563.29	0.00	0.00	0.00	1563.29	114.2993	30.596
+"Far East"	China	CNWUH	Wuhan	16	91	0	0	198	1563.29	0.00	0.00	0.00	1563.29	114.2993	30.5960
 "Far East"	China	CNWHI	Wuhu	1	14	0	0	29	401.20	0.00	0.00	0.00	401.20	118.3537	31.3426
 "Far East"	China	CNWUX	Wuxi	5	6	0	0	17	159.40	0.00	0.00	0.00	159.40	120.3129	31.5874
 "Far East"	China	CNXMN	"Xiamen (Xian)"	486	1388	255	446	4409	48492.16	0.00	0.00	0.00	48492.16	118.1356	24.4974
@@ -383,21 +383,21 @@
 "Far East"	China	CNXGG	"Xingang "	403	646	182	24	1925	23102.55	649.00	0.00	0.00	23751.55	117.7433	38.9788
 "Far East"	China	CNXIN	Xinhui	1	1	0	0	3	22.00	0.00	0.00	0.00	22.00	#	#
 "Far East"	China	CNYZH	Yangzhou	18	703	0	0	1424	20219.82	0.00	0.00	0.00	20219.82	119.4366	32.3927
-"Far East"	China	CNYNT	Yantai	9	13	0	0	35	411.55	0.00	0.00	0.00	411.55	121.3895	37.534
+"Far East"	China	CNYNT	Yantai	9	13	0	0	35	411.55	0.00	0.00	0.00	411.55	121.3895	37.5340
 "Far East"	China	CNYYT	Yantian	0	2	0	0	4	51.32	0.00	0.00	0.00	51.32	114.3743	27.3659
 "Far East"	China	CNYTI	"Yantian Huangdong"	57	255	20	39	665	6851.37	0.00	0.00	0.00	6851.37	114.2734	22.5863
 "Far East"	China	CNZJG	Zhangjiagang	59	496	0	6	1063	13646.91	0.00	0.00	0.00	13646.91	120.5427	31.8665
 "Far East"	China	CNZHA	Zhanjiang	0	5	0	0	10	41.96	0.00	0.00	0.00	41.96	110.4046	21.2022
-"Far East"	China	CNZHE	Zhenjiang	7	13	0	2	37	426.23	0.00	0.00	0.00	426.23	119.458	32.214
+"Far East"	China	CNZHE	Zhenjiang	7	13	0	2	37	426.23	0.00	0.00	0.00	426.23	119.4580	32.2140
 "Far East"	Indonesia	IDBPN	"Balikpapan. Kalimantan"	2	1	0	0	4	31.27	0.00	0.00	0.00	31.27	116.8619	1.2371
 "Far East"	Indonesia	IDBLW	"Belawan. Sumatra"	8	20	0	0	48	335.57	0.00	0.00	0.00	335.57	98.6918	3.7828
 "Far East"	Indonesia	IDJKT	"Jakarta. Java"	804	1506	1	0	3817	55416.99	342.00	0.00	0.00	55758.99	106.8271	6.1753
 "Far East"	Indonesia	IDPLM	"Palembang. Sumatra"	2	4	0	0	10	83.58	0.00	0.00	0.00	83.58	104.7569	2.9888
 "Far East"	Indonesia	IDSRG	"Semarang. Java"	24	16	0	0	56	576.39	0.00	0.00	0.00	576.39	110.4099	6.9834
 "Far East"	Indonesia	IDSUB	"Surabaya. Java"	531	266	0	0	1063	18717.69	0.00	0.00	0.00	18717.69	112.7559	7.2387
-"Far East"	Indonesia	IDTPP	"Tanjung Priok"	2	0	0	0	2	27.94	0.00	0.00	0.00	27.94	106.8815268	-6.1106979
-"Far East"	Japan	JPAXT	"Akita. Akita"	3	1	0	0	5	78.20	0.00	0.00	0.00	78.20	140.2648	39.657
-"Far East"	Japan	JPFKY	"Fukuyama. Hiroshima"	1	0	0	0	1	4.71	0.00	0.00	0.00	4.71	133.3626558	34.4858791
+"Far East"	Indonesia	IDTPP	"Tanjung Priok"	2	0	0	0	2	27.94	0.00	0.00	0.00	27.94	106.8815	-6.1107
+"Far East"	Japan	JPAXT	"Akita. Akita"	3	1	0	0	5	78.20	0.00	0.00	0.00	78.20	140.2648	39.6570
+"Far East"	Japan	JPFKY	"Fukuyama. Hiroshima"	1	0	0	0	1	4.71	0.00	0.00	0.00	4.71	133.3627	34.4859
 "Far East"	Japan	JPHHE	"Hachinohe. Aomori"	39	17	0	0	73	1268.74	0.00	0.00	0.00	1268.74	141.4886	40.5129
 "Far East"	Japan	JPHKT	"Hakata. Fukuoka"	114	71	0	0	256	3157.89	0.00	0.00	0.00	3157.89	130.4207	33.5901
 "Far East"	Japan	JPHIJ	"Hiroshima. Hiroshima"	16	3	0	0	22	339.63	0.00	0.00	0.00	339.63	132.4518	34.3916
@@ -406,47 +406,47 @@
 "Far East"	Japan	JPUKB	"Kobe. Hyogo"	1081	958	1	85	3168	37618.18	0.00	0.00	0.00	37618.18	135.1343	34.7253
 "Far East"	Japan	JPMOJ	"Moji. Fukuoka"	19	4	0	0	27	368.05	0.00	0.00	0.00	368.05	130.9408	33.9066
 "Far East"	Japan	JPNGS	"Nagasaki. Nagasaki"	1	1	0	0	3	16.64	0.00	0.00	0.00	16.64	129.8667	32.7833
-"Far East"	Japan	JPNGO	"Nagoya. Aichi"	698	634	0	0	1966	23193.08	0.00	0.00	0.00	23193.08	136.9	35.1833
+"Far East"	Japan	JPNGO	"Nagoya. Aichi"	698	634	0	0	1966	23193.08	0.00	0.00	0.00	23193.08	136.9000	35.1833
 "Far East"	Japan	JPNAH	"Naha. Okinawa"	23	3	0	0	29	525.97	0.00	0.00	0.00	525.97	127.6792	26.2126
 "Far East"	Japan	JPKIJ	"Niigata. Niigata"	16	0	0	0	16	306.50	0.00	0.00	0.00	306.50	139.0255	37.8476
 "Far East"	Japan	JPOSA	"Osaka. Osaka"	475	308	0	0	1091	13294.74	0.00	0.00	0.00	13294.74	135.5021	34.6938
-"Far East"	Japan	JPSDJ	"Sendai. Miyagi"	2	0	0	0	2	43.00	0.00	0.00	0.00	43.00	140.769677	38.296829
-"Far East"	Japan	JPSMZ	"Shimizu. Shizuoka"	162	187	0	0	536	5927.59	0.00	0.00	0.00	5927.59	138.501	35.0195
-"Far East"	Japan	JPTKS	"Tokushima. Tokushima"	2	1	0	0	4	69.81	0.00	0.00	0.00	69.81	134.555	34.0698
-"Far East"	Japan	JPTKY	"Tokuyama. Yamaguchi"	21	0	0	0	21	463.59	0.00	0.00	0.00	463.59	131.8021	34.051
+"Far East"	Japan	JPSDJ	"Sendai. Miyagi"	2	0	0	0	2	43.00	0.00	0.00	0.00	43.00	140.7697	38.2968
+"Far East"	Japan	JPSMZ	"Shimizu. Shizuoka"	162	187	0	0	536	5927.59	0.00	0.00	0.00	5927.59	138.5010	35.0195
+"Far East"	Japan	JPTKS	"Tokushima. Tokushima"	2	1	0	0	4	69.81	0.00	0.00	0.00	69.81	134.5550	34.0698
+"Far East"	Japan	JPTKY	"Tokuyama. Yamaguchi"	21	0	0	0	21	463.59	0.00	0.00	0.00	463.59	131.8021	34.0510
 "Far East"	Japan	JPTYO	Tokyo.Tokyo	2396	2867	26	155	8466	90925.84	0.00	0.00	0.00	90925.84	139.7685	35.6801
 "Far East"	Japan	JPTMK	"Tomakomai. Hokkaido"	99	148	0	0	395	4279.49	0.00	0.00	0.00	4279.49	141.6055	42.6341
-"Far East"	Japan	JPYOK	"Yokohama. Kanagawa"	355	835	27	72	2196	25232.26	0.00	0.00	0.00	25232.26	139.6421	35.445
-"Far East"	Malaysia	MYBTU	"Bintulu. Sarawak"	11	6	0	0	23	202.83	0.00	0.00	0.00	202.83	113.036	3.1664
-"Far East"	Malaysia	MYBKI	"Kota Kinabalu. Sabah"	21	8	0	0	37	589.01	0.00	0.00	0.00	589.01	116.11	5.98
-"Far East"	Malaysia	MYKUA	Kuantan	35	0	0	0	35	680.58	0.00	0.00	0.00	680.58	103.32	3.83
-"Far East"	Malaysia	MYKCH	"Kuching. Sarawak"	8	3	0	0	14	203.80	0.00	0.00	0.00	203.80	110.3449	1.56
+"Far East"	Japan	JPYOK	"Yokohama. Kanagawa"	355	835	27	72	2196	25232.26	0.00	0.00	0.00	25232.26	139.6421	35.4450
+"Far East"	Malaysia	MYBTU	"Bintulu. Sarawak"	11	6	0	0	23	202.83	0.00	0.00	0.00	202.83	113.0360	3.1664
+"Far East"	Malaysia	MYBKI	"Kota Kinabalu. Sabah"	21	8	0	0	37	589.01	0.00	0.00	0.00	589.01	116.1100	5.9800
+"Far East"	Malaysia	MYKUA	Kuantan	35	0	0	0	35	680.58	0.00	0.00	0.00	680.58	103.3200	3.8300
+"Far East"	Malaysia	MYKCH	"Kuching. Sarawak"	8	3	0	0	14	203.80	0.00	0.00	0.00	203.80	110.3449	1.5600
 "Far East"	Malaysia	MYLBU	"Labuan. Sabah"	52	0	0	0	52	1434.18	0.00	0.00	0.00	1434.18	115.2422	5.2699
 "Far East"	Malaysia	MYMYY	"Miri. Sarawak"	1	2	0	0	5	47.90	0.00	0.00	0.00	47.90	#	#
 "Far East"	Malaysia	MYPGU	"Pasir Gudang"	27	27	0	0	81	920.16	0.00	0.00	0.00	920.16	103.8787	1.4537
 "Far East"	Malaysia	MYPEN	Penang	288	24	0	0	336	6858.83	0.00	0.00	0.00	6858.83	100.2878	5.3805
 "Far East"	Malaysia	MYPKG	"Port Kelang"	3038	3989	821	112	12061	152718.76	0.00	0.00	0.00	152718.76	101.3018	2.9422
-"Far East"	Malaysia	MYSBW	"Sibu. Sarawak"	11	2	0	0	15	229.99	0.00	0.00	0.00	229.99	111.843	2.303
-"Far East"	Malaysia	MYTPP	"Tanjong Pelepas"	105	97	1	40	380	3930.61	0.00	0.00	0.00	3930.61	103.5457	1.357
+"Far East"	Malaysia	MYSBW	"Sibu. Sarawak"	11	2	0	0	15	229.99	0.00	0.00	0.00	229.99	111.8430	2.3030
+"Far East"	Malaysia	MYTPP	"Tanjong Pelepas"	105	97	1	40	380	3930.61	0.00	0.00	0.00	3930.61	103.5457	1.3570
 "Far East"	Malaysia	MYTWU	"Tawau. Sabah"	1	0	0	0	1	15.00	0.00	0.00	0.00	15.00	117.8959	4.2615
 "Far East"	Myanmar	MMRGN	Yangon	21	21	0	0	63	582.59	0.00	0.00	0.00	582.59	96.1647	16.7853
 "Far East"	Philippines	PHBTM	"Batan Island"	1	7	0	0	15	165.92	0.00	0.00	0.00	165.92	#	#
 "Far East"	Philippines	PHCGY	"Cagayan de Oro. Mindanao"	2	9	0	0	20	156.89	0.00	0.00	0.00	156.89	124.6853	8.4508
 "Far East"	Philippines	PHCEB	Cebu	172	9	0	0	190	4556.54	0.00	0.00	0.00	4556.54	123.8981	10.3219
-"Far East"	Philippines	PHDVO	"Davao. Mindanao"	31	2	0	0	35	748.81	0.00	0.00	0.00	748.81	125.628	7.112
+"Far East"	Philippines	PHDVO	"Davao. Mindanao"	31	2	0	0	35	748.81	0.00	0.00	0.00	748.81	125.6280	7.1120
 "Far East"	Philippines	PHGES	"General Santos. Dadiangas"	61	0	0	0	61	1649.21	0.00	0.00	0.00	1649.21	125.1702	6.1124
 "Far East"	Philippines	PHMNL	Manila	244	152	0	0	548	8020.72	0.00	0.00	0.00	8020.72	120.9803	14.6061
 "Far East"	Philippines	PHSFS	"Subic Bay. Sual"	0	19	0	0	38	491.44	0.00	0.00	0.00	491.44	#	#
 "Far East"	Philippines	PHTGO	Tagoloan	0	22	0	0	44	603.91	0.00	0.00	0.00	603.91	#	#
-"Far East"	Singapore	SGSIN	Singapore	10396	10184	335	523	32145	401078.50	1950.00	0.00	0.00	403028.50	103.8539	1.295
-"Far East"	"South Korea"	KR002	"Busan (Pusan)"	0	0	0	0	0	0.00	23.00	0.00	0.00	23.00	129.0752365	35.179978
+"Far East"	Singapore	SGSIN	Singapore	10396	10184	335	523	32145	401078.50	1950.00	0.00	0.00	403028.50	103.8539	1.2950
+"Far East"	"South Korea"	KR002	"Busan (Pusan)"	0	0	0	0	0	0.00	23.00	0.00	0.00	23.00	129.0752	35.1800
 "Far East"	"South Korea"	KR007	"Gwangyang (Kwangyang)"	2	0	0	0	2	35.68	0.00	0.00	0.00	35.68	127.6967	34.9436
 "Far East"	"South Korea"	KRINC	"Incheon (Inchon)"	12	13	0	0	38	455.60	0.00	0.00	0.00	455.60	126.6403	37.4781
-"Far East"	"South Korea"	KRPUS	Pusan	4635	6941	991	927	21362	221739.47	0.00	0.00	0.00	221739.47	129.0081	35.097
+"Far East"	"South Korea"	KRPUS	Pusan	4635	6941	991	927	21362	221739.47	0.00	0.00	0.00	221739.47	129.0081	35.0970
 "Far East"	Taiwan	TWKHH	Kaohsiung	2078	2307	111	1094	8991	86630.94	0.00	0.00	0.00	86630.94	120.2666	22.6333
 "Far East"	Taiwan	TWKEL	Keelung	796	776	0	120	2588	27983.86	0.00	0.00	0.00	27983.86	121.7333	25.1333
 "Far East"	Taiwan	TWTXG	Taichung	159	322	0	0	803	11422.56	0.00	0.00	0.00	11422.56	120.6817	24.1521
-"Far East"	Taiwan	TWTPE	Taipei	3	2	0	0	7	58.54	0.00	0.00	0.00	58.54	121.5637	25.0375167
+"Far East"	Taiwan	TWTPE	Taipei	3	2	0	0	7	58.54	0.00	0.00	0.00	58.54	121.5637	25.0375
 "Far East"	Thailand	THBKK	Bangkok	787	659	0	0	2105	29637.28	0.00	0.00	2100.00	31737.28	100.5147	13.7519
 "Far East"	Thailand	THKTY	"Khlong Toei"	0	1	0	0	2	25.84	0.00	0.00	0.00	25.84	100.6313	13.7524
 "Far East"	Thailand	THLMC	"Laem Chabang"	9	6	0	0	21	305.70	936.00	0.00	0.00	1241.70	100.9152	13.0971
@@ -454,11 +454,11 @@
 "Far East"	Thailand	THMAT	Mapthaput	0	0	0	0	0	0.00	49.00	0.00	0.00	49.00	#	#
 "Far East"	Thailand	THSGZ	Songkhla	72	8	0	0	88	1754.93	0.00	0.00	0.00	1754.93	100.5981	7.1979
 "Far East"	Vietnam	VNCLI	"Cat Lai"	17	2	0	0	21	395.14	0.00	0.00	0.00	395.14	106.7891	10.7588
-"Far East"	Vietnam	VNDAD	"Da Nang"	12	32	0	0	76	734.53	0.00	0.00	0.00	734.53	108.25	16.06
-"Far East"	Vietnam	VNHPH	Haiphong	146	293	0	0	732	8361.22	664.00	0.00	0.00	9025.22	106.6781	20.832
-"Far East"	Vietnam	VNSGN	"Ho Chi Minh City"	847	737	0	79	2479	37935.12	662.00	0.00	0.00	38597.12	106.6931	10.782
-"Far East"	Vietnam	VNVUT	"Vung Tau"	61	18	0	0	97	1608.89	0.00	0.00	0.00	1608.89	107.085	10.3554
-"India and Pakistan"	Bangladesh	BDMON	Chalna-Mongla	1	1	0	0	3	36.70	74.00	0.00	0.00	110.70	89.5828	22.526
+"Far East"	Vietnam	VNDAD	"Da Nang"	12	32	0	0	76	734.53	0.00	0.00	0.00	734.53	108.2500	16.0600
+"Far East"	Vietnam	VNHPH	Haiphong	146	293	0	0	732	8361.22	664.00	0.00	0.00	9025.22	106.6781	20.8320
+"Far East"	Vietnam	VNSGN	"Ho Chi Minh City"	847	737	0	79	2479	37935.12	662.00	0.00	0.00	38597.12	106.6931	10.7820
+"Far East"	Vietnam	VNVUT	"Vung Tau"	61	18	0	0	97	1608.89	0.00	0.00	0.00	1608.89	107.0850	10.3554
+"India and Pakistan"	Bangladesh	BDMON	Chalna-Mongla	1	1	0	0	3	36.70	74.00	0.00	0.00	110.70	89.5828	22.5260
 "India and Pakistan"	Bangladesh	BDCGP	Chittagong	349	240	0	3	835	11705.07	407.00	0.00	0.00	12112.07	91.8413	22.3308
 "India and Pakistan"	Bangladesh	BDDAC	Dhaka	15	3	0	0	21	391.40	0.00	0.00	0.00	391.40	90.4099	23.7282
 "India and Pakistan"	India	INAMD	Ahmedabad	35	10	0	0	55	1164.15	0.00	0.00	0.00	1164.15	72.5797	23.0216
@@ -471,21 +471,21 @@
 "India and Pakistan"	India	INHAL	Haldia	245	41	0	1	329	6682.51	0.00	0.00	0.00	6682.51	88.0608	22.0355
 "India and Pakistan"	India	INHYD	Hyderabad	1	2	32	140	317	689.80	0.00	0.00	0.00	689.80	78.4565	17.3827
 "India and Pakistan"	India	INJAI	Jaipur	3	0	0	0	3	72.87	0.00	0.00	0.00	72.87	75.8204	26.9161
-"India and Pakistan"	India	INNSA	"Jawaharlal Neru (Nhava Sheva)"	4548	5478	274	81	15940	196832.25	0.00	0.00	0.00	196832.25	72.953	18.9537
+"India and Pakistan"	India	INNSA	"Jawaharlal Neru (Nhava Sheva)"	4548	5478	274	81	15940	196832.25	0.00	0.00	0.00	196832.25	72.9530	18.9537
 "India and Pakistan"	India	INKAK	Kakinada	0	0	0	0	0	0.00	55.00	0.00	0.00	55.00	#	#
 "India and Pakistan"	India	INIXY	Kandla	21	19	0	0	59	900.71	0.00	0.00	0.00	900.71	70.2096	23.0178
-"India and Pakistan"	India	INKNU	Kanpur	0	3	0	0	6	88.64	0.00	0.00	0.00	88.64	80.3221	26.461
-"India and Pakistan"	India	INLUH	Ludhiana	0	10	0	0	20	169.17	0.00	0.00	0.00	169.17	75.8515	30.909
+"India and Pakistan"	India	INKNU	Kanpur	0	3	0	0	6	88.64	0.00	0.00	0.00	88.64	80.3221	26.4610
+"India and Pakistan"	India	INLUH	Ludhiana	0	10	0	0	20	169.17	0.00	0.00	0.00	169.17	75.8515	30.9090
 "India and Pakistan"	India	INMAA	"Madras (Cennai)"	1608	1448	1	19	4543	61689.30	1348.00	0.00	0.00	63037.30	80.2818	13.0804
 "India and Pakistan"	India	INIXE	Mangalore	8	8	0	0	24	348.25	0.00	0.00	0.00	348.25	#	#
-"India and Pakistan"	India	INMRM	Mormugao	6	1	0	0	8	101.11	0.00	0.00	0.00	101.11	73.793	15.4082
+"India and Pakistan"	India	INMRM	Mormugao	6	1	0	0	8	101.11	0.00	0.00	0.00	101.11	73.7930	15.4082
 "India and Pakistan"	India	INBOM	Mumbay	13	15	0	0	43	458.59	9539.00	0.00	0.00	9997.59	72.8327	18.9524
 "India and Pakistan"	India	IN007	Mundra	15	52	260	0	379	2003.47	45.00	0.00	0.00	2048.47	69.7238	22.8396
 "India and Pakistan"	India	INNAG	Nagpur	30	0	0	0	30	781.83	0.00	0.00	0.00	781.83	79.0798	21.1444
 "India and Pakistan"	India	INTUT	Tuticorin	85	136	0	0	357	4575.83	0.00	0.00	0.00	4575.83	78.1452	8.8054
 "India and Pakistan"	India	INVTZ	Vishakhapatnam	29	68	0	0	165	2000.70	0.00	0.00	0.00	2000.70	83.3151	17.7119
 "India and Pakistan"	Pakistan	PKKHI	Karachi	588	823	0	3	2240	26752.81	322.00	0.00	0.00	27074.81	67.0318	24.8742
-"India and Pakistan"	Pakistan	PKLHE	Lahore	1	0	0	0	1	14.35	0.00	0.00	0.00	14.35	#	#
+"India and Pakistan"	Pakistan	PKLHE	Lahore	1	0	0	0	1	14.35	0.00	0.00	0.00	14.35	74.3248	31.5617
 "India and Pakistan"	Pakistan	PKBQM	"Muhammad Bin Qasim"	1316	933	0	0	3182	49721.56	0.00	0.00	0.00	49721.56	67.3352	24.7855
 "India and Pakistan"	"Sri Lanka"	LKCMB	Colombo	1481	2050	222	874	7551	68625.99	0.00	0.00	0.00	68625.99	79.8533	6.9343
 "Middle East"	Bahrain	BHBAH	Bahrain	355	368	1	1	1094	13219.04	0.00	0.00	0.00	13219.04	50.6831	26.2033
@@ -493,9 +493,9 @@
 "Middle East"	Iran	IRBND	"Bandar Abbas"	1329	2376	832	189	7291	68314.44	1193.75	0.00	0.00	69508.19	56.2766	27.1781
 "Middle East"	Iran	IRBKM	"Bandar Khomeini"	1	5	0	0	11	105.18	0.00	0.00	0.00	105.18	49.0795	30.4328
 "Middle East"	Iran	IRBUZ	Bushehr	26	225	0	0	476	4903.80	0.00	0.00	0.00	4903.80	50.8405	28.9682
-"Middle East"	Iran	IRKHO	Khorramshahr	17	5	0	0	27	320.41	0.00	0.00	0.00	320.41	48.178	30.4332
-"Middle East"	Iraq	IQBGW	Baghdad	0	3	0	0	6	56.64	0.00	0.00	0.00	56.64	#	#
-"Middle East"	Iraq	IQUQR	"Umm Qasr"	45	117	0	0	279	2797.07	354.00	0.00	0.00	3151.07	47.9339	30.047
+"Middle East"	Iran	IRKHO	Khorramshahr	17	5	0	0	27	320.41	0.00	0.00	0.00	320.41	48.1780	30.4332
+"Middle East"	Iraq	IQBGW	Baghdad	0	3	0	0	6	56.64	0.00	0.00	0.00	56.64	44.3867	33.2995
+"Middle East"	Iraq	IQUQR	"Umm Qasr"	45	117	0	0	279	2797.07	354.00	0.00	0.00	3151.07	47.9339	30.0470
 "Middle East"	Israel	ILASH	Ashdod	3333	3532	7	12	10428	138969.52	0.00	835.00	0.00	139804.52	34.6463	31.7981
 "Middle East"	Israel	ILHFA	Haifa	1706	1956	160	29	5836	86097.16	0.00	0.00	0.00	86097.16	34.9984	32.8191
 "Middle East"	Jordan	JOAQB	Aqaba	505	525	0	44	1643	18286.87	1869.05	0.00	33463.00	53618.92	35.0028	29.5292
@@ -511,19 +511,19 @@
 "Middle East"	Qatar	QADOH	Doha	577	777	0	0	2131	25608.68	0.00	0.00	0.00	25608.68	51.5268	25.2853
 "Middle East"	Qatar	QAFLF	"Ras Laffan"	0	0	0	0	0	0.00	293.00	0.00	0.00	293.00	51.5332	25.8977
 "Middle East"	"Saudi Arabia"	SAJUB	"Al Jubail"	85	120	0	0	325	3750.90	0.00	0.00	0.00	3750.90	49.6904	27.0294
-"Middle East"	"Saudi Arabia"	SADMN	Damman	1587	2645	193	43	7156	72412.84	627.81	0.00	0.00	73040.65	50.1571	26.474
-"Middle East"	"Saudi Arabia"	SAJED	Jeddah	3574	7830	40	243	19760	224425.12	19890.59	0.00	34000.00	278315.71	39.164	21.5822
-"Middle East"	"Saudi Arabia"	SARUH	Riyadh	81	136	0	0	353	3595.90	0.00	0.00	0.00	3595.90	46.7149	24.632
+"Middle East"	"Saudi Arabia"	SADMN	Damman	1587	2645	193	43	7156	72412.84	627.81	0.00	0.00	73040.65	50.1571	26.4740
+"Middle East"	"Saudi Arabia"	SAJED	Jeddah	3574	7830	40	243	19760	224425.12	19890.59	0.00	34000.00	278315.71	39.1640	21.5822
+"Middle East"	"Saudi Arabia"	SARUH	Riyadh	81	136	0	0	353	3595.90	0.00	0.00	0.00	3595.90	46.7149	24.6320
 "Middle East"	"Saudi Arabia"	SAYNB	Yanbo	0	0	0	0	0	0.00	1721.05	0.00	0.00	1721.05	#	#
 "Middle East"	Syria	SYBAN	Baniyas	0	0	0	0	0	0.00	0.00	0.00	185306.00	185306.00	#	#
-"Middle East"	Syria	SYLTK	Latakia	510	200	0	1	912	15874.52	0.00	0.00	0.00	15874.52	35.7781	35.52
+"Middle East"	Syria	SYLTK	Latakia	510	200	0	1	912	15874.52	0.00	0.00	0.00	15874.52	35.7781	35.5200
 "Middle East"	Syria	SYTTS	Tartous	40	74	0	0	188	2556.19	2342.39	6864.00	0.00	11762.58	35.8852	34.8936
 "Middle East"	Turkey	TREVY	"Evyap Port"	177	1265	0	0	2707	26448.66	0.00	0.00	0.00	26448.66	29.7113	40.7757
 "Middle East"	Turkey	TRSSX	Samsun	0	0	0	0	0	0.00	521.45	0.00	0.00	521.45	36.3278	41.2898
 "Middle East"	Turkey	TRALI	Aliaga	32	210	0	2	456	4454.30	0.00	0.00	34604.00	39058.30	26.9742	38.7994
 "Middle East"	Turkey	TRAMB	Ambarli	582	1053	0	0	2688	35437.56	0.00	0.00	0.00	35437.56	28.7083	40.9775
 "Middle East"	Turkey	TRAYT	Antalya	0	6	0	0	12	134.30	0.00	0.00	0.00	134.30	30.6937	36.9009
-"Middle East"	Turkey	TRDRC	"Derince. Kocaeli"	0	0	0	0	0	0.00	17.85	0.00	0.00	17.85	29.83	40.7569
+"Middle East"	Turkey	TRDRC	"Derince. Kocaeli"	0	0	0	0	0	0.00	17.85	0.00	0.00	17.85	29.8300	40.7569
 "Middle East"	Turkey	TRDIR	Diliskelesi	0	0	0	0	0	0.00	1768.39	1224.00	0.00	2992.39	29.5235	40.7696
 "Middle East"	Turkey	TREVY	"Evyap Port"	19	297	0	0	613	5798.39	0.00	0.00	0.00	5798.39	29.7113	40.7757
 "Middle East"	Turkey	TRGBZ	Gebze	443	681	1	1	1808	20630.67	0.00	0.00	0.00	20630.67	29.4318	40.8007
@@ -537,15 +537,15 @@
 "Middle East"	"United Arab Emirates"	AEAJM	Ajman	38	39	0	0	116	1070.92	0.00	0.00	0.00	1070.92	55.4451	25.3937
 "Middle East"	"United Arab Emirates"	AEDXB	Dubai	1	57	0	0	115	1053.17	0.00	0.00	0.00	1053.17	55.2962	25.2684
 "Middle East"	"United Arab Emirates"	AEFJR	Fujairah	21	33	0	0	87	1039.48	569.26	0.00	0.00	1608.74	56.3439	25.1255
-"Middle East"	"United Arab Emirates"	AEJEA	"Jebel Ali"	3243	7090	0	0	17423	189874.23	7538.70	0.00	66126.00	263538.93	55.091	24.9775
-"Middle East"	"United Arab Emirates"	AEKLF	"Khor al Fakkan"	3586	7665	53	64	19097	222308.37	0.00	0.00	0.00	222308.37	56.3458	25.357
+"Middle East"	"United Arab Emirates"	AEJEA	"Jebel Ali"	3243	7090	0	0	17423	189874.23	7538.70	0.00	66126.00	263538.93	55.0910	24.9775
+"Middle East"	"United Arab Emirates"	AEKLF	"Khor al Fakkan"	3586	7665	53	64	19097	222308.37	0.00	0.00	0.00	222308.37	56.3458	25.3570
 "Middle East"	"United Arab Emirates"	AESHJ	Sharjah	139	178	0	0	495	7638.88	0.00	0.00	0.00	7638.88	55.3895	25.3585
 "Middle East"	Yemen	YEADE	Aden	18	9	0	0	36	535.98	0.00	0.00	0.00	535.98	44.9166	12.8332
-"Middle East"	Yemen	YEHOD	Hodeidah	592	511	151	28	1821	20855.38	232.75	0.00	0.00	21088.13	42.9741	14.76
+"Middle East"	Yemen	YEHOD	Hodeidah	592	511	151	28	1821	20855.38	232.75	0.00	0.00	21088.13	42.9741	14.7600
 Europe	Albania	ALDRZ	Durazzo	58	6	0	0	70	1474.54	0.00	0.00	0.00	1474.54	19.4717	41.3149
 Europe	Belgium	BEANR	Antwerpen	15	2	0	0	19	364.05	117.00	0.00	10338.00	10819.05	4.3997	51.2211
 Europe	Belgium	BEGNE	Ghent	0	0	0	0	0	0.00	0.00	73488.00	0.00	73488.00	3.7251	51.0538
-Europe	Bulgaria	BGBOJ	Burgas	22	4	0	0	30	736.25	0.00	0.00	0.00	736.25	27.455	42.4942
+Europe	Bulgaria	BGBOJ	Burgas	22	4	0	0	30	736.25	0.00	0.00	0.00	736.25	27.4550	42.4942
 Europe	Bulgaria	BGVAR	Varna	28	8	0	0	44	844.35	0.00	0.00	0.00	844.35	27.9017	43.2166
 Europe	Croatia	HRRJK	Fiume	0	10	0	0	20	258.06	0.00	0.00	0.00	258.06	14.4414	45.3271
 Europe	Croatia	HRSPU	Spalato	0	1	0	0	2	8.80	114.00	0.00	0.00	122.80	16.4397	43.5116
@@ -565,14 +565,14 @@ Europe	France	FRBIA	Bastia	0	0	0	0	0	0.00	32414.97	0.00	0.00	32414.97	9.4525	42.
 Europe	France	FRFOS	Fos-sur-Mer	1253	1714	1012	686	7065	54685.95	276.00	29627.00	14686.00	99274.95	4.9456	43.4381
 Europe	France	FRLAV	Lavera	0	0	0	0	0	0.00	0.00	0.00	3110.00	3110.00	5.0256	43.3929
 Europe	France	FRLIO	Lyon	0	2	0	0	4	58.80	0.00	0.00	0.00	58.80	4.8323	45.7576
-Europe	France	FRMRS	Marseille	2249	2612	303	428	8632	101357.54	2652.42	0.00	0.00	104009.96	5.37	43.2962
+Europe	France	FRMRS	Marseille	2249	2612	303	428	8632	101357.54	2652.42	0.00	0.00	104009.96	5.3700	43.2962
 Europe	France	FR888	"Other French ports"	0	3	0	0	6	28.60	0.00	0.00	0.00	28.60	2.3506	48.8583
 Europe	France	FRPSL	Port-Saint-Louis-Du-Rhone	0	0	0	0	0	0.00	0.00	1276.00	0.00	1276.00	4.8026	43.3891
 Europe	France	FRSET	Sete	0	0	0	0	0	0.00	525.67	0.00	0.00	525.67	3.6942	43.4017
 Europe	Germany	DEBRE	Bremen	0	0	0	0	0	0.00	44.00	0.00	0.00	44.00	8.8054	53.0766
 Europe	Germany	DEBRV	Bremerhaven	2	0	0	0	2	16.98	0.00	0.00	0.00	16.98	8.5866	53.5522
 Europe	Germany	DEHAM	Hamburg	220	122	0	0	464	8570.32	0.00	0.00	0.00	8570.32	10.0007	53.5503
-Europe	Germany	DENUE	Nuernberg	4	0	0	0	4	72.00	0.00	0.00	0.00	72.00	11.0772978	49.4538723
+Europe	Germany	DENUE	Nuernberg	4	0	0	0	4	72.00	0.00	0.00	0.00	72.00	11.0773	49.4539
 Europe	"Gr Britain"	GBBEL	Belfast	1	0	0	0	1	21.00	0.00	0.00	0.00	21.00	5.9302	54.5969
 Europe	"Gr Britain"	GBFXT	Felixstowe	7	32	0	0	71	820.04	0.00	0.00	0.00	820.04	1.3515	51.9639
 Europe	"Gr Britain"	GBGRG	Grangemouth	0	2	0	0	4	54.00	0.00	0.00	0.00	54.00	#	#
@@ -581,12 +581,12 @@ Europe	"Gr Britain"	GBTIL	Tilbury	60	105	0	0	270	4386.86	0.00	0.00	0.00	4386.86	
 Europe	"Gr Britain"	GBWIS	Wisbech	0	11	0	0	22	246.50	0.00	0.00	0.00	246.50	#	#
 Europe	Greece	GRCRG	Corinth	0	8	0	0	16	225.58	60.00	0.00	0.00	285.58	#	#
 Europe	Greece	GREEU	Eleusis	0	0	0	0	0	0.00	0.00	1241.00	0.00	1241.00	23.5349	38.0476
-Europe	Greece	GRHER	Heraklion	1	6	0	0	13	142.24	0.00	0.00	0.00	142.24	25.1329	35.334
+Europe	Greece	GRHER	Heraklion	1	6	0	0	13	142.24	0.00	0.00	0.00	142.24	25.1329	35.3340
 Europe	Greece	GRLAV	Lavrion	0	0	0	0	0	0.00	602.00	0.00	0.00	602.00	#	#
 Europe	Greece	GRPIR	Piraeus	451	179	0	3	815	14549.03	0.00	0.00	0.00	14549.03	23.6486	37.9442
 Europe	Greece	GRSKG	Thessaloniki	34	13	0	0	60	1021.35	0.00	0.00	0.00	1021.35	22.9353	40.6403
-Europe	Greece	GRVOL	Volos	27	1	0	0	29	637.65	0.00	0.00	0.00	637.65	22.94	39.3627
-Europe	Iceland	ISREY	Reykjavik	1	1	0	0	3	52.02	0.00	0.00	0.00	52.02	#	#
+Europe	Greece	GRVOL	Volos	27	1	0	0	29	637.65	0.00	0.00	0.00	637.65	22.9400	39.3627
+Europe	Iceland	ISREY	Reykjavik	1	1	0	0	3	52.02	0.00	0.00	0.00	52.02	-21.9404	64.1453
 Europe	Ireland	IEALQ	"Alexandra Quay"	0	0	0	0	0	0.00	0.00	0.00	1508.00	1508.00	#	#
 Europe	Ireland	IEORK	Cork	0	1	0	0	2	18.32	0.00	0.00	0.00	18.32	8.4706	51.8979
 Europe	Ireland	IEDUB	Dublin	2	1	0	0	4	55.50	0.00	0.00	0.00	55.50	#	#
@@ -602,22 +602,22 @@ Europe	Portugal	PTLEI	Leixoes	3	6	0	0	15	148.46	0.00	0.00	0.00	148.46	8.6846	41.
 Europe	Portugal	PTLIS	Lisboa	68	71	33	0	243	2822.14	0.00	0.00	0.00	2822.14	9.1394	38.7138
 Europe	Portugal	PTSET	Setubal	3	2	0	0	7	91.75	0.00	10480.00	0.00	10571.75	8.8933	38.5245
 Europe	Romania	ROCND	Constantza	3	50	0	0	103	1388.05	0.00	0.00	7952.00	9340.05	28.6322	44.1719
-Europe	Slovenia	SIKOP	"Capo d'Istria"	3	0	11	0	14	101.25	924.56	0.00	0.00	1025.81	13.7305	45.548
+Europe	Slovenia	SIKOP	"Capo d'Istria"	3	0	11	0	14	101.25	924.56	0.00	0.00	1025.81	13.7305	45.5480
 Europe	Spain	ESCEU	Ceuta	0	1	0	0	2	26.92	1050.78	0.00	0.00	1077.70	5.3041	35.8884
 Europe	Spain	ESMLN	Melilla	6	3	0	0	12	147.23	0.00	0.00	0.00	147.23	2.9409	35.2919
-Europe	Spain	ESBIO	Bilbao	9	15	0	0	39	520.78	12.93	0.00	0.00	533.71	2.9349	43.263
+Europe	Spain	ESBIO	Bilbao	9	15	0	0	39	520.78	12.93	0.00	0.00	533.71	2.9349	43.2630
 Europe	Spain	ESLCG	"La Coruna"	0	0	0	0	0	0.00	0.00	0.00	10500.00	10500.00	8.4139	43.3673
 Europe	Spain	ESALG	Algeciras	1288	1757	234	12	5060	57723.83	0.00	0.00	0.00	57723.83	5.4487	36.1311
 Europe	Spain	ESALC	Alicante	0	3	0	0	6	23.50	0.00	0.00	0.00	23.50	0.4821	38.3478
 Europe	Spain	ESLEI	Almeria	10	0	0	0	10	264.04	0.00	0.00	0.00	264.04	2.4624	36.8362
 Europe	Spain	ESACE	"Arrecife de Lanzarote"	2	1	0	0	4	60.60	0.00	0.00	0.00	60.60	#	#
-Europe	Spain	ESBCN	Barcelona	1127	642	3320	1122	7975	47177.34	234967.40	85937.00	0.00	368081.74	2.17	41.387
+Europe	Spain	ESBCN	Barcelona	1127	642	3320	1122	7975	47177.34	234967.40	85937.00	0.00	368081.74	2.1700	41.3870
 Europe	Spain	ESCAD	Cadiz	16	11	0	0	38	269.72	428.67	0.00	0.00	698.39	6.2826	36.5216
 Europe	Spain	ESCAR	"Cartagena  "	0	7	0	0	14	149.01	0.00	0.00	0.00	149.01	1.0006	37.6268
-Europe	Spain	ESCAS	"Castellon de La Plana"	49	13	261	66	468	1840.64	1.50	0.00	0.00	1842.14	0.0374	39.986
+Europe	Spain	ESCAS	"Castellon de La Plana"	49	13	261	66	468	1840.64	1.50	0.00	0.00	1842.14	0.0374	39.9860
 Europe	Spain	ESHUV	Huelva	0	0	0	0	0	0.00	0.00	0.00	11303.00	11303.00	6.9496	37.2567
 Europe	Spain	ESLPA	"Las Palmas"	2112	1760	7	165	5969	78855.54	907.80	0.00	0.00	79763.34	15.4351	28.1288
-Europe	Spain	ESAGP	Malaga	8	9	0	0	26	294.42	0.00	0.00	0.00	294.42	4.421	36.7211
+Europe	Spain	ESAGP	Malaga	8	9	0	0	26	294.42	0.00	0.00	0.00	294.42	4.4210	36.7211
 Europe	Spain	ESPMI	"Palma de Mallorca"	0	0	0	0	0	0.00	1032.85	0.00	0.00	1032.85	2.6501	39.5696
 Europe	Spain	ESFUE	"Puerto del Rosario"	1	0	0	0	1	20.20	0.00	0.00	0.00	20.20	#	#
 Europe	Spain	ESSAG	Sagunto	7	6	30	6	61	304.43	75.50	35582.00	0.00	35961.93	0.2774	39.6792
@@ -626,31 +626,31 @@ Europe	Spain	ESSCT	"Santa Cruz de Tenerife"	169	221	0	0	611	5868.65	0.00	0.00	0.
 Europe	Spain	ESSVQ	Sevilla	667	0	0	0	667	19432.10	4783.00	0.00	0.00	24215.10	5.9953	37.3886
 Europe	Spain	ESTAR	Tarragona	2	12	137	11	185	659.64	141.00	3588.00	27302.00	31690.64	1.2546	41.1172
 Europe	Spain	ESTCI	Tenerife	13	17	0	0	47	479.43	0.00	0.00	0.00	479.43	16.7555	28.3159
-Europe	Spain	ESVLC	Valencia	199	330	6669	901	9330	27126.46	9336.94	3596.00	3648.00	43707.40	0.376	39.4699
-Europe	Sweden	SEGOT	Goteborg	0	1	0	0	2	18.30	0.00	0.00	0.00	18.30	11.9670171	57.7072326
+Europe	Spain	ESVLC	Valencia	199	330	6669	901	9330	27126.46	9336.94	3596.00	3648.00	43707.40	0.3760	39.4699
+Europe	Sweden	SEGOT	Goteborg	0	1	0	0	2	18.30	0.00	0.00	0.00	18.30	11.9670	57.7072
 "Georgia, Russia, Ukraine"	Georgia	GEBUS	Batumi	6	7	0	0	20	212.50	0.00	0.00	0.00	212.50	41.6471	41.6515
 "Georgia, Russia, Ukraine"	Georgia	GEPTI	Poti	281	465	0	0	1211	15247.59	547.82	0.00	0.00	15795.41	41.6769	42.1491
-"Georgia, Russia, Ukraine"	Russia	RUKOR	Korsakov	0	14	0	0	28	296.46	0.00	0.00	0.00	296.46	142.781	46.6328
+"Georgia, Russia, Ukraine"	Russia	RUKOR	Korsakov	0	14	0	0	28	296.46	0.00	0.00	0.00	296.46	142.7810	46.6328
 "Georgia, Russia, Ukraine"	Russia	RUVVO	Vladivostok	58	143	0	0	344	4403.57	0.00	0.00	0.00	4403.57	131.8931	43.1175
 "Georgia, Russia, Ukraine"	Russia	RUVYP	"Vostochniy. Port"	4	31	0	0	66	820.17	0.00	0.00	0.00	820.17	132.9249	42.8273
 "Georgia, Russia, Ukraine"	Russia	RUKGD	Kaliningrad	1	14	0	0	29	349.16	0.00	0.00	0.00	349.16	20.4575	54.7025
 "Georgia, Russia, Ukraine"	Russia	RULED	"St Petersburg "	220	424	0	0	1068	16587.58	1512.65	0.00	0.00	18100.23	30.3154	59.9394
-"Georgia, Russia, Ukraine"	Russia	RUNVS	Novorossiysk	109	278	0	0	665	7231.17	0.00	0.00	0.00	7231.17	37.79	44.7278
+"Georgia, Russia, Ukraine"	Russia	RUNVS	Novorossiysk	109	278	0	0	665	7231.17	0.00	0.00	0.00	7231.17	37.7900	44.7278
 "Georgia, Russia, Ukraine"	Russia	RUSOC	Sochi	0	0	0	0	0	0.00	763.00	0.00	0.00	763.00	39.7231	43.5855
 "Georgia, Russia, Ukraine"	Ukraine	UAILK	Illichivs'k	3	13	0	0	29	388.16	0.00	0.00	0.00	388.16	30.6561	46.3016
 "Georgia, Russia, Ukraine"	Ukraine	UAODS	Odessa	5	23	0	0	51	740.99	0.00	0.00	0.00	740.99	30.7296	46.4713
 Italy	Italy	ITAOI	Ancona	2	0	0	0	2	36.03	0.00	0.00	0.00	36.03	13.5175	43.6171
 Italy	Italy	ITATX	Arbatax	0	0	0	0	0	0.00	4914.60	0.00	0.00	4914.60	9.7077	39.9354
 Italy	Italy	ITAUG	Augusta	1	2	0	0	5	55.05	528.31	0.00	152434.00	153017.36	15.2197	37.2369
-Italy	Italy	ITBRI	Bari	1	1	0	0	3	34.01	85.00	0.00	0.00	119.01	16.862	41.1258
+Italy	Italy	ITBRI	Bari	1	1	0	0	3	34.01	85.00	0.00	0.00	119.01	16.8620	41.1258
 Italy	Italy	ITCAG	Cagliari	13421	2185	548	16	18371	247079.25	131804.22	0.00	76244.00	455127.47	9.1169	39.2225
 Italy	Italy	ITCTA	Catania	428	220	46	32	978	12737.14	528788.93	0.00	0.00	541526.07	15.0871	37.5026
 Italy	Italy	ITCVV	Civitavecchia	1	7	0	0	15	139.25	462.59	0.00	0.00	601.84	11.7988	42.0988
 Italy	Italy	ITGAE	Gaeta	0	0	0	0	0	0.00	0.00	0.00	29858.00	29858.00	13.5628	41.2183
-Italy	Italy	ITGIT	"Gioia Tauro"	147	149	4256	6	4713	15101.36	0.00	0.00	0.00	15101.36	15.899	38.424
-Italy	Italy	ITSPE	"La Spezia"	18	33	336	6	432	1863.72	70.50	0.00	21341.00	23275.22	9.8282	44.107
-Italy	Italy	ITLIV	Livorno	85	266	1601	161	2540	11512.16	0.00	0.00	84054.00	95566.16	10.316	43.5426
-Italy	Italy	ITMDC	"Marina di Carrara"	1	1	136	36	211	459.46	0.00	0.00	1649.00	2108.46	10.045	44.0388
+Italy	Italy	ITGIT	"Gioia Tauro"	147	149	4256	6	4713	15101.36	0.00	0.00	0.00	15101.36	15.8990	38.4240
+Italy	Italy	ITSPE	"La Spezia"	18	33	336	6	432	1863.72	70.50	0.00	21341.00	23275.22	9.8282	44.1070
+Italy	Italy	ITLIV	Livorno	85	266	1601	161	2540	11512.16	0.00	0.00	84054.00	95566.16	10.3160	43.5426
+Italy	Italy	ITMDC	"Marina di Carrara"	1	1	136	36	211	459.46	0.00	0.00	1649.00	2108.46	10.0450	44.0388
 Italy	Italy	ITMLZ	Milazzo	0	0	0	0	0	0.00	0.00	0.00	72632.00	72632.00	15.2412	38.2208
 Italy	Italy	ITNAP	Napoli	1404	1305	880	1195	7284	62862.50	2266.76	0.00	10723.00	75852.26	14.2493	40.8516
 Italy	Italy	ITOLB	Olbia	0	0	0	0	0	0.00	243883.86	0.00	0.00	243883.86	9.4994	40.9241
@@ -660,27 +660,27 @@ Italy	Italy	ITPFX	"Porto Foxi"	0	0	0	0	0	0.00	0.00	0.00	40817.00	40817.00	9.0293
 Italy	Italy	ITPTO	"Porto Torres"	0	0	0	0	0	0.00	768878.47	0.00	84743.00	853621.47	8.4031	40.8344
 Italy	Italy	ITPVE	"Porto Vesme"	0	0	0	0	0	0.00	0.00	17743.00	0.00	17743.00	8.4009	39.1964
 Italy	Italy	ITPRI	Priolo	0	0	0	0	0	0.00	0.00	0.00	21128.00	21128.00	15.2032	37.1723
-Italy	Italy	ITSAL	Salerno	91	43	1	99	376	3056.25	0.00	0.00	0.00	3056.25	14.7658	40.678
+Italy	Italy	ITSAL	Salerno	91	43	1	99	376	3056.25	0.00	0.00	0.00	3056.25	14.7658	40.6780
 Italy	Italy	ITSPA	"Santa Panagia"	0	0	0	0	0	0.00	0.00	0.00	9936.00	9936.00	15.2797	37.1086
-Italy	Italy	ITSVN	Savona-Vado	0	0	0	0	0	0.00	0.00	0.00	50843.00	50843.00	8.481	44.3079
+Italy	Italy	ITSVN	Savona-Vado	0	0	0	0	0	0.00	0.00	0.00	50843.00	50843.00	8.4810	44.3079
 Italy	Italy	ITTAR	Taranto	3	5	318	555	1441	3060.60	122.40	32870.00	19096.00	55149.00	17.2432	40.4712
 Italy	Italy	ITTRI	"Termini Imerese"	0	0	0	0	0	0.00	154411.97	0.00	0.00	154411.97	13.7101	37.9872
-Italy	Italy	ITTRS	Trieste	1	0	0	0	1	21.76	0.00	0.00	0.00	21.76	13.7707	45.65
+Italy	Italy	ITTRS	Trieste	1	0	0	0	1	21.76	0.00	0.00	0.00	21.76	13.7707	45.6500
 Italy	Italy	ITVDL	"Vado Ligure"	1	0	26	49	125	284.56	0.00	0.00	33383.00	33667.56	8.4382	44.2714
 Italy	Italy	ITVCE	Venezia	0	0	0	0	0	0.00	271.50	0.00	0.00	271.50	12.3186	45.4384
 "Oceania "	"American Samoa"	MPSPN	Saipan	1	7	0	0	15	181.71	0.00	0.00	0.00	181.71	145.7457	15.1752
 "Oceania "	Australia	AUADL	Adelaide	313	114	1	0	542	7754.82	0.00	0.00	0.00	7754.82	138.5999	34.9274
-"Oceania "	Australia	AUBNE	Brisbane	777	780	1	0	2338	29091.48	0.00	0.00	0.00	29091.48	153.0235	27.469
-"Oceania "	Australia	AUDRW	Darwin	1	0	0	0	1	6.34	0.00	0.00	0.00	6.34	130.841	12.4604
+"Oceania "	Australia	AUBNE	Brisbane	777	780	1	0	2338	29091.48	0.00	0.00	0.00	29091.48	153.0235	27.4690
+"Oceania "	Australia	AUDRW	Darwin	1	0	0	0	1	6.34	0.00	0.00	0.00	6.34	130.8410	12.4604
 "Oceania "	Australia	AUFRE	"Fremantle "	774	478	0	0	1730	24647.00	0.00	0.00	0.00	24647.00	115.7462	32.0559
 "Oceania "	Australia	AUMEL	Melbourne	2046	1900	1	0	5847	74675.45	0.00	0.00	0.00	74675.45	144.9632	37.8142
 "Oceania "	Australia	AUSYD	Sydney	1389	1571	0	0	4531	54984.91	0.00	0.00	0.00	54984.91	151.2165	33.8548
-"Oceania "	Fiji	FJLTK	Lautoka	1	10	0	0	21	305.54	0.00	0.00	0.00	305.54	177.453	-17.6044
+"Oceania "	Fiji	FJLTK	Lautoka	1	10	0	0	21	305.54	0.00	0.00	0.00	305.54	177.4530	-17.6044
 "Oceania "	"French Polynesia"	PFPPT	Papeete	127	64	0	0	255	4210.02	0.00	0.00	0.00	4210.02	149.5627	17.5333
-"Oceania "	Guam	GUGUM	Guam	12	2	0	0	16	166.96	0.00	0.00	0.00	166.96	144.897	13.5395
+"Oceania "	Guam	GUGUM	Guam	12	2	0	0	16	166.96	0.00	0.00	0.00	166.96	144.8970	13.5395
 "Oceania "	"New Caledonia"	NCNOU	Noumea	43	86	0	0	215	2855.26	0.00	0.00	0.00	2855.26	166.4424	22.2745
 "Oceania "	"New Zealand"	NZAKL	Auckland	1277	983	0	0	3243	41910.80	0.00	0.00	0.00	41910.80	174.7656	36.8535
-"Oceania "	"New Zealand"	NZCHC	Christchurch	2	6	0	0	14	176.31	0.00	0.00	0.00	176.31	172.6366	43.531
+"Oceania "	"New Zealand"	NZCHC	Christchurch	2	6	0	0	14	176.31	0.00	0.00	0.00	176.31	172.6366	43.5310
 "Oceania "	"New Zealand"	NZLYT	Lyttelton	140	146	0	0	432	4956.97	0.00	0.00	0.00	4956.97	172.7206	43.6025
 "Oceania "	"New Zealand"	NZNPE	Napier	102	34	0	0	170	2632.73	0.00	0.00	0.00	2632.73	176.9179	39.4909
 "Oceania "	"New Zealand"	NZNSN	Nelson	33	42	0	0	117	1809.46	0.00	0.00	0.00	1809.46	173.2837	41.2711
@@ -688,8 +688,8 @@ Italy	Italy	ITVCE	Venezia	0	0	0	0	0	0.00	271.50	0.00	0.00	271.50	12.3186	45.4384
 "Oceania "	"New Zealand"	NZTRG	Tauranga	12	72	0	0	156	1516.48	0.00	0.00	0.00	1516.48	176.1684	37.6865
 "Oceania "	"New Zealand"	NZTIU	Timaru	1	10	0	0	21	206.69	0.00	0.00	0.00	206.69	171.2497	-44.3919
 "Oceania "	"New Zealand"	NZWLG	Wellington	197	87	0	0	371	5394.60	0.00	0.00	0.00	5394.60	174.7772	41.2888
-"Oceania "	"New Zealand"	NZNPL	"New Plymouth"	10	4	0	0	18	244.42	0.00	0.00	0.00	244.42	174.0806	39.058
+"Oceania "	"New Zealand"	NZNPL	"New Plymouth"	10	4	0	0	18	244.42	0.00	0.00	0.00	244.42	174.0806	39.0580
 "Oceania "	"Papua New Guinea"	PGLAE	Lae	1	0	0	0	1	24.00	0.00	0.00	0.00	24.00	147.0012	-6.7326
 "Oceania "	"Papua New Guinea"	PGPOM	"Port Moresby"	5	16	0	0	37	384.07	0.00	0.00	0.00	384.07	147.1498	9.4791
 "Oceania "	"West Samoa"	WSAPW	Apia	0	1	0	0	2	9.66	0.00	0.00	0.00	9.66	171.7693	13.8344
-"Not specified"	"Not specified"	UNKNW	"Not specified"	10	218	3432	4105	12088	28824.64	65705.72	0.00	2560.00	97090.36	0	0
+"Not specified"	"Not specified"	UNKNW	"Not specified"	10	218	3432	4105	12088	28824.64	65705.72	0.00	2560.00	97090.36	0.0000	0.0000
