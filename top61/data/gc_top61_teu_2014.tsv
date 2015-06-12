@@ -1,0 +1,62 @@
+id	port	nation	quantity	lon	lat
+1	Singapore	Singapore	139914	103.8528	1.2906
+2	Shanghai	China	131081	121.4915	31.2246
+3	Jeddah	"Saudi Arabia"	72771	39.1640	21.5822
+4	"Hong Kong"	China	72337	114.1229	22.3434
+5	Algeciras	Spain	70412	-5.4278	36.1386
+6	"New York"	"United States of America"	68644	-73.9796	40.6979
+7	"Jebel Ali"	"United Arab Emirates"	67916	55.0687	24.9959
+8	"Gioia Tauro"	Italy	55466	15.9207	38.4271
+9	"Busan (Pusan)"	"South Korea"	53843	129.0176	35.0803
+10	Malta	Malta	52861	14.5244	35.9180
+11	Ningbo	China	51843	121.5499	29.8720
+12	Montreal	Canada	48487	-73.6554	45.5027
+13	Valencia	Spain	38845	-0.3525	39.4228
+14	Tunis	Tunisia	37567	10.1848	36.8001
+15	Alexandria	Egypt	37449	29.8944	31.1990
+16	"Port Said"	Egypt	37116	32.3192	31.2567
+17	Santos	Brazil	34587	-46.2900	-23.8643
+18	Napoli	Italy	33488	14.2461	40.8529
+19	Savannah	"United States of America"	33162	-81.0980	31.9996
+20	"Port Kelang"	Malaysia	32360	101.3006	2.9410
+21	Livorno	Italy	29170	10.3073	43.5457
+22	"Yantian Huangdong"	China	29001	114.2830	22.5841
+23	Norfolk	"United States of America"	25687	-76.1960	37.0127
+24	Cartagena	Colombia	24548	-75.5180	10.4162
+25	Qingdao	China	23438	120.3189	36.0696
+26	Alger	Algeria	23137	3.0601	36.7753
+27	Shenzhen	China	21692	114.0548	22.5408
+28	"Tanjong Pelepas"	Malaysia	21356	103.5457	1.3570
+29	"Rio de Janeiro"	Brasil	21193	-42.7560	-22.2390
+30	Kaohsiung	Taiwan	20862	120.2893	22.6015
+31	"Tangier Med"	Marocco	18692	-5.7878	35.7913
+32	Xiamen	China	18612	118.1537	24.5029
+33	"Las Palmas"	Spain	18250	-15.4357	28.0514
+34	"Jawaharlal Neru (Nhava Sheva)"	India	17965	72.9644	18.9629
+35	Ashdod	Israel	17683	34.6601	31.8493
+36	Cagliari	Italy	17502	9.0960	39.2204
+37	"Buenos Aires"	Argentina	16991	-58.4460	-34.6129
+38	Houston	"United States of America"	16278	-94.9171	29.7232
+39	Suape	Brasil	15518	-34.9611	-8.3946
+40	"Bandar Abbas"	Iran	15187	56.2823	27.1762
+41	Gemlik	Turkey	14144	29.1571	40.4302
+42	Casablanca	Marocco	13938	-5.4973	35.8935
+43	Damietta	Egypt	13898	31.8214	31.4167
+44	Veracruz	Mexico	13497	-96.1242	19.2105
+45	"Khor al Fakkan"	"United Arab Emirates"	12187	56.3709	25.3584
+46	"Mersin, Icel"	Turkey	11738	34.6305	36.8128
+47	Istanbul	Turkey	11693	28.9652	41.0096
+48	"Los Angeles"	"United States of America"	11442	-118.2113	33.7673
+49	Barcelona	Egypt	11291	2.1889	41.3996
+50	Altamira	Mexico	11120	-97.9300	22.4062
+51	Dakar	Senegal	11015	-17.4470	14.6930
+52	Tincan	Nigeria	10838	3.3492	6.4343
+53	Melbourne	Australia	10811	144.9158	-37.8139
+54	Sydney	Australia	10757	151.2169	-33.8558
+55	Nansha	China	10550	113.5806	22.7759
+56	Salerno	Italy	10437	14.7637	40.6864
+57	Misurata	Libya	10401	15.1000	32.3800
+58	Tripoli	Libya	9801	13.1800	32.8925
+59	"Puerto Moin"	"Costa Rica"	9777	-83.0756	9.9993
+60	Haifa	Israel	9355	34.9885	32.8184
+61	Oakland	"United States of America"	9259	-122.2925	37.8039
